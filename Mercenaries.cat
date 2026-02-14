@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="56de-7f80-55d6-1de7" name="Mercenaries" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="70" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="56de-7f80-55d6-1de7" name="Mercenaries" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="2a2c-7bd7-8e63-d639" name="Human Mercenary Captain" hidden="false" collective="false" import="true" targetId="7004-d432-8006-bf1d" type="selectionEntry">
       <categoryLinks>
@@ -354,16 +354,6 @@
     <entryLink id="207a-1ea5-20e1-d102" name="Bedouin War Wagons" hidden="false" collective="false" import="true" targetId="8d52-7468-cbf6-c431" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="09b2-e3b2-14ea-aa9c" name="New CategoryLink" hidden="false" targetId="fad6-dec9-0df6-94ac" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="1efb-e95e-4e9a-9116" name="Bedouins" hidden="false" collective="false" import="true" targetId="c9de-3f02-df70-75b6" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="0811-b6fc-d156-6172" name="New CategoryLink" hidden="false" targetId="cd29-77d0-c75d-b384" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="d9b7-1905-da95-4426" name="Bedouin Cavalry" hidden="false" collective="false" import="true" targetId="98b3-f8c4-1f82-f476" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="17c3-0119-4d78-3137" name="New CategoryLink" hidden="false" targetId="cd29-77d0-c75d-b384" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="cb70-8cd9-3b81-78f2" name="Hobgoblin Leviathan" hidden="false" collective="false" import="true" targetId="fa13-a28e-afd1-3212" type="selectionEntry">

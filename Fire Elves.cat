@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4639-c6a6-2650-59b4" name="Fire Elves" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="70" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4639-c6a6-2650-59b4" name="Fire Elves" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="5088-4a5f-84ea-7cfc" name="War Queen" hidden="false" collective="false" import="true" targetId="288f-bcca-5379-6a7c" type="selectionEntry">
       <categoryLinks>
@@ -279,30 +279,6 @@
       </modifiers>
       <categoryLinks>
         <categoryLink id="3095-7d43-7d2a-e332" name="New CategoryLink" hidden="false" targetId="fad6-dec9-0df6-94ac" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="9e4d-3335-3716-e59a" name="Bedouins" hidden="false" collective="false" import="true" targetId="c9de-3f02-df70-75b6" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0105-8358-cf10-9ae9" type="notEqualTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="b1d5-fc8b-ea6e-bee2" name="New CategoryLink" hidden="false" targetId="fad6-dec9-0df6-94ac" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="f175-506d-0b67-1cac" name="Bedouin Cavalry" hidden="false" collective="false" import="true" targetId="98b3-f8c4-1f82-f476" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="0105-8358-cf10-9ae9" type="notEqualTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="77b2-ce8d-39c9-64f8" name="New CategoryLink" hidden="false" targetId="fad6-dec9-0df6-94ac" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="b53d-50a6-1d3b-bc23" name="Norsemen Raiders" hidden="false" collective="false" import="true" targetId="c496-5733-a782-63b9" type="selectionEntry">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5bbc-238f-5d8d-e374" name="Halfling Empires" revision="22" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="70" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5bbc-238f-5d8d-e374" name="Halfling Empires" revision="23" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="71d7-4d4a-eeab-f9ac" name="Halfling Warriors" hidden="false" collective="false" import="true" targetId="f4c8-a924-31e7-c94c" type="selectionEntry">
       <categoryLinks>
@@ -561,30 +561,6 @@
       </modifiers>
       <categoryLinks>
         <categoryLink id="5738-df40-6c5a-7f66" name="New CategoryLink" hidden="false" targetId="fad6-dec9-0df6-94ac" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="ec44-ecf5-3920-6df1" name="Bedouins" hidden="false" collective="false" import="true" targetId="c9de-3f02-df70-75b6" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6ee3-ae4f-c701-706b" type="notEqualTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="cc6d-d561-61d6-92c9" name="New CategoryLink" hidden="false" targetId="fad6-dec9-0df6-94ac" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="ef9b-1486-eb3e-3f69" name="Bedouin Cavalry" hidden="false" collective="false" import="true" targetId="98b3-f8c4-1f82-f476" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6ee3-ae4f-c701-706b" type="notEqualTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="5555-c5da-437d-2268" name="New CategoryLink" hidden="false" targetId="fad6-dec9-0df6-94ac" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="9693-8ef0-cd08-0fde" name="Halfling Cookpot Lobber" hidden="false" collective="false" import="true" targetId="163e-2dd1-72d4-2c2c" type="selectionEntry">
