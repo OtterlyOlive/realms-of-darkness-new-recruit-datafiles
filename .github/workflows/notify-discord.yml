@@ -6,28 +6,12 @@ on:
       - main
 
 jobs:
-  make-api-request:
+  deployment:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Make API Request
-        id: api-request
-        uses: muhfaris/request-action@v1
-        with:
-          url: "https://discord.com/api/webhooks/1444771587869118584/AsCAw32XrF6oiTMjLDJ3u0GJucFCogs5fWKJocuOOVkHIDFwegZ6k6Nw-OI0k2QKvNrp?="
-          body: |
-            {
-              "content": "**New Recruit Files Updated**"
-            }
-          method: POST
-
-      - name: Show API Response Status
-        run: |
-          echo "Response Status: ${{ steps.api-request.outputs.response-status }}"
-
-      - name: Show API Response Data
-        run: |
-          echo "Response Data: ${{ steps.api-request.outputs.response-data }}"
+    - name: Deploy Stage
+      uses: fjogeleit/http-request-action@v2.0.0
+      with:
+        url: 'https://discord.com/api/webhooks/1444771587869118584/AsCAw32XrF6oiTMjLDJ3u0GJucFCogs5fWKJocuOOVkHIDFwegZ6k6Nw-OI0k2QKvNrp?='
+        method: 'POST'
+        data: '{"content":"**BattleScribe Files Updated**"}'
