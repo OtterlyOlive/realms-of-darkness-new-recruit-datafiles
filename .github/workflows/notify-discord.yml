@@ -14,4 +14,4 @@ jobs:
       with:
         url: 'https://discord.com/api/webhooks/1444771587869118584/AsCAw32XrF6oiTMjLDJ3u0GJucFCogs5fWKJocuOOVkHIDFwegZ6k6Nw-OI0k2QKvNrp?='
         method: 'POST'
-        data: '{"content":"**New Relic Files Updated**"}'
+        data: '{"content":"**New Relic Files Updated**\n*${{github.event.head_commit.message}}*On Behalf of: ${{ github.actor }}"}'
