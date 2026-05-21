@@ -1,0 +1,17 @@
+name: Make API Request
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy Stage
+      uses: fjogeleit/http-request-action@v2.0.0
+      with:
+        url: 'https://discord.com/api/webhooks/1444771587869118584/AsCAw32XrF6oiTMjLDJ3u0GJucFCogs5fWKJocuOOVkHIDFwegZ6k6Nw-OI0k2QKvNrp?='
+        method: 'POST'
+        data: '{"content":"**New Relic Files Updated**\nMessage: *${{github.event.head_commit.message}}*\nUpdate by: ${{ github.actor }}"}'
