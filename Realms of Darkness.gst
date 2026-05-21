@@ -4340,6 +4340,15 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 </modifier>
               </modifiers>
             </entryLink>
+            <entryLink id="5a34-71e5-4aba-1e9e" name="Bow" hidden="false" collective="false" import="true" targetId="fbdf-956d-a062-a0f6" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="5119-770c-ea3a-8a8c" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="73f2-4d0a-aa0a-7be8" name="Options" hidden="false" collective="false" import="true">
@@ -5190,189 +5199,6 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f01a-1cb8-8b1a-e855" name="Goblin Mercenary Warriors" hidden="false" collective="false" import="true" type="unit">
-      <infoLinks>
-        <infoLink id="2be5-70af-edc0-f155" name="Expendable" hidden="false" targetId="f42c-54f9-f7fd-ae6d" type="rule"/>
-        <infoLink id="3705-aa0e-3b20-1512" name="Tiny" hidden="false" targetId="658c-feaf-f7eb-6164" type="rule"/>
-        <infoLink id="f4ec-f585-757d-e603" name="Forester" hidden="false" targetId="0ed7-849b-8b20-c3a7" type="rule"/>
-      </infoLinks>
-      <selectionEntries>
-        <selectionEntry id="c1b9-8d55-b0d6-0f5b" name="Boss" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ae5-cb4c-5e83-ef14" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="25fa-a28c-1aeb-59be" name="Boss" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
-              <characteristics>
-                <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">4&quot;</characteristic>
-                <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
-                <characteristic name="WA" typeId="0f73-3c43-4701-9086">4</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">13</characteristic>
-                <characteristic name="P" typeId="1192-a747-177a-64eb">4</characteristic>
-                <characteristic name="E" typeId="0a89-229f-3f01-3919">4</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
-                <characteristic name="WP" typeId="0418-2892-7021-fc1e">5</characteristic>
-                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
-                <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
-                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="3.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="b9b0-0dd0-ffe1-b9b0" name="Goblin Warrior" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5611-96cc-555c-7fd7" type="min"/>
-            <constraint field="selections" scope="parent" value="40.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a20-cf49-d8d3-8779" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="ce3e-5687-f274-12e6" name="Goblin Warrior" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
-              <characteristics>
-                <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">4&quot;</characteristic>
-                <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
-                <characteristic name="WA" typeId="0f73-3c43-4701-9086">4</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">13</characteristic>
-                <characteristic name="P" typeId="1192-a747-177a-64eb">4</characteristic>
-                <characteristic name="E" typeId="0a89-229f-3f01-3919">4</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
-                <characteristic name="WP" typeId="0418-2892-7021-fc1e">5</characteristic>
-                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
-                <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
-                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="3.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="cd5d-99f8-8a67-ccf3" name="Unit Options" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="e976-c0fa-c7e5-5cde" name="Banner" hidden="false" collective="false" import="true" targetId="1d1e-169c-0c77-b4a7" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9474-4d62-9c39-a7be" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="3.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="dbc2-aeff-5d1f-968d" name="Musician" hidden="false" collective="false" import="true" targetId="13c8-30c0-5be4-d6c5" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="647d-ece5-e88f-da0b" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="3.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="571d-239f-4a98-909a" name="Weapon Options" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b43-047d-270a-79c0" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45cb-ef06-832d-60c8" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="2126-e39f-e631-6fb4" name="Sword and Shield" hidden="false" collective="false" import="true" type="upgrade">
-              <entryLinks>
-                <entryLink id="d74b-628b-557c-9866" name="Sword" hidden="false" collective="false" import="true" targetId="2a90-b53f-66c2-2987" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="830d-a191-c33b-6fea" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb64-8275-c173-1c89" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="1781-3cb3-1e20-7807" name="Shield" hidden="false" collective="false" import="true" targetId="a403-9296-4e18-c8dc" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b1f-8a6b-b117-ca15" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cee-5ed8-2a25-908f" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9559-4e63-46f8-920b" name="Spear and Shield" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="increment" field="5119-770c-ea3a-8a8c" value="1.0">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
-              <entryLinks>
-                <entryLink id="76a1-6545-9bab-ebf4" name="Shield" hidden="false" collective="false" import="true" targetId="a403-9296-4e18-c8dc" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d858-ecd2-4005-3d7b" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2460-bfd4-dd34-5d7e" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="0a7e-2fbe-060e-e7dc" name="Spear (Infantry)" hidden="false" collective="false" import="true" targetId="9732-a972-df2b-7b8d" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35af-f590-9d32-2870" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="846d-459e-9aa6-9bc1" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="3e4c-5c4a-7459-18fb" name="Sword and Shortbow" hidden="false" collective="false" import="true" type="upgrade">
-              <entryLinks>
-                <entryLink id="5724-ee38-144a-4322" name="Shortbow" hidden="false" collective="false" import="true" targetId="5795-4313-78eb-6d06" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d8b-f7f7-da75-b1d8" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58ef-d2e0-01db-49b5" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="ee7c-05dc-9e0f-fab2" name="Sword" hidden="false" collective="false" import="true" targetId="2a90-b53f-66c2-2987" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac3c-84c9-aae2-e512" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4322-6ed6-9952-24a6" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="b02b-354e-2f11-e23a" name="Sword" hidden="false" collective="false" import="true" targetId="2a90-b53f-66c2-2987" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d173-9c90-1b7d-2be3" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d19f-a5c9-2f87-de39" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="0c7a-f064-ed47-6f31" name="Shield" hidden="false" collective="false" import="true" targetId="a403-9296-4e18-c8dc" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b7b-819f-60bc-01c6" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="406f-0118-ef58-5c1f" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="55bd-9ebc-0aaf-11a2" name="Light Armour" hidden="false" collective="false" import="true" targetId="e9ed-b5f9-932e-3412" type="selectionEntry">
-          <modifiers>
-            <modifier type="increment" field="5119-770c-ea3a-8a8c" value="1.0">
-              <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4064-ffd1-9233-100c" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="80c6-8959-0655-ff73" name="Hobgoblin Light Cavalry" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="8bad-9551-6e0b-f85c" name="Rapid Reform" hidden="false" targetId="dbce-9ad7-82d3-5e6b" type="rule"/>
@@ -5388,7 +5214,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
                 <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">11</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">4</characteristic>
                 <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
@@ -5414,7 +5240,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
                 <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">11</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">4</characteristic>
                 <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
@@ -5451,14 +5277,26 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="9764-3cc1-d9a4-a915" name="Armour" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8207-3eaf-9ece-d043" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="235f-e9f9-1723-e1dd" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="f751-f9b7-75fc-85b0" name="Light Armour" hidden="false" collective="false" import="true" targetId="e9ed-b5f9-932e-3412" type="selectionEntry"/>
+            <entryLink id="0356-20c1-0cc8-34f7" name="Medium Armour" hidden="false" collective="false" import="true" targetId="9948-1047-5e69-1fdc" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="5119-770c-ea3a-8a8c" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="b058-e0c5-d80e-a16f" name="Light Armour" hidden="false" collective="false" import="true" targetId="e9ed-b5f9-932e-3412" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d2f-77b5-8504-30d6" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3c6-9eec-6cdb-2685" type="min"/>
-          </constraints>
-        </entryLink>
         <entryLink id="5852-bd3c-78e6-58c5" name="Wolf" hidden="false" collective="false" import="true" targetId="6876-a49d-4ef3-95ff" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16c5-c1e7-cd10-2800" type="min"/>
@@ -7413,7 +7251,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="WA" typeId="0f73-3c43-4701-9086">-</characteristic>
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">3</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">-</characteristic>
-                <characteristic name="E" typeId="0a89-229f-3f01-3919">7</characteristic>
+                <characteristic name="E" typeId="0a89-229f-3f01-3919">9</characteristic>
                 <characteristic name="A" typeId="5d8c-74be-d893-50e2">-</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">-</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">3</characteristic>
@@ -7524,7 +7362,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="WA" typeId="0f73-3c43-4701-9086">-</characteristic>
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">3</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">-</characteristic>
-                <characteristic name="E" typeId="0a89-229f-3f01-3919">7</characteristic>
+                <characteristic name="E" typeId="0a89-229f-3f01-3919">8</characteristic>
                 <characteristic name="A" typeId="5d8c-74be-d893-50e2">-</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">-</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">3</characteristic>
@@ -7789,11 +7627,11 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
                 <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">11</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">4</characteristic>
                 <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
-                <characteristic name="WP" typeId="0418-2892-7021-fc1e">8</characteristic>
+                <characteristic name="WP" typeId="0418-2892-7021-fc1e">6</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
@@ -7815,11 +7653,11 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
                 <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">11</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">4</characteristic>
                 <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
-                <characteristic name="WP" typeId="0418-2892-7021-fc1e">8</characteristic>
+                <characteristic name="WP" typeId="0418-2892-7021-fc1e">6</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
@@ -7886,7 +7724,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6dab-d8f0-13ce-2c83" name="Long Spear and Shield" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6dab-d8f0-13ce-2c83" name="Spear and Shield" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="increment" field="5119-770c-ea3a-8a8c" value="1.0">
                   <repeats>
@@ -7904,7 +7742,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fc0-b48c-7dcc-be37" type="min"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="2813-9601-1b64-93cb" name="Long Spear" hidden="false" collective="false" import="true" targetId="4c28-284f-5af6-d0fa" type="selectionEntry">
+                <entryLink id="2813-9601-1b64-93cb" name="Spear (Infantry)" hidden="false" collective="false" import="true" targetId="9732-a972-df2b-7b8d" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3899-89ea-eeae-6ccc" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9147-d2b1-5f8f-ca70" type="max"/>
@@ -7924,15 +7762,25 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="4b0b-5b52-a7bc-20cc" name="Light Armour" hidden="false" collective="false" import="true" targetId="e9ed-b5f9-932e-3412" type="selectionEntry">
+        <selectionEntryGroup id="b927-0f3f-2b24-6fbb" name="Armour" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2df0-d911-939c-4292" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="557c-48d0-686b-0b58" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4ef-eaf6-e1f1-1336" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d85-52b2-e5b8-a619" type="max"/>
           </constraints>
-        </entryLink>
-      </entryLinks>
+          <entryLinks>
+            <entryLink id="5804-8b9a-10ac-ebc9" name="Light Armour" hidden="false" collective="false" import="true" targetId="e9ed-b5f9-932e-3412" type="selectionEntry"/>
+            <entryLink id="bc14-5a5b-c47e-d83a" name="Medium Armour" hidden="false" collective="false" import="true" targetId="9948-1047-5e69-1fdc" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="5119-770c-ea3a-8a8c" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0.0"/>
       </costs>
@@ -7987,11 +7835,11 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                     <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">4&quot;</characteristic>
                     <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
                     <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
-                    <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">11</characteristic>
+                    <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                     <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                     <characteristic name="E" typeId="0a89-229f-3f01-3919">4</characteristic>
                     <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
-                    <characteristic name="WP" typeId="0418-2892-7021-fc1e">8</characteristic>
+                    <characteristic name="WP" typeId="0418-2892-7021-fc1e">6</characteristic>
                     <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                     <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                     <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
@@ -8062,7 +7910,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                     <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">-</characteristic>
                     <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
                     <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
-                    <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">11</characteristic>
+                    <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                     <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                     <characteristic name="E" typeId="0a89-229f-3f01-3919">-</characteristic>
                     <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
@@ -8109,7 +7957,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8d52-7468-cbf6-c431" name="Bedouin War Wagons" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8d52-7468-cbf6-c431" name="War Wagons" hidden="false" collective="false" import="true" type="upgrade">
       <selectionEntries>
         <selectionEntry id="9ce2-c4f3-9623-62b5" name="Heavy Chariot" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -8213,288 +8061,6 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c9de-3f02-df70-75b6" name="Bedouins" hidden="false" collective="false" import="true" type="unit">
-      <selectionEntries>
-        <selectionEntry id="9482-65fc-f75d-e0d8" name="Tribe Leader" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b71a-3042-24eb-aa22" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="df9c-d892-71b4-7a5c" name="Tribe Leader" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
-              <characteristics>
-                <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5&quot;</characteristic>
-                <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
-                <characteristic name="WA" typeId="0f73-3c43-4701-9086">6</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">11</characteristic>
-                <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
-                <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
-                <characteristic name="WP" typeId="0418-2892-7021-fc1e">10</characteristic>
-                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
-                <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
-                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="9084-8b44-f3db-184d" name="Bedouin" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce05-7196-984e-a3c1" type="max"/>
-            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9ee-be20-4200-2687" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="11b4-3061-783f-ca40" name="Bedouin" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
-              <characteristics>
-                <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5&quot;</characteristic>
-                <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
-                <characteristic name="WA" typeId="0f73-3c43-4701-9086">6</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">11</characteristic>
-                <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
-                <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
-                <characteristic name="WP" typeId="0418-2892-7021-fc1e">10</characteristic>
-                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
-                <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
-                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="9.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="2793-8f4f-27e3-d3b5" name="Armour Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="7c3c-eddf-94ee-3052">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="788f-f58e-5703-373e" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0ab-970e-2eef-b9dd" type="min"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="7c3c-eddf-94ee-3052" name="Light Armour" hidden="false" collective="false" import="true" targetId="e9ed-b5f9-932e-3412" type="selectionEntry"/>
-            <entryLink id="307a-b564-2ac7-05bd" name="Medium Armour" hidden="false" collective="false" import="true" targetId="9948-1047-5e69-1fdc" type="selectionEntry">
-              <modifiers>
-                <modifier type="increment" field="5119-770c-ea3a-8a8c" value="1.0">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="fd3a-9d70-86f4-3e0a" name="Options" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="dfea-a7e2-606c-212a" name="Musician" hidden="false" collective="false" import="true" targetId="13c8-30c0-5be4-d6c5" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f672-c9b0-2ba6-d16a" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="5.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="162f-b1b0-7b87-cecf" name="Banner" hidden="false" collective="false" import="true" targetId="1d1e-169c-0c77-b4a7" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11e6-2dc4-b8e7-5e28" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="5.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="5dce-517c-4d8a-cf96" name="Banner Enchantments" hidden="false" collective="false" import="true" targetId="5a85-ed62-d6a2-f13c" type="selectionEntryGroup">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1d1e-169c-0c77-b4a7" type="lessThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="427b-3c6e-85ef-c34f" name="Equipment" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfc8-8f0a-128e-05bc" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="6191-e2cc-5145-1cf6" name="Great Hammer" hidden="false" collective="false" import="true" targetId="cb47-4920-947d-2887" type="selectionEntry">
-              <modifiers>
-                <modifier type="increment" field="5119-770c-ea3a-8a8c" value="2.0">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c87-b463-934d-e545" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="d781-3b13-0c10-9fdf" name="Shield" hidden="false" collective="false" import="true" targetId="a403-9296-4e18-c8dc" type="selectionEntry">
-              <modifiers>
-                <modifier type="increment" field="5119-770c-ea3a-8a8c" value="1.0">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7c4-62e2-6daf-2939" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="b6a1-7d73-1c2b-cc67" name="Crossbow" hidden="false" collective="false" import="true" targetId="011b-4523-dbba-ceb5" type="selectionEntry">
-              <modifiers>
-                <modifier type="increment" field="5119-770c-ea3a-8a8c" value="1.0">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e0f-64ed-9cc7-c42a" type="max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="ba35-374f-2bda-b697" name="Scimitar" hidden="false" collective="false" import="true" targetId="9da0-3b30-099c-c648" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7629-3e9d-ce39-1c5b" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b24d-8852-ffc6-678a" type="min"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="98b3-f8c4-1f82-f476" name="Bedouin Cavalry" hidden="false" collective="false" import="true" type="unit">
-      <infoLinks>
-        <infoLink id="5723-ff53-aa6c-c5d3" name="Rapid Reform" hidden="false" targetId="dbce-9ad7-82d3-5e6b" type="rule"/>
-      </infoLinks>
-      <selectionEntries>
-        <selectionEntry id="67a3-dac0-988e-7e73" name="Tribe Leader" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09f0-9187-e751-44a4" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="143d-5012-6327-5994" name="Tribe Leader" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
-              <characteristics>
-                <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5&quot;</characteristic>
-                <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
-                <characteristic name="WA" typeId="0f73-3c43-4701-9086">6</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">11</characteristic>
-                <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
-                <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
-                <characteristic name="WP" typeId="0418-2892-7021-fc1e">14</characteristic>
-                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
-                <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
-                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="8754-11e5-3075-85bd" name="Bedouin" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea14-3a4f-55e4-4231" type="max"/>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e58d-9fbe-3138-1d2b" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="3a02-a677-68a0-8a11" name="Bedouin" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
-              <characteristics>
-                <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5&quot;</characteristic>
-                <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
-                <characteristic name="WA" typeId="0f73-3c43-4701-9086">6</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">11</characteristic>
-                <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
-                <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
-                <characteristic name="WP" typeId="0418-2892-7021-fc1e">14</characteristic>
-                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
-                <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
-                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="18.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="955d-2e1e-57e8-bc36" name="Options" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="65ae-6ab1-07fa-57ec" name="Musician" hidden="false" collective="false" import="true" targetId="13c8-30c0-5be4-d6c5" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="459e-d69e-8982-d6e7" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="5.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="153a-d625-db93-3fb7" name="Banner" hidden="false" collective="false" import="true" targetId="1d1e-169c-0c77-b4a7" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d43-795f-7412-5864" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="5.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="adf0-8516-1d67-999a" name="Banner Enchantments" hidden="false" collective="false" import="true" targetId="5a85-ed62-d6a2-f13c" type="selectionEntryGroup">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1d1e-169c-0c77-b4a7" type="lessThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="254a-76e0-8f06-1f49" name="Camel" hidden="false" collective="false" import="true" targetId="cd5c-3b0e-92b7-22d3" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3179-a5c1-30f5-87d9" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c40-88d0-c17c-8820" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="0797-9e86-ee8e-b9a1" name="Scimitar" hidden="false" collective="false" import="true" targetId="9da0-3b30-099c-c648" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a579-628e-549c-5949" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="179e-5a73-78e4-62cf" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="52f1-8bce-ae31-40b2" name="Shield" hidden="false" collective="false" import="true" targetId="a403-9296-4e18-c8dc" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71b8-7619-adec-b322" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e388-e5e3-3ef1-3266" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="a390-2e44-42fc-3efa" name="Lance" hidden="false" collective="false" import="true" targetId="6032-0487-3c6c-3e9e" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81c0-0428-016f-b87e" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e92c-8a6a-d96b-8634" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="4611-0a38-d57b-a44f" name="Medium Armour" hidden="false" collective="false" import="true" targetId="9948-1047-5e69-1fdc" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f38-a68e-a016-f272" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dfb-f593-c43c-ad5a" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="fa13-a28e-afd1-3212" name="Hobgoblin Leviathan" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="74e6-6139-e1ff-2403" name="Hobgoblin Leviathan" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
@@ -8549,7 +8115,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">-</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
                 <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">11</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">-</characteristic>
                 <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
@@ -8831,109 +8397,6 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a592-ef7c-707a-330e" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="593f-ee6d-32f2-38fe" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="41c3-a6f4-9cf5-8afe" name="Hobgoblin Heavy Cavalry" hidden="false" collective="false" import="true" type="unit">
-      <infoLinks>
-        <infoLink id="5ce8-ebe9-dfaa-2beb" name="Tiny" hidden="false" targetId="658c-feaf-f7eb-6164" type="rule"/>
-      </infoLinks>
-      <selectionEntries>
-        <selectionEntry id="ebf6-4402-6145-0e6c" name="Boss" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd6c-23bd-d7b1-9c83" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="d1e1-82e1-637a-3e3d" name="Boss" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
-              <characteristics>
-                <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5&quot;</characteristic>
-                <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
-                <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">11</characteristic>
-                <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
-                <characteristic name="E" typeId="0a89-229f-3f01-3919">4</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
-                <characteristic name="WP" typeId="0418-2892-7021-fc1e">11</characteristic>
-                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
-                <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
-                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="5.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="ba0e-2368-da38-9026" name="Hobgoblin" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="20.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd6b-35c8-a100-a7c1" type="max"/>
-            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c08b-39a8-5bae-0924" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="af4e-01bb-d359-3eb1" name="Hobgoblin" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
-              <characteristics>
-                <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5&quot;</characteristic>
-                <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
-                <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">11</characteristic>
-                <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
-                <characteristic name="E" typeId="0a89-229f-3f01-3919">4</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
-                <characteristic name="WP" typeId="0418-2892-7021-fc1e">11</characteristic>
-                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
-                <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
-                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="16.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="999f-6573-b3b4-87bf" name="Options" hidden="false" collective="false" import="true">
-          <entryLinks>
-            <entryLink id="4acb-065a-1d43-baab" name="Musician" hidden="false" collective="false" import="true" targetId="13c8-30c0-5be4-d6c5" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e32d-6c82-e289-dca6" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="5.0"/>
-              </costs>
-            </entryLink>
-            <entryLink id="622b-59ad-d287-629f" name="Banner" hidden="false" collective="false" import="true" targetId="1d1e-169c-0c77-b4a7" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff58-bc3a-51b1-6c6e" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="5.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="9a52-8e71-ef0f-2c3f" name="Giant Crab" hidden="false" collective="false" import="true" targetId="8ad5-f547-a0db-d242" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b9a-bb04-f59b-2b7c" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="714e-0683-655b-f1b8" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="6af1-aed2-e13e-9eaf" name="Spear (Non-Infantry)" hidden="false" collective="false" import="true" targetId="b5cb-0697-ec02-9583" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c9a-e431-0890-7bd7" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46dd-9b71-778c-5f3d" type="min"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="0bf9-b55a-4eb9-feca" name="Shield" hidden="false" collective="false" import="true" targetId="a403-9296-4e18-c8dc" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5339-017b-0877-0dfa" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e145-a99b-99d1-1289" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -13172,7 +12635,7 @@ This also makes the attacks the same type of magic as the wizard can cast.</desc
       <description>Unorganised units cannot use any formations other than skirmish.</description>
     </rule>
     <rule id="2f43-4bde-1249-f8af" name="Elite" hidden="false">
-      <description>A model with the Elite rule, rolls a D8 to hit and armour saving rolls instead of a D6.</description>
+      <description>A model with the Elite rule rolls a D8 to hit, both melee and ranged and when rolling armour saves, instead of a D6.</description>
     </rule>
     <rule id="4335-93e3-18d6-692e" name="Adept Swimmer" hidden="false">
       <description>The model gets +1 to drown rolls.

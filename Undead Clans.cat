@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3113-1d76-0786-de65" name="Undead Clans" revision="43" battleScribeVersion="2.03" authorName="Erik Valeur" authorContact="grunanca@gmail.com" authorUrl="https://realmsofdarkness.dk" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="70" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3113-1d76-0786-de65" name="Undead Clans" revision="43" battleScribeVersion="2.03" authorName="Erik Valeur" authorContact="grunanca@gmail.com" authorUrl="https://realmsofdarkness.dk" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="1392-fe70-dce5-b31f" name="Medium Skeletons" hidden="false" collective="false" import="true" targetId="4dab-46a1-2839-2544" type="selectionEntry">
       <categoryLinks>
@@ -11498,6 +11498,665 @@ While in jackal form, the vampire cannot use any items or weapons except for the
           </costs>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2798-3d84-1fa9-637f" name="Ancient Vampiric Powers" hidden="false" collective="false" import="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9e9b-a7d7-e3b2-7eaf" name="Common Vampiric Powers" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="b22a-dd37-5696-098c" name="Swarm of Bats" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7028-7cb4-374f-fffc" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="8224-5d31-7909-5ce6" name="Swarm of Bats" hidden="false">
+                  <description>In the move and shoot phase, when the vampire is activated, it can be moved anywhere in the unit, as long as it is in the front rank (anywhere in the unit when in skirmish formation) or a place that is base contact with an enemy. The vampire can do this, even if in base contact with an enemy. Models of the infantry type only.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c9ab-7452-2b40-bbce" name="Blood Drinker" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="560b-3563-ca3e-a24c" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="7abf-d35f-5c38-5215" name="Blood Drinker" hidden="false">
+                  <description>In melee at initiative step 1, the vampire regains a lost HP if it has killed one or more models in the melee phase, and the vampire is not dead.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="68d4-f181-ff97-cd9a" name="Wings" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a45-7662-a2e5-c2b1" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="bd1a-afbb-c97b-7b01" name="Wings" hidden="false">
+                  <description>The vampire gets the fly 14” and monster special rule. The unit type is also changed to monster.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="c338-4bca-b863-c703" name="Fly X&quot;" hidden="false" targetId="e861-2173-53e6-a5a1" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Fly 14&quot;"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="35.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f3a9-f220-98e0-408a" name="Aura of the Netherworld" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7070-4be7-e800-cb86" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="e9f1-ec32-80a1-18da" name="Aura of the Netherworld" hidden="false">
+                  <description>Undead units within 30”, instead of 15” do not lose HP for being out of range of a character.
+</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b397-df72-3626-365c" name="Ancient Grudge" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9638-5686-0d14-2245" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="f0c9-49a8-d366-8623" name="Ancient Grudge" hidden="false">
+                  <description>The vampire gets the berserk special rule.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="b8b3-7a85-0f84-6f9c" name="Berserk" hidden="false" targetId="2797-b442-dfd7-2335" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="bd90-971b-c9fc-3a8a" name="Gravewalker Vampiric Powers" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9124-264a-2370-45b4" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry id="01c6-988b-a67c-325d" name="Unnatural Strength" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f3f-c6ba-9349-6667" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="3f2a-0318-3f0a-1814" name="Unnatural Strength" hidden="false">
+                  <description>The vampire gets +1P.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a9e6-5ea9-aa1c-415d" name="Fury" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="faad-49c0-e66a-4f2c" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="7e53-62fb-3dc6-0d3f" name="Fury" hidden="false">
+                  <description>The vampire gets +1A.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b6be-970f-06b7-4970" name="Massive Talons" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="badd-b06c-e14a-29c5" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="9e1d-f491-949e-fcfe" name="Massive Talons" hidden="false">
+                  <description>The vampire ignores armour saves in melee.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="45.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="eff7-1187-7133-3f50" name="Bat Form" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d39-80b1-c72a-1678" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="8ebe-0103-71d6-ffb0" name="Bat Form" hidden="false">
+                  <description>The vampire gets the fly 18” special rule.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="d530-c224-ae1f-499d" name="Fly X&quot;" hidden="false" targetId="e861-2173-53e6-a5a1" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Fly 18&quot;"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="35.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="14ff-f030-d715-1a49" name="Monstrosity" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="796a-2d0b-5e8c-afb0" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="ef74-14b4-7dd7-a703" name="Monstrosity" hidden="false">
+                  <description>The vampire gets +1E.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="20.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f250-9e04-f87f-ed42" name="Sarafir Vampiric Powers" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="627f-2e9c-2c79-a81a" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry id="a824-3504-9ed8-79d0" name="Ancient Beauty" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b091-07d9-7bfa-ab57" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="fc37-a74f-298e-86c7" name="Ancient Beauty" hidden="false">
+                  <description>If a model tries to attack the vampire in melee, it must take a bravery test on the unmodified WP of the model. If the test is failed, the model does not attack and the attacks are lost. If passed, the model attacks as normal.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b5f2-d086-3ea4-c9eb" name="Seduction" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e19b-baca-452c-bd1b" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="99a6-62b5-d6d7-9453" name="Seduction" hidden="false">
+                  <description>In melee the vampire can at I20 sacrifice 2 attacks to try and seduce a model in base to base contact. The model must take a WP test on the unmodified WP of the model. If the test is failed, the model fights for the faction of the vampire in the rest of the melee phase.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5a50-0f93-2d0e-856a" name="Wind of the Desert" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37a3-48fe-7bf3-2a11" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="3041-f591-3d21-5e29" name="Wind of the Desert" hidden="false">
+                  <description>The vampire gets +2I.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9b72-c082-2f22-40f7" name="Unnatural Speed" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59ee-c718-4a05-e730" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="706d-10aa-7afd-5fca" name="Unnatural Speed" hidden="false">
+                  <description>The vampire gets 5+/+2 magic save.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d55c-5832-4ff4-0ba1" name="Servant of the Pharaohs Court" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e279-1e25-3bb0-b2b7" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="3c0d-ffbf-1ac8-dfbd" name="Servant of the Pharaohs Court" hidden="false">
+                  <description>The vampire replaces the  weakness - light and weakness - life special rules with the resistance - light and resistance - life special rules.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="638f-9f70-ac96-a548" name="Resistance – X" hidden="false" targetId="04e9-81e6-f86d-616d" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Resistance - Life"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="2fed-73eb-c88e-3652" name="Resistance – X" hidden="false" targetId="04e9-81e6-f86d-616d" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Resistance - Light"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3bc1-117e-eb67-7fb5" name="Draco Vampiric Powers" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9988-71ed-a94d-7569" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry id="067a-af9e-ef8d-e7d3" name="Dark Knight" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2283-0b54-3c6a-5fba" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="c49a-5ae6-bfb7-435c" name="Dark Knight" hidden="false">
+                  <description>The vampire gets +1P the turn it charges with a lance.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="615f-d7a2-9e61-0740" name="Bloodlust" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92de-bc7b-aed6-281d" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="2962-4bb7-a7f9-259c" name="Bloodlust" hidden="false">
+                  <description>The vampire gets the berserk special rule with the exception that the effect of the special rule is always in effect, even after the first round of melee.
+</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="4f26-0edd-1e00-d3f6" name="Berserk" hidden="false" targetId="2797-b442-dfd7-2335" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d5e6-ab5b-3c10-f227" name="Master Swordsman" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5e8-2fc1-ee17-8a39" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="d092-095c-5d15-2960" name="Master Swordsman" hidden="false">
+                  <description>The vampire gets +1 to hit in melee when on foot and attacking with a sword, a great blade or the magic weapon Ancient Wight Blade.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6a87-04ac-2861-d3e3" name="Duellist pact" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aba1-fcf0-4b4b-bffd" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="1b87-9c03-b788-40cb" name="Duellist pact" hidden="false">
+                  <description>If the vampire kills an enemy character in melee, a new vampire is added to the unit with the same non-magical equipment as the killed model. If the model killed had the tiny special rule a halfling vampire is added, if not a human vampire is added. Models with the spirit creature, monster or large monster special rules cannot be turned this way. Note the new vampire does not have clan specific traits. It is the basic stats from the unit entry.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="35.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d0d3-b42c-24c7-e97f" name="Metal Monstrosity" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c83-05f5-ac84-3f7c" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="d4a3-642c-7155-623b" name="Metal Monstrosity" hidden="false">
+                  <description>The armour save of the vampire is reduced by 2 less than it normally would.
+</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f535-1cf7-b237-d7cb" name="Von Aliester Vampiric Powers" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c43-6872-630f-dcd3" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry id="1693-d7c1-5fb6-46ef" name="Bloodpath" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1ee-f9c3-21d0-d26a" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="d8af-65aa-fcd6-2647" name="Bloodpath" hidden="false">
+                  <description>The vampire gets the dread special rule for the rest of the turn when it causes an unsaved wound in melee.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="575b-9b03-a13b-1de9" name="Dread" hidden="false" targetId="f5d9-2308-2a83-d467" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="61a1-e7b6-58f2-62fc" name="Cover of Darkness" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9870-5d31-541c-1001" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="0ded-6463-61c7-6f5f" name="Cover of Darkness" hidden="false">
+                  <description>The vampire gets the hidden special rule.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="02c7-3b3f-6f32-7817" name="Hidden" hidden="false" targetId="54bb-d8ef-d1fd-e083" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="45.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6e30-fcb8-3442-e585" name="Charismatic Leader" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2e9-7516-6d1e-563d" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="b17b-5889-cb55-0167" name="Charismatic Leader" hidden="false">
+                  <description>The vampire can buy up to 2 units of militia from the Kingdoms of Men army list. They count as common units in the army.
+</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1735-2508-3adf-703d" name="Intimidating Presence" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a42b-3b5e-3cdb-8c9d" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="6564-81b6-718a-ec63" name="Intimidating Presence" hidden="false">
+                  <description>Any melee the vampire is a part of, it adds +1 combat fatigue.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7cca-249b-28b6-dd9e" name="Lurker in the Dark" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abea-0610-1a08-900c" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="89e3-ddc0-9992-2691" name="Lurker in the Dark" hidden="false">
+                  <description>The vampire gets +2I in the first round of melee.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d59d-7d70-86e7-3e47" name="Melanthia Vampiric Powers" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="afea-6af8-e591-7b4c" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry id="94d4-a1c2-59f3-f233" name="Aura of Unlife" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b6e-fdf1-8784-d8f4" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="770a-18dd-ab7e-574e" name="Aura of Unlife" hidden="false">
+                  <description>Any unit small or medium skeleton and small and medium zombie unit within 3” of a vampire with Aura of Unlife, adds D3 to HP restored when affected by a Soulbinding or Raise Dead. All other units add +1 to HP restored. Lords and Warlords cannot benefit from this bonus.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9d20-2f7d-9719-b53a" name="Master Conjurer" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f027-bc71-61a3-1dc3" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="7f46-da4b-b17c-6a43" name="Master Conjurer" hidden="false">
+                  <description>The vampire can try to cast a spell as many times as it wishes, until it has been successfully cast.
+</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="450a-56b4-9c10-ca32" name="Beacon of Power" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49f3-9ba8-2698-df92" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="90bd-3a4d-c09f-47b4" name="Beacon of Power" hidden="false">
+                  <description>The vampire generates an extra power token per turn, which only the vampire may use to cast a spell. It cannot be used to stop a spell.
+</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d8db-cc5e-1ce3-2663" name="Shield of Necromancy" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9aa-7e32-df9d-b13b" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="4ae3-180c-7267-d7e2" name="Shield of Necromancy" hidden="false">
+                  <description>The vampire gets a 5+ magic save that cannot be improved in any way and resistance - shadow.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2eb3-0251-60a4-8e7d" name="Unliving Channeler" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="245c-0130-531e-683e" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="a907-41da-b15e-b29b" name="Unliving Channeler" hidden="false">
+                  <description>The magic overload value of the vampire is raised by 1. A level 1 wizard with this upgrade will overload on the roll of 13 instead of 12. A level 2 wizard on 16 instead of 15 etc.
+</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="20.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c453-91d9-2ab3-1cca" name="Gallus Vampiric Powers" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fa26-261b-c9be-c60f" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry id="30c8-003f-b2f0-ccc8" name="Master of the Grave" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32c7-c52b-8ee7-19c7" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="0be6-ae34-cde5-a5b3" name="Master of the Grave" hidden="false">
+                  <description>The magic overload value of the vampire is raised by 1 when casting the Soulbinding spell. A level 1 wizard with this upgrade will overload on the roll of 13 instead of 12. A level 2 wizard on 16 instead of 15 etc. </description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8aab-ca1f-5f30-4a78" name="Hold the Line" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fbb-fc4c-e7cf-f680" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="e7fc-1c4e-9d58-bca6" name="Hold the Line" hidden="false">
+                  <description>When resolving combat fatigue points in melee, the unit counts ranks, even from models that are in base contact with enemy models.
+</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8755-70fc-f102-c072" name="Perfected Tactics" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf5b-9393-7221-66be" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="8173-0018-6417-0ebf" name="Perfected Tactics" hidden="false">
+                  <description>A model with this rule confers +1 combat fatigue in the first round of any melee. If the character joins an existing combat, this melee round is treated as the first round for the character, regardless of how long the other units have been in melee.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="79ea-f7d7-6839-360a" name="Everlasting Legion" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2a2-921f-dc1e-1610" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="4d69-5a63-2719-b0dc" name="Everlasting Legion" hidden="false">
+                  <description>The model can cast the Soulbinding spell twice per turn instead of the once per turn as per the normal rules of casting magic.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0903-21e6-d9a5-b7a4" name="Puppeteer" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0dc6-7275-de75-6e97" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="28a5-9771-ea0d-8837" name="Puppeteer" hidden="false">
+                  <description>Any unit joined by this model gets +1WA to a maximum of 6 and +1RH to a maximum of 4+.
+The RH gained from this ability does not affect units of warmachine type.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="25.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="029e-7f08-2272-25e1" name="Gardouk Vampiric Powers" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a4bf-2b65-aba4-7057" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry id="c87d-cf16-a7c1-9d05" name="Master of the Deep" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6065-bbfe-2fc9-1784" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="7161-4c2d-754f-8b8e" name="Master of the Deep" hidden="false">
+                  <description>The army has access to the Kraken and Wyrm entries from the Monsters of the Realms of Darkness compendium as a legendary (Kraken) choice and specialist (Wyrm) choice.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="75.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c23d-4d20-6e75-2ab7" name="Thirst for Blood" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b19d-eeeb-687d-3b0d" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="669d-9da9-90ab-25d6" name="Thirst for Blood" hidden="false">
+                  <description>Whenever the vampire is in melee on a ship or fortification that was not bought by its own faction, it gets +1WA, +1P and +1A.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="90f6-a537-95ca-60a2" name="Curse of the Locker" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e5a-9746-db32-0cd0" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="7244-7688-d007-c1bb" name="Curse of the Locker" hidden="false">
+                  <description>The vampire gets the aquatic special rule and must at the start of the game also give it to one unit in the army. This makes the vampire and the unit able to walk on water.
+</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="12bf-bfc9-fb58-d4be" name="Aquatic" hidden="false" targetId="0790-2d67-b88b-2ae3" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="35.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="68e6-7b23-faef-a239" name="Blood of the Gunner" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4b3-40f2-4e15-4a78" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="b9c8-4741-42eb-1647" name="Blood of the Gunner" hidden="false">
+                  <description>The vampire gets the engineer special rule.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="ac25-1a12-a327-401d" name="Engineer" hidden="false" targetId="9e45-7a4f-d3ec-ebad" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d8b2-12ff-e763-4a06" name="Dark Lord of the Winds of Death" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec33-3f61-5629-d3cf" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="b41d-701e-c853-3363" name="Dark Lord of the Winds of Death" hidden="false">
+                  <description>Any ship the vampire is on, always gets the +50% movement bonus for having wind in the sails, regardless of wind direction on the battlefield.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="40.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>

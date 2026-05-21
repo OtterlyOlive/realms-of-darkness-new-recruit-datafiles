@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5bbc-238f-5d8d-e374" name="Halfling Empires" revision="22" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="70" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5bbc-238f-5d8d-e374" name="Halfling Empires" revision="23" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="71d7-4d4a-eeab-f9ac" name="Halfling Warriors" hidden="false" collective="false" import="true" targetId="f4c8-a924-31e7-c94c" type="selectionEntry">
       <categoryLinks>
@@ -359,18 +359,6 @@
         <categoryLink id="49ec-61fc-e0a4-7a6e" name="New CategoryLink" hidden="false" targetId="cd29-77d0-c75d-b384" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1b80-9ad9-52dc-a408" name="Goblin Mercenary Warriors" hidden="false" collective="false" import="true" targetId="f01a-1cb8-8b1a-e855" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6ee3-ae4f-c701-706b" type="notEqualTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="3d51-15cf-ce6e-e320" name="New CategoryLink" hidden="false" targetId="cd29-77d0-c75d-b384" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="8a94-7444-2c1e-f373" name="Hobgoblin Light Cavalry" hidden="false" collective="false" import="true" targetId="80c6-8959-0655-ff73" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -563,30 +551,6 @@
         <categoryLink id="5738-df40-6c5a-7f66" name="New CategoryLink" hidden="false" targetId="fad6-dec9-0df6-94ac" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ec44-ecf5-3920-6df1" name="Bedouins" hidden="false" collective="false" import="true" targetId="c9de-3f02-df70-75b6" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6ee3-ae4f-c701-706b" type="notEqualTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="cc6d-d561-61d6-92c9" name="New CategoryLink" hidden="false" targetId="fad6-dec9-0df6-94ac" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="ef9b-1486-eb3e-3f69" name="Bedouin Cavalry" hidden="false" collective="false" import="true" targetId="98b3-f8c4-1f82-f476" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6ee3-ae4f-c701-706b" type="notEqualTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="5555-c5da-437d-2268" name="New CategoryLink" hidden="false" targetId="fad6-dec9-0df6-94ac" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="9693-8ef0-cd08-0fde" name="Halfling Cookpot Lobber" hidden="false" collective="false" import="true" targetId="163e-2dd1-72d4-2c2c" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -669,18 +633,6 @@
       </modifiers>
       <categoryLinks>
         <categoryLink id="a5a8-dbb7-41f3-e274" name="New CategoryLink" hidden="false" targetId="fad6-dec9-0df6-94ac" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="bce9-e0b7-b698-c34d" name="Hobgoblin Heavy Cavalry" hidden="false" collective="false" import="true" targetId="41c3-a6f4-9cf5-8afe" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6ee3-ae4f-c701-706b" type="notEqualTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="bd7a-f909-bc1d-95be" name="New CategoryLink" hidden="false" targetId="fad6-dec9-0df6-94ac" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="5921-7ae1-7ec3-f170" name="Corrupted Dwarf Inferno Guardians" hidden="false" collective="false" import="true" targetId="fc30-3969-480e-ebb9" type="selectionEntry">

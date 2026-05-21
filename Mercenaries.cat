@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="56de-7f80-55d6-1de7" name="Mercenaries" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="70" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="56de-7f80-55d6-1de7" name="Mercenaries" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="2a2c-7bd7-8e63-d639" name="Human Mercenary Captain" hidden="false" collective="false" import="true" targetId="7004-d432-8006-bf1d" type="selectionEntry">
       <categoryLinks>
@@ -83,11 +83,6 @@
       </modifiers>
       <categoryLinks>
         <categoryLink id="125d-cc28-f4bf-79a1" name="New CategoryLink" hidden="false" targetId="e3fa-e803-fa94-daf2" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="075b-03e4-f830-b9af" name="Goblin Mercenary Warriors" hidden="false" collective="false" import="true" targetId="f01a-1cb8-8b1a-e855" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="7240-8a67-dd55-5002" name="New CategoryLink" hidden="false" targetId="e3fa-e803-fa94-daf2" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="936a-cefa-05c9-a9ae" name="Hobgoblin Light Cavalry" hidden="false" collective="false" import="true" targetId="80c6-8959-0655-ff73" type="selectionEntry">
@@ -356,16 +351,6 @@
         <categoryLink id="09b2-e3b2-14ea-aa9c" name="New CategoryLink" hidden="false" targetId="fad6-dec9-0df6-94ac" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1efb-e95e-4e9a-9116" name="Bedouins" hidden="false" collective="false" import="true" targetId="c9de-3f02-df70-75b6" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="0811-b6fc-d156-6172" name="New CategoryLink" hidden="false" targetId="cd29-77d0-c75d-b384" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="d9b7-1905-da95-4426" name="Bedouin Cavalry" hidden="false" collective="false" import="true" targetId="98b3-f8c4-1f82-f476" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="17c3-0119-4d78-3137" name="New CategoryLink" hidden="false" targetId="cd29-77d0-c75d-b384" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="cb70-8cd9-3b81-78f2" name="Hobgoblin Leviathan" hidden="false" collective="false" import="true" targetId="fa13-a28e-afd1-3212" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="7a9a-d982-db97-3944" name="New CategoryLink" hidden="false" targetId="fad6-dec9-0df6-94ac" primary="true"/>
@@ -461,11 +446,6 @@
       </constraints>
       <categoryLinks>
         <categoryLink id="645b-c5ce-105e-c115" name="New CategoryLink" hidden="false" targetId="f8d9-7bfb-affc-a364" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="b6ec-bb98-88c1-8f36" name="Hobgoblin Heavy Cavalry" hidden="false" collective="false" import="true" targetId="41c3-a6f4-9cf5-8afe" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="c1e1-4e7b-29bc-207e" name="New CategoryLink" hidden="false" targetId="cd29-77d0-c75d-b384" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="2d3a-53e9-5ade-d9e0" name="Hobgoblin Mercenary Captain" hidden="false" collective="false" import="true" targetId="f809-e528-1acd-f7ed" type="selectionEntry">
@@ -987,7 +967,7 @@
             <characteristic name="P" typeId="1192-a747-177a-64eb">6</characteristic>
             <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
             <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
-            <characteristic name="WP" typeId="0418-2892-7021-fc1e">15</characteristic>
+            <characteristic name="WP" typeId="0418-2892-7021-fc1e">10</characteristic>
             <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">2</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
@@ -2856,11 +2836,11 @@
             <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">4&quot;</characteristic>
             <characteristic name="RH" typeId="b74f-2b64-2662-f401">3+</characteristic>
             <characteristic name="WA" typeId="0f73-3c43-4701-9086">7</characteristic>
-            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">15</characteristic>
+            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">16</characteristic>
             <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
             <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
             <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
-            <characteristic name="WP" typeId="0418-2892-7021-fc1e">15</characteristic>
+            <characteristic name="WP" typeId="0418-2892-7021-fc1e">9</characteristic>
             <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">2</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
@@ -2921,16 +2901,11 @@
             <entryLink id="0119-a209-942a-74a8" name="Armour Enchantments" hidden="false" collective="false" import="true" targetId="5d78-aed8-1e7a-1154" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="174c-8878-ea6b-4da6" name="Mounts" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="174c-8878-ea6b-4da6" name="Mount" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="236e-18fa-00ef-e63d" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="0519-e8da-88ff-c063" name="Giant Crab" hidden="false" collective="false" import="true" targetId="8ad5-f547-a0db-d242" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="20.0"/>
-              </costs>
-            </entryLink>
             <entryLink id="9708-40ea-5047-e580" name="Wolf" hidden="false" collective="false" import="true" targetId="6876-a49d-4ef3-95ff" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="10.0"/>
@@ -2975,11 +2950,11 @@
             <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5&quot;</characteristic>
             <characteristic name="RH" typeId="b74f-2b64-2662-f401">3+</characteristic>
             <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
-            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">15</characteristic>
+            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">16</characteristic>
             <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
             <characteristic name="E" typeId="0a89-229f-3f01-3919">4</characteristic>
             <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
-            <characteristic name="WP" typeId="0418-2892-7021-fc1e">10</characteristic>
+            <characteristic name="WP" typeId="0418-2892-7021-fc1e">8</characteristic>
             <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">2</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
@@ -3009,16 +2984,11 @@
             <entryLink id="d7f8-fa1f-bb36-ddd9" name="Magic Scrolls" hidden="false" collective="false" import="true" targetId="de2a-1e03-3be8-30c9" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="c1da-ea5b-0975-fa03" name="Mounts" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="c1da-ea5b-0975-fa03" name="Mount" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acec-402d-25ad-d8c0" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="4ddd-d9ea-ad1f-0fe6" name="Giant Crab" hidden="false" collective="false" import="true" targetId="8ad5-f547-a0db-d242" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="20.0"/>
-              </costs>
-            </entryLink>
             <entryLink id="69eb-f60c-d7c7-d702" name="Wolf" hidden="false" collective="false" import="true" targetId="6876-a49d-4ef3-95ff" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="10.0"/>

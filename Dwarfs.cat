@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fe9e-aca2-816f-f032" name="Dwarfs" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="67" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fe9e-aca2-816f-f032" name="Dwarfs" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="2535-16ac-6197-39fc" name="Dwarf King" hidden="false" collective="false" import="true" targetId="371a-bf2f-148b-cf3e" type="selectionEntry">
       <categoryLinks>
@@ -212,18 +212,6 @@
         <categoryLink id="a0e7-7cfb-b522-b60e" name="New CategoryLink" hidden="false" targetId="cd29-77d0-c75d-b384" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="8185-7546-46d2-c73f" name="Goblin Mercenary Warriors" hidden="false" collective="false" import="true" targetId="f01a-1cb8-8b1a-e855" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fcf5-8ab6-25f0-8bdc" type="notEqualTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="886d-d107-5144-fec1" name="New CategoryLink" hidden="false" targetId="cd29-77d0-c75d-b384" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="40c3-16e1-5017-4886" name="Hobgoblin Warriors" hidden="false" collective="false" import="true" targetId="c33a-d49e-0085-4ba2" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -318,30 +306,6 @@
       </modifiers>
       <categoryLinks>
         <categoryLink id="9bd4-bc1a-0f49-bc1f" name="New CategoryLink" hidden="false" targetId="fad6-dec9-0df6-94ac" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="b3c1-d235-f785-798a" name="Bedouins" hidden="false" collective="false" import="true" targetId="c9de-3f02-df70-75b6" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fcf5-8ab6-25f0-8bdc" type="notEqualTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="9f22-6571-5293-dea3" name="New CategoryLink" hidden="false" targetId="fad6-dec9-0df6-94ac" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="ef77-1f08-c715-0e8f" name="Bedouin Cavalry" hidden="false" collective="false" import="true" targetId="98b3-f8c4-1f82-f476" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fcf5-8ab6-25f0-8bdc" type="notEqualTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="1dd7-bf3d-fedb-29a0" name="New CategoryLink" hidden="false" targetId="fad6-dec9-0df6-94ac" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="b8e2-c703-5803-cda3" name="Dwarf Sailing Berserkers" hidden="false" collective="false" import="true" targetId="cb57-fd13-4a46-a7df" type="selectionEntry">
@@ -463,18 +427,6 @@
       </modifiers>
       <categoryLinks>
         <categoryLink id="3c44-a737-b43a-08d5" name="New CategoryLink" hidden="false" targetId="fad6-dec9-0df6-94ac" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="1776-fe23-6477-59a3" name="Hobgoblin Heavy Cavalry" hidden="false" collective="false" import="true" targetId="41c3-a6f4-9cf5-8afe" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="fcf5-8ab6-25f0-8bdc" type="notEqualTo"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="2651-2dcd-5efd-2d35" name="New CategoryLink" hidden="false" targetId="fad6-dec9-0df6-94ac" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="00d9-0318-b583-d62c" name="Corrupted Dwarf Mercenary Warriors" hidden="false" collective="false" import="true" targetId="fc30-3969-480e-ebb9" type="selectionEntry">
@@ -1954,12 +1906,12 @@
             <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="8.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9665-b510-78b6-762e" name="Lead Miner" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9665-b510-78b6-762e" name="Foreman" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb8a-e3d1-8ef6-dea0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f503-c3c5-6e35-126e" name="Lead Miner" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
+            <profile id="f503-c3c5-6e35-126e" name="Foreman" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">4&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
@@ -2830,48 +2782,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="9a9f-e272-2a88-d1e1" name="Cannon" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="264b-760b-d633-1fbb" name="3 Crewmen" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
-          <characteristics>
-            <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">4&quot;</characteristic>
-            <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
-            <characteristic name="WA" typeId="0f73-3c43-4701-9086">6</characteristic>
-            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
-            <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
-            <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
-            <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
-            <characteristic name="WP" typeId="0418-2892-7021-fc1e">13</characteristic>
-            <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
-            <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
-            <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="a08d-e79f-e18b-82a7" name="Cannon" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
-          <characteristics>
-            <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">-</characteristic>
-            <characteristic name="RH" typeId="b74f-2b64-2662-f401">-</characteristic>
-            <characteristic name="WA" typeId="0f73-3c43-4701-9086">-</characteristic>
-            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">3</characteristic>
-            <characteristic name="P" typeId="1192-a747-177a-64eb">-</characteristic>
-            <characteristic name="E" typeId="0a89-229f-3f01-3919">10</characteristic>
-            <characteristic name="A" typeId="5d8c-74be-d893-50e2">-</characteristic>
-            <characteristic name="WP" typeId="0418-2892-7021-fc1e">-</characteristic>
-            <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">3</characteristic>
-            <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
-            <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Warmachine</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="86f0-8c27-7bb4-eec5" name="Cannon" hidden="false" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon">
-          <characteristics>
-            <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">1</characteristic>
-            <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">16</characteristic>
-            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-</characteristic>
-            <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">48&quot;</characteristic>
-            <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Blackpowder, Direct</characteristic>
-            <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Decimating Hit, Unstoppable</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <infoLinks>
         <infoLink id="a073-3fdd-f592-1071" name="Mental Fortitude" hidden="false" targetId="8bb5-917e-f208-d694" type="rule"/>
         <infoLink id="66b9-f84f-8efe-737f" name="Mountaineer" hidden="false" targetId="dbb8-d03a-c040-61c3" type="rule">
@@ -2879,12 +2789,73 @@
             <modifier type="set" field="name" value="Mountaineer (Crew)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="994a-1055-88e8-dea8" name="Unstoppable" hidden="false" targetId="a8a9-3c80-48a6-5969" type="rule"/>
-        <infoLink id="fa52-1fe1-0100-a54b" name="Decimating Hit" hidden="false" targetId="7922-ba05-dbc1-8505" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="fe16-ae87-3e48-6db6" name="New CategoryLink" hidden="false" targetId="cd29-77d0-c75d-b384" primary="false"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e68b-84c9-2e86-bced" name="Cannon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1bb-d47e-0bd5-78f1" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2e0-2f9b-d86b-260c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="dd04-117f-e81a-5378" name="Cannon" hidden="false" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon">
+              <characteristics>
+                <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">1</characteristic>
+                <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">16</characteristic>
+                <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-</characteristic>
+                <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">48&quot;</characteristic>
+                <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Blackpowder, Direct</characteristic>
+                <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Decimating Hit, Line of Devastation</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="b2a4-92f0-5ac3-9abc" name="3 Crewmen" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
+              <characteristics>
+                <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">4&quot;</characteristic>
+                <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
+                <characteristic name="WA" typeId="0f73-3c43-4701-9086">6</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
+                <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
+                <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
+                <characteristic name="WP" typeId="0418-2892-7021-fc1e">13</characteristic>
+                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
+                <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="bbfa-844b-3c3c-b3a9" name="Cannon" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
+              <characteristics>
+                <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">-</characteristic>
+                <characteristic name="RH" typeId="b74f-2b64-2662-f401">-</characteristic>
+                <characteristic name="WA" typeId="0f73-3c43-4701-9086">-</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">3</characteristic>
+                <characteristic name="P" typeId="1192-a747-177a-64eb">-</characteristic>
+                <characteristic name="E" typeId="0a89-229f-3f01-3919">10</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">-</characteristic>
+                <characteristic name="WP" typeId="0418-2892-7021-fc1e">-</characteristic>
+                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">3</characteristic>
+                <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Warmachine</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="c6ca-51bf-bc86-4d0c" name="Line of Devastation" hidden="false" targetId="7391-b159-251c-4ea8" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="2197-7e5f-3f86-b8df" name="Warmachine Runes" hidden="false" collective="false" import="true" targetId="3b0c-9d4c-3834-dad9" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="5119-770c-ea3a-8a8c" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0d8-5c03-22d4-bfd0" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="90.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
         <entryLink id="efc2-2a99-6747-25f7" name="Hammer" hidden="false" collective="false" import="true" targetId="5497-40d1-f4ed-e732" type="selectionEntry">
           <constraints>
@@ -2892,14 +2863,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab4d-6b04-fb27-de4f" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="8a4b-a609-7730-4590" name="Warmachine Runes" hidden="false" collective="false" import="true" targetId="3b0c-9d4c-3834-dad9" type="selectionEntryGroup">
-          <constraints>
-            <constraint field="5119-770c-ea3a-8a8c" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54eb-21da-44e0-f4b7" type="max"/>
-          </constraints>
-        </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="155.0"/>
+        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ebed-5c76-da75-caa4" name="Catapult" hidden="false" collective="false" import="true" type="model">
@@ -2937,7 +2903,7 @@
         <profile id="1198-a52b-03e3-a1c9" name="Catapult" hidden="false" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon">
           <characteristics>
             <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">1</characteristic>
-            <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">13</characteristic>
+            <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">12</characteristic>
             <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-</characteristic>
             <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">36&quot;</characteristic>
             <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Catapult</characteristic>
@@ -2970,7 +2936,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="125.0"/>
+        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="115.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="27b1-e9de-cc69-494c" name="Bolt Thrower" hidden="false" collective="false" import="true" type="unit">
@@ -3032,12 +2998,12 @@
             </entryLink>
             <entryLink id="411e-3928-1587-a862" name="Warmachine Runes" hidden="false" collective="false" import="true" targetId="3b0c-9d4c-3834-dad9" type="selectionEntryGroup">
               <constraints>
-                <constraint field="5119-770c-ea3a-8a8c" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49a4-4f86-69ca-f2be" type="max"/>
+                <constraint field="5119-770c-ea3a-8a8c" scope="parent" value="30.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49a4-4f86-69ca-f2be" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="70.0"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="45.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3054,48 +3020,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="40af-9565-8987-6610" name="Volley Cannon" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="a529-3d30-0c3e-b8d7" name="3 Crewmen" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
-          <characteristics>
-            <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">4&quot;</characteristic>
-            <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
-            <characteristic name="WA" typeId="0f73-3c43-4701-9086">6</characteristic>
-            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
-            <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
-            <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
-            <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
-            <characteristic name="WP" typeId="0418-2892-7021-fc1e">13</characteristic>
-            <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
-            <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
-            <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="8580-b0a7-9438-3de4" name="Volley Cannon" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
-          <characteristics>
-            <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">-</characteristic>
-            <characteristic name="RH" typeId="b74f-2b64-2662-f401">-</characteristic>
-            <characteristic name="WA" typeId="0f73-3c43-4701-9086">-</characteristic>
-            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">2</characteristic>
-            <characteristic name="P" typeId="1192-a747-177a-64eb">-</characteristic>
-            <characteristic name="E" typeId="0a89-229f-3f01-3919">10</characteristic>
-            <characteristic name="A" typeId="5d8c-74be-d893-50e2">-</characteristic>
-            <characteristic name="WP" typeId="0418-2892-7021-fc1e">-</characteristic>
-            <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">3</characteristic>
-            <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
-            <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Warmachine</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="77b3-67c7-7f66-aee4" name="Volley Cannon" hidden="false" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon">
-          <characteristics>
-            <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">D8</characteristic>
-            <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">10</characteristic>
-            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-</characteristic>
-            <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">36&quot;</characteristic>
-            <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Blackpowder, Direct</characteristic>
-            <characteristic name="Special Rules" typeId="5353-ed52-2205-a615"/>
-          </characteristics>
-        </profile>
-      </profiles>
       <infoLinks>
         <infoLink id="7744-e85a-b556-4623" name="Mountaineer" hidden="false" targetId="dbb8-d03a-c040-61c3" type="rule">
           <modifiers>
@@ -3107,6 +3031,69 @@
       <categoryLinks>
         <categoryLink id="c72e-5226-af57-6c88" name="New CategoryLink" hidden="false" targetId="cd29-77d0-c75d-b384" primary="false"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="eee6-b8ee-2a89-5399" name="Volley Cannon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c30-db22-47de-dc08" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="428d-715a-bd37-70b2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="cb36-b7e9-b7cc-daed" name="Volley Cannon" hidden="false" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon">
+              <characteristics>
+                <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">D8</characteristic>
+                <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">9</characteristic>
+                <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-</characteristic>
+                <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">36&quot;</characteristic>
+                <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Blackpowder, Direct</characteristic>
+                <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Suppression Fire</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8cb4-a883-8c61-e70b" name="3 Crewmen" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
+              <characteristics>
+                <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">4&quot;</characteristic>
+                <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
+                <characteristic name="WA" typeId="0f73-3c43-4701-9086">6</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
+                <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
+                <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
+                <characteristic name="WP" typeId="0418-2892-7021-fc1e">13</characteristic>
+                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
+                <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c6a5-55ec-acd6-eee4" name="Volley Cannon" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
+              <characteristics>
+                <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">-</characteristic>
+                <characteristic name="RH" typeId="b74f-2b64-2662-f401">-</characteristic>
+                <characteristic name="WA" typeId="0f73-3c43-4701-9086">-</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">2</characteristic>
+                <characteristic name="P" typeId="1192-a747-177a-64eb">-</characteristic>
+                <characteristic name="E" typeId="0a89-229f-3f01-3919">10</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">-</characteristic>
+                <characteristic name="WP" typeId="0418-2892-7021-fc1e">-</characteristic>
+                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">3</characteristic>
+                <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Warmachine</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="9e34-30e8-1f37-03bc" name="Suppression Fire" hidden="false" targetId="0d0f-763e-1572-18d3" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="5560-2411-ad85-5c7f" name="Warmachine Runes" hidden="false" collective="false" import="true" targetId="3b0c-9d4c-3834-dad9" type="selectionEntryGroup">
+              <constraints>
+                <constraint field="5119-770c-ea3a-8a8c" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f329-db2a-2ebe-854a" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="135.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <entryLinks>
         <entryLink id="2af1-2f40-3cba-c663" name="Hammer" hidden="false" collective="false" import="true" targetId="5497-40d1-f4ed-e732" type="selectionEntry">
           <constraints>
@@ -3114,14 +3101,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c58b-4f52-12ab-58db" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="5b78-7eee-cc67-4b13" name="Warmachine Runes" hidden="false" collective="false" import="true" targetId="3b0c-9d4c-3834-dad9" type="selectionEntryGroup">
-          <constraints>
-            <constraint field="5119-770c-ea3a-8a8c" scope="parent" value="50.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a9c-c2fe-6087-8cef" type="max"/>
-          </constraints>
-        </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="135.0"/>
+        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2279-597f-f463-0b83" name="Wallcrusher Cannon" hidden="false" collective="false" import="true" type="unit">
@@ -3167,7 +3149,7 @@
                 <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-</characteristic>
                 <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">48&quot;</characteristic>
                 <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Direct, Blackpowder</characteristic>
-                <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Unstoppable, Devastating Hit</characteristic>
+                <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Line of Devastation, Devastating Hit</characteristic>
               </characteristics>
             </profile>
             <profile id="91b9-a6e5-29af-0784" name="Wallcrusher Cannon" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
@@ -3188,7 +3170,7 @@
           </profiles>
           <infoLinks>
             <infoLink id="93f9-bc1e-11ea-6308" name=" Devastating Hit" hidden="false" targetId="2400-175c-4126-7959" type="rule"/>
-            <infoLink id="c973-ea5e-e13b-84fc" name="Unstoppable" hidden="false" targetId="a8a9-3c80-48a6-5969" type="rule"/>
+            <infoLink id="c973-ea5e-e13b-84fc" name="Line of Devastation" hidden="false" targetId="7391-b159-251c-4ea8" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0.0"/>
@@ -3469,20 +3451,20 @@
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">4&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
-                <characteristic name="WA" typeId="0f73-3c43-4701-9086">6</characteristic>
+                <characteristic name="WA" typeId="0f73-3c43-4701-9086">7</characteristic>
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
-                <characteristic name="WP" typeId="0418-2892-7021-fc1e">13</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+                <characteristic name="WP" typeId="0418-2892-7021-fc1e">16</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
-                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monstrous Cavalry</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="65.0"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="71.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7950-edd7-6cb4-4cb0" name="Lord of the Ride" hidden="false" collective="false" import="true" type="upgrade">
@@ -3496,13 +3478,13 @@
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
                 <characteristic name="WA" typeId="0f73-3c43-4701-9086">7</characteristic>
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
-                <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
+                <characteristic name="P" typeId="1192-a747-177a-64eb">6</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
-                <characteristic name="WP" typeId="0418-2892-7021-fc1e">13</characteristic>
-                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">2</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
+                <characteristic name="WP" typeId="0418-2892-7021-fc1e">16</characteristic>
+                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
-                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monstrous Cavalry</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3534,7 +3516,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="fff7-dfb1-c147-2bcb" name="Medium Armour" hidden="false" collective="false" import="true" targetId="9948-1047-5e69-1fdc" type="selectionEntry">
+        <entryLink id="fff7-dfb1-c147-2bcb" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="81f7-1ab1-89ff-3e29" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaf8-9feb-88a7-6f3a" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f757-0a1c-8e64-dad4" type="max"/>
@@ -3726,7 +3708,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="150.0"/>
+        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="120.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4858-c0ad-7b6d-7164" name="Gyrocopter" hidden="false" collective="false" import="true" type="model">
