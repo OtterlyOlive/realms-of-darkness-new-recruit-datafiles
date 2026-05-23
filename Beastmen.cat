@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="25" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="26" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="8168-8ddd-eb9e-de05" name="Bæsts" hidden="false" collective="false" import="true" targetId="e5f4-1126-9dce-8aaf" type="selectionEntry">
       <categoryLinks>
@@ -155,7 +155,7 @@
         <categoryLink id="e284-ec8d-a3f9-28a6" name="Common" hidden="false" targetId="e3fa-e803-fa94-daf2" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="2fd7-6616-9432-fb25" name="Upgrade one model to Leitâri" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2fd7-6616-9432-fb25" name="Leitâri" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fed7-7cbd-915b-b984" type="max"/>
           </constraints>
@@ -339,7 +339,7 @@
             <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="13"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="cf30-8487-a847-ddfb" name="Upgrade one model to Leitâri" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="cf30-8487-a847-ddfb" name="Leitâri" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db6d-5fee-1fcf-7f17" type="max"/>
           </constraints>
@@ -476,7 +476,7 @@
             <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="42"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9fcd-f799-8686-3688" name="Upgrade one model to Leitâri Minotaur" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9fcd-f799-8686-3688" name="Leitâri Minotaur" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b981-f3a0-91ae-244e" type="max"/>
           </constraints>
@@ -3018,7 +3018,7 @@
             <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="90"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9f4c-9d67-1d15-7f7d" name="Upgrade one model to Leitâri Trahho" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="9f4c-9d67-1d15-7f7d" name="Leitâri Trahho" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31a1-e842-d7d4-60e8" type="max"/>
           </constraints>
@@ -3210,7 +3210,7 @@
             <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="17"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f465-42e7-7860-f099" name="Upgrade one model to Leitâri Bæst" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f465-42e7-7860-f099" name="Leitâri Bæst" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="320e-ff8e-03dc-99c7" type="max"/>
           </constraints>
@@ -3323,7 +3323,7 @@
             <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="12"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="75b4-978a-b5eb-fa36" name="Upgrade one model to Werhrôs Leitâri" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="75b4-978a-b5eb-fa36" name="Werhrôs Leitâri" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17c3-15a3-be77-55f2" type="max"/>
           </constraints>
