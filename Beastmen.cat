@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="26" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="27" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="8168-8ddd-eb9e-de05" name="Bæsts" hidden="false" collective="false" import="true" targetId="e5f4-1126-9dce-8aaf" type="selectionEntry">
       <categoryLinks>
@@ -114,6 +114,11 @@
     <entryLink id="5280-dd9d-52b4-d5ae" name="Sunft Tior" hidden="false" collective="false" import="true" targetId="958f-a1a1-365a-b73d" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="726b-2f4a-d85a-d2e8" name="Legendary" hidden="false" targetId="fad6-dec9-0df6-94ac" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Blessed Bæsts" hidden="false" id="6b5d-b667-ed31-1fc2" type="selectionEntry" targetId="5537-6245-eeb1-28c3">
+      <categoryLinks>
+        <categoryLink targetId="fad6-dec9-0df6-94ac" id="ada9-e627-2260-01c5" primary="true" name="Legendary"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -3585,6 +3590,132 @@
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="310"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Blessed Bæsts" hidden="false" id="5537-6245-eeb1-28c3">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Blessed Bæst" hidden="false" id="f77e-805a-5b04-bd4a">
+          <costs>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="15"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="501b-18df-f8ae-f870"/>
+            <constraint type="max" value="25" field="selections" scope="parent" shared="true" id="7794-75a5-7f60-bc26"/>
+          </constraints>
+          <profiles>
+            <profile name="Blessed Bæst" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="2bd0-8175-0691-3432">
+              <characteristics>
+                <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5&quot;</characteristic>
+                <characteristic name="RH" typeId="b74f-2b64-2662-f401">5+</characteristic>
+                <characteristic name="WA" typeId="0f73-3c43-4701-9086">8</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">11</characteristic>
+                <characteristic name="P" typeId="1192-a747-177a-64eb">7</characteristic>
+                <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+                <characteristic name="WP" typeId="0418-2892-7021-fc1e">10</characteristic>
+                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
+                <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Chosen of the Void" hidden="false" id="46c4-85a4-cbe7-47cc">
+          <costs>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="5"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="69f9-85df-569a-57b6"/>
+          </constraints>
+          <profiles>
+            <profile name="Chosen of the Void" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="c8f7-6432-603f-898c">
+              <characteristics>
+                <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5&quot;</characteristic>
+                <characteristic name="RH" typeId="b74f-2b64-2662-f401">5+</characteristic>
+                <characteristic name="WA" typeId="0f73-3c43-4701-9086">8</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">11</characteristic>
+                <characteristic name="P" typeId="1192-a747-177a-64eb">7</characteristic>
+                <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
+                <characteristic name="WP" typeId="0418-2892-7021-fc1e">10</characteristic>
+                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
+                <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Great Axe" hidden="false" id="8c09-68a7-06b4-e889" type="selectionEntry" targetId="c1dc-1aef-017b-c23c">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="42a0-ebb2-241a-e6a9-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="42a0-ebb2-241a-e6a9-max"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Heavy Armour" hidden="false" id="1ee1-a8fa-4569-7faa" type="selectionEntry" targetId="81f7-1ab1-89ff-3e29">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c083-00e1-590f-dde4-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c083-00e1-590f-dde4-max"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Tough Hide (6+/+1)" hidden="false" id="295b-5cfb-de8d-f501" collective="false" targetId="b99f-acad-90a6-df65" type="selectionEntry">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9fc7-5e6d-b1e0-031d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d7d7-884c-f9b9-e2a2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Bloodrush" id="ab5e-1d89-02ce-f90c" hidden="false" type="rule" targetId="1d13-bfd0-ab04-21bc"/>
+        <infoLink name="Elite" id="9bab-0091-70cd-d355" hidden="false" type="rule" targetId="2f43-4bde-1249-f8af"/>
+        <infoLink name="Magic Attacks - X" id="2ef6-c379-3040-5218" hidden="false" type="rule" targetId="b2ee-4ebe-97f3-3116">
+          <modifiers>
+            <modifier type="replace" value="- Shadow" field="name" arg="- X"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Sturdy" id="30b4-007b-9473-414b" hidden="false" type="rule" targetId="38c0-fdeb-b7ff-504c"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Unit Options" id="d5a5-da54-8537-30f1" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink import="true" name="Banner" hidden="false" id="d25d-94ca-6922-759d" collective="false" targetId="1d1e-169c-0c77-b4a7" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="57c4-54a4-48eb-b1ee" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="5"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Musician" hidden="false" id="30ec-8bb3-3377-6477" collective="false" targetId="13c8-30c0-5be4-d6c5" type="selectionEntry">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="729e-9aeb-bc36-985c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="5"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Magic Items" id="33ef-9538-2c94-7593" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="max" value="25" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="28c7-b63c-6b0d-03ef" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Magic Banners" hidden="false" id="f70b-1387-5203-d52e" collective="false" targetId="6a02-481b-a4c7-0faf" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="69a6-81fc-b4ad-3abe" childId="1325-9a4a-54bc-9ce1" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="fad6-dec9-0df6-94ac" id="eeb1-68a5-fb38-9503" primary="false" name="Legendary"/>
+      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
