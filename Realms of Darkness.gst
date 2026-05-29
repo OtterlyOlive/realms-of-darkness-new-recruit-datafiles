@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="09a0-626b-16e9-bcae" name="Realms of Darkness" revision="74" battleScribeVersion="2.03" authorName="Erik Valeur" authorContact="grunanca@gmail.com" authorUrl="https://realmsofdarkness.dk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="09a0-626b-16e9-bcae" name="Realms of Darkness" revision="76" battleScribeVersion="2.03" authorName="Erik Valeur" authorContact="grunanca@gmail.com" authorUrl="https://realmsofdarkness.dk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <costTypes>
     <costType id="5119-770c-ea3a-8a8c" name="pts" defaultCostLimit="-1" hidden="false"/>
   </costTypes>
@@ -91,6 +91,9 @@
               <repeats>
                 <repeat field="limit::5119-770c-ea3a-8a8c" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="false"/>
               </repeats>
+              <conditions>
+                <condition type="atLeast" value="2001" field="limit::5119-770c-ea3a-8a8c" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
             </modifier>
             <modifier type="set" field="711f-e6ec-64ad-2b8b" value="0">
               <conditions>
@@ -104,12 +107,6 @@
         </categoryLink>
         <categoryLink id="d316-330b-c5de-12e1" name="Lord" hidden="false" targetId="7688-3161-c899-c54d" primary="false">
           <modifiers>
-            <modifier type="decrement" field="5ad0-9857-f61b-2ae8" value="3">
-              <comment>Player starts with 0-4, but the incrementer only does 1500pts at a time, so we decrement by four (the starting amount) when above 1500pts</comment>
-              <conditions>
-                <condition field="limit::5119-770c-ea3a-8a8c" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" type="greaterThan"/>
-              </conditions>
-            </modifier>
             <modifier type="increment" field="5ad0-9857-f61b-2ae8" value="3">
               <repeats>
                 <repeat field="limit::5119-770c-ea3a-8a8c" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="false"/>
@@ -117,7 +114,7 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="force" value="3" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5ad0-9857-f61b-2ae8" type="max"/>
+            <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5ad0-9857-f61b-2ae8" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="bad5-82d2-5107-3eeb" name="Common" hidden="false" targetId="e3fa-e803-fa94-daf2" primary="false">
@@ -127,20 +124,14 @@
         </categoryLink>
         <categoryLink id="abba-4e7a-4c53-451b" name="Specialist" hidden="false" targetId="cd29-77d0-c75d-b384" primary="false">
           <modifiers>
-            <modifier type="increment" field="c570-d373-9bd7-cbec" value="4">
+            <modifier type="increment" value="4" field="c570-d373-9bd7-cbec">
               <repeats>
-                <repeat field="limit::5119-770c-ea3a-8a8c" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="false"/>
+                <repeat value="1500" repeats="1" field="limit::5119-770c-ea3a-8a8c" scope="roster" childId="any" shared="true" roundUp="false" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
               </repeats>
-            </modifier>
-            <modifier type="decrement" field="c570-d373-9bd7-cbec" value="4">
-              <comment>Player starts with 0-4, but the incrementer only does 1500pts at a time, so we decrement by four (the starting amount) when above 1500pts</comment>
-              <conditions>
-                <condition field="limit::5119-770c-ea3a-8a8c" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" type="greaterThan"/>
-              </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="force" value="4" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c570-d373-9bd7-cbec" type="max"/>
+            <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c570-d373-9bd7-cbec" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="1785-c276-ef2c-231f" name="Legendary" hidden="false" targetId="fad6-dec9-0df6-94ac" primary="false">
@@ -150,12 +141,6 @@
                 <repeat field="limit::5119-770c-ea3a-8a8c" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
-            <modifier type="decrement" field="ab07-47bc-f221-5794" value="2">
-              <comment>Player starts with 0-2, but the incrementer only does 1500pts at a time, so we decrement by two (the starting amount) when above 1500pts</comment>
-              <conditions>
-                <condition field="limit::5119-770c-ea3a-8a8c" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" type="greaterThan"/>
-              </conditions>
-            </modifier>
             <modifier type="increment" field="ab07-47bc-f221-5794" value="1">
               <repeats>
                 <repeat field="selections" scope="fad6-dec9-0df6-94ac" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1540-c45a-960d-c673" repeats="1" roundUp="false"/>
@@ -163,7 +148,7 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="force" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab07-47bc-f221-5794" type="max"/>
+            <constraint field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab07-47bc-f221-5794" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="6dfa-cb05-1198-a017" name="Army Faction" hidden="false" targetId="adc9-e898-46be-d9fe" primary="false">
