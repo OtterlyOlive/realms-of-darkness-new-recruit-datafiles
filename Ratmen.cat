@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="12c8-46df-4ed8-75a7" name="Ratmen" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="29" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="12c8-46df-4ed8-75a7" name="Ratmen" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="29" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="eb22-585b-9900-ad85" name="Clan Warriors" hidden="false" collective="false" import="true" targetId="52a2-cc30-3c6d-2660" type="selectionEntry">
       <categoryLinks>
@@ -354,18 +354,6 @@
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="a20e-fb01-2968-d499" name="Warrior" hidden="false" collective="false" import="true" type="model">
-          <modifiers>
-            <modifier type="set" field="f05f-68a3-bb0f-aaa0" value="39">
-              <conditions>
-                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a6f2-b43b-585c-d765" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="b193-c87a-005f-3da1" value="19">
-              <conditions>
-                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a6f2-b43b-585c-d765" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="20" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b193-c87a-005f-3da1" type="min"/>
             <constraint field="selections" scope="parent" value="40" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f05f-68a3-bb0f-aaa0" type="max"/>
@@ -391,7 +379,7 @@
             <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="4"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a6f2-b43b-585c-d765" name="Chieftain" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="a6f2-b43b-585c-d765" name="Chieftain" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c20-cb53-4c8f-3cf4" type="max"/>
           </constraints>
@@ -413,7 +401,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="7"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="3"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1123,18 +1111,6 @@
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="0893-1b78-7071-5c9f" name="Slave" hidden="false" collective="false" import="true" type="model">
-          <modifiers>
-            <modifier type="set" field="bd65-e7e6-2d36-8d2e" value="39">
-              <conditions>
-                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6538-4d8a-17b7-2015" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="e9cc-2731-68fc-896f" value="19">
-              <conditions>
-                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6538-4d8a-17b7-2015" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="20" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9cc-2731-68fc-896f" type="min"/>
             <constraint field="selections" scope="parent" value="40" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd65-e7e6-2d36-8d2e" type="max"/>
@@ -1160,7 +1136,7 @@
             <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="3"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="6538-4d8a-17b7-2015" name="Slavemaster" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="6538-4d8a-17b7-2015" name="Slavemaster" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b538-facb-26b5-b8ea" type="max"/>
           </constraints>
@@ -1182,7 +1158,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="6"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="3"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1383,18 +1359,6 @@
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="467d-e7aa-3697-b6cc" name="Death Stalker" hidden="false" collective="false" import="true" type="model">
-          <modifiers>
-            <modifier type="set" field="5a9c-d306-6217-5878" value="19">
-              <conditions>
-                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="467d-e7aa-3697-b6cc" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="b800-fc4a-fe49-c55d" value="9">
-              <conditions>
-                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="467d-e7aa-3697-b6cc" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b800-fc4a-fe49-c55d" type="min"/>
             <constraint field="selections" scope="parent" value="20" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a9c-d306-6217-5878" type="max"/>
@@ -1420,7 +1384,7 @@
             <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="7"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="76e6-40f1-825f-8762" name="Shadow" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="76e6-40f1-825f-8762" name="Shadow" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19a5-1166-c47a-02c5" type="max"/>
           </constraints>
@@ -1442,7 +1406,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="10"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="3"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1569,18 +1533,6 @@
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="6bf9-ea33-f639-dda1" name="Iron Rat" hidden="false" collective="false" import="true" type="model">
-          <modifiers>
-            <modifier type="set" field="7fa1-3cb4-40ee-157a" value="29">
-              <conditions>
-                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="624a-285f-63d3-58f9" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="2fa9-071a-4b4d-dc79" value="9">
-              <conditions>
-                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="624a-285f-63d3-58f9" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fa9-071a-4b4d-dc79" type="min"/>
             <constraint field="selections" scope="parent" value="30" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fa1-3cb4-40ee-157a" type="max"/>
@@ -1606,7 +1558,7 @@
             <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="8"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="624a-285f-63d3-58f9" name="Flayer" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="624a-285f-63d3-58f9" name="Flayer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5b9-b362-d370-8135" type="max"/>
           </constraints>
@@ -1628,7 +1580,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="11"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="3"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1692,18 +1644,6 @@
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="ce88-2a33-702c-4601" name="Plague Warrior" hidden="false" collective="false" import="true" type="model">
-          <modifiers>
-            <modifier type="set" field="5e9a-c269-13be-b5d8" value="29">
-              <conditions>
-                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="230b-d38c-a354-753f" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="7262-9913-58ee-d845" value="9">
-              <conditions>
-                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="230b-d38c-a354-753f" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7262-9913-58ee-d845" type="min"/>
             <constraint field="selections" scope="parent" value="30" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e9a-c269-13be-b5d8" type="max"/>
@@ -1729,7 +1669,7 @@
             <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="7"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="230b-d38c-a354-753f" name="Plague Monk" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="230b-d38c-a354-753f" name="Plague Monk" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7407-c282-0630-3ce4" type="max"/>
           </constraints>
@@ -1751,7 +1691,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="10"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="3"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1868,7 +1808,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="37"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="5"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
