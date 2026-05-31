@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="09a0-626b-16e9-bcae" name="Realms of Darkness" revision="76" battleScribeVersion="2.03" authorName="Erik Valeur" authorContact="grunanca@gmail.com" authorUrl="https://realmsofdarkness.dk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="09a0-626b-16e9-bcae" name="Realms of Darkness" revision="77" battleScribeVersion="2.03" authorName="Erik Valeur" authorContact="grunanca@gmail.com" authorUrl="https://realmsofdarkness.dk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <costTypes>
     <costType id="5119-770c-ea3a-8a8c" name="pts" defaultCostLimit="-1" hidden="false"/>
   </costTypes>
@@ -12137,13 +12137,17 @@ Bonuses to the amount of HP/SP regenerated cannot be applied to units that are t
             <profile id="d8f8-784b-bf8e-537c" name="Blessing of Nurgast" hidden="false" typeId="da6e-29e5-c411-1090" typeName="Spell">
               <characteristics>
                 <characteristic name="Cast" typeId="be80-d4c5-67e9-69f4">10</characteristic>
-                <characteristic name="Description" typeId="8bb7-80af-4e3e-b90c">Blessing of Nurgast is a blessing spell with a range of 15”. The targeted model gets +1E and the regeneration rule for the rest of the turn. Any unit the model joins additionally gets +1E.</characteristic>
+                <characteristic name="Description" typeId="8bb7-80af-4e3e-b90c">Blessing of Nurgast is a blessing spell with a range of 15”. The targeted model gets +1E and the regeneration 5+ special rule for the rest of the turn. Any unit the model joins additionally gets +1E.</characteristic>
                 <characteristic name="Type" typeId="414c-bfa9-cf94-4181">Blessing</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="68a7-5b6e-d8d4-b158" name="Regeneration X+" hidden="false" targetId="e6e3-1787-c4bc-9206" type="rule"/>
+            <infoLink id="68a7-5b6e-d8d4-b158" name="Regeneration X+" hidden="false" targetId="e6e3-1787-c4bc-9206" type="rule">
+              <modifiers>
+                <modifier type="set" value="Regeneration 5+" field="name"/>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="15"/>
