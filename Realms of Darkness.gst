@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="09a0-626b-16e9-bcae" name="Realms of Darkness" revision="77" battleScribeVersion="2.03" authorName="Erik Valeur" authorContact="grunanca@gmail.com" authorUrl="https://realmsofdarkness.dk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="09a0-626b-16e9-bcae" name="Realms of Darkness" revision="78" battleScribeVersion="2.03" authorName="Erik Valeur" authorContact="grunanca@gmail.com" authorUrl="https://realmsofdarkness.dk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <costTypes>
     <costType id="5119-770c-ea3a-8a8c" name="pts" defaultCostLimit="-1" hidden="false"/>
   </costTypes>
@@ -11847,7 +11847,7 @@ Bonuses to the amount of HP/SP regenerated cannot be applied to units that are t
             <profile id="4d7d-a76a-53c6-f89e" name="Stampede" hidden="false" typeId="da6e-29e5-c411-1090" typeName="Spell">
               <characteristics>
                 <characteristic name="Cast" typeId="be80-d4c5-67e9-69f4">11</characteristic>
-                <characteristic name="Description" typeId="8bb7-80af-4e3e-b90c">The spell is a blessing spell with a range of 30” that can be cast on units of the beast, cavalry, monstrous cavalry og monstrous mount type. Beasts and monstrous mounts get + 1WP and +1A. Mounts in cavalry units get +1WP +2A for the rest of the turn.</characteristic>
+                <characteristic name="Description" typeId="8bb7-80af-4e3e-b90c">The spell is a blessing spell with a range of 30” that can be cast on units of the beast, cavalry, monstrous cavalry or monstrous mount type. Beasts, mounts in monstrous cavalry and monstrous mounts get + 1WA and +1A. Mounts in cavalry units get +1WA +2A for the rest of the turn.</characteristic>
                 <characteristic name="Type" typeId="414c-bfa9-cf94-4181">Blessing</characteristic>
               </characteristics>
             </profile>
@@ -12645,7 +12645,7 @@ Note: Open water is usually only present in naval battles and the rules for drow
 When a buried model arrives, pick a location at least 5” away from all enemy units. The model is placed there, but unable to move or charge in that turn. It can do magic and shoot as normal. but does count as having moved when shooting.</description>
     </rule>
     <rule id="b7fe-1629-0dd5-a983" name="Curse of the Dark Pyramids" hidden="false">
-      <description>An enemy unit that has been in base contact with a model or unit with this rule, at any point of the game, no longer ignores the fear and dread special rules, even if it has the mental fortitude og causes fear or dread itself. Note this has no effect on units with the fearless special rule.</description>
+      <description>An enemy unit that has been in base contact with a model or unit with this rule, at any point of the game, no longer ignores the fear and dread special rules, even if it has the mental fortitude or causes fear or dread itself. Note this has no effect on units with the fearless special rule.</description>
     </rule>
     <rule id="f5d9-2308-2a83-d467" name="Dread" hidden="false">
       <description>Models causing dread, automatically causes fear. However when the unit takes a fear test against a unit causing dread, the unit does not get extra WP for ranks. Units causing dread themselves, are immune to the effect of dread. Units causing fear, treats dread as only causing fear on them if they did not themselves cause fear.</description>
