@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="29" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="30" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="8168-8ddd-eb9e-de05" name="Bæsts" hidden="false" collective="false" import="true" targetId="e5f4-1126-9dce-8aaf" type="selectionEntry">
       <categoryLinks>
@@ -704,11 +704,6 @@
             <modifier type="set" field="name" value="Weakness - Death"/>
           </modifiers>
         </infoLink>
-        <infoLink id="9492-c866-f332-3e83" name="Generic Melee" hidden="false" targetId="8abf-db4d-85da-6003" type="profile">
-          <modifiers>
-            <modifier type="set" field="name" value="Tusks (Generic Melee)"/>
-          </modifiers>
-        </infoLink>
         <infoLink id="5559-5138-b9a5-e91b" name="Large Monster" hidden="false" targetId="965d-7455-ae5a-f12d" type="infoGroup"/>
       </infoLinks>
       <selectionEntries>
@@ -737,6 +732,19 @@
           <costs>
             <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="75"/>
           </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Tusks (Generic Melee)" hidden="false" id="2fa8-59af-7180-846b">
+          <infoLinks>
+            <infoLink name="Generic Melee" id="9492-c866-f332-3e83" hidden="false" targetId="8abf-db4d-85da-6003" type="profile">
+              <modifiers>
+                <modifier type="set" value="Tusks (Generic Melee)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1e7d-f720-9445-171a-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e7d-f720-9445-171a-max"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
