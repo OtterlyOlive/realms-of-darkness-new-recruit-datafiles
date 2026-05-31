@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="09a0-626b-16e9-bcae" name="Realms of Darkness" revision="78" battleScribeVersion="2.03" authorName="Erik Valeur" authorContact="grunanca@gmail.com" authorUrl="https://realmsofdarkness.dk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="09a0-626b-16e9-bcae" name="Realms of Darkness" revision="79" battleScribeVersion="2.03" authorName="Erik Valeur" authorContact="grunanca@gmail.com" authorUrl="https://realmsofdarkness.dk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <costTypes>
     <costType id="5119-770c-ea3a-8a8c" name="pts" defaultCostLimit="-1" hidden="false"/>
   </costTypes>
@@ -1426,7 +1426,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
             <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-3I</characteristic>
             <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">36&quot;</characteristic>
             <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Blackpowder, Direct</characteristic>
-            <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Armour Piercing, Slow Reload, Snipe</characteristic>
+            <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Armour Piercing, Slow Reload</characteristic>
           </characteristics>
         </profile>
       </profiles>
