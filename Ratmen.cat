@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="12c8-46df-4ed8-75a7" name="Ratmen" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="29" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="12c8-46df-4ed8-75a7" name="Ratmen" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="29" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="eb22-585b-9900-ad85" name="Clan Warriors" hidden="false" collective="false" import="true" targetId="52a2-cc30-3c6d-2660" type="selectionEntry">
       <categoryLinks>
@@ -2819,6 +2819,11 @@
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bce5-8898-51a6-1585"/>
           </constraints>
+          <rules>
+            <rule name="Black Eyes" id="c517-d0a7-9a3a-f577" hidden="false">
+              <description>The character gets the Fear special rule.</description>
+            </rule>
+          </rules>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Spikes" hidden="false" id="1394-4e82-f396-4c67" sortIndex="">
           <rules>
@@ -2881,6 +2886,11 @@
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e5d-2af6-6523-7c58"/>
           </constraints>
+          <rules>
+            <rule name="Scales" id="cf42-7770-d6b3-2693" hidden="false">
+              <description>The model gets the Tough Hide 6+/+1 special rule.</description>
+            </rule>
+          </rules>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Blessing of Regeneration" hidden="false" id="80f8-b667-7e60-9534">
           <constraints>
@@ -2896,6 +2906,11 @@
               </modifiers>
             </infoLink>
           </infoLinks>
+          <rules>
+            <rule name="New Rule" id="7136-8f75-0621-3941" hidden="false">
+              <description>The model gets the Regeneration 5+ special rule.</description>
+            </rule>
+          </rules>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Abomination" hidden="false" id="4ead-253e-b361-ffbe">
           <costs>
@@ -2907,6 +2922,11 @@
           <infoLinks>
             <infoLink name="Dread" id="3fe4-cfeb-0341-6dc0" hidden="false" type="rule" targetId="f5d9-2308-2a83-d467"/>
           </infoLinks>
+          <rules>
+            <rule name="New Rule" id="d336-accb-f7eb-5220" hidden="false">
+              <description>The character&apos;s appearance becomes horrible to look at, giving the character the Dread special rule.</description>
+            </rule>
+          </rules>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -2968,6 +2988,11 @@
           <infoLinks>
             <infoLink name="Poison" id="a69d-37da-9425-74a1" hidden="false" type="rule" targetId="ccf4-202b-cae8-196b"/>
           </infoLinks>
+          <rules>
+            <rule name="Venom Glands" id="82a0-4965-6680-50fe" hidden="false">
+              <description>The hands of the character start to get soaked in venom. This gives the poison rule to all attacks, both ranged and melee.</description>
+            </rule>
+          </rules>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Hammer Fist" hidden="false" id="686f-52cc-b7c6-30a5">
           <costs>
@@ -2991,7 +3016,7 @@
           </constraints>
           <rules>
             <rule name="Blessing of Life" id="f455-f566-22f2-1b76" hidden="false">
-              <description>+1 HP</description>
+              <description>+1 HP (Already added to the profile of the model)</description>
             </rule>
           </rules>
         </selectionEntry>
@@ -3005,7 +3030,7 @@
           </costs>
           <rules>
             <rule name="Squid Tentacle" id="282a-a24d-5c9b-d877" hidden="false">
-              <description>+1WA</description>
+              <description>The character develops a squid tentacle instead of an arm. The increased mobility gives +1WA (Already added to the profile of the model)</description>
             </rule>
           </rules>
           <constraints>
