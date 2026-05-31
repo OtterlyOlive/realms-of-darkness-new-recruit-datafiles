@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="28" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="29" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="8168-8ddd-eb9e-de05" name="Bæsts" hidden="false" collective="false" import="true" targetId="e5f4-1126-9dce-8aaf" type="selectionEntry">
       <categoryLinks>
@@ -798,7 +798,7 @@
         <categoryLink id="b762-4dc2-ff1c-ef68" name="Common" hidden="false" targetId="e3fa-e803-fa94-daf2" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="94e3-cf13-155e-3bad" name="Leitâri" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="94e3-cf13-155e-3bad" name="Leitâri" hidden="false" collective="false" import="true" type="upgrade" sortIndex="2">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e893-2703-00ca-d64b" type="max"/>
           </constraints>
@@ -823,7 +823,7 @@
             <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="4"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4819-014a-4bbd-2873" name="Småbæst" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="4819-014a-4bbd-2873" name="Småbæst" hidden="false" collective="false" import="true" type="model" sortIndex="1">
           <constraints>
             <constraint field="selections" scope="parent" value="40" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e989-13ea-b316-aea6" type="max"/>
             <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d76-6549-1848-e228" type="min"/>
@@ -851,7 +851,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="c593-ac8d-4bf5-0834" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="ba92-c56b-baa7-9c36">
+        <selectionEntryGroup id="c593-ac8d-4bf5-0834" name="Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="ba92-c56b-baa7-9c36" sortIndex="3">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bc8-177a-8882-cbfb" type="max"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="574a-8c76-16b6-6f91" type="min"/>
@@ -923,7 +923,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="1442-3fe4-b55d-204b" name="Unit Options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="1442-3fe4-b55d-204b" name="Unit Options" hidden="false" collective="false" import="true" sortIndex="4">
           <entryLinks>
             <entryLink id="9adb-7c83-6cf7-ef99" name="Banner" hidden="false" collective="false" import="true" targetId="1d1e-169c-0c77-b4a7" type="selectionEntry">
               <constraints>
@@ -964,6 +964,13 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="increment" value="1" field="0a89-229f-3f01-3919">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="48b9-a8ba-89bd-d558" childId="2ae5-6834-65cd-c2f0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <infoLinks>
@@ -1156,6 +1163,13 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="increment" value="1" field="0a89-229f-3f01-3919">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="76b8-c014-b443-5912" childId="2ae5-6834-65cd-c2f0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <infoLinks>
@@ -1766,6 +1780,13 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="increment" value="1" field="0a89-229f-3f01-3919">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="285a-f24a-67bb-f034" childId="2ae5-6834-65cd-c2f0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <infoLinks>
@@ -2110,6 +2131,13 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="increment" value="1" field="0a89-229f-3f01-3919">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="0365-43cd-2856-0e6f" childId="2ae5-6834-65cd-c2f0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <infoLinks>
@@ -2213,6 +2241,13 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="increment" value="1" field="0a89-229f-3f01-3919">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="5211-1c85-5987-bc25" childId="2ae5-6834-65cd-c2f0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <infoLinks>
@@ -2848,6 +2883,13 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
+          <modifiers>
+            <modifier type="increment" value="1" field="0a89-229f-3f01-3919">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="fa57-1684-489a-9ff2" childId="2ae5-6834-65cd-c2f0" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
         </profile>
       </profiles>
       <categoryLinks>
@@ -3857,7 +3899,7 @@
           <profiles>
             <profile id="9fd5-dae0-4aec-f7e6" name="Ring of Endurance" hidden="false" typeId="c0be-9772-241d-3d6e" typeName="Wargear">
               <characteristics>
-                <characteristic name="Description" typeId="2e48-fcb7-ef15-7615">The ring grants the wearer +1E.</characteristic>
+                <characteristic name="Description" typeId="2e48-fcb7-ef15-7615">The ring grants the wearer +1E. (Already added to the profile of the model)</characteristic>
               </characteristics>
             </profile>
           </profiles>
