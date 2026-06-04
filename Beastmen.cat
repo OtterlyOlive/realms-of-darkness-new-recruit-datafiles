@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="31" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="32" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="8168-8ddd-eb9e-de05" name="Bæsts" hidden="false" collective="false" import="true" targetId="e5f4-1126-9dce-8aaf" type="selectionEntry">
       <categoryLinks>
@@ -2121,6 +2121,29 @@
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="135"/>
       </costs>
+      <infoGroups>
+        <infoGroup name="Herd of the Wald" id="0f86-651a-8ed9-b9e4" hidden="false">
+          <rules>
+            <rule name="Herd of the Wald" id="42a6-be0d-0925-8a14" hidden="false">
+              <description>All units within 18” of the Shaman’s Totem get the Regeneration 5+ special rule. Additionally, all Life magic cast by any model, friend or enemy within 18” gets +1 to the final casting roll.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink name="Regeneration X+" id="7d5e-40dc-cc26-7d74" hidden="false" type="rule" targetId="e6e3-1787-c4bc-9206">
+              <modifiers>
+                <modifier type="set" value="Regeneration 5+" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="equalTo" value="0" field="selections" scope="roster" childId="cde9-80ce-2009-617c" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoGroup>
+      </infoGroups>
     </selectionEntry>
     <selectionEntry id="0365-43cd-2856-0e6f" name="Minotaur Chieftain" hidden="false" collective="false" import="true" type="model">
       <profiles>
