@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="30" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="31" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="8168-8ddd-eb9e-de05" name="Bæsts" hidden="false" collective="false" import="true" targetId="e5f4-1126-9dce-8aaf" type="selectionEntry">
       <categoryLinks>
@@ -742,8 +742,7 @@
             </infoLink>
           </infoLinks>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1e7d-f720-9445-171a-min"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e7d-f720-9445-171a-max"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1e7d-f720-9445-171a"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
@@ -2905,23 +2904,6 @@
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="516e-fcf2-7589-985d" name="Minor Beasts" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="set" field="name" value="20">
-              <conditions>
-                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="59f7-569a-4ae7-34bb" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="name" value="10">
-              <conditions>
-                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5990-9a2e-3bc1-e0dd" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="5119-770c-ea3a-8a8c" value="15">
-              <conditions>
-                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4565-e377-9700-d743" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="608d-a05f-8fd3-6168" type="min"/>
             <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29f4-9f69-48e8-4054" type="max"/>
@@ -2929,6 +2911,35 @@
           <costs>
             <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
           </costs>
+          <modifierGroups>
+            <modifierGroup type="and">
+              <modifiers>
+                <modifier type="set" value="Crow Swarm" field="name"/>
+                <modifier type="set" value="15" field="5119-770c-ea3a-8a8c"/>
+              </modifiers>
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="parent" childId="4565-e377-9700-d743" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifierGroup>
+            <modifierGroup type="and">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="parent" childId="5990-9a2e-3bc1-e0dd" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" value="10" field="5119-770c-ea3a-8a8c"/>
+                <modifier type="set" value="Meat Eater Plants" field="name"/>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup type="and">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="parent" childId="59f7-569a-4ae7-34bb" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" value="20" field="5119-770c-ea3a-8a8c"/>
+                <modifier type="set" value="Rat Swarm" field="name"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2953,6 +2964,23 @@
               <costs>
                 <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
               </costs>
+              <profiles>
+                <profile name="Rat Swarm" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="022e-bc45-8c91-1d9b">
+                  <characteristics>
+                    <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">4&quot;</characteristic>
+                    <characteristic name="RH" typeId="b74f-2b64-2662-f401">-</characteristic>
+                    <characteristic name="WA" typeId="0f73-3c43-4701-9086">4</characteristic>
+                    <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">8</characteristic>
+                    <characteristic name="P" typeId="1192-a747-177a-64eb">6</characteristic>
+                    <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
+                    <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
+                    <characteristic name="WP" typeId="0418-2892-7021-fc1e">14</characteristic>
+                    <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">3</characteristic>
+                    <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
+                    <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
+                  </characteristics>
+                </profile>
+              </profiles>
             </selectionEntry>
             <selectionEntry id="4565-e377-9700-d743" name="Crow Swarm" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2978,6 +3006,23 @@
               <costs>
                 <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
               </costs>
+              <profiles>
+                <profile name="Crow Swarm" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="761e-2e7e-9fb2-038e">
+                  <characteristics>
+                    <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">2&quot;</characteristic>
+                    <characteristic name="RH" typeId="b74f-2b64-2662-f401">-</characteristic>
+                    <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
+                    <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
+                    <characteristic name="P" typeId="1192-a747-177a-64eb">3</characteristic>
+                    <characteristic name="E" typeId="0a89-229f-3f01-3919">3</characteristic>
+                    <characteristic name="A" typeId="5d8c-74be-d893-50e2">5</characteristic>
+                    <characteristic name="WP" typeId="0418-2892-7021-fc1e">12</characteristic>
+                    <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">4</characteristic>
+                    <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
+                    <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
+                  </characteristics>
+                </profile>
+              </profiles>
             </selectionEntry>
             <selectionEntry id="5990-9a2e-3bc1-e0dd" name="Meat Eater Plants" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -2994,6 +3039,23 @@
               <costs>
                 <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
               </costs>
+              <profiles>
+                <profile name="Meat Eater Plants" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="cbfe-52cf-9d3d-4cf5">
+                  <characteristics>
+                    <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5&quot;</characteristic>
+                    <characteristic name="RH" typeId="b74f-2b64-2662-f401">-</characteristic>
+                    <characteristic name="WA" typeId="0f73-3c43-4701-9086">4</characteristic>
+                    <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
+                    <characteristic name="P" typeId="1192-a747-177a-64eb">3</characteristic>
+                    <characteristic name="E" typeId="0a89-229f-3f01-3919">3</characteristic>
+                    <characteristic name="A" typeId="5d8c-74be-d893-50e2">5</characteristic>
+                    <characteristic name="WP" typeId="0418-2892-7021-fc1e">10</characteristic>
+                    <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">4</characteristic>
+                    <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
+                    <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
+                  </characteristics>
+                </profile>
+              </profiles>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
