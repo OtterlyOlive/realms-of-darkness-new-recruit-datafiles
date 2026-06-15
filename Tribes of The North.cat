@@ -211,7 +211,7 @@
     </selectionEntry>
     <selectionEntry id="83f2-2d03-a5ef-f1dc" name="Tribe King" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="f4af-0511-5509-eb87" name="Tribe King" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+        <profile id="f4af-0511-5509-eb87" name="Tribe King" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <characteristics>
             <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5</characteristic>
             <characteristic name="RH" typeId="b74f-2b64-2662-f401">2</characteristic>
@@ -223,6 +223,7 @@
             <characteristic name="WP" typeId="0418-2892-7021-fc1e">15</characteristic>
             <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">3</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+            <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
           </characteristics>
         </profile>
       </profiles>
@@ -360,7 +361,7 @@
     </selectionEntry>
     <selectionEntry id="393e-6bb1-0302-1e66" name="Great Shaman" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="07fa-4bcb-6b8c-7bb4" name="Great Shaman" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+        <profile id="07fa-4bcb-6b8c-7bb4" name="Great Shaman" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <characteristics>
             <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5</characteristic>
             <characteristic name="RH" typeId="b74f-2b64-2662-f401">3</characteristic>
@@ -372,6 +373,7 @@
             <characteristic name="WP" typeId="0418-2892-7021-fc1e">17</characteristic>
             <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">3</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+            <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
           </characteristics>
         </profile>
       </profiles>
@@ -524,7 +526,7 @@
     </selectionEntry>
     <selectionEntry id="cc60-38a5-6e73-a5df" name="Wolfen Huntmaster" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="b68a-eb2a-fce6-ff87" name="Wolfen Huntmaster" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+        <profile id="b68a-eb2a-fce6-ff87" name="Wolfen Huntmaster" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <characteristics>
             <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6</characteristic>
             <characteristic name="RH" typeId="b74f-2b64-2662-f401">3</characteristic>
@@ -536,6 +538,7 @@
             <characteristic name="WP" typeId="0418-2892-7021-fc1e">18</characteristic>
             <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">4</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+            <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
           </characteristics>
         </profile>
       </profiles>
@@ -672,7 +675,7 @@
     </selectionEntry>
     <selectionEntry id="11c5-c656-563b-516f" name="Wolfen Shaman" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="02c4-92ae-4b2d-6ef3" name="Wolfen Shaman" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+        <profile id="02c4-92ae-4b2d-6ef3" name="Wolfen Shaman" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <characteristics>
             <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6</characteristic>
             <characteristic name="RH" typeId="b74f-2b64-2662-f401">3</characteristic>
@@ -684,6 +687,7 @@
             <characteristic name="WP" typeId="0418-2892-7021-fc1e">17</characteristic>
             <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">3</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+            <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
           </characteristics>
         </profile>
       </profiles>
@@ -842,7 +846,7 @@
     </selectionEntry>
     <selectionEntry id="80d4-7d2a-1204-ee8b" name="Shaman" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="043b-177a-7b65-493f" name="Shaman" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+        <profile id="043b-177a-7b65-493f" name="Shaman" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <characteristics>
             <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5</characteristic>
             <characteristic name="RH" typeId="b74f-2b64-2662-f401">4</characteristic>
@@ -854,6 +858,7 @@
             <characteristic name="WP" typeId="0418-2892-7021-fc1e">15</characteristic>
             <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">2</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+            <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1005,7 +1010,7 @@
     </selectionEntry>
     <selectionEntry id="592d-d478-e118-35ba" name="Tribe Leader" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="82b8-abad-1fed-f9e8" name="Tribe Leader" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+        <profile id="82b8-abad-1fed-f9e8" name="Tribe Leader" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <characteristics>
             <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5</characteristic>
             <characteristic name="RH" typeId="b74f-2b64-2662-f401">3</characteristic>
@@ -1017,6 +1022,7 @@
             <characteristic name="WP" typeId="0418-2892-7021-fc1e">15</characteristic>
             <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">2</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+            <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1197,7 +1203,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
             <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffe6-bcae-8de5-b73a" type="min"/>
           </constraints>
           <profiles>
-            <profile id="30bc-8201-942d-3b2b" name="Raider" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+            <profile id="30bc-8201-942d-3b2b" name="Raider" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
@@ -1209,6 +1215,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">9</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1225,7 +1232,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef08-4731-1207-cda0" type="max"/>
               </constraints>
               <profiles>
-                <profile id="283c-cd2d-35f9-2c7f" name="Raider Champion" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+                <profile id="283c-cd2d-35f9-2c7f" name="Raider Champion" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
                   <characteristics>
                     <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5</characteristic>
                     <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
@@ -1237,6 +1244,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                     <characteristic name="WP" typeId="0418-2892-7021-fc1e">9</characteristic>
                     <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                     <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                    <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1484,7 +1492,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
             <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c183-d387-2162-fbd3" type="min"/>
           </constraints>
           <profiles>
-            <profile id="b99f-f21e-1693-56b3" name="Wolfkin" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+            <profile id="b99f-f21e-1693-56b3" name="Wolfkin" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">5+</characteristic>
@@ -1496,6 +1504,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">14</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">2</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1512,7 +1521,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a86-fb4e-32e5-ab70" type="max"/>
               </constraints>
               <profiles>
-                <profile id="70b0-3aff-aa68-fa31" name="Wolfkin Champion" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+                <profile id="70b0-3aff-aa68-fa31" name="Wolfkin Champion" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
                   <characteristics>
                     <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6</characteristic>
                     <characteristic name="RH" typeId="b74f-2b64-2662-f401">5+</characteristic>
@@ -1524,6 +1533,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                     <characteristic name="WP" typeId="0418-2892-7021-fc1e">14</characteristic>
                     <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">2</characteristic>
                     <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                    <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1675,7 +1685,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
             <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3eb-d837-c0f2-d314" type="min"/>
           </constraints>
           <profiles>
-            <profile id="c055-a9c5-1943-2e23" name="Mounted Raiders" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+            <profile id="c055-a9c5-1943-2e23" name="Mounted Raiders" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
@@ -1687,9 +1697,10 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">9</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
               </characteristics>
             </profile>
-            <profile id="f2fc-34a8-1596-265f" name="Horse" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+            <profile id="f2fc-34a8-1596-265f" name="Horse" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">8</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">-</characteristic>
@@ -1701,6 +1712,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">-</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">-</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1717,7 +1729,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6188-66c7-9c1b-04cd" type="max"/>
               </constraints>
               <profiles>
-                <profile id="08a2-0665-5a1b-08ea" name="Raider Chapion" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+                <profile id="08a2-0665-5a1b-08ea" name="Raider Chapion" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
                   <characteristics>
                     <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5</characteristic>
                     <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
@@ -1729,6 +1741,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                     <characteristic name="WP" typeId="0418-2892-7021-fc1e">9</characteristic>
                     <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                     <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                    <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1900,7 +1913,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
             <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9092-1e2a-1032-a7b2" type="min"/>
           </constraints>
           <profiles>
-            <profile id="f064-5a8f-1449-8a9c" name="Rake" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+            <profile id="f064-5a8f-1449-8a9c" name="Rake" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
@@ -1912,6 +1925,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">9</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1928,7 +1942,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d04-2ffa-7706-25a6" type="max"/>
               </constraints>
               <profiles>
-                <profile id="25a6-53bb-7c50-71e2" name="Gangleader" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+                <profile id="25a6-53bb-7c50-71e2" name="Gangleader" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
                   <characteristics>
                     <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5</characteristic>
                     <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
@@ -1940,6 +1954,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                     <characteristic name="WP" typeId="0418-2892-7021-fc1e">9</characteristic>
                     <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                     <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                    <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2112,7 +2127,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
             <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9d3-7318-0a60-d480" type="min"/>
           </constraints>
           <profiles>
-            <profile id="04e7-bd5d-0fde-574b" name="Cityfolk" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+            <profile id="04e7-bd5d-0fde-574b" name="Cityfolk" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
@@ -2124,6 +2139,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">9</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2140,7 +2156,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc9a-c6ff-d62e-77f3" type="max"/>
               </constraints>
               <profiles>
-                <profile id="413b-7963-9560-d01b" name="Citifolk Champion" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+                <profile id="413b-7963-9560-d01b" name="Citifolk Champion" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
                   <characteristics>
                     <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5</characteristic>
                     <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
@@ -2152,6 +2168,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                     <characteristic name="WP" typeId="0418-2892-7021-fc1e">9</characteristic>
                     <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                     <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                    <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2330,7 +2347,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
             <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57c8-df6c-d5cb-18c5" type="min"/>
           </constraints>
           <profiles>
-            <profile id="48ce-20e2-2ac9-cdea" name="Unit stats" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+            <profile id="48ce-20e2-2ac9-cdea" name="Unit stats" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
@@ -2342,6 +2359,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">9</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2358,7 +2376,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cf5-0a6b-7185-ee4b" type="max"/>
               </constraints>
               <profiles>
-                <profile id="8a8f-76b4-4d8e-4c92" name="Unit leader stats" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+                <profile id="8a8f-76b4-4d8e-4c92" name="Unit leader stats" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
                   <characteristics>
                     <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5</characteristic>
                     <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
@@ -2370,6 +2388,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                     <characteristic name="WP" typeId="0418-2892-7021-fc1e">9</characteristic>
                     <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                     <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                    <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2636,7 +2655,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
             <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c92-0ec1-7a64-00bd" type="min"/>
           </constraints>
           <profiles>
-            <profile id="7479-0976-38b3-59bd" name="Wolfkin Einherjar" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+            <profile id="7479-0976-38b3-59bd" name="Wolfkin Einherjar" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">5+</characteristic>
@@ -2648,6 +2667,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">14</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">2</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2664,7 +2684,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42a4-f08f-d7e2-230d" type="max"/>
               </constraints>
               <profiles>
-                <profile id="6ebf-b10e-e138-3e92" name="Wolfkin Champion" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+                <profile id="6ebf-b10e-e138-3e92" name="Wolfkin Champion" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
                   <characteristics>
                     <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6</characteristic>
                     <characteristic name="RH" typeId="b74f-2b64-2662-f401">5+</characteristic>
@@ -2676,6 +2696,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                     <characteristic name="WP" typeId="0418-2892-7021-fc1e">14</characteristic>
                     <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">2</characteristic>
                     <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                    <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2841,7 +2862,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
             <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9232-19a2-0733-3071" type="min"/>
           </constraints>
           <profiles>
-            <profile id="3706-1a71-6fa6-06e6" name="Wolf Swarm" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+            <profile id="3706-1a71-6fa6-06e6" name="Wolf Swarm" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">7</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">-</characteristic>
@@ -2853,6 +2874,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">12</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">3</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2885,7 +2907,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
             <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee40-26e9-045a-303f" type="min"/>
           </constraints>
           <profiles>
-            <profile id="469f-5330-11d2-865d" name="Berserker" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+            <profile id="469f-5330-11d2-865d" name="Berserker" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
@@ -2897,6 +2919,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">15</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2913,7 +2936,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec1b-1906-fce3-5737" type="max"/>
               </constraints>
               <profiles>
-                <profile id="4378-842d-7cb5-11e0" name="Berserker Champion" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+                <profile id="4378-842d-7cb5-11e0" name="Berserker Champion" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
                   <characteristics>
                     <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5</characteristic>
                     <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
@@ -2925,6 +2948,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                     <characteristic name="WP" typeId="0418-2892-7021-fc1e">9</characteristic>
                     <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                     <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                    <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3046,7 +3070,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
             <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f32-e110-f3a9-18a2" type="min"/>
           </constraints>
           <profiles>
-            <profile id="c69b-bd43-886d-0207" name="Direwolf" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+            <profile id="c69b-bd43-886d-0207" name="Direwolf" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">7</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">-</characteristic>
@@ -3058,6 +3082,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">12</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">2</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3074,7 +3099,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bdd-4166-64e5-65aa" type="max"/>
               </constraints>
               <profiles>
-                <profile id="45fb-4e59-a2e8-de4e" name="Alpha" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+                <profile id="45fb-4e59-a2e8-de4e" name="Alpha" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
                   <characteristics>
                     <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">7</characteristic>
                     <characteristic name="RH" typeId="b74f-2b64-2662-f401">-</characteristic>
@@ -3086,6 +3111,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                     <characteristic name="WP" typeId="0418-2892-7021-fc1e">12</characteristic>
                     <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">2</characteristic>
                     <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                    <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3130,7 +3156,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
             <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a93-fbb0-9383-57e8" type="min"/>
           </constraints>
           <profiles>
-            <profile id="a9f3-c024-d0cb-3c87" name="Ice Troll" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+            <profile id="a9f3-c024-d0cb-3c87" name="Ice Troll" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">5+</characteristic>
@@ -3142,6 +3168,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">9</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">3</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3180,7 +3207,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
             <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3498-7313-1fbf-4059" type="min"/>
           </constraints>
           <profiles>
-            <profile id="5896-db0b-42dc-2b5f" name="Mountain Troll" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+            <profile id="5896-db0b-42dc-2b5f" name="Mountain Troll" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">5+</characteristic>
@@ -3192,6 +3219,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">10</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">3</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3229,7 +3257,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
             <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6016-1902-8415-e38f" type="min"/>
           </constraints>
           <profiles>
-            <profile id="d903-0a34-dc2c-fdea" name="Troll" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+            <profile id="d903-0a34-dc2c-fdea" name="Troll" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">5+</characteristic>
@@ -3241,6 +3269,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">10</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">3</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3264,7 +3293,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c30-6445-a2fc-976c" type="min"/>
           </constraints>
           <profiles>
-            <profile id="e1c5-86b5-c3e6-5351" name="Crewmen" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+            <profile id="e1c5-86b5-c3e6-5351" name="Crewmen" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
@@ -3276,9 +3305,10 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">9</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
               </characteristics>
             </profile>
-            <profile id="413c-722f-fe1f-2359" name="Bolt Thrower" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+            <profile id="413c-722f-fe1f-2359" name="Bolt Thrower" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">-</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">-</characteristic>
@@ -3290,6 +3320,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">-</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">3</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
               </characteristics>
             </profile>
             <profile id="8834-6926-62df-54fa" name="Bolt Thrower" hidden="false" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon">
@@ -3299,6 +3330,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                 <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">0</characteristic>
                 <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">40&quot;</characteristic>
                 <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Direct, Crushing hit</characteristic>
+                <characteristic name="Special Rules" typeId="5353-ed52-2205-a615"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3344,7 +3376,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
             <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf81-8a31-bcbf-fdfe" type="min"/>
           </constraints>
           <profiles>
-            <profile id="4f2c-8b88-69eb-7a74" name="Elder Raider" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+            <profile id="4f2c-8b88-69eb-7a74" name="Elder Raider" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
@@ -3356,6 +3388,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">11</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3372,7 +3405,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a0b-73f7-031d-42a4" type="max"/>
               </constraints>
               <profiles>
-                <profile id="60b0-68ee-537a-62b0" name="Raider Champion" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+                <profile id="60b0-68ee-537a-62b0" name="Raider Champion" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
                   <characteristics>
                     <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5</characteristic>
                     <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
@@ -3384,6 +3417,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
                     <characteristic name="WP" typeId="0418-2892-7021-fc1e">9</characteristic>
                     <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                     <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                    <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3620,7 +3654,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
     </selectionEntry>
     <selectionEntry id="8118-cf75-acc7-e3fb" name="Fenris Wolf" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="925a-1178-f701-a9ab" name="Fenris Wolf" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+        <profile id="925a-1178-f701-a9ab" name="Fenris Wolf" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <characteristics>
             <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">9</characteristic>
             <characteristic name="RH" typeId="b74f-2b64-2662-f401">-</characteristic>
@@ -3632,6 +3666,7 @@ A banner gives the unit carrying it +1WP. Additionally it also gives +1 combat f
             <characteristic name="WP" typeId="0418-2892-7021-fc1e">20</characteristic>
             <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">5</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+            <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3697,7 +3732,7 @@ Howl of Ragnark is a curse spell that hits all enemy units within 15”. The uni
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db3e-2b99-282f-aede" type="min"/>
           </constraints>
           <profiles>
-            <profile id="658f-9140-9cc8-cce8" name="Warbear" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+            <profile id="658f-9140-9cc8-cce8" name="Warbear" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">7</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">-</characteristic>
@@ -3709,6 +3744,7 @@ Howl of Ragnark is a curse spell that hits all enemy units within 15”. The uni
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">15</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">3</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3750,7 +3786,7 @@ Howl of Ragnark is a curse spell that hits all enemy units within 15”. The uni
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1464-732d-8918-22f5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0ee9-6e24-384f-8d18" name="Ice Giant" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+            <profile id="0ee9-6e24-384f-8d18" name="Ice Giant" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">5+</characteristic>
@@ -3762,6 +3798,7 @@ Howl of Ragnark is a curse spell that hits all enemy units within 15”. The uni
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">17</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">7</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3817,7 +3854,7 @@ Howl of Ragnark is a curse spell that hits all enemy units within 15”. The uni
             <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e960-8e4f-b632-13ac" type="min"/>
           </constraints>
           <profiles>
-            <profile id="b7a0-2748-9694-6c34" name="Valkyr" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+            <profile id="b7a0-2748-9694-6c34" name="Valkyr" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
@@ -3829,6 +3866,7 @@ Howl of Ragnark is a curse spell that hits all enemy units within 15”. The uni
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">15</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">2</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3845,7 +3883,7 @@ Howl of Ragnark is a curse spell that hits all enemy units within 15”. The uni
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f72a-67a4-72dd-8c89" type="max"/>
               </constraints>
               <profiles>
-                <profile id="af69-a2f6-cd84-5a0e" name="Valkyr Champion" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+                <profile id="af69-a2f6-cd84-5a0e" name="Valkyr Champion" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
                   <characteristics>
                     <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5</characteristic>
                     <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
@@ -3857,6 +3895,7 @@ Howl of Ragnark is a curse spell that hits all enemy units within 15”. The uni
                     <characteristic name="WP" typeId="0418-2892-7021-fc1e">9</characteristic>
                     <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                     <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                    <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3980,7 +4019,7 @@ Howl of Ragnark is a curse spell that hits all enemy units within 15”. The uni
             <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0eb1-d6f4-03a6-e822" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8c94-9902-7661-c791" name="Wolfkin Ice Giant" hidden="false" typeId="9e8a-1733-b871-3826" typeName=" Unit">
+            <profile id="8c94-9902-7661-c791" name="Wolfkin Ice Giant" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">5+</characteristic>
@@ -3992,6 +4031,7 @@ Howl of Ragnark is a curse spell that hits all enemy units within 15”. The uni
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">15</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">5</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4033,6 +4073,7 @@ Howl of Ragnark is a curse spell that hits all enemy units within 15”. The uni
                 <characteristic name="Save" typeId="4e87-a458-fe7d-8c9b">5+/+2</characteristic>
                 <characteristic name="Penalty" typeId="1ec1-f4db-6bb9-8a01">-1</characteristic>
                 <characteristic name="Type" typeId="a447-7f68-3e61-8845">Armour</characteristic>
+                <characteristic name="Special Rules" typeId="03e6-32c2-e9e2-24d3"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4055,6 +4096,7 @@ Howl of Ragnark is a curse spell that hits all enemy units within 15”. The uni
                 <characteristic name="Save" typeId="4e87-a458-fe7d-8c9b">6+/+1</characteristic>
                 <characteristic name="Penalty" typeId="1ec1-f4db-6bb9-8a01">0</characteristic>
                 <characteristic name="Type" typeId="a447-7f68-3e61-8845">Armour</characteristic>
+                <characteristic name="Special Rules" typeId="03e6-32c2-e9e2-24d3"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4146,6 +4188,7 @@ Howl of Ragnark is a curse spell that hits all enemy units within 15”. The uni
                 <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">0</characteristic>
                 <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">25&quot;</characteristic>
                 <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Direct, Magic</characteristic>
+                <characteristic name="Special Rules" typeId="5353-ed52-2205-a615"/>
               </characteristics>
             </profile>
             <profile id="c19f-60ee-8780-515e" name="Staff of elemental POWER" hidden="false" typeId="090b-d919-0802-8838" typeName="Melee Weapon">
@@ -4153,6 +4196,7 @@ Howl of Ragnark is a curse spell that hits all enemy units within 15”. The uni
                 <characteristic name="Power" typeId="a529-f46c-fe6f-4048">user</characteristic>
                 <characteristic name="Penalty" typeId="7761-068c-0a80-ee08">0</characteristic>
                 <characteristic name="Type" typeId="d2bb-d955-061f-6146">Two handed</characteristic>
+                <characteristic name="Special Rules" typeId="c9c1-27d6-3445-a058"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4265,6 +4309,7 @@ Magic infusion: The wizard can discard a power token when the magic phase ends a
                 <characteristic name="Power" typeId="a529-f46c-fe6f-4048">+1</characteristic>
                 <characteristic name="Penalty" typeId="7761-068c-0a80-ee08">-1</characteristic>
                 <characteristic name="Type" typeId="d2bb-d955-061f-6146">Weapon: Hammer - One-Handed</characteristic>
+                <characteristic name="Special Rules" typeId="c9c1-27d6-3445-a058"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4289,6 +4334,7 @@ Burning Blow: The hammer has magical attacks of the fire type, additionally all 
                 <characteristic name="Power" typeId="a529-f46c-fe6f-4048">1</characteristic>
                 <characteristic name="Penalty" typeId="7761-068c-0a80-ee08">0</characteristic>
                 <characteristic name="Type" typeId="d2bb-d955-061f-6146">Weapon: One handed - bastard sword</characteristic>
+                <characteristic name="Special Rules" typeId="c9c1-27d6-3445-a058"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4314,6 +4360,7 @@ Toll of death, if this sword does not cause 7 wounds worth of damage at the end 
                 <characteristic name="Power" typeId="a529-f46c-fe6f-4048">+1</characteristic>
                 <characteristic name="Penalty" typeId="7761-068c-0a80-ee08">0</characteristic>
                 <characteristic name="Type" typeId="d2bb-d955-061f-6146">Weapon: One-handed, Sword</characteristic>
+                <characteristic name="Special Rules" typeId="c9c1-27d6-3445-a058"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4338,6 +4385,7 @@ All enemy models in base contact with the model wearing the armour get -2WA.</de
                 <characteristic name="Power" typeId="a529-f46c-fe6f-4048"/>
                 <characteristic name="Penalty" typeId="7761-068c-0a80-ee08">0</characteristic>
                 <characteristic name="Type" typeId="d2bb-d955-061f-6146">Weapon: Two-handed</characteristic>
+                <characteristic name="Special Rules" typeId="c9c1-27d6-3445-a058"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4364,6 +4412,7 @@ In addition the weilder is allowed join Any unit of Wolves or dire wolves</descr
                 <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">0</characteristic>
                 <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">30&quot;</characteristic>
                 <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Direct, Armour Piercing</characteristic>
+                <characteristic name="Special Rules" typeId="5353-ed52-2205-a615"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4388,6 +4437,7 @@ Hurricane Bolts: The bow is magical of the air type.</description>
                 <characteristic name="Power" typeId="a529-f46c-fe6f-4048"/>
                 <characteristic name="Penalty" typeId="7761-068c-0a80-ee08">0</characteristic>
                 <characteristic name="Type" typeId="d2bb-d955-061f-6146">Weapon: blank</characteristic>
+                <characteristic name="Special Rules" typeId="c9c1-27d6-3445-a058"/>
               </characteristics>
             </profile>
           </profiles>
