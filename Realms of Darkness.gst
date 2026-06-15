@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="09a0-626b-16e9-bcae" name="Realms of Darkness" revision="79" battleScribeVersion="2.03" authorName="Erik Valeur" authorContact="grunanca@gmail.com" authorUrl="https://realmsofdarkness.dk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="09a0-626b-16e9-bcae" name="Realms of Darkness" revision="80" battleScribeVersion="2.03" authorName="Erik Valeur" authorContact="grunanca@gmail.com" authorUrl="https://realmsofdarkness.dk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <costTypes>
     <costType id="5119-770c-ea3a-8a8c" name="pts" defaultCostLimit="-1" hidden="false"/>
   </costTypes>
@@ -440,18 +440,9 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
       </costs>
     </selectionEntry>
     <selectionEntry id="9b62-f115-b2cc-4fbc" name="Flail" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="172d-2c6f-a623-ceea" name="Flail" hidden="false" typeId="090b-d919-0802-8838" typeName="Melee Weapon">
-          <characteristics>
-            <characteristic name="Power" typeId="a529-f46c-fe6f-4048">User</characteristic>
-            <characteristic name="Penalty" typeId="7761-068c-0a80-ee08">-</characteristic>
-            <characteristic name="Type" typeId="d2bb-d955-061f-6146">One-handed</characteristic>
-            <characteristic name="Special Rules" typeId="c9c1-27d6-3445-a058">Shieldbane</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <infoLinks>
         <infoLink id="62e5-9b81-c2b2-c5a8" name="Shieldbane" hidden="false" targetId="7636-c2c7-1d72-8aa5" type="rule"/>
+        <infoLink name="Flail" id="348a-6802-849a-3eef" hidden="false" type="profile" targetId="2052-79b3-4404-1eb1"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
@@ -2563,10 +2554,17 @@ RPG only: The item removes one Corruption token at the end of each adventure.</c
             <characteristic name="Type" typeId="a447-7f68-3e61-8845">Armour, Tough Hide</characteristic>
             <characteristic name="Special Rules" typeId="03e6-32c2-e9e2-24d3"/>
           </characteristics>
+          <modifiers>
+            <modifier type="set" value="Scaly Skin (Tough Hide)" field="name"/>
+          </modifiers>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="26fe-ae33-1827-39a2" name="Tough Hide" hidden="false" targetId="f93a-76fb-06fc-378e" type="rule"/>
+        <infoLink id="26fe-ae33-1827-39a2" name="Tough Hide" hidden="false" targetId="f93a-76fb-06fc-378e" type="rule">
+          <modifiers>
+            <modifier type="set" value="Scaly Skin (Tough Hide)" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
@@ -3688,7 +3686,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
             <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">6</characteristic>
             <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-3I</characteristic>
             <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">12&quot;</characteristic>
-            <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Direct</characteristic>
+            <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Breath</characteristic>
             <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Corroding Flames, Inferno</characteristic>
           </characteristics>
         </profile>
@@ -9957,6 +9955,19 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="75"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="17c3-3e16-4de1-17b4" name="Two Flails" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8794-9b60-f5ba-ffa9" name="Shieldbane" hidden="false" targetId="7636-c2c7-1d72-8aa5" type="rule"/>
+        <infoLink name="Flail" id="04e3-c2d2-d431-71e4" hidden="false" type="profile" targetId="2052-79b3-4404-1eb1">
+          <modifiers>
+            <modifier type="set" value="Two Flails" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="8dfb-bc2f-8758-e27b" name="Lore of Earth" hidden="false" collective="false" import="true">
@@ -13227,6 +13238,14 @@ Characters and units with the monster or large monster rule, only lose half the 
         <characteristic name="Penalty" typeId="7761-068c-0a80-ee08">-1I</characteristic>
         <characteristic name="Type" typeId="d2bb-d955-061f-6146">One-handed</characteristic>
         <characteristic name="Special Rules" typeId="c9c1-27d6-3445-a058">Piercing Spikes</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Flail" typeId="090b-d919-0802-8838" typeName="Melee Weapon" hidden="false" id="2052-79b3-4404-1eb1">
+      <characteristics>
+        <characteristic name="Power" typeId="a529-f46c-fe6f-4048">User</characteristic>
+        <characteristic name="Penalty" typeId="7761-068c-0a80-ee08">-</characteristic>
+        <characteristic name="Type" typeId="d2bb-d955-061f-6146">One-handed</characteristic>
+        <characteristic name="Special Rules" typeId="c9c1-27d6-3445-a058">Shieldbane</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

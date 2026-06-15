@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="12c8-46df-4ed8-75a7" name="Ratmen" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="29" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="12c8-46df-4ed8-75a7" name="Ratmen" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="29" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="eb22-585b-9900-ad85" name="Clan Warriors" hidden="false" collective="false" import="true" targetId="52a2-cc30-3c6d-2660" type="selectionEntry">
       <categoryLinks>
@@ -128,7 +128,7 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="f25e-0619-443f-eb51" name="Warlord" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="f25e-0619-443f-eb51" name="Warlord" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="c098-19c3-60f9-945f" name="Warlord" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <characteristics>
@@ -138,7 +138,7 @@
             <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">16</characteristic>
             <characteristic name="P" typeId="1192-a747-177a-64eb">6</characteristic>
             <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
-            <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
+            <characteristic name="A" typeId="5d8c-74be-d893-50e2">4</characteristic>
             <characteristic name="WP" typeId="0418-2892-7021-fc1e">10</characteristic>
             <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">3</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -153,6 +153,11 @@
             <modifier type="increment" value="1" field="0f73-3c43-4701-9086">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="f25e-0619-443f-eb51" childId="9335-35bd-713d-6173" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="f25e-0619-443f-eb51" childId="6710-e77d-7d9a-f9b7" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -296,15 +301,24 @@
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="50"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Warlord" hidden="false" id="bacc-bfab-d080-cf68">
+          <comment>Needed for Model requirements in Mutations</comment>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8c4a-0b08-a41f-4d4c-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8c4a-0b08-a41f-4d4c-max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
-    <selectionEntry id="0043-52fe-c92c-48d9" name="Great Sorcerer" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="0043-52fe-c92c-48d9" name="Great Sorcerer" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="5a65-b1dd-1b2f-5e3f" name="Great Sorcerer" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <characteristics>
             <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
             <characteristic name="RH" typeId="b74f-2b64-2662-f401">2+</characteristic>
             <characteristic name="WA" typeId="0f73-3c43-4701-9086">6</characteristic>
-            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">16</characteristic>
+            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">17</characteristic>
             <characteristic name="P" typeId="1192-a747-177a-64eb">6</characteristic>
             <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
             <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
@@ -320,6 +334,11 @@
               </conditions>
             </modifier>
             <modifier type="increment" value="1" field="c6ff-4f15-d25e-6719">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="0043-52fe-c92c-48d9" childId="6710-e77d-7d9a-f9b7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="0043-52fe-c92c-48d9" childId="6710-e77d-7d9a-f9b7" shared="true"/>
               </conditions>
@@ -481,10 +500,20 @@
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="45"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Great Sorcerer" hidden="false" id="4e40-c10d-97f2-ce9c">
+          <comment>Needed for Model requirements in Mutations</comment>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4633-7c50-aee0-d68d-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4633-7c50-aee0-d68d-max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry id="52a2-cc30-3c6d-2660" name="Clan Warriors" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="671b-54a8-2c29-c43a" name="Terrain Jumper" hidden="false" targetId="377d-1eae-e43e-7b9b" type="rule"/>
+        <infoLink name="Expendable" id="d4ee-5db0-c802-9484" hidden="false" type="rule" targetId="f42c-54f9-f7fd-ae6d"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="a20e-fb01-2968-d499" name="Warrior" hidden="false" collective="false" import="true" type="model">
@@ -498,7 +527,7 @@
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
                 <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">13</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
                 <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
@@ -523,7 +552,7 @@
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
                 <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">13</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
                 <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
@@ -635,14 +664,14 @@
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="976a-ccb3-6145-bf4c" name="Plague High Priest" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="976a-ccb3-6145-bf4c" name="Plague High Priest" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="7028-e316-b114-caef" name="Plague High Priest" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <characteristics>
             <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
             <characteristic name="RH" typeId="b74f-2b64-2662-f401">3+</characteristic>
             <characteristic name="WA" typeId="0f73-3c43-4701-9086">7</characteristic>
-            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">14</characteristic>
+            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">16</characteristic>
             <characteristic name="P" typeId="1192-a747-177a-64eb">6</characteristic>
             <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
             <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
@@ -658,6 +687,11 @@
               </conditions>
             </modifier>
             <modifier type="increment" value="1" field="c6ff-4f15-d25e-6719">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="976a-ccb3-6145-bf4c" childId="6710-e77d-7d9a-f9b7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="976a-ccb3-6145-bf4c" childId="6710-e77d-7d9a-f9b7" shared="true"/>
               </conditions>
@@ -734,7 +768,7 @@
             <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04d3-172b-1dba-adbc" type="max"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="15"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="20"/>
           </costs>
         </entryLink>
         <entryLink id="936a-ab92-173f-f706" name="Wizard Staff" hidden="false" collective="false" import="true" targetId="26a9-09f2-e122-ac5a" type="selectionEntry">
@@ -747,17 +781,26 @@
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="55"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Plague High Priest" hidden="false" id="986a-5e07-349e-9dca">
+          <comment>Needed for Model requirements in Mutations</comment>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f5ea-2f30-67e1-d91a-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f5ea-2f30-67e1-d91a-max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
-    <selectionEntry id="8718-6e2b-42b6-5701" name="Clan Leader" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="8718-6e2b-42b6-5701" name="Clan Leader" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="84ee-acc1-4d78-282d" name="Clan Leader" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <characteristics>
             <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
             <characteristic name="RH" typeId="b74f-2b64-2662-f401">3+</characteristic>
             <characteristic name="WA" typeId="0f73-3c43-4701-9086">7</characteristic>
-            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">14</characteristic>
+            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">16</characteristic>
             <characteristic name="P" typeId="1192-a747-177a-64eb">6</characteristic>
-            <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
+            <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
             <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
             <characteristic name="WP" typeId="0418-2892-7021-fc1e">9</characteristic>
             <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">2</characteristic>
@@ -773,6 +816,11 @@
             <modifier type="increment" value="1" field="0f73-3c43-4701-9086">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="8718-6e2b-42b6-5701" childId="9335-35bd-713d-6173" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="8718-6e2b-42b6-5701" childId="6710-e77d-7d9a-f9b7" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -917,8 +965,17 @@
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="40"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Clan Leader" hidden="false" id="165f-adee-f1be-39e7">
+          <comment>Needed for Model requirements in Mutations</comment>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="78b0-a4db-e059-6e02-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="78b0-a4db-e059-6e02-max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
-    <selectionEntry id="989f-1959-7670-08a8" name="Assassin" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="989f-1959-7670-08a8" name="Assassin" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="9eaf-4827-02f7-9499" name="Assassin" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <characteristics>
@@ -943,6 +1000,11 @@
             <modifier type="increment" value="1" field="0f73-3c43-4701-9086">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="989f-1959-7670-08a8" childId="9335-35bd-713d-6173" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="989f-1959-7670-08a8" childId="6710-e77d-7d9a-f9b7" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1025,15 +1087,24 @@
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Assassin" hidden="false" id="cb37-a739-23ee-dbd7">
+          <comment>Needed for Model requirements in Mutations</comment>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c07d-3318-4e0d-b79c-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c07d-3318-4e0d-b79c-max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
-    <selectionEntry id="5978-4f3b-0645-0265" name="Sorcerer" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="5978-4f3b-0645-0265" name="Sorcerer" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="5ea1-6f15-0052-c4c6" name="Sorcerer" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <characteristics>
             <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
             <characteristic name="RH" typeId="b74f-2b64-2662-f401">3+</characteristic>
             <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
-            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">14</characteristic>
+            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">16</characteristic>
             <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
             <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
             <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
@@ -1051,6 +1122,11 @@
             <modifier type="increment" value="1" field="0f73-3c43-4701-9086">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="5978-4f3b-0645-0265" childId="9335-35bd-713d-6173" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="5978-4f3b-0645-0265" childId="6710-e77d-7d9a-f9b7" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1210,15 +1286,24 @@
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="35"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Sorcerer" hidden="false" id="19a5-dcd4-0ee1-c214">
+          <comment>Needed for Model requirements in Mutations</comment>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2013-aeaf-aa63-054e-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2013-aeaf-aa63-054e-max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
-    <selectionEntry id="74a4-1f0a-78a2-9965" name="Engineer" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="74a4-1f0a-78a2-9965" name="Engineer" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="edf9-7a45-e016-5382" name="Engineer" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <characteristics>
             <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
             <characteristic name="RH" typeId="b74f-2b64-2662-f401">2+</characteristic>
             <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
-            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
+            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">15</characteristic>
             <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
             <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
             <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
@@ -1236,6 +1321,11 @@
             <modifier type="increment" value="1" field="0f73-3c43-4701-9086">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="74a4-1f0a-78a2-9965" childId="9335-35bd-713d-6173" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="74a4-1f0a-78a2-9965" childId="6710-e77d-7d9a-f9b7" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1360,15 +1450,24 @@
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="25"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Engineer" hidden="false" id="400c-4eb4-a33e-56eb">
+          <comment>Needed for Model requirements in Mutations</comment>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c0f0-194d-8bd6-8985-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c0f0-194d-8bd6-8985-max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
-    <selectionEntry id="7a17-2301-e533-e111" name="Plague Priest" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="7a17-2301-e533-e111" name="Plague Priest" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="d468-8558-ea7d-b894" name="Plague Priest" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <characteristics>
             <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
             <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
-            <characteristic name="WA" typeId="0f73-3c43-4701-9086">6</characteristic>
-            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
+            <characteristic name="WA" typeId="0f73-3c43-4701-9086">7</characteristic>
+            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">15</characteristic>
             <characteristic name="P" typeId="1192-a747-177a-64eb">6</characteristic>
             <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
             <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
@@ -1384,6 +1483,11 @@
               </conditions>
             </modifier>
             <modifier type="increment" value="1" field="c6ff-4f15-d25e-6719">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="7a17-2301-e533-e111" childId="6710-e77d-7d9a-f9b7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="7a17-2301-e533-e111" childId="6710-e77d-7d9a-f9b7" shared="true"/>
               </conditions>
@@ -1473,15 +1577,24 @@
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="40"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Plague Priest" hidden="false" id="0e56-d237-189a-0113">
+          <comment>Needed for Model requirements in Mutations</comment>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a550-8dad-6b50-0c0f-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a550-8dad-6b50-0c0f-max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
-    <selectionEntry id="928b-a4ab-9792-c7fa" name="Sea Lord" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="928b-a4ab-9792-c7fa" name="Sea Lord" hidden="false" collective="false" import="true" type="unit">
       <profiles>
         <profile id="4ab8-c7ca-fea8-211b" name="Sea Lord" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <characteristics>
             <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
             <characteristic name="RH" typeId="b74f-2b64-2662-f401">3+</characteristic>
             <characteristic name="WA" typeId="0f73-3c43-4701-9086">7</characteristic>
-            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">14</characteristic>
+            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">16</characteristic>
             <characteristic name="P" typeId="1192-a747-177a-64eb">6</characteristic>
             <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
             <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
@@ -1499,6 +1612,11 @@
             <modifier type="increment" value="1" field="0f73-3c43-4701-9086">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="928b-a4ab-9792-c7fa" childId="9335-35bd-713d-6173" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="928b-a4ab-9792-c7fa" childId="6710-e77d-7d9a-f9b7" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1575,10 +1693,20 @@
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="40"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Sea Lord" hidden="false" id="ad06-33e5-7740-66ba">
+          <comment>Needed for Model requirements in Mutations</comment>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="144c-e811-38b0-cd87-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="144c-e811-38b0-cd87-max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry id="ed51-9af0-0a7a-980d" name="Slaves" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="798e-f64d-9a02-f26f" name="Terrain Jumper" hidden="false" targetId="377d-1eae-e43e-7b9b" type="rule"/>
+        <infoLink name="Expendable" id="b174-18e7-8ba4-ef8c" hidden="false" type="rule" targetId="f42c-54f9-f7fd-ae6d"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="0893-1b78-7071-5c9f" name="Slave" hidden="false" collective="false" import="true" type="model">
@@ -1592,7 +1720,7 @@
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
                 <characteristic name="WA" typeId="0f73-3c43-4701-9086">4</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">9</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">4</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">4</characteristic>
                 <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
@@ -1617,7 +1745,7 @@
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
                 <characteristic name="WA" typeId="0f73-3c43-4701-9086">4</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">9</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">4</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">4</characteristic>
                 <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
@@ -1733,6 +1861,9 @@
       <infoLinks>
         <infoLink id="bb9d-7bb2-b352-11a0" name="Unorganised" hidden="false" targetId="c7f9-9deb-76d6-6a89" type="rule"/>
         <infoLink id="d52e-553e-9b75-08e2" name="Terrain Jumper" hidden="false" targetId="377d-1eae-e43e-7b9b" type="rule"/>
+        <infoLink name="Expendable" id="9ac9-f8ff-cf2e-7102" hidden="false" type="rule" targetId="f42c-54f9-f7fd-ae6d"/>
+        <infoLink name="Spy" id="2e8b-cbe6-8f4d-bef0" hidden="false" type="rule" targetId="6537-b0fb-b259-b738"/>
+        <infoLink name="Support Unit" id="7a4c-55ac-e49b-cf6d" hidden="false" type="rule" targetId="6f11-5bea-b0e2-ff13"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="aee8-f82f-fcf6-a2f9" name="Stalker" hidden="false" collective="false" import="true" type="model">
@@ -1758,7 +1889,7 @@
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
                 <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">13</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
                 <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
@@ -1783,7 +1914,7 @@
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
                 <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">13</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
                 <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
@@ -1827,6 +1958,7 @@
       <infoLinks>
         <infoLink id="adf4-cc98-e865-d74d" name="Unorganised" hidden="false" targetId="c7f9-9deb-76d6-6a89" type="rule"/>
         <infoLink id="7546-188e-c123-b6a0" name="Terrain Jumper" hidden="false" targetId="377d-1eae-e43e-7b9b" type="rule"/>
+        <infoLink name="Spy" id="4813-a7b2-8050-dbe0" hidden="false" type="rule" targetId="6537-b0fb-b259-b738"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="467d-e7aa-3697-b6cc" name="Death Stalker" hidden="false" collective="false" import="true" type="model">
@@ -1840,7 +1972,7 @@
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">3+</characteristic>
                 <characteristic name="WA" typeId="0f73-3c43-4701-9086">6</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">13</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
                 <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
@@ -1865,7 +1997,7 @@
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">3+</characteristic>
                 <characteristic name="WA" typeId="0f73-3c43-4701-9086">6</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">13</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
                 <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
@@ -1909,6 +2041,7 @@
       <infoLinks>
         <infoLink id="fdbf-70c2-9e1f-a727" name="Mental Fortitude" hidden="false" targetId="8bb5-917e-f208-d694" type="rule"/>
         <infoLink id="790d-f353-c2a0-eb87" name="Terrain Jumper" hidden="false" targetId="377d-1eae-e43e-7b9b" type="rule"/>
+        <infoLink name="Expendable" id="af1b-e9ae-5a41-2ca5" hidden="false" type="rule" targetId="f42c-54f9-f7fd-ae6d"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="dad1-09de-e9e4-d5b3" name="Giant Rat" hidden="false" collective="false" import="true" type="model">
@@ -1922,7 +2055,7 @@
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">-</characteristic>
                 <characteristic name="WA" typeId="0f73-3c43-4701-9086">4</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">13</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">4</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">4</characteristic>
                 <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
@@ -1957,6 +2090,7 @@
         <infoLink id="1a56-3d53-5bd4-0b7d" name="Tiny" hidden="false" targetId="658c-feaf-f7eb-6164" type="rule"/>
         <infoLink id="aa1f-0175-e265-abd5" name="Unorganised" hidden="false" targetId="c7f9-9deb-76d6-6a89" type="rule"/>
         <infoLink id="d4a3-8196-bda9-22f2" name="Fearless" hidden="false" targetId="70cb-1954-bab7-56fe" type="rule"/>
+        <infoLink name="Expendable" id="1bfb-d98f-253a-af45" hidden="false" type="rule" targetId="f42c-54f9-f7fd-ae6d"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="a2ff-0c17-b759-bef8" name="Rat Swarm" hidden="false" collective="false" import="true" type="model">
@@ -1970,7 +2104,7 @@
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">-</characteristic>
                 <characteristic name="WA" typeId="0f73-3c43-4701-9086">4</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">14</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">3</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">3</characteristic>
                 <characteristic name="A" typeId="5d8c-74be-d893-50e2">5</characteristic>
@@ -2014,10 +2148,10 @@
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
                 <characteristic name="WA" typeId="0f73-3c43-4701-9086">6</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">13</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">8</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -2026,7 +2160,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="8"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="9"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="624a-285f-63d3-58f9" name="Flayer" hidden="false" collective="false" import="true" type="upgrade">
@@ -2042,7 +2176,7 @@
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">8</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -2107,7 +2241,7 @@
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1081-a104-2150-ceed" name="Plague Warriors" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1081-a104-2150-ceed" name="Plague Warriors of Nurgast" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="68f0-1d9b-2186-9266" name="Poison" hidden="false" targetId="ccf4-202b-cae8-196b" type="rule"/>
         <infoLink id="2cf9-025d-7f16-6156" name="Berserk" hidden="false" targetId="2797-b442-dfd7-2335" type="rule"/>
@@ -2125,10 +2259,10 @@
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
                 <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">8</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -2137,7 +2271,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="7"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="10"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="230b-d38c-a354-753f" name="Plague Monk" hidden="false" collective="false" import="true" type="upgrade">
@@ -2150,10 +2284,10 @@
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
                 <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">8</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -2192,7 +2326,7 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5485-3dca-1235-ac50" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="d253-c000-c92c-51b7" name="Flail" hidden="false" collective="false" import="true" targetId="9b62-f115-b2cc-4fbc" type="selectionEntry">
+            <entryLink id="d253-c000-c92c-51b7" name="Two Flails" hidden="false" collective="false" import="true" targetId="17c3-3e16-4de1-17b4" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="5119-770c-ea3a-8a8c" value="1">
                   <repeats>
@@ -2201,18 +2335,10 @@
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="a370-a36a-f3b1-da70" name="Two Swords" hidden="false" collective="false" import="true" targetId="d894-c1d4-178c-5506" type="selectionEntry">
-              <modifiers>
-                <modifier type="increment" field="5119-770c-ea3a-8a8c" value="1">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
-            </entryLink>
+            <entryLink id="a370-a36a-f3b1-da70" name="Two Swords" hidden="false" collective="false" import="true" targetId="d894-c1d4-178c-5506" type="selectionEntry"/>
             <entryLink id="7132-c339-be6d-c64b" name="Great Flail" hidden="false" collective="false" import="true" targetId="968e-f4ba-d3bc-ceef" type="selectionEntry">
               <modifiers>
-                <modifier type="increment" field="5119-770c-ea3a-8a8c" value="2">
+                <modifier type="increment" field="5119-770c-ea3a-8a8c" value="1">
                   <repeats>
                     <repeat field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
                   </repeats>
@@ -2242,11 +2368,11 @@
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">5+</characteristic>
                 <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">7</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">11</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">7</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">7</characteristic>
                 <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
-                <characteristic name="WP" typeId="0418-2892-7021-fc1e">13</characteristic>
+                <characteristic name="WP" typeId="0418-2892-7021-fc1e">10</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">3</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
@@ -2254,7 +2380,7 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="32"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="30"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e2b1-4c9a-4d1a-fff6" name="Abomination" hidden="false" collective="false" import="true" type="upgrade">
@@ -2267,11 +2393,11 @@
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">5+</characteristic>
                 <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">7</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">11</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">7</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">7</characteristic>
                 <characteristic name="A" typeId="5d8c-74be-d893-50e2">4</characteristic>
-                <characteristic name="WP" typeId="0418-2892-7021-fc1e">13</characteristic>
+                <characteristic name="WP" typeId="0418-2892-7021-fc1e">10</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">3</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
@@ -2318,34 +2444,119 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="3fcc-5520-81c5-e69e" name="Equipment" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="3fcc-5520-81c5-e69e" name="Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="35e4-c525-0d5a-7474" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="44c1-1cae-f36d-0bd3" name="Ogre Cannon" hidden="false" collective="false" import="true" targetId="b3c9-b230-bed8-3d07" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="increment" value="6" field="5119-770c-ea3a-8a8c">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="32e6-dfa5-d2c3-37c0" name="Great Axe" hidden="false" collective="false" import="true" targetId="c1dc-1aef-017b-c23c" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
+              </costs>
+              <modifiers>
+                <modifier type="increment" value="6" field="5119-770c-ea3a-8a8c">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Axe" hidden="false" id="5897-b38d-4276-0501" type="selectionEntry" targetId="f89d-f50d-2a9a-95da">
+              <modifiers>
+                <modifier type="increment" value="4" field="5119-770c-ea3a-8a8c">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Two Axes" hidden="false" id="f7c8-51c8-e23a-7e58" type="selectionEntry" targetId="ebe6-c680-c6d4-12eb">
+              <modifiers>
+                <modifier type="increment" value="8" field="5119-770c-ea3a-8a8c">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Extra Sword" hidden="false" id="cdb9-bc23-b29a-f4b1" type="selectionEntry" targetId="c460-8005-3174-538f">
+              <modifiers>
+                <modifier type="increment" value="3" field="5119-770c-ea3a-8a8c">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Mutations" id="2e29-420d-89d3-2801" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Ikreet the Verminlord" hidden="false" id="44f5-7d65-6d7a-6481" type="selectionEntryGroup" targetId="9855-bd58-e6e2-3c33">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="parent" childId="44f5-7d65-6d7a-6481" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="2e29-420d-89d3-2801" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Nurgast the Rotten" hidden="false" id="7233-8594-3973-503f" type="selectionEntryGroup" targetId="4d61-4029-7db0-ff70">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="parent" childId="7233-8594-3973-503f" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="2e29-420d-89d3-2801" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Shika of the Deep" hidden="false" id="14cd-5739-3d88-bf53" type="selectionEntryGroup" targetId="b518-29a2-d80b-922f">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="parent" childId="b518-29a2-d80b-922f" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="2e29-420d-89d3-2801" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="0" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="dd0f-ea67-59de-4892"/>
+          </constraints>
           <modifiers>
-            <modifier type="increment" field="63ef-3d8a-f7c3-ed8f" value="1">
+            <modifier type="increment" value="25" field="dd0f-ea67-59de-4892">
               <repeats>
-                <repeat field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                <repeat value="1" repeats="1" field="selections" scope="6aa0-4488-4fd5-7c52" childId="model" shared="true" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
-          <constraints>
-            <constraint field="selections" scope="parent" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63ef-3d8a-f7c3-ed8f" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="10f5-4bbf-59a1-0800" name="Swivel Cannon" hidden="false" collective="false" import="true" targetId="6cd3-e3c6-d4d6-1d16" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="10"/>
-              </costs>
-            </entryLink>
-            <entryLink id="44c1-1cae-f36d-0bd3" name="Swivel Gun" hidden="false" collective="false" import="true" targetId="72b6-4db8-1504-bd2a" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="5"/>
-              </costs>
-            </entryLink>
-            <entryLink id="32e6-dfa5-d2c3-37c0" name="Great Blade" hidden="false" collective="false" import="true" targetId="df53-efd5-9946-30d7" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="6"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -2382,7 +2593,7 @@
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
                 <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">13</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
                 <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
@@ -2438,7 +2649,7 @@
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">3+</characteristic>
                 <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
                 <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
@@ -2463,8 +2674,8 @@
         </entryLink>
         <entryLink id="7d30-6c5a-2c2c-4f0d" name="Chaos Powder Flamer" hidden="false" collective="false" import="true" targetId="e35d-1b84-a193-812c" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d905-198d-72d0-f2ac" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="782a-e2cd-c08e-49e8" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d905-198d-72d0-f2ac-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d905-198d-72d0-f2ac-max" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -2479,7 +2690,7 @@
             <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">-</characteristic>
             <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
             <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
-            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
+            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">11</characteristic>
             <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
             <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
             <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
@@ -2489,12 +2700,12 @@
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Beast</characteristic>
           </characteristics>
         </profile>
-        <profile id="64a9-5de8-748c-8693" name="Wagon" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
+        <profile id="64a9-5de8-748c-8693" name="Chariot" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <characteristics>
             <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
             <characteristic name="RH" typeId="b74f-2b64-2662-f401">-</characteristic>
             <characteristic name="WA" typeId="0f73-3c43-4701-9086">-</characteristic>
-            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">-5</characteristic>
+            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">-</characteristic>
             <characteristic name="P" typeId="1192-a747-177a-64eb">7</characteristic>
             <characteristic name="E" typeId="0a89-229f-3f01-3919">7</characteristic>
             <characteristic name="A" typeId="5d8c-74be-d893-50e2">-</characteristic>
@@ -2549,8 +2760,8 @@
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">3+</characteristic>
-                <characteristic name="WA" typeId="0f73-3c43-4701-9086">6</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
+                <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
                 <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
@@ -2562,61 +2773,33 @@
             </profile>
           </profiles>
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="7"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="10"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="5d42-1152-6880-1afd" name="Weapon Options" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b25-8481-4dfb-933d" type="min"/>
-            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ec9-be80-dc3e-e2ab" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="c43f-19d6-1486-813c" name="Poison Wind Globes" hidden="false" collective="false" import="true" targetId="31dd-e2fd-bc4a-3900" type="selectionEntry">
-              <modifiers>
-                <modifier type="increment" field="5119-770c-ea3a-8a8c" value="2">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49db-06c7-799f-8b0f" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="6afd-ebd8-0527-efdb" name="Healing Globes" hidden="false" collective="false" import="true" targetId="02a9-988d-7ad4-4c9d" type="selectionEntry">
-              <modifiers>
-                <modifier type="increment" field="5119-770c-ea3a-8a8c" value="3">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e764-994a-4adf-ac42" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="7d8c-b38a-3a61-eaed" name="Explosive Globes" hidden="false" collective="false" import="true" targetId="fcd1-f19e-9f9a-94ab" type="selectionEntry">
-              <modifiers>
-                <modifier type="increment" field="5119-770c-ea3a-8a8c" value="3">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="904c-f061-f3f5-9bda" type="max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="fa06-eacc-ceb8-4ff4" name="Medium Armour" hidden="false" collective="false" import="true" targetId="9948-1047-5e69-1fdc" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6024-98db-f67e-72f2" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33df-6c53-7cfb-0675" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Explosive Globes" hidden="false" id="7d8c-b38a-3a61-eaed" collective="false" targetId="fcd1-f19e-9f9a-94ab" type="selectionEntry">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="904c-f061-f3f5-9bda-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="904c-f061-f3f5-9bda-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Healing Globes" hidden="false" id="6afd-ebd8-0527-efdb" collective="false" targetId="02a9-988d-7ad4-4c9d" type="selectionEntry">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e764-994a-4adf-ac42-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e764-994a-4adf-ac42-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Poison Wind Globes" hidden="false" id="c43f-19d6-1486-813c" collective="false" targetId="31dd-e2fd-bc4a-3900" type="selectionEntry">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="49db-06c7-799f-8b0f-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="49db-06c7-799f-8b0f-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -2625,19 +2808,15 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="84b0-9f3d-7e0d-e2d1" name="Void Beam Cannon" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f47-167f-d532-77a0" type="min"/>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40b6-3f06-588c-f339" type="max"/>
-      </constraints>
       <profiles>
         <profile id="ff52-96c2-41d1-763f" name="Driver" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <characteristics>
             <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">-</characteristic>
             <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
             <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
-            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
+            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">13</characteristic>
             <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
-            <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
+            <characteristic name="E" typeId="0a89-229f-3f01-3919">-</characteristic>
             <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
             <characteristic name="WP" typeId="0418-2892-7021-fc1e">6</characteristic>
             <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
@@ -2650,7 +2829,7 @@
             <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
             <characteristic name="RH" typeId="b74f-2b64-2662-f401">-</characteristic>
             <characteristic name="WA" typeId="0f73-3c43-4701-9086">-</characteristic>
-            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">-5</characteristic>
+            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">2</characteristic>
             <characteristic name="P" typeId="1192-a747-177a-64eb">7</characteristic>
             <characteristic name="E" typeId="0a89-229f-3f01-3919">8</characteristic>
             <characteristic name="A" typeId="5d8c-74be-d893-50e2">-</characteristic>
@@ -2668,8 +2847,8 @@
       <selectionEntries>
         <selectionEntry id="01a5-31d9-b52e-203b" name="Void Beam Cannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6ca-5e68-c72b-dd53" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53ae-1be6-7650-2460" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6ca-5e68-c72b-dd53-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6ca-5e68-c72b-dd53-max" type="max"/>
           </constraints>
           <profiles>
             <profile id="86ee-a21b-d6bc-b749" name="Void Beam Cannon" hidden="false" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon">
@@ -2719,7 +2898,7 @@
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
                 <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
                 <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
@@ -2767,6 +2946,17 @@
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="30"/>
       </costs>
+      <rules>
+        <rule name="Overload" id="281c-ba3f-bb47-c331" hidden="false">
+          <description>Each gun in the unit can choose to fire D8 extra shots before rolling the number of hits. 
+
+
+Roll an extra D8 for each gun, if the number rolled on the second dice is equal to or higher than the number rolled on the first dice, add that number of shots.
+
+
+If the number rolled on the second dice is lower than on the first, the gun explodes and the model is removed as a casualty. In this situation the first shots are fired, but no additional are added for the second dice.</description>
+        </rule>
+      </rules>
     </selectionEntry>
     <selectionEntry id="8544-bbc6-b5b5-f021" name="Void Beast" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -2775,7 +2965,7 @@
             <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
             <characteristic name="RH" typeId="b74f-2b64-2662-f401">-</characteristic>
             <characteristic name="WA" typeId="0f73-3c43-4701-9086">6</characteristic>
-            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">6</characteristic>
+            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">8</characteristic>
             <characteristic name="P" typeId="1192-a747-177a-64eb">9</characteristic>
             <characteristic name="E" typeId="0a89-229f-3f01-3919">9</characteristic>
             <characteristic name="A" typeId="5d8c-74be-d893-50e2">5</characteristic>
@@ -2811,7 +3001,7 @@
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Black Eyes" hidden="false" id="3588-f839-af1f-3a32">
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="15"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
           </costs>
           <infoLinks>
             <infoLink name="Fear" id="efd0-f997-21e7-478b" hidden="false" type="rule" targetId="e253-8f01-7ab7-fe2b"/>
@@ -2824,27 +3014,41 @@
               <description>The character gets the Fear special rule.</description>
             </rule>
           </rules>
+          <modifiers>
+            <modifier type="increment" value="15" field="5119-770c-ea3a-8a8c">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Spikes" hidden="false" id="1394-4e82-f396-4c67" sortIndex="">
+        <selectionEntry type="upgrade" import="true" name="Spikes" hidden="false" id="1394-4e82-f396-4c67">
           <rules>
             <rule name="Spikes" id="9ee5-d474-efba-34bd" hidden="false">
               <description>Successful hits against the character in close combat cause a P4 hit to the attacker.</description>
             </rule>
           </rules>
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="20"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="478a-4744-3b4b-992b"/>
           </constraints>
+          <modifiers>
+            <modifier type="increment" value="20" field="5119-770c-ea3a-8a8c">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Mists of the Void" hidden="false" id="7989-bb3a-8e0a-25a1">
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="5"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
           </costs>
           <rules>
             <rule name="Mists of the Void" id="34b6-c5a1-861b-c762" hidden="false">
-              <description>Attacks made in close combat are of the shadow type and magical.</description>
+              <description>Attacks in melee have the Magic Attacks - Shadow special rule.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -2857,23 +3061,43 @@
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="25d2-ee6f-9ff5-f955"/>
           </constraints>
+          <modifiers>
+            <modifier type="increment" value="5" field="5119-770c-ea3a-8a8c">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Extra Arm" hidden="false" id="4d79-4867-4f3b-854b">
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="15"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
           </costs>
           <rules>
             <rule name="Extra Arm" id="660b-a9bb-b4b2-42f6" hidden="false">
-              <description>The character now has 3 slots for weapons and Shields.</description>
+              <description>Through violent mutations, the arm of character splits into two.
+
+
+The character now has 3 slots for weapons and Shields.
+
+
+This also increases the amount of times any one handed weapon or shield can be bought by 1.</description>
             </rule>
           </rules>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b7c-b78e-e662-4ee8"/>
           </constraints>
+          <modifiers>
+            <modifier type="increment" value="15" field="5119-770c-ea3a-8a8c">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Scales" hidden="false" id="8402-2fa4-3f96-580e">
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="5"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
           </costs>
           <entryLinks>
             <entryLink import="true" name="Tough Hide (6+/+1)" hidden="false" id="bdf2-0c25-e55a-188f" type="selectionEntry" targetId="b99f-acad-90a6-df65">
@@ -2891,13 +3115,20 @@
               <description>The model gets the Tough Hide 6+/+1 special rule.</description>
             </rule>
           </rules>
+          <modifiers>
+            <modifier type="increment" value="5" field="5119-770c-ea3a-8a8c">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Blessing of Regeneration" hidden="false" id="80f8-b667-7e60-9534">
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8124-078a-c75d-6684"/>
           </constraints>
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="20"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
           </costs>
           <infoLinks>
             <infoLink name="Regeneration X+" id="070d-119d-d291-228c" hidden="false" type="rule" targetId="e6e3-1787-c4bc-9206">
@@ -2907,14 +3138,21 @@
             </infoLink>
           </infoLinks>
           <rules>
-            <rule name="New Rule" id="7136-8f75-0621-3941" hidden="false">
+            <rule name="Blessing of Regeneration" id="7136-8f75-0621-3941" hidden="false">
               <description>The model gets the Regeneration 5+ special rule.</description>
             </rule>
           </rules>
+          <modifiers>
+            <modifier type="increment" value="20" field="5119-770c-ea3a-8a8c">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Abomination" hidden="false" id="4ead-253e-b361-ffbe">
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="30"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e0e1-562a-6339-2f6c"/>
@@ -2923,10 +3161,17 @@
             <infoLink name="Dread" id="3fe4-cfeb-0341-6dc0" hidden="false" type="rule" targetId="f5d9-2308-2a83-d467"/>
           </infoLinks>
           <rules>
-            <rule name="New Rule" id="d336-accb-f7eb-5220" hidden="false">
+            <rule name="Abomination" id="d336-accb-f7eb-5220" hidden="false">
               <description>The character&apos;s appearance becomes horrible to look at, giving the character the Dread special rule.</description>
             </rule>
           </rules>
+          <modifiers>
+            <modifier type="increment" value="30" field="5119-770c-ea3a-8a8c">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -2934,7 +3179,7 @@
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Surrounded by Flies" hidden="false" id="1925-c518-f722-6691">
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="15"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
           </costs>
           <rules>
             <rule name="Surrounded by Flies" id="658a-1706-5c5d-f774" hidden="false">
@@ -2944,10 +3189,17 @@
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4446-0633-bece-1f6c"/>
           </constraints>
+          <modifiers>
+            <modifier type="increment" value="15" field="5119-770c-ea3a-8a8c">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Pestilence Breath" hidden="false" id="0da5-9a8b-ad19-949c">
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="20"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
           </costs>
           <profiles>
             <profile name="Pestilence Breath" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon" hidden="false" id="a1cc-495f-e8d0-bab1">
@@ -2956,7 +3208,7 @@
                 <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">4</characteristic>
                 <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-</characteristic>
                 <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">6&quot;</characteristic>
-                <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Direct</characteristic>
+                <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Breath</characteristic>
                 <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Ignore Armour Saves</characteristic>
               </characteristics>
             </profile>
@@ -2964,10 +3216,17 @@
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8427-87dd-8764-5192"/>
           </constraints>
+          <modifiers>
+            <modifier type="increment" value="20" field="5119-770c-ea3a-8a8c">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Plague Spikes" hidden="false" id="bf3b-ea06-bdbb-e66a">
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="20"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b3a-cd3d-c596-c525"/>
@@ -2977,10 +3236,17 @@
               <description>Successful hits against the character in close combat cause a P5 hit to the attacker. The model can no longer wear armour.</description>
             </rule>
           </rules>
+          <modifiers>
+            <modifier type="increment" value="20" field="5119-770c-ea3a-8a8c">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Venom Glands" hidden="false" id="68b1-f1fd-deb4-a900">
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="5"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b702-b06c-874e-716a"/>
@@ -2990,13 +3256,20 @@
           </infoLinks>
           <rules>
             <rule name="Venom Glands" id="82a0-4965-6680-50fe" hidden="false">
-              <description>The hands of the character start to get soaked in venom. This gives the poison rule to all attacks, both ranged and melee.</description>
+              <description>The hands of the character are soaked in venom. This gives the poison special rule to all attacks, both ranged and melee.</description>
             </rule>
           </rules>
+          <modifiers>
+            <modifier type="increment" value="5" field="5119-770c-ea3a-8a8c">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Hammer Fist" hidden="false" id="686f-52cc-b7c6-30a5">
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="15"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c455-c6a4-beb1-a1fa"/>
@@ -3006,19 +3279,43 @@
               <description>The hand of the character turns into a massive spiked bone hammer. The hand cannot carry items in the hand anymore, but gets +2P on attacks in close combat when attacking with that hand. It also counts as being equipped with a weapon.</description>
             </rule>
           </rules>
+          <profiles>
+            <profile name="Hammer Fist" typeId="090b-d919-0802-8838" typeName="Melee Weapon" hidden="false" id="db35-b81f-2cc7-fce8">
+              <characteristics>
+                <characteristic name="Power" typeId="a529-f46c-fe6f-4048">+2</characteristic>
+                <characteristic name="Penalty" typeId="7761-068c-0a80-ee08">-</characteristic>
+                <characteristic name="Type" typeId="d2bb-d955-061f-6146">Melee</characteristic>
+                <characteristic name="Special Rules" typeId="c9c1-27d6-3445-a058"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <modifiers>
+            <modifier type="increment" value="15" field="5119-770c-ea3a-8a8c">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Blessing of Life" hidden="false" id="6710-e77d-7d9a-f9b7">
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="20"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2672-b7d0-3fd7-115b"/>
           </constraints>
           <rules>
             <rule name="Blessing of Life" id="f455-f566-22f2-1b76" hidden="false">
-              <description>+1 HP (Already added to the profile of the model)</description>
+              <description>Nurgast makes the body of the character unnaturally resilient but slow, giving the character +1HP and -2I (Already added to the profile of the model)</description>
             </rule>
           </rules>
+          <modifiers>
+            <modifier type="increment" value="15" field="5119-770c-ea3a-8a8c">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -3026,7 +3323,7 @@
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Squid Tentacle" hidden="false" id="9335-35bd-713d-6173">
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="15"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
           </costs>
           <rules>
             <rule name="Squid Tentacle" id="282a-a24d-5c9b-d877" hidden="false">
@@ -3036,36 +3333,60 @@
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3042-f69d-d406-56a9"/>
           </constraints>
+          <modifiers>
+            <modifier type="increment" value="15" field="5119-770c-ea3a-8a8c">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Webbed Hands" hidden="false" id="8906-a6cc-02c6-ad53">
+        <selectionEntry type="upgrade" import="true" name="Webbed Feet" hidden="false" id="8906-a6cc-02c6-ad53">
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="10"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="24fd-db5e-bf04-a4f9"/>
           </constraints>
           <rules>
-            <rule name="Webbed Hands" id="9f41-9351-e458-d9f7" hidden="false">
-              <description>+3 to drown rolls</description>
+            <rule name="Webbed Feet" id="9f41-9351-e458-d9f7" hidden="false">
+              <description>The character gets the Aquatic special rule and 1MD in watery pieces of terrain, like a swamp, river or the ocean.</description>
             </rule>
           </rules>
+          <infoLinks>
+            <infoLink name="Aquatic" id="16b0-b6d6-c1a3-e055" hidden="false" type="rule" targetId="0790-2d67-b88b-2ae3"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="increment" value="10" field="5119-770c-ea3a-8a8c">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Shark Eyes" hidden="false" id="16b6-ba34-c96b-3e20">
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="5"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ebb-44b9-0256-e241"/>
           </constraints>
           <rules>
             <rule name="Shark Eyes" id="afa7-497d-080a-0103" hidden="false">
-              <description>+1WA while in water</description>
+              <description>+1WA while in watery pieces of terrain, like a swamp, river or the ocean.</description>
             </rule>
           </rules>
+          <modifiers>
+            <modifier type="increment" value="5" field="5119-770c-ea3a-8a8c">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Fish Scales" hidden="false" id="778e-51e7-0e91-eb76">
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="10"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d8aa-21f3-d130-95d6"/>
@@ -3076,25 +3397,61 @@
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0b10-84ce-ac9a-1a08-min"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b10-84ce-ac9a-1a08-max"/>
               </constraints>
+              <modifiers>
+                <modifier type="set" value="Scaly Skin (6+ / +1)" field="name"/>
+              </modifiers>
             </entryLink>
           </entryLinks>
+          <rules>
+            <rule name="Fish Scales" id="c7ac-3faa-214f-c4c7" hidden="false">
+              <description>The character develops scaly skin of fish scales, giving a 6+/+1 scaly skin armour save.</description>
+            </rule>
+          </rules>
+          <modifiers>
+            <modifier type="increment" value="10" field="5119-770c-ea3a-8a8c">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Gills" hidden="false" id="1888-d3f4-7ed0-a39a">
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="20"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0f00-b543-3e72-88dc"/>
           </constraints>
           <rules>
             <rule name="Gills" id="9e75-506d-0f83-18f9" hidden="false">
-              <description>The model can never drown when rolling on the drowning table. Instead the model will just lose whatever armour it has on and stay at the surface, where it cannot move, when a drown is rolled.</description>
+              <description>The character develops gills and can breathe under water.
+
+
+The character gets the Aquatic special rule and the Spy special rule.
+* However the character can only use the Spy special rule to deploy in a watery piece of terrain, like a swamp, river or the ocean.
+When deploying this way, the model can deploy down to 5” away instead of the normal distance for units with the Spy special rule.
+</description>
             </rule>
           </rules>
+          <infoLinks>
+            <infoLink name="Spy" id="5ef1-b3c6-0f8a-7de1" hidden="false" type="rule" targetId="6537-b0fb-b259-b738">
+              <modifiers>
+                <modifier type="set" value="Spy (*)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Aquatic" id="e53b-5ed2-fa93-9ec3" hidden="false" type="rule" targetId="0790-2d67-b88b-2ae3"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="increment" value="20" field="5119-770c-ea3a-8a8c">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Crab Claws" hidden="false" id="395e-5ee6-6744-189a">
+        <selectionEntry type="upgrade" import="true" name="Crab Claw" hidden="false" id="395e-5ee6-6744-189a">
           <costs>
-            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="15"/>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
           </costs>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c71-90b5-40c2-ba36"/>
@@ -3104,6 +3461,13 @@
               <description>The arm and hand of the model is replaced by crab claws. The character gets +1P on attacks with the affected arm and +1 armour save for the exoskeleton. The character can not use armour larger than medium nor weapons of any kind in the affected arm. It also counts as being equipped with a weapon.</description>
             </rule>
           </rules>
+          <modifiers>
+            <modifier type="increment" value="15" field="5119-770c-ea3a-8a8c">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
