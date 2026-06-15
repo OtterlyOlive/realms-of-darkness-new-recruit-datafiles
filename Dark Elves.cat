@@ -3,35 +3,35 @@
   <entryLinks>
     <entryLink id="9c42-a3d4-891f-ea8d" name="Noble Born" hidden="false" collective="false" import="true" targetId="006c-69de-cb3a-457d" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="00be-5bfd-3241-84cd" name="Lord" hidden="false" targetId="7688-3161-c899-c54d" primary="true"/>
+        <categoryLink targetId="7688-3161-c899-c54d" id="17ed-1bde-c895-2cfa" primary="true" name="Lord"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="4476-193c-0e96-3b1f" name="Assassin" hidden="false" collective="false" import="true" targetId="80ec-00b1-0ada-14db" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="7241-a2af-d0bd-3d94" name="Lord" hidden="false" targetId="7688-3161-c899-c54d" primary="true"/>
+        <categoryLink targetId="7688-3161-c899-c54d" id="b7c0-036a-7d1a-3375" primary="true" name="Lord"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="119b-acf1-4ef8-019b" name="Elven Bolt Thrower" hidden="false" collective="false" import="true" targetId="09a7-f4a0-36a3-029f" type="selectionEntry">
+    <entryLink id="3f38-2289-9de0-997a" name="Elven Bolt Thrower" hidden="false" collective="false" import="true" targetId="09a7-f4a0-36a3-029f" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="4938-eb84-6fe5-264c" name="Specialist" hidden="false" targetId="cd29-77d0-c75d-b384" primary="true"/>
+        <categoryLink targetId="cd29-77d0-c75d-b384" id="e464-eb3e-6eb0-5c67" primary="true" name="Specialist"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2606-6852-dff6-e362" name="Hydra" hidden="false" collective="false" import="true" targetId="c9e2-d1a9-fab9-08d5" type="selectionEntry">
+    <entryLink id="4b2d-9039-fba4-c34f" name="Hydra" hidden="false" collective="false" import="true" targetId="c9e2-d1a9-fab9-08d5" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="c75f-ef11-b6d3-eedd" name="Specialist" hidden="false" targetId="cd29-77d0-c75d-b384" primary="true"/>
+        <categoryLink targetId="cd29-77d0-c75d-b384" id="5824-659f-5f5c-cd1b" primary="true" name="Specialist"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="24f8-6266-70df-6f9d" name="Nagas" hidden="false" collective="false" import="true" targetId="37c5-1305-927c-1594" type="selectionEntry">
+    <entryLink id="d180-2067-b735-d580" name="Nagas" hidden="false" collective="false" import="true" targetId="37c5-1305-927c-1594" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="b2ed-c1ea-b357-2ea0" name="Specialist" hidden="false" targetId="cd29-77d0-c75d-b384" primary="true"/>
+        <categoryLink targetId="cd29-77d0-c75d-b384" id="03f6-75b0-11dd-cee0" primary="true" name="Specialist"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3c65-b94d-a5a7-f70e" name="Sorceress" hidden="false" collective="false" import="true" targetId="35e0-1a28-03f3-d14f" type="selectionEntry">
+    <entryLink id="e57f-c3b9-50a5-56fa" name="Sorceress" hidden="false" collective="false" import="true" targetId="35e0-1a28-03f3-d14f" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="62ea-e117-8405-1a95" name="Lord" hidden="false" targetId="7688-3161-c899-c54d" primary="true"/>
+        <categoryLink targetId="7688-3161-c899-c54d" id="0f14-850b-4d2e-42ce" primary="true" name="Lord"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="3439-9597-71d9-154c" name="Light Cavalry" hidden="false" collective="false" import="true" targetId="5094-023a-5673-44a7" type="selectionEntry">
+    <entryLink id="8ce1-519c-321f-ec57" name="Light Cavalry" hidden="false" collective="false" import="true" targetId="5094-023a-5673-44a7" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="b11b-bdf7-7aee-e6d6" name="Common" hidden="false" targetId="e3fa-e803-fa94-daf2" primary="true"/>
       </categoryLinks>
@@ -107,35 +107,35 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="cbec-c58c-44aa-012d" name="Elite" hidden="false" targetId="2f43-4bde-1249-f8af" type="rule"/>
+        <infoLink id="c7fb-4b9b-83d0-fd1f" name="Elite" hidden="false" targetId="2f43-4bde-1249-f8af" type="rule"/>
         <infoLink id="d276-877a-876c-8f63" name="Eagle Eye" hidden="false" targetId="b260-b226-bc89-3202" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="0211-02e0-b5c5-1b9a" name="Armour" hidden="false" collective="false" import="true" defaultSelectionEntryId="b05a-804b-5a10-4ab8">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b13b-5ec9-cd54-f2ff" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46c5-e06d-b29d-46af" type="min"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6ee4-3cc0-5c92-21d7-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6ee4-3cc0-5c92-21d7-max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="929f-21c5-eef9-966d" name="Red Full Body Armour" hidden="false" collective="false" import="true" targetId="53fb-9f9a-6f33-3800" type="selectionEntry">
+            <entryLink id="68fa-d06b-a296-0cb1" name="Red Full Body Armour" hidden="false" collective="false" import="true" targetId="53fb-9f9a-6f33-3800" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="2"/>
               </costs>
             </entryLink>
-            <entryLink id="b05a-804b-5a10-4ab8" name="Red Heavy Armour" hidden="false" collective="false" import="true" targetId="251a-472d-21a5-930c" type="selectionEntry"/>
+            <entryLink id="d56e-8621-3101-38ef" name="Red Heavy Armour" hidden="false" collective="false" import="true" targetId="251a-472d-21a5-930c" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="3557-2f0c-c507-8bbf" name="Melee Options" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6de-a8f9-28bf-288c" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="826d-8f52-38dd-4321" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="e04d-1296-9310-659c" name="Lance" hidden="false" collective="false" import="true" targetId="6032-0487-3c6c-3e9e" type="selectionEntry">
+            <entryLink id="cbf3-dc55-07bb-2d21" name="Lance" hidden="false" collective="false" import="true" targetId="6032-0487-3c6c-3e9e" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="3"/>
               </costs>
             </entryLink>
-            <entryLink id="3e47-1c79-fd6f-1650" name="Elven Longsword" hidden="false" collective="false" import="true" targetId="33cf-968a-b1ea-71f1" type="selectionEntry">
+            <entryLink id="21f9-3765-39da-bb6f" name="Elven Longsword" hidden="false" collective="false" import="true" targetId="33cf-968a-b1ea-71f1" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="4"/>
               </costs>
@@ -149,25 +149,25 @@
         </selectionEntryGroup>
         <selectionEntryGroup id="16f5-92fc-1c14-f34f" name="Magic Items" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="5119-770c-ea3a-8a8c" scope="parent" value="75" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62b8-69dc-35b0-1eed" type="max"/>
+            <constraint field="5119-770c-ea3a-8a8c" scope="parent" value="75" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f6c-f85f-36a8-c4ab" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="742e-a797-d476-de49" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="2ed3-6e31-30ae-bbe1" type="selectionEntryGroup"/>
-            <entryLink id="6c86-9c10-86dd-d427" name="Magic Armour" hidden="false" collective="false" import="true" targetId="973c-74cb-7aa2-b711" type="selectionEntryGroup"/>
-            <entryLink id="3738-9d93-d71c-ab52" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="e339-92e7-600f-8216" type="selectionEntryGroup"/>
+            <entryLink id="9175-88ac-0982-7cca" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="2ed3-6e31-30ae-bbe1" type="selectionEntryGroup"/>
+            <entryLink id="7466-57e2-5e23-89e8" name="Magic Armour" hidden="false" collective="false" import="true" targetId="973c-74cb-7aa2-b711" type="selectionEntryGroup"/>
+            <entryLink id="8bf3-8889-25ea-b100" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="e339-92e7-600f-8216" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="dfd9-4226-8a9b-1605" name="Ranged Options" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33ff-2d10-83b8-2b18" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ddf-1660-8071-8fd8" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="347c-c044-2a33-24bc" name="Hand Crossbow" hidden="false" collective="false" import="true" targetId="0c7f-05d4-4924-8d08" type="selectionEntry">
+            <entryLink id="a481-aad7-f767-5df9" name="Hand Crossbow" hidden="false" collective="false" import="true" targetId="0c7f-05d4-4924-8d08" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="3"/>
               </costs>
             </entryLink>
-            <entryLink id="cbc2-5bf4-f2ec-b174" name="Volley Crossbow" hidden="false" collective="false" import="true" targetId="d5b1-41e0-2d8d-294b" type="selectionEntry">
+            <entryLink id="6c3c-01f9-c807-8361" name="Volley Crossbow" hidden="false" collective="false" import="true" targetId="d5b1-41e0-2d8d-294b" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="4"/>
               </costs>
@@ -193,10 +193,10 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="ee80-07a6-367e-c57e" name="Elven Sword" hidden="false" collective="false" import="true" targetId="ef55-6e1e-8864-33a9" type="selectionEntry">
+        <entryLink id="6c02-c55d-edfa-9d68" name="Elven Sword" hidden="false" collective="false" import="true" targetId="ef55-6e1e-8864-33a9" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="158e-2a54-c740-6c0b" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44dc-5cb6-0b8e-4865" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eba9-2fd8-9cd3-3d57" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5045-e1ed-eb0e-3971" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="5a8d-f17c-f74d-af35" name="Shield" hidden="false" collective="false" import="true" targetId="a403-9296-4e18-c8dc" type="selectionEntry">
@@ -243,29 +243,29 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="f0fb-8036-b68b-e47a" name="Elite" hidden="false" targetId="2f43-4bde-1249-f8af" type="rule"/>
-        <infoLink id="0262-40ce-24d2-f97d" name="Decapitation Strike" hidden="false" targetId="2ae1-b529-7087-e389" type="rule"/>
-        <infoLink id="62f1-10a9-3676-b8fa" name="Hidden" hidden="false" targetId="54bb-d8ef-d1fd-e083" type="rule"/>
-        <infoLink id="2b77-99c0-2b97-cbd6" name="Spy" hidden="false" targetId="6537-b0fb-b259-b738" type="rule"/>
-        <infoLink id="97a5-d6b7-575d-7c76" name="Eagle Eye" hidden="false" targetId="b260-b226-bc89-3202" type="rule"/>
+        <infoLink id="de07-5878-c692-7dc6" name="Elite" hidden="false" targetId="2f43-4bde-1249-f8af" type="rule"/>
+        <infoLink id="42ce-4015-8ae9-42d0" name="Decapitation Strike" hidden="false" targetId="2ae1-b529-7087-e389" type="rule"/>
+        <infoLink id="22b4-cb4e-5cda-b364" name="Hidden" hidden="false" targetId="54bb-d8ef-d1fd-e083" type="rule"/>
+        <infoLink id="b2d3-5dd2-6d4b-8598" name="Spy" hidden="false" targetId="6537-b0fb-b259-b738" type="rule"/>
+        <infoLink id="33ca-da8f-e826-058c" name="Eagle Eye" hidden="false" targetId="b260-b226-bc89-3202" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="6162-7e90-a84d-7725" name="Magic Items" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="5119-770c-ea3a-8a8c" scope="parent" value="50" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cc1-8e37-340f-9b96" type="max"/>
+            <constraint field="5119-770c-ea3a-8a8c" scope="parent" value="50" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="828d-e5cb-c6cc-5365" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="8a3f-db5b-e11b-c80b" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="2ed3-6e31-30ae-bbe1" type="selectionEntryGroup"/>
-            <entryLink id="a550-e290-94f0-539e" name="Magic Armour" hidden="false" collective="false" import="true" targetId="973c-74cb-7aa2-b711" type="selectionEntryGroup"/>
-            <entryLink id="69b9-b15b-ad4f-bb98" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="e339-92e7-600f-8216" type="selectionEntryGroup"/>
+            <entryLink id="40a1-79fa-6a65-7a00" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="2ed3-6e31-30ae-bbe1" type="selectionEntryGroup"/>
+            <entryLink id="11e3-f2a7-0c40-2db7" name="Magic Armour" hidden="false" collective="false" import="true" targetId="973c-74cb-7aa2-b711" type="selectionEntryGroup"/>
+            <entryLink id="88d9-d109-0471-0526" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="e339-92e7-600f-8216" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="ec6a-0de2-9caf-8f91" name="Two Elven Swords" hidden="false" collective="false" import="true" targetId="f0d6-7e6a-0b5e-0e69" type="selectionEntry">
+        <entryLink id="e670-4ef3-3a51-5054" name="Two Elven Swords" hidden="false" collective="false" import="true" targetId="f0d6-7e6a-0b5e-0e69" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9a3-23ff-5e41-ebcd" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d89b-6f61-91bd-faae" type="min"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f84c-8656-7a0d-a8dd-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f84c-8656-7a0d-a8dd-max"/>
           </constraints>
         </entryLink>
         <entryLink id="0f2f-9d0c-d3e6-e608" name="Red Medium Armour" hidden="false" collective="false" import="true" targetId="2dea-7345-f80b-209f" type="selectionEntry">
@@ -283,8 +283,8 @@
       <selectionEntries>
         <selectionEntry id="26ac-4556-5e25-82cb" name="Elven Bolt Thrower" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f75e-9f89-825e-456b" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80a6-ec7b-efd9-4333" type="min"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48e1-d54f-f22e-a1e3" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4b2-c758-e5b5-a8da" type="min"/>
           </constraints>
           <profiles>
             <profile id="909a-8163-3095-8204" name="Volley Bolt Thrower" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
@@ -330,8 +330,8 @@
           <selectionEntries>
             <selectionEntry id="64c1-d7c0-e89b-21c4" name="2 Crew" hidden="false" collective="false" import="true" type="model">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33da-323e-034d-4264" type="max"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4edd-b52a-22c6-8727" type="min"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a78b-c92b-9f30-c96f-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a78b-c92b-9f30-c96f-max"/>
               </constraints>
               <profiles>
                 <profile id="01ec-2eb6-a482-5b16" name="Crew" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
@@ -354,10 +354,10 @@
                 <infoLink id="c5d9-6d79-1af4-3313" name="Eagle Eye" hidden="false" targetId="b260-b226-bc89-3202" type="rule"/>
               </infoLinks>
               <entryLinks>
-                <entryLink id="f9b5-0725-d040-5123" name="Elven Sword" hidden="false" collective="false" import="true" targetId="ef55-6e1e-8864-33a9" type="selectionEntry">
+                <entryLink id="097a-c2dd-9de6-30ca" name="Elven Sword" hidden="false" collective="false" import="true" targetId="ef55-6e1e-8864-33a9" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20c2-0c42-5224-cb75" type="max"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3035-cd39-caf3-14d1" type="min"/>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="17ff-b79b-6660-b2ff-min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="17ff-b79b-6660-b2ff-max"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -382,13 +382,13 @@
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="856f-2ce1-9d73-5f2c" name="Unorganised" hidden="false" targetId="c7f9-9deb-76d6-6a89" type="rule"/>
+        <infoLink id="94fe-8fb9-307a-f3a7" name="Unorganised" hidden="false" targetId="c7f9-9deb-76d6-6a89" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="e267-c68d-d065-be9d" name="Hydra" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2983-7f11-e03b-53de" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a20e-4038-e3bd-d5b5" type="min"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e05b-82bd-15f9-44e0-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e05b-82bd-15f9-44e0-max"/>
           </constraints>
           <profiles>
             <profile id="0a9d-f034-846f-5c6e" name="Hydra" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
@@ -408,7 +408,7 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="447e-7873-a15b-c9b6" name="Monster" hidden="false" targetId="2ff1-1e0d-d73c-501c" type="infoGroup"/>
+            <infoLink id="039a-be29-25d5-2062" name="Monster" hidden="false" targetId="2ff1-1e0d-d73c-501c" type="infoGroup"/>
           </infoLinks>
           <selectionEntries>
             <selectionEntry id="0e3d-ddd9-44b3-e01d" name="2 Handlers" hidden="false" collective="false" import="true" type="model">
@@ -467,10 +467,10 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="544f-3cff-19c5-0cf0" name="Tough Hide (3+/+4)" hidden="false" collective="false" import="true" targetId="492f-9dbe-2023-f32a" type="selectionEntry">
+            <entryLink id="7de8-0572-4ef9-1464" name="Tough Hide (3+/+4)" hidden="false" collective="false" import="true" targetId="492f-9dbe-2023-f32a" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c212-04e0-bb51-cc6f" type="max"/>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d82-031e-726d-3572" type="min"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0888-71c6-d043-1383-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0888-71c6-d043-1383-max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -485,14 +485,14 @@
     </selectionEntry>
     <selectionEntry id="37c5-1305-927c-1594" name="Nagas" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
-        <infoLink id="7ab1-6b31-b7a1-788f" name="Monster" hidden="false" targetId="2ff1-1e0d-d73c-501c" type="infoGroup"/>
-        <infoLink id="307e-8155-f699-6d6e" name="Fear" hidden="false" targetId="e253-8f01-7ab7-fe2b" type="rule"/>
+        <infoLink id="02af-b78a-e0f7-6656" name="Monster" hidden="false" targetId="2ff1-1e0d-d73c-501c" type="infoGroup"/>
+        <infoLink id="06a2-0ba0-cd21-83ca" name="Fear" hidden="false" targetId="e253-8f01-7ab7-fe2b" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="c27f-4459-217f-2a98" name="Naga" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7da2-7089-7f29-c14f" type="max"/>
-            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="955d-aba2-8729-7bdc" type="min"/>
+            <constraint field="selections" scope="parent" value="9" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c978-5efb-e3ec-08a8" type="max"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d8a-78ac-3836-07f4" type="min"/>
           </constraints>
           <profiles>
             <profile id="e6a9-cd17-cffa-1648" name="Gorgon" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
@@ -524,7 +524,7 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0eb7-d51f-027d-ef05" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46e9-0d61-dc7f-6e46" type="max"/>
           </constraints>
           <rules>
             <rule id="b7a6-43d5-e107-b838" name="Desert Snake Venom" hidden="false">
@@ -539,10 +539,10 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="7f97-6e3c-c28c-1df6" name="Weapon Options" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35af-4bad-e076-19f1" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a5c-2355-2963-93fe" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="56f7-ded8-686a-ae3d" name="Longbow" hidden="false" collective="false" import="true" targetId="834d-2146-1014-5039" type="selectionEntry">
+            <entryLink id="eabd-adc9-518c-0888" name="Longbow" hidden="false" collective="false" import="true" targetId="834d-2146-1014-5039" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="5119-770c-ea3a-8a8c" value="2">
                   <repeats>
@@ -551,7 +551,7 @@
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="3669-7442-1c71-efa1" name="Spear (Infantry)" hidden="false" collective="false" import="true" targetId="9732-a972-df2b-7b8d" type="selectionEntry">
+            <entryLink id="a2a5-8963-8961-caa5" name="Spear (Infantry)" hidden="false" collective="false" import="true" targetId="9732-a972-df2b-7b8d" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="5119-770c-ea3a-8a8c" value="2">
                   <repeats>
@@ -564,16 +564,16 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="1b71-1405-68b1-9427" name="Sword" hidden="false" collective="false" import="true" targetId="2a90-b53f-66c2-2987" type="selectionEntry">
+        <entryLink id="c1ef-cbc3-7459-9b8c" name="Sword" hidden="false" collective="false" import="true" targetId="2a90-b53f-66c2-2987" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2076-9870-768c-f5ec" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8159-a11e-6b73-9c9b" type="min"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="756f-787d-254b-f9d3-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="756f-787d-254b-f9d3-max"/>
           </constraints>
         </entryLink>
-        <entryLink id="a30a-450b-28e7-665d" name="Tough Hide (4+/+3)" hidden="false" collective="false" import="true" targetId="18d2-9f33-e415-df44" type="selectionEntry">
+        <entryLink id="4adb-6ebd-abb1-1b8c" name="Tough Hide (4+/+3)" hidden="false" collective="false" import="true" targetId="18d2-9f33-e415-df44" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acbf-dc0e-1a46-f62f" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7f3-c40b-cd0a-c460" type="min"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d18f-e82b-2ca9-6505-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d18f-e82b-2ca9-6505-max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -600,31 +600,31 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="242b-8141-0977-76c0" name="Arcane Stability" hidden="false" targetId="fded-31e3-6064-7f10" type="rule"/>
+        <infoLink id="7551-93ea-9c9a-93e3" name="Arcane Stability" hidden="false" targetId="fded-31e3-6064-7f10" type="rule"/>
         <infoLink id="0aa6-e8d2-8378-1b31" name="Eagle Eye" hidden="false" targetId="b260-b226-bc89-3202" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="a4dc-962a-f588-a8e9" name="Magic Items" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="5119-770c-ea3a-8a8c" scope="parent" value="75" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f15-1a91-c062-76ff" type="max"/>
+            <constraint field="5119-770c-ea3a-8a8c" scope="parent" value="75" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2e2-7343-edd6-4f88" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="646e-a7fc-4443-9352" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="2ed3-6e31-30ae-bbe1" type="selectionEntryGroup"/>
-            <entryLink id="b8ae-bdb6-a697-8422" name="Magic Wizard Items" hidden="false" collective="false" import="true" targetId="4cdf-9be4-bd92-b601" type="selectionEntryGroup">
+            <entryLink id="c86d-4a5f-38fb-e3e7" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="2ed3-6e31-30ae-bbe1" type="selectionEntryGroup"/>
+            <entryLink id="a0ee-caa6-5381-fbaa" name="Magic Wizard Items" hidden="false" collective="false" import="true" targetId="4cdf-9be4-bd92-b601" type="selectionEntryGroup">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7064-4a5a-89c2-3ab9" type="lessThan"/>
+                    <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e307-beac-92ac-176f" type="lessThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="0e56-08b8-a506-9ffc" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="e339-92e7-600f-8216" type="selectionEntryGroup"/>
-            <entryLink id="05c2-566a-928c-86b6" name="Magic Scrolls" hidden="false" collective="false" import="true" targetId="9140-ead4-86b3-d10b" type="selectionEntryGroup">
+            <entryLink id="101e-3f52-3d16-be8f" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="e339-92e7-600f-8216" type="selectionEntryGroup"/>
+            <entryLink id="1173-b947-4dbf-8f72" name="Magic Scrolls" hidden="false" collective="false" import="true" targetId="9140-ead4-86b3-d10b" type="selectionEntryGroup">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7064-4a5a-89c2-3ab9" type="lessThan"/>
+                    <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e307-beac-92ac-176f" type="lessThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -635,36 +635,36 @@
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7064-4a5a-89c2-3ab9" type="lessThan"/>
+                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e307-beac-92ac-176f" type="lessThan"/>
               </conditions>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="5119-770c-ea3a-8a8c" scope="parent" value="75" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67ed-55bb-f2b1-6f2f" type="max"/>
+            <constraint field="5119-770c-ea3a-8a8c" scope="parent" value="75" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d65-2680-09b1-1f89" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="3c9e-9080-82ef-bdb8" name="Lore of Shadow" hidden="false" collective="false" import="true" targetId="db39-c7d1-f088-03f3" type="selectionEntryGroup">
+            <entryLink id="7cf2-e61a-59d0-90c7" name="Lore of Shadow" hidden="false" collective="false" import="true" targetId="db39-c7d1-f088-03f3" type="selectionEntryGroup">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
                         <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d410-a1d1-eb4c-07b9" type="atLeast"/>
-                        <condition field="selections" scope="3c65-b94d-a5a7-f70e" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="db39-c7d1-f088-03f3" type="lessThan"/>
+                        <condition field="selections" scope="d3ef-cc00-a5ab-3ba3" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="db39-c7d1-f088-03f3" type="lessThan"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="509b-5262-b84c-bf1b" name="Lore of Death" hidden="false" collective="false" import="true" targetId="4575-6374-1c29-f8fd" type="selectionEntryGroup">
+            <entryLink id="5c16-880e-fb51-222c" name="Lore of Death" hidden="false" collective="false" import="true" targetId="4575-6374-1c29-f8fd" type="selectionEntryGroup">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
                         <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d410-a1d1-eb4c-07b9" type="atLeast"/>
-                        <condition field="selections" scope="3c65-b94d-a5a7-f70e" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4575-6374-1c29-f8fd" type="lessThan"/>
+                        <condition field="selections" scope="d3ef-cc00-a5ab-3ba3" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4575-6374-1c29-f8fd" type="lessThan"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -678,7 +678,7 @@
                     <conditionGroup type="and">
                       <conditions>
                         <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d410-a1d1-eb4c-07b9" type="atLeast"/>
-                        <condition field="selections" scope="3c65-b94d-a5a7-f70e" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cd7-ab69-0183-289d" type="lessThan"/>
+                        <condition field="selections" scope="d3ef-cc00-a5ab-3ba3" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cd7-ab69-0183-289d" type="lessThan"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -706,10 +706,10 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="7064-4a5a-89c2-3ab9" name="Magic Levels" hidden="false" collective="false" import="true" targetId="63a4-28ae-60e9-e0ff" type="selectionEntry">
+        <entryLink id="e307-beac-92ac-176f" name="Magic Levels" hidden="false" collective="false" import="true" targetId="63a4-28ae-60e9-e0ff" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe2c-4f25-347a-a202" type="max"/>
-            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d574-d283-7cf8-9a27" type="min"/>
+            <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="430a-7125-a267-375f" type="max"/>
+            <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1f0-a0bc-2326-b2ee" type="min"/>
           </constraints>
           <costs>
             <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="15"/>
@@ -745,7 +745,7 @@
       <selectionEntries>
         <selectionEntry id="2e00-ef24-5446-7ab6" name="Leader" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10b2-c0cf-a4ea-1c40" type="max"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab48-8b4d-e303-7512"/>
           </constraints>
           <profiles>
             <profile id="4e46-dbe5-d749-186e" name="Leader" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
@@ -770,8 +770,8 @@
         </selectionEntry>
         <selectionEntry id="bd45-de2d-d1d9-14da" name="Rider" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="20" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c27-b231-bc0f-d195" type="max"/>
-            <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20cc-8869-a83d-8f07" type="min"/>
+            <constraint field="selections" scope="parent" value="20" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfa4-a33e-d788-a7fa" type="max"/>
+            <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a71-13d0-34f2-6c69" type="min"/>
           </constraints>
           <profiles>
             <profile id="4707-e8a0-64cb-1699" name="Rider" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
@@ -798,17 +798,17 @@
       <selectionEntryGroups>
         <selectionEntryGroup id="7eb3-6afc-7a5f-c88e" name="Unit Options" hidden="false" collective="false" import="true">
           <entryLinks>
-            <entryLink id="4da9-fd44-9dbf-fd05" name="Banner" hidden="false" collective="false" import="true" targetId="1d1e-169c-0c77-b4a7" type="selectionEntry">
+            <entryLink id="835a-da02-3adc-a545" name="Banner" hidden="false" collective="false" import="true" targetId="1d1e-169c-0c77-b4a7" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea70-95f7-9ab5-f2a9" type="max"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d3f7-2bd2-c8e1-ede0"/>
               </constraints>
               <costs>
                 <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="5"/>
               </costs>
             </entryLink>
-            <entryLink id="dc53-21da-50fe-ceca" name="Musician" hidden="false" collective="false" import="true" targetId="13c8-30c0-5be4-d6c5" type="selectionEntry">
+            <entryLink id="4cf7-cbb5-cd72-d9d4" name="Musician" hidden="false" collective="false" import="true" targetId="13c8-30c0-5be4-d6c5" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e42-d7d7-488f-2506" type="max"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1c8-b65c-38fa-c120"/>
               </constraints>
               <costs>
                 <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="5"/>
@@ -856,16 +856,16 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="472f-c42a-8ae3-31e5" name="Shield" hidden="false" collective="false" import="true" targetId="a403-9296-4e18-c8dc" type="selectionEntry">
+        <entryLink id="14aa-8aab-75b2-0cc2" name="Shield" hidden="false" collective="false" import="true" targetId="a403-9296-4e18-c8dc" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d235-2dea-ca15-822a" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="567c-8281-bbac-2b92" type="max"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d106-623b-d412-8319-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d106-623b-d412-8319-max"/>
           </constraints>
         </entryLink>
-        <entryLink id="4d38-d930-bda3-935e" name="Red Light Armour" hidden="false" collective="false" import="true" targetId="f2f5-2782-5568-71fd" type="selectionEntry">
+        <entryLink id="b3d2-f7e5-89b2-58b7" name="Red Light Armour" hidden="false" collective="false" import="true" targetId="f2f5-2782-5568-71fd" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ea3-74ea-14ea-9bf7" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b665-3dc9-d4a3-02e7" type="min"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9897-7051-d726-cfe7-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9897-7051-d726-cfe7-max"/>
           </constraints>
         </entryLink>
         <entryLink id="0a2b-6d64-b719-4573" name="Horse" hidden="false" collective="false" import="true" targetId="d1d5-2584-83b6-8590" type="selectionEntry">
@@ -1876,7 +1876,7 @@
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7064-4a5a-89c2-3ab9" type="lessThan"/>
+                    <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e307-beac-92ac-176f" type="lessThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -1886,7 +1886,7 @@
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7064-4a5a-89c2-3ab9" type="lessThan"/>
+                    <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e307-beac-92ac-176f" type="lessThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -1897,7 +1897,7 @@
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
-                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7064-4a5a-89c2-3ab9" type="lessThan"/>
+                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e307-beac-92ac-176f" type="lessThan"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2140,37 +2140,37 @@
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="4cdf-9be4-bd92-b601" name="Magic Wizard Items" hidden="false" collective="false" import="true">
       <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d0d-9999-477c-521c" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1645-6d09-3364-c34f" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="6b19-aa8e-d512-d8a8" name="Necklace of Power (Talisman)" hidden="false" collective="false" import="true" targetId="3c06-8c3b-0fb3-2f5e" type="selectionEntry"/>
-        <entryLink id="9cf7-baff-0380-dd40" name="Old Wizard’s Book (Talisman)" hidden="false" collective="false" import="true" targetId="bf9e-766e-83e4-5a19" type="selectionEntry"/>
+        <entryLink id="7819-7da8-70f3-5afb" name="Necklace of Power (Talisman)" hidden="false" collective="false" import="true" targetId="3c06-8c3b-0fb3-2f5e" type="selectionEntry"/>
+        <entryLink id="e785-9c48-83dd-b7ed" name="Old Wizard’s Book (Talisman)" hidden="false" collective="false" import="true" targetId="bf9e-766e-83e4-5a19" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="2ed3-6e31-30ae-bbe1" name="Magic Weapons" hidden="false" collective="false" import="true">
       <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="644a-720e-8322-024b" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2dab-00d7-b606-bcf2" type="max"/>
       </constraints>
     </selectionEntryGroup>
     <selectionEntryGroup id="973c-74cb-7aa2-b711" name="Magic Armour" hidden="false" collective="false" import="true">
       <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1044-75f8-3e62-8c79" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d20-0d1b-0230-2899" type="max"/>
       </constraints>
     </selectionEntryGroup>
     <selectionEntryGroup id="39ae-8ce5-ea95-4cd2" name="Magic Banners" hidden="false" collective="false" import="true">
       <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cf3-9cd7-1aa0-495e" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94db-e3ca-f5bc-254d" type="max"/>
       </constraints>
     </selectionEntryGroup>
     <selectionEntryGroup id="e339-92e7-600f-8216" name="Magic Trinkets" hidden="false" collective="false" import="true">
       <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da4a-c615-2149-3716" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df36-a261-5055-f20f" type="max"/>
       </constraints>
     </selectionEntryGroup>
     <selectionEntryGroup id="9140-ead4-86b3-d10b" name="Magic Scrolls" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="93d2-883c-d1d9-8796" name="Scroll of Power" hidden="false" collective="false" import="true" targetId="ae23-0a15-140a-b628" type="selectionEntry"/>
-        <entryLink id="c40c-9552-f432-8480" name="Scroll of Resistance" hidden="false" collective="false" import="true" targetId="5a0d-ec74-d903-46a0" type="selectionEntry"/>
+        <entryLink id="eec2-cca8-312a-2ff1" name="Scroll of Power" hidden="false" collective="false" import="true" targetId="ae23-0a15-140a-b628" type="selectionEntry"/>
+        <entryLink id="ba1c-3516-eb2f-38be" name="Scroll of Resistance" hidden="false" collective="false" import="true" targetId="5a0d-ec74-d903-46a0" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
