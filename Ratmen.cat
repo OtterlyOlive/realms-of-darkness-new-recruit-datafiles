@@ -273,6 +273,14 @@
             <constraint type="max" value="75" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="338b-0f5c-fd5f-db07"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Magic Items" id="c8fa-f613-bb52-0c51" hidden="false">
+          <constraints>
+            <constraint type="max" value="100" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="19e2-e2cd-072a-77a3"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Magic Weapons" hidden="false" id="6f8e-131d-2237-3d41" type="selectionEntryGroup" targetId="fb75-3065-3d16-84c7"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="2721-8c24-5439-93df" name="Shield" hidden="false" collective="false" import="true" targetId="a403-9296-4e18-c8dc" type="selectionEntry">
@@ -478,6 +486,14 @@
           <constraints>
             <constraint type="max" value="75" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="7fac-a7e3-11c6-1f67"/>
           </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Magic Items" id="85e0-267b-a0a3-7458" hidden="false">
+          <constraints>
+            <constraint type="max" value="100" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="07b7-2007-f8f5-4006"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Magic Weapons" hidden="false" id="3b76-fbff-2835-762b" type="selectionEntryGroup" targetId="fb75-3065-3d16-84c7"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -706,7 +722,7 @@
         <infoLink id="b041-09d7-138d-fd84" name="Terrain Jumper" hidden="false" targetId="377d-1eae-e43e-7b9b" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="9b8c-e4db-46d2-bfb6" name="Lord" hidden="false" targetId="7688-3161-c899-c54d" primary="false"/>
+        <categoryLink targetId="05d4-8322-13ed-f55b" id="7a81-13de-a4c0-0bf1" primary="false" name="Warmaster"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="85ba-9c3a-756f-602b" name="Lores of Magic" hidden="false" collective="false" import="true">
@@ -759,6 +775,14 @@
           <constraints>
             <constraint type="max" value="125" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="d980-2537-ce75-d9a6"/>
           </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Magic Items" id="360e-a6cf-ad7d-fa38" hidden="false">
+          <constraints>
+            <constraint type="max" value="75" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="456e-e524-f34b-2019"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Magic Weapons" hidden="false" id="3c64-a2ac-6e76-55b7" type="selectionEntryGroup" targetId="fb75-3065-3d16-84c7"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -937,6 +961,14 @@
             <constraint type="max" value="50" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="0fa1-66ee-5319-e5c7"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Magic Items" id="956b-fa0f-95d7-f980" hidden="false">
+          <constraints>
+            <constraint type="max" value="50" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="a6f2-aa32-3c94-eea3"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Magic Weapons" hidden="false" id="275f-9f84-8c96-c1eb" type="selectionEntryGroup" targetId="fb75-3065-3d16-84c7"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="3de5-918c-c9a9-16db" name="Shield" hidden="false" collective="false" import="true" targetId="a403-9296-4e18-c8dc" type="selectionEntry">
@@ -1085,6 +1117,14 @@
           <constraints>
             <constraint type="max" value="30" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="a81b-425c-2d57-89e3"/>
           </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Magic Items" id="fa75-84ac-2815-ff5d" hidden="false">
+          <constraints>
+            <constraint type="max" value="50" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="1e76-0369-a6c7-bb31"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Magic Weapons" hidden="false" id="d53e-8afd-e520-b5cc" type="selectionEntryGroup" targetId="fb75-3065-3d16-84c7"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <selectionEntries>
@@ -1265,6 +1305,22 @@
             <constraint type="max" value="50" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="6c0b-ea7a-77c0-922d"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Magic Items" id="b956-5890-8baf-ec3a" hidden="false">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Magic Weapons" id="4faa-7d3c-c385-fddf" hidden="false">
+              <entryLinks>
+                <entryLink import="true" name="Boomstick" hidden="false" id="fcf2-c7e3-b2ce-5f8e" type="selectionEntry" targetId="a3d7-5786-59ce-457c"/>
+                <entryLink import="true" name="Rod of Corruption (Wizards only)" hidden="false" id="3c70-571b-cb6a-ae0b" type="selectionEntry" targetId="6b07-3ac9-6d83-6de9"/>
+              </entryLinks>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3425-2343-bce8-a016"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <constraints>
+            <constraint type="max" value="50" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="21ea-44b9-d3d1-e47d"/>
+          </constraints>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="c353-aff0-f145-703e" name="Magic Levels" hidden="false" collective="false" import="true" targetId="63a4-28ae-60e9-e0ff" type="selectionEntry">
@@ -1432,6 +1488,14 @@
             <constraint type="max" value="25" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="d824-9fc1-f9f4-8526"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Magic Items" id="30a6-edf9-248a-e234" hidden="false">
+          <constraints>
+            <constraint type="max" value="25" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="fe22-fc43-3883-4833"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Magic Weapons" hidden="false" id="070f-332c-7dfe-0170" type="selectionEntryGroup" targetId="fb75-3065-3d16-84c7"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="41e4-24ac-cab2-7da7" name="Pistol" hidden="false" collective="false" import="true" targetId="a12d-6b47-e20a-7699" type="selectionEntry">
@@ -1556,6 +1620,14 @@
             <constraint type="max" value="75" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="3860-d32b-3ae6-9193"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Magic Items" id="b8f4-a46b-e2d5-9f98" hidden="false">
+          <constraints>
+            <constraint type="max" value="25" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="4526-4735-4698-c032"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Magic Weapons" hidden="false" id="df07-dcbf-94cb-0888" type="selectionEntryGroup" targetId="fb75-3065-3d16-84c7"/>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="3a48-eb7a-d29c-5b35" name="Magic Levels" hidden="false" collective="false" import="true" targetId="63a4-28ae-60e9-e0ff" type="selectionEntry">
@@ -1659,6 +1731,14 @@
           <constraints>
             <constraint type="max" value="50" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="9ae9-f145-992b-bd31"/>
           </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Magic Items" id="285d-b12a-48c0-e4bd" hidden="false">
+          <constraints>
+            <constraint type="max" value="25" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="d6a1-4017-6be7-bc77"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Magic Weapons" hidden="false" id="ef78-962a-0004-5e5c" type="selectionEntryGroup" targetId="fb75-3065-3d16-84c7"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -3466,6 +3546,89 @@ When deploying this way, the model can deploy down to 5” away instead of the n
               <repeats>
                 <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
               </repeats>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Magic Weapons" id="fb75-3065-3d16-84c7" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Boomstick" hidden="false" id="a3d7-5786-59ce-457c" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8ba9-03df-9b11-5b87" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <profiles>
+            <profile name="Boomstick" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon" hidden="false" id="d501-e828-6bbc-435d">
+              <characteristics>
+                <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">1</characteristic>
+                <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">20</characteristic>
+                <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-</characteristic>
+                <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">15&quot;</characteristic>
+                <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Indirect</characteristic>
+                <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Magic Attacks - Shadow, Volatile Shot</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Magic Attacks - X" id="20c6-cbe9-98c4-9c2b" hidden="false" targetId="b2ee-4ebe-97f3-3116" type="rule">
+              <modifiers>
+                <modifier type="set" value="Magic Attacks - Shadow" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="50"/>
+          </costs>
+          <rules>
+            <rule name="Volatile Shot" id="4cf4-3b52-dd97-8f11" hidden="false">
+              <description>The gun is extremely unstable and often hurts the rat using it.
+
+
+On a roll of 1 to hit, the model carrying the weapon is hit instead of the target. </description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Rod of Corruption (Wizards only)" hidden="false" id="6b07-3ac9-6d83-6de9" collective="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="8a7e-370f-faba-9e6c" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
+          <profiles>
+            <profile name="Rod of Corruption" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon" hidden="false" id="14cf-1a58-a9a4-9a39">
+              <characteristics>
+                <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">3</characteristic>
+                <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">6</characteristic>
+                <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-</characteristic>
+                <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">20&quot;</characteristic>
+                <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Direct</characteristic>
+                <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Corruption Madness, Magic Infusion, Magic Shot</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Magic Infusion" id="5132-5bbf-fefd-3016" hidden="false" type="rule" targetId="3f84-8a0e-f427-a82c"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="20"/>
+          </costs>
+          <rules>
+            <rule name="Magic Shot" id="446b-846e-82f0-94d3" hidden="false">
+              <description>The attack is magical of the type the wizard has.</description>
+            </rule>
+            <rule name="Corruption Madness" id="9342-5d99-588a-c2aa" hidden="false">
+              <description>Whenever a model is killed by a shot from the staff, do not remove it. Instead put a counter on the unit.
+
+
+The wizard can at any point later in the game in the magic phase spend a power token to activate all tokens on a unit. For each token a model in the unit will immediately attack the unit itself as if it was in melee in the melee phase and after it is done be removed as a casualty.
+
+
+If the attack wounded but did not kill a model, add a new token to the unit, which the wizard can then later activate again with a power token.</description>
+            </rule>
+          </rules>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="parent" childId="63a4-28ae-60e9-e0ff" shared="true"/>
+              </conditions>
             </modifier>
           </modifiers>
         </selectionEntry>
