@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b50d-ba7c-e559-5f65" name="Kingdoms of Men" revision="27" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="b50d-ba7c-e559-5f65" name="Kingdoms of Men" revision="28" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="a599-43fd-5eaf-2b49" name="Engineer" hidden="false" collective="false" import="true" targetId="c46b-f2af-4e71-49f7" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="bc0d-3679-b5a8-c601" name="Lord" hidden="false" targetId="7688-3161-c899-c54d" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e959-b78a-afab-b544" name="Captain" hidden="false" collective="false" import="true" targetId="7004-d432-8006-bf1d" type="selectionEntry">
+    <entryLink id="e959-b78a-afab-b544" name="Captain" hidden="false" collective="false" import="true" targetId="7e61-f0f4-2f0b-c8bc" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="5801-5a6a-2585-c36f" name="Lord" hidden="false" targetId="7688-3161-c899-c54d" primary="true"/>
       </categoryLinks>
@@ -21,7 +21,7 @@
         <categoryLink id="9255-0a71-20e0-2b6e" name="Lord" hidden="false" targetId="7688-3161-c899-c54d" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2012-b5c5-50a9-0d23" name="Wizard" hidden="false" collective="false" import="true" targetId="b76a-b413-0e09-1099" type="selectionEntry">
+    <entryLink id="2012-b5c5-50a9-0d23" name="Wizard" hidden="false" collective="false" import="true" targetId="5056-c36f-fb0a-3863" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="2381-686f-ba21-cb62" name="Lord" hidden="false" targetId="7688-3161-c899-c54d" primary="true"/>
       </categoryLinks>
@@ -793,9 +793,9 @@
             <constraint field="5119-770c-ea3a-8a8c" scope="parent" value="100" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3a0-ed5d-e6ab-44b7" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="6bfb-0f3d-588a-f979" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="54ed-3518-73b0-1123" type="selectionEntryGroup"/>
-            <entryLink id="cd1f-6020-60d8-4bba" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="a347-61f3-ecc2-2e10" type="selectionEntryGroup"/>
-            <entryLink id="551b-e84f-0a87-30ac" name="Magic Armour" hidden="false" collective="false" import="true" targetId="5d78-aed8-1e7a-1154" type="selectionEntryGroup"/>
+            <entryLink id="6bfb-0f3d-588a-f979" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="7474-bad5-d0b0-b32e" type="selectionEntryGroup"/>
+            <entryLink id="cd1f-6020-60d8-4bba" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="49f1-4375-bcfc-95f7" type="selectionEntryGroup"/>
+            <entryLink id="551b-e84f-0a87-30ac" name="Magic Armour" hidden="false" collective="false" import="true" targetId="4f24-41a0-6717-cdf2" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="03fd-7495-7f8f-1be9" name="God Dedication" hidden="false" collective="false" import="true">
@@ -1352,9 +1352,9 @@
             <constraint field="5119-770c-ea3a-8a8c" scope="parent" value="50" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d86-e2eb-72c3-a96d" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="124c-8d0a-fdc8-779f" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="54ed-3518-73b0-1123" type="selectionEntryGroup"/>
-            <entryLink id="1695-f601-086a-b596" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="a347-61f3-ecc2-2e10" type="selectionEntryGroup"/>
-            <entryLink id="03f2-a0f7-1d6d-70c3" name="Magic Wizard Items" hidden="false" collective="false" import="true" targetId="81f1-02d2-5d47-a674" type="selectionEntryGroup">
+            <entryLink id="124c-8d0a-fdc8-779f" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="7474-bad5-d0b0-b32e" type="selectionEntryGroup"/>
+            <entryLink id="1695-f601-086a-b596" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="49f1-4375-bcfc-95f7" type="selectionEntryGroup"/>
+            <entryLink id="03f2-a0f7-1d6d-70c3" name="Magic Wizard Items" hidden="false" collective="false" import="true" targetId="1602-890e-fb18-5cc1" type="selectionEntryGroup">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -1363,8 +1363,8 @@
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="f874-1736-5c85-8483" name="Magic Armour" hidden="false" collective="false" import="true" targetId="5d78-aed8-1e7a-1154" type="selectionEntryGroup"/>
-            <entryLink id="79ae-a6b5-5849-ec54" name="Magic Scrolls" hidden="false" collective="false" import="true" targetId="de2a-1e03-3be8-30c9" type="selectionEntryGroup">
+            <entryLink id="f874-1736-5c85-8483" name="Magic Armour" hidden="false" collective="false" import="true" targetId="4f24-41a0-6717-cdf2" type="selectionEntryGroup"/>
+            <entryLink id="79ae-a6b5-5849-ec54" name="Magic Scrolls" hidden="false" collective="false" import="true" targetId="7fbd-03f9-e768-85ab" type="selectionEntryGroup">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -1770,9 +1770,9 @@
             <constraint field="5119-770c-ea3a-8a8c" scope="parent" value="50" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff46-119d-7809-f5c0" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="198e-3d42-af47-ce0b" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="54ed-3518-73b0-1123" type="selectionEntryGroup"/>
-            <entryLink id="7fd3-e657-3de7-593f" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="a347-61f3-ecc2-2e10" type="selectionEntryGroup"/>
-            <entryLink id="0b89-fba2-bf42-9c08" name="Magic Armour" hidden="false" collective="false" import="true" targetId="5d78-aed8-1e7a-1154" type="selectionEntryGroup"/>
+            <entryLink id="198e-3d42-af47-ce0b" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="7474-bad5-d0b0-b32e" type="selectionEntryGroup"/>
+            <entryLink id="7fd3-e657-3de7-593f" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="49f1-4375-bcfc-95f7" type="selectionEntryGroup"/>
+            <entryLink id="0b89-fba2-bf42-9c08" name="Magic Armour" hidden="false" collective="false" import="true" targetId="4f24-41a0-6717-cdf2" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1794,10 +1794,10 @@
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="55"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b76a-b413-0e09-1099" name="Wizard" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="5056-c36f-fb0a-3863" name="Wizard" hidden="false" collective="false" import="true" type="model">
       <comment>Missing: Mounts.</comment>
       <profiles>
-        <profile id="66b4-790c-9302-5dc2" name="Wizard" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
+        <profile id="5e1a-8885-b72f-ccf9" name="Wizard" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <characteristics>
             <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5&quot;</characteristic>
             <characteristic name="RH" typeId="b74f-2b64-2662-f401">3+</characteristic>
@@ -1820,7 +1820,7 @@
         <categoryLink id="48a0-bd14-d175-c961" name="Lord" hidden="false" targetId="7688-3161-c899-c54d" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="672c-e6d9-06ec-06cd" name="Lores of Magic" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="e563-160f-6a04-89a4" name="Lores of Magic" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="5119-770c-ea3a-8a8c" scope="parent" value="50" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afdf-e565-b51f-1b19" type="max"/>
           </constraints>
@@ -1831,8 +1831,8 @@
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="b76a-b413-0e09-1099" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c375-5cbf-c53d-b1a5" type="lessThan"/>
-                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="672c-e6d9-06ec-06cd" type="atLeast"/>
+                        <condition field="selections" scope="5056-c36f-fb0a-3863" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c375-5cbf-c53d-b1a5" type="lessThan"/>
+                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e563-160f-6a04-89a4" type="atLeast"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -1845,8 +1845,8 @@
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="b76a-b413-0e09-1099" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6b5f-d9fb-a477-2912" type="lessThan"/>
-                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="672c-e6d9-06ec-06cd" type="atLeast"/>
+                        <condition field="selections" scope="5056-c36f-fb0a-3863" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6b5f-d9fb-a477-2912" type="lessThan"/>
+                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e563-160f-6a04-89a4" type="atLeast"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -1859,8 +1859,8 @@
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="b76a-b413-0e09-1099" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="199c-b0ac-c371-823c" type="lessThan"/>
-                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="672c-e6d9-06ec-06cd" type="atLeast"/>
+                        <condition field="selections" scope="5056-c36f-fb0a-3863" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="199c-b0ac-c371-823c" type="lessThan"/>
+                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e563-160f-6a04-89a4" type="atLeast"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -1873,8 +1873,8 @@
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="b76a-b413-0e09-1099" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e35b-9c84-0f02-a4a1" type="lessThan"/>
-                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="672c-e6d9-06ec-06cd" type="atLeast"/>
+                        <condition field="selections" scope="5056-c36f-fb0a-3863" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e35b-9c84-0f02-a4a1" type="lessThan"/>
+                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e563-160f-6a04-89a4" type="atLeast"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -1887,8 +1887,8 @@
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="b76a-b413-0e09-1099" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8250-aa4e-3ba7-c800" type="lessThan"/>
-                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="672c-e6d9-06ec-06cd" type="atLeast"/>
+                        <condition field="selections" scope="5056-c36f-fb0a-3863" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8250-aa4e-3ba7-c800" type="lessThan"/>
+                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e563-160f-6a04-89a4" type="atLeast"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -1901,8 +1901,8 @@
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="b76a-b413-0e09-1099" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8dfb-bc2f-8758-e27b" type="lessThan"/>
-                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="672c-e6d9-06ec-06cd" type="atLeast"/>
+                        <condition field="selections" scope="5056-c36f-fb0a-3863" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8dfb-bc2f-8758-e27b" type="lessThan"/>
+                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e563-160f-6a04-89a4" type="atLeast"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -1915,8 +1915,8 @@
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="b76a-b413-0e09-1099" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4575-6374-1c29-f8fd" type="lessThan"/>
-                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="672c-e6d9-06ec-06cd" type="atLeast"/>
+                        <condition field="selections" scope="5056-c36f-fb0a-3863" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4575-6374-1c29-f8fd" type="lessThan"/>
+                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e563-160f-6a04-89a4" type="atLeast"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -1929,8 +1929,8 @@
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="b76a-b413-0e09-1099" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7cd7-ab69-0183-289d" type="lessThan"/>
-                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="672c-e6d9-06ec-06cd" type="atLeast"/>
+                        <condition field="selections" scope="5056-c36f-fb0a-3863" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7cd7-ab69-0183-289d" type="lessThan"/>
+                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e563-160f-6a04-89a4" type="atLeast"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -1943,8 +1943,8 @@
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition field="selections" scope="b76a-b413-0e09-1099" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="db39-c7d1-f088-03f3" type="lessThan"/>
-                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="672c-e6d9-06ec-06cd" type="atLeast"/>
+                        <condition field="selections" scope="5056-c36f-fb0a-3863" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="db39-c7d1-f088-03f3" type="lessThan"/>
+                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e563-160f-6a04-89a4" type="atLeast"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -1953,15 +1953,15 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="a9c7-79a1-3cd1-df70" name="Magic Items" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="3004-c2ce-8afe-ec4f" name="Magic Items" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="5119-770c-ea3a-8a8c" scope="parent" value="50" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f140-1fb5-0fe1-ad1c" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="c630-0128-c55c-8027" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="54ed-3518-73b0-1123" type="selectionEntryGroup"/>
-            <entryLink id="ba76-f00f-0f4a-4a6a" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="a347-61f3-ecc2-2e10" type="selectionEntryGroup"/>
-            <entryLink id="de5b-2d08-5244-ef51" name="Magic Wizard Items" hidden="false" collective="false" import="true" targetId="81f1-02d2-5d47-a674" type="selectionEntryGroup"/>
-            <entryLink id="c28f-b76a-dfd2-14ce" name="Magic Scrolls" hidden="false" collective="false" import="true" targetId="de2a-1e03-3be8-30c9" type="selectionEntryGroup"/>
+            <entryLink id="c630-0128-c55c-8027" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="7474-bad5-d0b0-b32e" type="selectionEntryGroup"/>
+            <entryLink id="ba76-f00f-0f4a-4a6a" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="49f1-4375-bcfc-95f7" type="selectionEntryGroup"/>
+            <entryLink id="de5b-2d08-5244-ef51" name="Magic Wizard Items" hidden="false" collective="false" import="true" targetId="1602-890e-fb18-5cc1" type="selectionEntryGroup"/>
+            <entryLink id="c28f-b76a-dfd2-14ce" name="Magic Scrolls" hidden="false" collective="false" import="true" targetId="7fbd-03f9-e768-85ab" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="10f4-233e-0621-701c" name="Mounts" hidden="false" collective="false" import="true">
@@ -2032,9 +2032,9 @@
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="45"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7004-d432-8006-bf1d" name="Captain" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="7e61-f0f4-2f0b-c8bc" name="Captain" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="974c-bed0-fae7-2460" name="Captain" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
+        <profile id="3839-3113-098a-d743" name="Captain" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <characteristics>
             <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5&quot;</characteristic>
             <characteristic name="RH" typeId="b74f-2b64-2662-f401">3+</characteristic>
@@ -2054,7 +2054,7 @@
         <infoLink id="768b-7977-04c9-1e61" name="Elite" hidden="false" targetId="2f43-4bde-1249-f8af" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="9c34-a382-a590-affa" name="Armour Options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="1a90-7b27-9569-406a" name="Armour Options" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e210-b4ab-f819-5eba" type="max"/>
           </constraints>
@@ -2088,7 +2088,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="a3df-f603-5012-1b05" name="Options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="35c1-115b-b3a0-09da" name="Options" hidden="false" collective="false" import="true">
           <entryLinks>
             <entryLink id="87a7-bd52-0f45-9e79" name="Crossbow" hidden="false" collective="false" import="true" targetId="011b-4523-dbba-ceb5" type="selectionEntry">
               <constraints>
@@ -2125,7 +2125,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="a1b5-e2f1-c649-6e2d" name="Melee Weapon Options" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="4cb1-b19c-30c4-c552" name="Melee Weapon Options" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfb6-8904-737e-a808" type="max"/>
           </constraints>
@@ -2177,14 +2177,14 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="2dd5-b148-a9a9-004a" name="Magic Items" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="ede2-4bdb-dccb-2984" name="Magic Items" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="5119-770c-ea3a-8a8c" scope="parent" value="50" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4981-13a7-43b6-92c4" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="1ce5-afb4-2af0-4c21" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="54ed-3518-73b0-1123" type="selectionEntryGroup"/>
-            <entryLink id="22b1-c85e-0f3d-991b" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="a347-61f3-ecc2-2e10" type="selectionEntryGroup"/>
-            <entryLink id="3dfe-6317-1afd-2c82" name="Magic Armour" hidden="false" collective="false" import="true" targetId="5d78-aed8-1e7a-1154" type="selectionEntryGroup"/>
+            <entryLink id="1ce5-afb4-2af0-4c21" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="7474-bad5-d0b0-b32e" type="selectionEntryGroup"/>
+            <entryLink id="22b1-c85e-0f3d-991b" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="49f1-4375-bcfc-95f7" type="selectionEntryGroup"/>
+            <entryLink id="3dfe-6317-1afd-2c82" name="Magic Armour" hidden="false" collective="false" import="true" targetId="4f24-41a0-6717-cdf2" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="8fbe-b775-9f17-d309" name="Shields" hidden="false" collective="false" import="true">
@@ -2433,11 +2433,11 @@
             <constraint field="5119-770c-ea3a-8a8c" scope="parent" value="125" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e93-002d-378e-572b" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="cf78-dcd9-801a-3d2b" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="54ed-3518-73b0-1123" type="selectionEntryGroup"/>
-            <entryLink id="eff2-72f0-3b91-71b7" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="a347-61f3-ecc2-2e10" type="selectionEntryGroup"/>
-            <entryLink id="8a92-2342-13d5-0ce9" name="Magic Wizard Items" hidden="false" collective="false" import="true" targetId="81f1-02d2-5d47-a674" type="selectionEntryGroup"/>
-            <entryLink id="1137-2cdc-f8b2-c599" name="Magic Armour" hidden="false" collective="false" import="true" targetId="5d78-aed8-1e7a-1154" type="selectionEntryGroup"/>
-            <entryLink id="f76a-a121-61e1-6bb6" name="Magic Scrolls" hidden="false" collective="false" import="true" targetId="de2a-1e03-3be8-30c9" type="selectionEntryGroup"/>
+            <entryLink id="cf78-dcd9-801a-3d2b" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="7474-bad5-d0b0-b32e" type="selectionEntryGroup"/>
+            <entryLink id="eff2-72f0-3b91-71b7" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="49f1-4375-bcfc-95f7" type="selectionEntryGroup"/>
+            <entryLink id="8a92-2342-13d5-0ce9" name="Magic Wizard Items" hidden="false" collective="false" import="true" targetId="1602-890e-fb18-5cc1" type="selectionEntryGroup"/>
+            <entryLink id="1137-2cdc-f8b2-c599" name="Magic Armour" hidden="false" collective="false" import="true" targetId="4f24-41a0-6717-cdf2" type="selectionEntryGroup"/>
+            <entryLink id="f76a-a121-61e1-6bb6" name="Magic Scrolls" hidden="false" collective="false" import="true" targetId="7fbd-03f9-e768-85ab" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -5646,9 +5646,9 @@
                 <constraint field="5119-770c-ea3a-8a8c" scope="parent" value="50" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28ab-9bd5-c76a-d8a1" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="2aa7-e326-0c18-cf97" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="54ed-3518-73b0-1123" type="selectionEntryGroup"/>
-                <entryLink id="742c-1b14-f55c-2fe8" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="a347-61f3-ecc2-2e10" type="selectionEntryGroup"/>
-                <entryLink id="2735-4aa3-9b52-33d7" name="Magic Armour" hidden="false" collective="false" import="true" targetId="5d78-aed8-1e7a-1154" type="selectionEntryGroup"/>
+                <entryLink id="2aa7-e326-0c18-cf97" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="7474-bad5-d0b0-b32e" type="selectionEntryGroup"/>
+                <entryLink id="742c-1b14-f55c-2fe8" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="49f1-4375-bcfc-95f7" type="selectionEntryGroup"/>
+                <entryLink id="2735-4aa3-9b52-33d7" name="Magic Armour" hidden="false" collective="false" import="true" targetId="4f24-41a0-6717-cdf2" type="selectionEntryGroup"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -7717,9 +7717,9 @@
             <constraint field="5119-770c-ea3a-8a8c" scope="parent" value="50" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce71-c150-42f6-f79f" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="68e0-2b77-9e1b-e507" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="54ed-3518-73b0-1123" type="selectionEntryGroup"/>
-            <entryLink id="b0dc-79e2-cb29-09f6" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="a347-61f3-ecc2-2e10" type="selectionEntryGroup"/>
-            <entryLink id="48d0-da73-cd55-17ce" name="Magic Wizard Items" hidden="false" collective="false" import="true" targetId="81f1-02d2-5d47-a674" type="selectionEntryGroup">
+            <entryLink id="68e0-2b77-9e1b-e507" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="7474-bad5-d0b0-b32e" type="selectionEntryGroup"/>
+            <entryLink id="b0dc-79e2-cb29-09f6" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="49f1-4375-bcfc-95f7" type="selectionEntryGroup"/>
+            <entryLink id="48d0-da73-cd55-17ce" name="Magic Wizard Items" hidden="false" collective="false" import="true" targetId="1602-890e-fb18-5cc1" type="selectionEntryGroup">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -7728,8 +7728,8 @@
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="1091-7b1c-f66f-eef9" name="Magic Armour" hidden="false" collective="false" import="true" targetId="5d78-aed8-1e7a-1154" type="selectionEntryGroup"/>
-            <entryLink id="3632-b106-9e0d-9ad4" name="Magic Scrolls" hidden="false" collective="false" import="true" targetId="de2a-1e03-3be8-30c9" type="selectionEntryGroup">
+            <entryLink id="1091-7b1c-f66f-eef9" name="Magic Armour" hidden="false" collective="false" import="true" targetId="4f24-41a0-6717-cdf2" type="selectionEntryGroup"/>
+            <entryLink id="3632-b106-9e0d-9ad4" name="Magic Scrolls" hidden="false" collective="false" import="true" targetId="7fbd-03f9-e768-85ab" type="selectionEntryGroup">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -8141,9 +8141,9 @@
             <constraint field="5119-770c-ea3a-8a8c" scope="parent" value="100" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab05-3641-2ee1-ec64" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="fa02-5c84-cf17-02b7" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="54ed-3518-73b0-1123" type="selectionEntryGroup"/>
-            <entryLink id="7d69-d159-728a-4809" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="a347-61f3-ecc2-2e10" type="selectionEntryGroup"/>
-            <entryLink id="656c-ed81-6356-bd56" name="Magic Armour" hidden="false" collective="false" import="true" targetId="5d78-aed8-1e7a-1154" type="selectionEntryGroup"/>
+            <entryLink id="fa02-5c84-cf17-02b7" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="7474-bad5-d0b0-b32e" type="selectionEntryGroup"/>
+            <entryLink id="7d69-d159-728a-4809" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="49f1-4375-bcfc-95f7" type="selectionEntryGroup"/>
+            <entryLink id="656c-ed81-6356-bd56" name="Magic Armour" hidden="false" collective="false" import="true" targetId="4f24-41a0-6717-cdf2" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="8f8a-ea42-b8e4-5aa4" name="God Dedication" hidden="false" collective="false" import="true">
@@ -8549,7 +8549,7 @@
                     <conditionGroup type="and">
                       <conditions>
                         <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c375-5cbf-c53d-b1a5" type="lessThan"/>
-                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="672c-e6d9-06ec-06cd" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e563-160f-6a04-89a4" type="atLeast"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -8563,7 +8563,7 @@
                     <conditionGroup type="and">
                       <conditions>
                         <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6b5f-d9fb-a477-2912" type="lessThan"/>
-                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="672c-e6d9-06ec-06cd" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e563-160f-6a04-89a4" type="atLeast"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -8577,7 +8577,7 @@
                     <conditionGroup type="and">
                       <conditions>
                         <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="199c-b0ac-c371-823c" type="lessThan"/>
-                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="672c-e6d9-06ec-06cd" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e563-160f-6a04-89a4" type="atLeast"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -8591,7 +8591,7 @@
                     <conditionGroup type="and">
                       <conditions>
                         <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8250-aa4e-3ba7-c800" type="lessThan"/>
-                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="672c-e6d9-06ec-06cd" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e563-160f-6a04-89a4" type="atLeast"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -8605,7 +8605,7 @@
                     <conditionGroup type="and">
                       <conditions>
                         <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8dfb-bc2f-8758-e27b" type="lessThan"/>
-                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="672c-e6d9-06ec-06cd" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e563-160f-6a04-89a4" type="atLeast"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -8619,10 +8619,10 @@
             <constraint field="5119-770c-ea3a-8a8c" scope="parent" value="100" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ed1-7953-d793-a7bc" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="7cf6-dc5b-684b-09e8" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="54ed-3518-73b0-1123" type="selectionEntryGroup"/>
-            <entryLink id="0250-aafe-d23a-8d29" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="a347-61f3-ecc2-2e10" type="selectionEntryGroup"/>
-            <entryLink id="847d-5689-8ab2-edac" name="Magic Wizard Items" hidden="false" collective="false" import="true" targetId="81f1-02d2-5d47-a674" type="selectionEntryGroup"/>
-            <entryLink id="94b1-0bb6-ed51-789d" name="Magic Scrolls" hidden="false" collective="false" import="true" targetId="de2a-1e03-3be8-30c9" type="selectionEntryGroup"/>
+            <entryLink id="7cf6-dc5b-684b-09e8" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="7474-bad5-d0b0-b32e" type="selectionEntryGroup"/>
+            <entryLink id="0250-aafe-d23a-8d29" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="49f1-4375-bcfc-95f7" type="selectionEntryGroup"/>
+            <entryLink id="847d-5689-8ab2-edac" name="Magic Wizard Items" hidden="false" collective="false" import="true" targetId="1602-890e-fb18-5cc1" type="selectionEntryGroup"/>
+            <entryLink id="94b1-0bb6-ed51-789d" name="Magic Scrolls" hidden="false" collective="false" import="true" targetId="7fbd-03f9-e768-85ab" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="ae6a-f251-8dc1-16ee" name="God Dedication" hidden="false" collective="false" import="true" defaultSelectionEntryId="400c-353d-1ba8-9c4d">
@@ -8760,9 +8760,9 @@
             <constraint field="5119-770c-ea3a-8a8c" scope="parent" value="100" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3846-df03-04dd-c347" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="5d15-2bc5-adb2-e1ee" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="54ed-3518-73b0-1123" type="selectionEntryGroup"/>
-            <entryLink id="5b04-b58c-3454-2340" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="a347-61f3-ecc2-2e10" type="selectionEntryGroup"/>
-            <entryLink id="9f9a-9f0b-a644-87b2" name="Magic Armour" hidden="false" collective="false" import="true" targetId="5d78-aed8-1e7a-1154" type="selectionEntryGroup"/>
+            <entryLink id="5d15-2bc5-adb2-e1ee" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="7474-bad5-d0b0-b32e" type="selectionEntryGroup"/>
+            <entryLink id="5b04-b58c-3454-2340" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="49f1-4375-bcfc-95f7" type="selectionEntryGroup"/>
+            <entryLink id="9f9a-9f0b-a644-87b2" name="Magic Armour" hidden="false" collective="false" import="true" targetId="4f24-41a0-6717-cdf2" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="fbd0-38e1-6cb8-cbe5" name="God Dedication" hidden="false" collective="false" import="true">
@@ -9203,9 +9203,9 @@
             <constraint field="5119-770c-ea3a-8a8c" scope="parent" value="50" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b43-db06-6f6d-ae52" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="9d1b-f298-6994-6813" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="54ed-3518-73b0-1123" type="selectionEntryGroup"/>
-            <entryLink id="d7b3-4034-ea36-5a97" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="a347-61f3-ecc2-2e10" type="selectionEntryGroup"/>
-            <entryLink id="ca26-0b20-d1e3-9341" name="Magic Wizard Items" hidden="false" collective="false" import="true" targetId="81f1-02d2-5d47-a674" type="selectionEntryGroup">
+            <entryLink id="9d1b-f298-6994-6813" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="7474-bad5-d0b0-b32e" type="selectionEntryGroup"/>
+            <entryLink id="d7b3-4034-ea36-5a97" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="49f1-4375-bcfc-95f7" type="selectionEntryGroup"/>
+            <entryLink id="ca26-0b20-d1e3-9341" name="Magic Wizard Items" hidden="false" collective="false" import="true" targetId="1602-890e-fb18-5cc1" type="selectionEntryGroup">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -9214,7 +9214,7 @@
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="10ae-8437-fc7e-e6b7" name="Magic Armour" hidden="false" collective="false" import="true" targetId="5d78-aed8-1e7a-1154" type="selectionEntryGroup"/>
+            <entryLink id="10ae-8437-fc7e-e6b7" name="Magic Armour" hidden="false" collective="false" import="true" targetId="4f24-41a0-6717-cdf2" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="0df3-0c1f-0449-df24" name="God Dedication" hidden="false" collective="false" import="true">
@@ -9644,7 +9644,7 @@
                     <conditionGroup type="and">
                       <conditions>
                         <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c375-5cbf-c53d-b1a5" type="lessThan"/>
-                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="672c-e6d9-06ec-06cd" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e563-160f-6a04-89a4" type="atLeast"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -9658,7 +9658,7 @@
                     <conditionGroup type="and">
                       <conditions>
                         <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6b5f-d9fb-a477-2912" type="lessThan"/>
-                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="672c-e6d9-06ec-06cd" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e563-160f-6a04-89a4" type="atLeast"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -9672,7 +9672,7 @@
                     <conditionGroup type="and">
                       <conditions>
                         <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f75c-7577-6ef0-34a3" type="lessThan"/>
-                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="672c-e6d9-06ec-06cd" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e563-160f-6a04-89a4" type="atLeast"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -9686,7 +9686,7 @@
                     <conditionGroup type="and">
                       <conditions>
                         <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8250-aa4e-3ba7-c800" type="lessThan"/>
-                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="672c-e6d9-06ec-06cd" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e563-160f-6a04-89a4" type="atLeast"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -9700,7 +9700,7 @@
                     <conditionGroup type="and">
                       <conditions>
                         <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8dfb-bc2f-8758-e27b" type="lessThan"/>
-                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="672c-e6d9-06ec-06cd" type="atLeast"/>
+                        <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e563-160f-6a04-89a4" type="atLeast"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -9714,10 +9714,10 @@
             <constraint field="5119-770c-ea3a-8a8c" scope="parent" value="50" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f47-7dc9-aecc-ce34" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="a17e-d9e2-bdca-8fcd" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="54ed-3518-73b0-1123" type="selectionEntryGroup"/>
-            <entryLink id="5738-319c-fb31-fa0e" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="a347-61f3-ecc2-2e10" type="selectionEntryGroup"/>
-            <entryLink id="e0cd-fcfb-faa4-e8e3" name="Magic Wizard Items" hidden="false" collective="false" import="true" targetId="81f1-02d2-5d47-a674" type="selectionEntryGroup"/>
-            <entryLink id="e65e-7ed3-59e9-da5a" name="Magic Scrolls" hidden="false" collective="false" import="true" targetId="de2a-1e03-3be8-30c9" type="selectionEntryGroup"/>
+            <entryLink id="a17e-d9e2-bdca-8fcd" name="Magic Weapons" hidden="false" collective="false" import="true" targetId="7474-bad5-d0b0-b32e" type="selectionEntryGroup"/>
+            <entryLink id="5738-319c-fb31-fa0e" name="Magic Trinkets" hidden="false" collective="false" import="true" targetId="49f1-4375-bcfc-95f7" type="selectionEntryGroup"/>
+            <entryLink id="e0cd-fcfb-faa4-e8e3" name="Magic Wizard Items" hidden="false" collective="false" import="true" targetId="1602-890e-fb18-5cc1" type="selectionEntryGroup"/>
+            <entryLink id="e65e-7ed3-59e9-da5a" name="Magic Scrolls" hidden="false" collective="false" import="true" targetId="7fbd-03f9-e768-85ab" type="selectionEntryGroup"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="d4e3-cc9b-1bc8-5add" name="Mounts" hidden="false" collective="false" import="true">
@@ -10231,7 +10231,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="5d78-aed8-1e7a-1154" name="Magic Armour" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="4f24-41a0-6717-cdf2" name="Magic Armour" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84b4-6829-b37e-0101" type="max"/>
       </constraints>
@@ -10484,7 +10484,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="a347-61f3-ecc2-2e10" name="Magic Trinkets" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="49f1-4375-bcfc-95f7" name="Magic Trinkets" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a2d-9188-d38b-a997" type="max"/>
       </constraints>
@@ -10531,7 +10531,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="54ed-3518-73b0-1123" name="Magic Weapons" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="7474-bad5-d0b0-b32e" name="Magic Weapons" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f56d-346c-8164-1d6b" type="max"/>
       </constraints>
@@ -10732,7 +10732,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="81f1-02d2-5d47-a674" name="Magic Wizard Items" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="1602-890e-fb18-5cc1" name="Magic Wizard Items" hidden="false" collective="false" import="true">
       <constraints>
         <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d072-d265-6393-2c9b" type="max"/>
       </constraints>
@@ -10784,7 +10784,7 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="de2a-1e03-3be8-30c9" name="Magic Scrolls" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="7fbd-03f9-e768-85ab" name="Magic Scrolls" hidden="false" collective="false" import="true">
       <entryLinks>
         <entryLink id="ffe2-54c3-2e5b-be6c" name="Scroll of Power" hidden="false" collective="false" import="true" targetId="ae23-0a15-140a-b628" type="selectionEntry"/>
         <entryLink id="8706-7d6a-addb-2967" name="Scroll of Resistance" hidden="false" collective="false" import="true" targetId="5a0d-ec74-d903-46a0" type="selectionEntry"/>
