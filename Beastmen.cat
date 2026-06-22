@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="36" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="37" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="8168-8ddd-eb9e-de05" name="Bæsts" hidden="false" collective="false" import="true" targetId="e5f4-1126-9dce-8aaf" type="selectionEntry">
       <categoryLinks>
@@ -1952,13 +1952,13 @@
         <categoryLink id="c05b-a5bf-af22-05bf" name="Specialist" hidden="false" targetId="cd29-77d0-c75d-b384" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="e1d2-94e5-4a7a-cd3b" name="2 x Bæsts" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e1d2-94e5-4a7a-cd3b" name="2 x Wergeize" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f9c-e9de-7dcd-d5b8-min" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f9c-e9de-7dcd-d5b8-max" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5ce1-74f2-60f1-4630" name="2 x Bæsts" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
+            <profile id="5ce1-74f2-60f1-4630" name="2 x Wergeize" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">-</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">5+</characteristic>
@@ -3676,7 +3676,7 @@
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
           </characteristics>
         </profile>
-        <profile id="8877-54fc-78d0-b9af" name="Bæst" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
+        <profile id="8877-54fc-78d0-b9af" name="Wergeiz" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <characteristics>
             <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
             <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
