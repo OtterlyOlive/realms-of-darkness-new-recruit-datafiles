@@ -2815,17 +2815,26 @@
                 <profile id="54b6-044f-eda8-b648" name="Hurling Boulder" hidden="false" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon">
                   <characteristics>
                     <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">1</characteristic>
-                    <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">12</characteristic>
+                    <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">10</characteristic>
                     <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">.</characteristic>
-                    <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">18&quot;</characteristic>
-                    <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Catapult (D3/rank)</characteristic>
-                    <characteristic name="Special Rules" typeId="5353-ed52-2205-a615"/>
+                    <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Indirect, Thrown</characteristic>
+                    <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Crushing Hit, Line of Devastation, Huge Projectiles</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
                 <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
               </costs>
+              <infoLinks>
+                <infoLink name="Crushing Hit" id="9fdd-b351-ccd2-99e7" hidden="false" type="rule" targetId="13da-1ac8-f351-7b12"/>
+                <infoLink name="Huge Projectiles" id="9af8-eae3-de85-2c3e" hidden="false" type="rule" targetId="906e-587f-a2d1-1937"/>
+              </infoLinks>
+              <rules>
+                <rule name="Line of Devastation" id="29fe-c91c-ad27-5784" hidden="false">
+                  <description>Draw a straight line from the weapon to through the targeted unit. The shot causes D6 hits to the unit, however with a maximum of 1 hit per rank of models the line passes through. In the case of units in skirmish formation, the number of models the line passes through.</description>
+                </rule>
+              </rules>
             </selectionEntry>
             <selectionEntry id="b719-a673-b221-6dfe" name="More Arms" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
