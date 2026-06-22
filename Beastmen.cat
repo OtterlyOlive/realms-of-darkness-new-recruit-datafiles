@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="34" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="35" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="8168-8ddd-eb9e-de05" name="Bæsts" hidden="false" collective="false" import="true" targetId="e5f4-1126-9dce-8aaf" type="selectionEntry">
       <categoryLinks>
@@ -45,6 +45,16 @@
       <categoryLinks>
         <categoryLink id="a258-fa33-ca02-f9a1" name="Specialist" hidden="false" targetId="cd29-77d0-c75d-b384" primary="true"/>
       </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="1000" field="9b65-8b46-4e76-b569">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="force" childId="00ef-6656-ea06-eca7" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="9b65-8b46-4e76-b569"/>
+      </constraints>
     </entryLink>
     <entryLink id="5d24-056e-bd8d-6a5f" name="Shaman&apos;s Totem" hidden="false" collective="false" import="true" targetId="f7ed-5a23-c959-0622" type="selectionEntry">
       <categoryLinks>
