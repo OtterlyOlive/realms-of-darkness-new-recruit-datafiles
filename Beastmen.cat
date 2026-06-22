@@ -3912,7 +3912,7 @@
       <selectionEntries>
         <selectionEntry id="ebe3-e6a1-3712-868d" name="Spear of the Great Hunt" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebed-c2f1-2b1e-ee12" type="max"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ebed-c2f1-2b1e-ee12" type="max"/>
           </constraints>
           <profiles>
             <profile id="0f87-e70c-5506-71a9" name="Spear of the Great Hunt" hidden="false" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon">
@@ -3936,7 +3936,7 @@
         </selectionEntry>
         <selectionEntry id="d493-6b7c-bdcb-9db3" name="Lightning Axe" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4a6-8202-5620-8519" type="max"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b4a6-8202-5620-8519" type="max"/>
           </constraints>
           <profiles>
             <profile id="9843-b6b3-153a-2e96" name="Lightning Axe" hidden="false" typeId="090b-d919-0802-8838" typeName="Melee Weapon">
@@ -3958,7 +3958,7 @@
         </selectionEntry>
         <selectionEntry id="5557-8910-653c-f3d9" name="Axe of Slaying" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b72f-cf14-e5db-9df6" type="max"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="b72f-cf14-e5db-9df6" type="max"/>
           </constraints>
           <profiles>
             <profile id="605c-fb17-9303-7050" name="Axe of Slaying" hidden="false" typeId="090b-d919-0802-8838" typeName="Melee Weapon">
@@ -3987,8 +3987,7 @@
       <selectionEntries>
         <selectionEntry id="1bcc-8d0d-1095-9b9a" name="Dragonscale Armour" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68d1-5848-8efb-d629" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df4d-30f8-4ae0-0a6e" type="max"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="68d1-5848-8efb-d629" type="max"/>
           </constraints>
           <profiles>
             <profile id="5ec1-c8a8-849e-2bff" name="Dragonscale Armour" hidden="false" typeId="2cbf-88e1-8eee-16a3" typeName="Armour">
@@ -4011,8 +4010,7 @@
         </selectionEntry>
         <selectionEntry id="b045-fec9-790f-0bc3" name="Elder Tree Buckler" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36e9-41de-6f1d-eebb" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a3c-77b7-4385-3b51" type="max"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="36e9-41de-6f1d-eebb" type="max"/>
           </constraints>
           <infoLinks>
             <infoLink id="8941-de13-0e50-fba7" name="Barrier" hidden="false" targetId="7cdb-16f1-35ad-2fdb" type="rule"/>
@@ -4053,7 +4051,7 @@
         </selectionEntry>
         <selectionEntry id="215f-1bc5-f086-30eb" name="Dream Catcher of the Forest" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3c1f-eaac-b523-a471" type="max"/>
+            <constraint field="selections" scope="roster" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3c1f-eaac-b523-a471" type="max"/>
           </constraints>
           <profiles>
             <profile id="cc07-d805-7532-6530" name="Dream Catcher of the Forest" hidden="false" typeId="88d1-f569-0c9a-d4c2" typeName="Description">
@@ -4085,6 +4083,9 @@
           <costs>
             <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="25"/>
           </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="b491-dfe5-eae7-7454" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -4141,8 +4142,7 @@
       <selectionEntries>
         <selectionEntry id="44c1-f51b-25a7-1fc8" name="Banner of the Herd" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86c7-514a-d7ea-7f40" type="max"/>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="824a-ba42-820c-f361" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="86c7-514a-d7ea-7f40" type="max"/>
           </constraints>
           <profiles>
             <profile id="0f72-41a7-7b9f-244a" name="Banner of the Herd" hidden="false" typeId="c0be-9772-241d-3d6e" typeName="Wargear">
@@ -4157,8 +4157,7 @@
         </selectionEntry>
         <selectionEntry id="6dc4-61d8-c1de-c513" name="Banner of the Hunt" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03a1-96f3-45f4-180e" type="max"/>
-            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f24f-ae03-77b7-a5f9" type="max"/>
+            <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f24f-ae03-77b7-a5f9" type="max"/>
           </constraints>
           <profiles>
             <profile id="7df4-f98c-f1b3-503c" name="Banner of the Herd" hidden="false" typeId="c0be-9772-241d-3d6e" typeName="Wargear">
