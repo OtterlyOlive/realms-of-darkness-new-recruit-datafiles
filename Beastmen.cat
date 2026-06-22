@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="35" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="36" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="8168-8ddd-eb9e-de05" name="Bæsts" hidden="false" collective="false" import="true" targetId="e5f4-1126-9dce-8aaf" type="selectionEntry">
       <categoryLinks>
@@ -3515,7 +3515,7 @@
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">13</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
-                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Beast</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3540,7 +3540,7 @@
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">13</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
-                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Beast</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
               </characteristics>
             </profile>
           </profiles>
