@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="33" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorUrl="">
+<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="34" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="8168-8ddd-eb9e-de05" name="Bæsts" hidden="false" collective="false" import="true" targetId="e5f4-1126-9dce-8aaf" type="selectionEntry">
       <categoryLinks>
@@ -123,7 +123,7 @@
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="e5f4-1126-9dce-8aaf" name="Bæsts" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="e5f4-1126-9dce-8aaf" name="Wergeize" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="fff1-e72c-e57d-a323" name="Forester" hidden="false" targetId="0ed7-849b-8b20-c3a7" type="rule">
           <modifiers>
@@ -185,13 +185,13 @@
             <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="5"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="914e-c519-010e-3a03" name="Bæsts" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="914e-c519-010e-3a03" name="Wergeiz" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="30" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="248d-5405-0258-3247" type="max"/>
             <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c9f-db42-1138-8af7" type="min"/>
           </constraints>
           <profiles>
-            <profile id="3ca5-d934-48cb-2b19" name="Bæst" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
+            <profile id="3ca5-d934-48cb-2b19" name="Wergeiz" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">5+</characteristic>
@@ -284,7 +284,7 @@
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="69a6-81fc-b4ad-3abe" name="Armoured Bæsts" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="69a6-81fc-b4ad-3abe" name="Panzergeize" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="a7b8-faa4-3e7a-8d1b" name="Forester" hidden="false" targetId="0ed7-849b-8b20-c3a7" type="rule">
           <modifiers>
@@ -318,13 +318,13 @@
         <infoLink id="8cde-2134-5fe3-03af" name="Bloodrush" hidden="false" targetId="1d13-bfd0-ab04-21bc" type="rule"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="c689-48e8-6490-d39b" name="Bæsts" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="c689-48e8-6490-d39b" name="Panzergeiz" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="25" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d189-7c85-1e05-6fde" type="max"/>
             <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70c0-ed66-8437-d589" type="min"/>
           </constraints>
           <profiles>
-            <profile id="b4bb-c146-1cba-77eb" name="Bæst" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
+            <profile id="b4bb-c146-1cba-77eb" name="Panzergeiz" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">5+</characteristic>
@@ -759,7 +759,7 @@
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cc8d-c38e-9845-208c" name="Småbæsts" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="cc8d-c38e-9845-208c" name="Smalgeize" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="0cb2-62b1-5cdd-fede" name="Forester" hidden="false" targetId="0ed7-849b-8b20-c3a7" type="rule">
           <modifiers>
@@ -831,13 +831,13 @@
             <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="4"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4819-014a-4bbd-2873" name="Småbæst" hidden="false" collective="false" import="true" type="model" sortIndex="1">
+        <selectionEntry id="4819-014a-4bbd-2873" name="Smalgeiz" hidden="false" collective="false" import="true" type="model" sortIndex="1">
           <constraints>
             <constraint field="selections" scope="parent" value="40" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e989-13ea-b316-aea6" type="max"/>
             <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d76-6549-1848-e228" type="min"/>
           </constraints>
           <profiles>
-            <profile id="e960-a81b-06e9-7214" name="Småbæst" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
+            <profile id="e960-a81b-06e9-7214" name="Smalgeiz" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
@@ -1045,13 +1045,17 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="a293-a63d-e408-44d2" name="Melee Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="dd91-7336-e20b-859f">
+        <selectionEntryGroup id="a293-a63d-e408-44d2" name="Melee Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="8c3a-5ef2-a3c5-7cc4">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df66-549b-9e05-5f7e-min" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df66-549b-9e05-5f7e-max" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="dd91-7336-e20b-859f" name="Axe" hidden="false" collective="false" import="true" targetId="f89d-f50d-2a9a-95da" type="selectionEntry"/>
+            <entryLink id="dd91-7336-e20b-859f" name="Axe" hidden="false" collective="false" import="true" targetId="f89d-f50d-2a9a-95da" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="2"/>
+              </costs>
+            </entryLink>
             <entryLink id="fc78-c153-0150-faef" name="Two Axes" hidden="false" collective="false" import="true" targetId="2394-0bc6-efe3-e9f5" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
@@ -1110,6 +1114,11 @@
                 <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="2"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Sword" hidden="false" id="8c3a-5ef2-a3c5-7cc4" type="selectionEntry" targetId="2a90-b53f-66c2-2987">
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
+              </costs>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="b20b-3590-5ad5-0a2e" name="Armour Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="d2b5-602c-c790-f5e2">
@@ -1152,7 +1161,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="55"/>
+        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="53"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="76b8-c014-b443-5912" name="Shaman of the Herd" hidden="false" collective="false" import="true" type="model">
@@ -1845,13 +1854,17 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="de00-5441-801d-d271" name="Melee Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="71ca-8bd1-8bad-e4b0">
+        <selectionEntryGroup id="de00-5441-801d-d271" name="Melee Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="a889-8717-9897-f2a0">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a54d-3ef5-347e-9a0b-min" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a54d-3ef5-347e-9a0b-max" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="71ca-8bd1-8bad-e4b0" name="Axe" hidden="false" collective="false" import="true" targetId="f89d-f50d-2a9a-95da" type="selectionEntry"/>
+            <entryLink id="71ca-8bd1-8bad-e4b0" name="Axe" hidden="false" collective="false" import="true" targetId="f89d-f50d-2a9a-95da" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="2"/>
+              </costs>
+            </entryLink>
             <entryLink id="3362-6bdb-39d5-3b3d" name="Two Axes" hidden="false" collective="false" import="true" targetId="2394-0bc6-efe3-e9f5" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="3"/>
@@ -1882,6 +1895,7 @@
                 <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="3"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Sword" hidden="false" id="a889-8717-9897-f2a0" type="selectionEntry" targetId="2a90-b53f-66c2-2987"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="fcb6-72ed-1503-15d1" name="Armour Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="5ebb-7234-d6f0-df3e">
@@ -1915,7 +1929,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="80"/>
+        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="78"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="42a5-b482-de04-a72f" name="Ebur Chariot" hidden="false" collective="false" import="true" type="model">
@@ -2196,13 +2210,17 @@
         <categoryLink id="feaf-2b1d-4779-1cdf" name="Lord" hidden="false" targetId="7688-3161-c899-c54d" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="c673-ddc4-8ffc-3394" name="Melee Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="03d6-8961-519b-2041">
+        <selectionEntryGroup id="c673-ddc4-8ffc-3394" name="Melee Weapon Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="53ba-4b1c-0ef6-ec8c">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a44a-8217-be7a-3ac4-min" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a44a-8217-be7a-3ac4-max" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="03d6-8961-519b-2041" name="Axe" hidden="false" collective="false" import="true" targetId="f89d-f50d-2a9a-95da" type="selectionEntry"/>
+            <entryLink id="03d6-8961-519b-2041" name="Axe" hidden="false" collective="false" import="true" targetId="f89d-f50d-2a9a-95da" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="2"/>
+              </costs>
+            </entryLink>
             <entryLink id="7c70-3db0-8615-6bd5" name="Two Axes" hidden="false" collective="false" import="true" targetId="2394-0bc6-efe3-e9f5" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="5"/>
@@ -2213,6 +2231,7 @@
                 <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="10"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Sword" hidden="false" id="53ba-4b1c-0ef6-ec8c" type="selectionEntry" targetId="2a90-b53f-66c2-2987"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="ecfa-75ca-b9db-387e" name="Armour Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="925d-d34a-346f-8dc8">
@@ -2249,7 +2268,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="130"/>
+        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="128"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5211-1c85-5987-bc25" name="Great Shaman of the Herd" hidden="false" collective="false" import="true" type="model">
@@ -3093,7 +3112,7 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="c972-9397-05af-084d" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="4d81-6188-41bc-0b14">
+        <selectionEntryGroup id="c972-9397-05af-084d" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="5496-b0d4-c18e-6506">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06a3-2878-a771-99bf-min" type="min"/>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06a3-2878-a771-99bf-max" type="max"/>
@@ -3103,6 +3122,9 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95e4-fd23-8f93-b7fd" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="2"/>
+              </costs>
             </entryLink>
             <entryLink id="03a3-01ce-2e6a-0504" name="Great Axe" hidden="false" collective="false" import="true" targetId="c1dc-1aef-017b-c23c" type="selectionEntry">
               <constraints>
@@ -3112,6 +3134,7 @@
                 <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="2"/>
               </costs>
             </entryLink>
+            <entryLink import="true" name="Sword" hidden="false" id="5496-b0d4-c18e-6506" type="selectionEntry" targetId="2a90-b53f-66c2-2987"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="684b-539f-389f-a776" name="Magic Items" hidden="false" collective="false" import="true">
@@ -3126,7 +3149,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="55"/>
+        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="53"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ad11-aebb-d4f8-4e3f" name="Hazlîh Trahho" hidden="false" collective="false" import="true" type="unit">
