@@ -92,12 +92,12 @@
                 <repeat field="limit::5119-770c-ea3a-8a8c" scope="roster" value="1500" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" repeats="1" roundUp="false"/>
               </repeats>
               <conditions>
-                <condition type="atLeast" value="2000" field="limit::5119-770c-ea3a-8a8c" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="2001" field="limit::5119-770c-ea3a-8a8c" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </modifier>
             <modifier type="set" field="711f-e6ec-64ad-2b8b" value="0">
               <conditions>
-                <condition field="limit::5119-770c-ea3a-8a8c" scope="roster" value="2000" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" type="lessThan"/>
+                <condition field="limit::5119-770c-ea3a-8a8c" scope="roster" value="2001" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="any" type="lessThan"/>
               </conditions>
             </modifier>
           </modifiers>
