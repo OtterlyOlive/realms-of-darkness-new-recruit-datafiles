@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="37" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="39" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
-    <entryLink id="8168-8ddd-eb9e-de05" name="Bæsts" hidden="false" collective="false" import="true" targetId="e5f4-1126-9dce-8aaf" type="selectionEntry">
+    <entryLink id="8168-8ddd-eb9e-de05" name="Wergeize" hidden="false" collective="false" import="true" targetId="e5f4-1126-9dce-8aaf" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="e567-d7f9-631f-90ce" name="Common" hidden="false" targetId="e3fa-e803-fa94-daf2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="cc40-7f1a-539b-465a" name="Armoured Bæsts" hidden="false" collective="false" import="true" targetId="69a6-81fc-b4ad-3abe" type="selectionEntry">
+    <entryLink id="cc40-7f1a-539b-465a" name="Panzergeize" hidden="false" collective="false" import="true" targetId="69a6-81fc-b4ad-3abe" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="6275-5153-d7f0-edf2" name="Specialist" hidden="false" targetId="cd29-77d0-c75d-b384" primary="true"/>
       </categoryLinks>
@@ -21,7 +21,7 @@
         <categoryLink id="4d69-2c1c-6034-2e8e" name="Legendary" hidden="false" targetId="fad6-dec9-0df6-94ac" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="bac9-4808-0976-ea1e" name="Småbæsts" hidden="false" collective="false" import="true" targetId="cc8d-c38e-9845-208c" type="selectionEntry">
+    <entryLink id="bac9-4808-0976-ea1e" name="Smalgeize" hidden="false" collective="false" import="true" targetId="cc8d-c38e-9845-208c" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="9429-8e1f-32da-4096" name="Common" hidden="false" targetId="e3fa-e803-fa94-daf2" primary="true"/>
       </categoryLinks>
@@ -129,6 +129,11 @@
     <entryLink import="true" name="Blessed Bæsts" hidden="false" id="6b5d-b667-ed31-1fc2" type="selectionEntry" targetId="5537-6245-eeb1-28c3">
       <categoryLinks>
         <categoryLink targetId="fad6-dec9-0df6-94ac" id="ada9-e627-2260-01c5" primary="true" name="Legendary"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Hazlîh Trahho Leitâri" hidden="false" id="cbeb-d0c7-8068-e346" type="selectionEntry" targetId="837e-939c-93b0-942e">
+      <categoryLinks>
+        <categoryLink targetId="05d4-8322-13ed-f55b" id="21d3-e4a0-b892-273b" primary="true" name="Warmaster"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -3921,6 +3926,503 @@
       <categoryLinks>
         <categoryLink targetId="fad6-dec9-0df6-94ac" id="eeb1-68a5-fb38-9503" primary="false" name="Legendary"/>
       </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Hazlîh Trahho Leitâri" hidden="false" id="837e-939c-93b0-942e">
+      <profiles>
+        <profile name="Hazlîh Trahho Leitâri" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="4237-64a1-8f2d-763b">
+          <characteristics>
+            <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">8&quot;</characteristic>
+            <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
+            <characteristic name="WA" typeId="0f73-3c43-4701-9086">10</characteristic>
+            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">9</characteristic>
+            <characteristic name="P" typeId="1192-a747-177a-64eb">10</characteristic>
+            <characteristic name="E" typeId="0a89-229f-3f01-3919">10</characteristic>
+            <characteristic name="A" typeId="5d8c-74be-d893-50e2">6</characteristic>
+            <characteristic name="WP" typeId="0418-2892-7021-fc1e">19</characteristic>
+            <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">6</characteristic>
+            <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+            <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="265"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="05d4-8322-13ed-f55b" id="c50a-4111-ce99-2dd5" primary="false" name="Warmaster"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Heavy Armour" hidden="false" id="155d-5af3-53e1-a32f" type="selectionEntry" targetId="81f7-1ab1-89ff-3e29">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ccb7-7340-f01f-2d6b-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ccb7-7340-f01f-2d6b-max"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Tough Hide (4+/+3)" hidden="false" id="83af-ccf0-3c70-a38d" type="selectionEntry" targetId="18d2-9f33-e415-df44">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a17f-bc3c-4a62-9840-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a17f-bc3c-4a62-9840-max"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Magic Levels" hidden="false" id="c7b8-343b-9aa2-a27d" collective="false" targetId="63a4-28ae-60e9-e0ff" type="selectionEntry">
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="0f8a-ea40-7b90-bae2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="20"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapon Options" id="52f4-d05b-716d-ce7e" hidden="false" defaultSelectionEntryId="c3e9-c787-16a4-e175">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0a09-082a-6ed7-83fc-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a09-082a-6ed7-83fc-max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Great Axe" hidden="false" id="c3e9-c787-16a4-e175" type="selectionEntry" targetId="c1dc-1aef-017b-c23c">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="70bc-744d-b254-c666"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Great Blade" hidden="false" id="dcab-c875-c857-48de" type="selectionEntry" targetId="df53-efd5-9946-30d7">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ffd0-8bea-f1b2-56db"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Two Maces" hidden="false" id="e0d5-71d5-e01d-951a" type="selectionEntry" targetId="f27b-cf31-667f-dd3a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6259-9381-2a76-1af1"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Magic Items" id="6c81-d7ca-2fbd-cb13" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="max" value="50" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="b2c7-e901-d7e2-1d30" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Magic Weapons" hidden="false" id="e846-9433-f690-9c5a" collective="false" targetId="5722-51f9-2b3a-754b" type="selectionEntryGroup"/>
+            <entryLink import="true" name="Magic Trinkets" hidden="false" id="26b5-710e-e030-5f78" collective="false" targetId="b5a7-4f0a-acd4-6da6" type="selectionEntryGroup"/>
+            <entryLink import="true" name="Magic Armours" hidden="false" id="229a-665d-fd91-5d2f" collective="false" targetId="7f86-31f5-faf3-cc9a" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Lores of Magic" id="e40f-ba08-77d6-6104" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint type="max" value="50" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="8bb9-fb86-5938-617e" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Lore of Earth" hidden="false" id="f949-9808-94bb-3930" collective="false" targetId="8dfb-bc2f-8758-e27b" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="e40f-ba08-77d6-6104" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <condition type="lessThan" value="1" field="selections" scope="837e-939c-93b0-942e" childId="8dfb-bc2f-8758-e27b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="65a6-1477-799c-c704" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="2877-7310-10c5-4c46" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Lore of Death" hidden="false" id="fdf9-b8f6-7997-f5cc" collective="false" targetId="4575-6374-1c29-f8fd" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="837e-939c-93b0-942e" childId="4575-6374-1c29-f8fd" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="e40f-ba08-77d6-6104" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="71b9-18ae-ce6a-7234" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="2877-7310-10c5-4c46" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="00ef-6656-ea06-eca7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="cde9-80ce-2009-617c" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Lore of Air" hidden="false" id="58ad-56ee-2301-e5af" collective="false" targetId="199c-b0ac-c371-823c" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="71b9-18ae-ce6a-7234" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="2877-7310-10c5-4c46" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="65a6-1477-799c-c704" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="cde9-80ce-2009-617c" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="837e-939c-93b0-942e" childId="199c-b0ac-c371-823c" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="e40f-ba08-77d6-6104" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Lore of Fire" hidden="false" id="2731-6117-17fa-2dbb" collective="false" targetId="e35b-9c84-0f02-a4a1" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="837e-939c-93b0-942e" childId="e35b-9c84-0f02-a4a1" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="e40f-ba08-77d6-6104" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="71b9-18ae-ce6a-7234" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="65a6-1477-799c-c704" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="00ef-6656-ea06-eca7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="cde9-80ce-2009-617c" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Lore of Beasts (Earth/Life)" hidden="false" id="0d1b-7692-07a7-6aa1" collective="false" targetId="f75c-7577-6ef0-34a3" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="71b9-18ae-ce6a-7234" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="837e-939c-93b0-942e" childId="f75c-7577-6ef0-34a3" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="e40f-ba08-77d6-6104" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Lore of Greenskins (Earth/Shadow)" hidden="false" id="9ef1-637b-ea6f-eb5e" collective="false" targetId="bec0-9ef7-1756-33b6" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="837e-939c-93b0-942e" childId="bec0-9ef7-1756-33b6" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="e40f-ba08-77d6-6104" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="71b9-18ae-ce6a-7234" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="2877-7310-10c5-4c46" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="00ef-6656-ea06-eca7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="cde9-80ce-2009-617c" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="65a6-1477-799c-c704" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Lore of Ice" hidden="false" id="079a-f6da-28a0-14e3" collective="false" targetId="7cd7-ab69-0183-289d" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="837e-939c-93b0-942e" childId="7cd7-ab69-0183-289d" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="e40f-ba08-77d6-6104" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="71b9-18ae-ce6a-7234" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="2877-7310-10c5-4c46" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="00ef-6656-ea06-eca7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="cde9-80ce-2009-617c" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="65a6-1477-799c-c704" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Lore of Life" hidden="false" id="18cc-80b5-db3d-ba53" collective="false" targetId="6b5f-d9fb-a477-2912" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="837e-939c-93b0-942e" childId="6b5f-d9fb-a477-2912" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="e40f-ba08-77d6-6104" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="2877-7310-10c5-4c46" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="00ef-6656-ea06-eca7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="65a6-1477-799c-c704" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Lore of Light" hidden="false" id="fd55-6cc8-1865-b7ea" collective="false" targetId="c375-5cbf-c53d-b1a5" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="837e-939c-93b0-942e" childId="c375-5cbf-c53d-b1a5" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="e40f-ba08-77d6-6104" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="71b9-18ae-ce6a-7234" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="2877-7310-10c5-4c46" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="00ef-6656-ea06-eca7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="cde9-80ce-2009-617c" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="65a6-1477-799c-c704" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Lore of Metal (Earth/Fire)" hidden="false" id="cd4f-e3fb-d365-d064" collective="false" targetId="8cc3-441a-8003-1932" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="837e-939c-93b0-942e" childId="8cc3-441a-8003-1932" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="e40f-ba08-77d6-6104" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="71b9-18ae-ce6a-7234" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="cde9-80ce-2009-617c" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="65a6-1477-799c-c704" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Lore of Necromancy (Death/Shadow)" hidden="false" id="ae25-3ce0-9316-4a32" collective="false" targetId="9797-4c93-0f5e-f05f" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="837e-939c-93b0-942e" childId="9797-4c93-0f5e-f05f" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="e40f-ba08-77d6-6104" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="71b9-18ae-ce6a-7234" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="2877-7310-10c5-4c46" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="00ef-6656-ea06-eca7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="cde9-80ce-2009-617c" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="65a6-1477-799c-c704" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Lore of Pestilence (Air/Death)" hidden="false" id="f8a8-4488-e4b0-4e61" collective="false" targetId="0d42-96ea-3d70-83e6" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="837e-939c-93b0-942e" childId="0d42-96ea-3d70-83e6" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="e40f-ba08-77d6-6104" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="71b9-18ae-ce6a-7234" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="2877-7310-10c5-4c46" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="00ef-6656-ea06-eca7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="cde9-80ce-2009-617c" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Lore of Shadow" hidden="false" id="85f5-5bed-775e-d0dc" collective="false" targetId="db39-c7d1-f088-03f3" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="837e-939c-93b0-942e" childId="db39-c7d1-f088-03f3" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="e40f-ba08-77d6-6104" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="2877-7310-10c5-4c46" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="00ef-6656-ea06-eca7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="cde9-80ce-2009-617c" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="65a6-1477-799c-c704" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Lore of the Dark Pyramids (Death/Fire)" hidden="false" id="7e05-6d66-7a08-e2dc" collective="false" targetId="aef4-40c8-ddd2-3b6a" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="837e-939c-93b0-942e" childId="aef4-40c8-ddd2-3b6a" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="e40f-ba08-77d6-6104" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="71b9-18ae-ce6a-7234" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="2877-7310-10c5-4c46" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="00ef-6656-ea06-eca7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="cde9-80ce-2009-617c" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="65a6-1477-799c-c704" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink import="true" name="Lore of Water" hidden="false" id="379b-b4c7-3b41-9cea" collective="false" targetId="8250-aa4e-3ba7-c800" type="selectionEntryGroup">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="lessThan" value="1" field="selections" scope="837e-939c-93b0-942e" childId="8250-aa4e-3ba7-c800" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="e40f-ba08-77d6-6104" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="2877-7310-10c5-4c46" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="00ef-6656-ea06-eca7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="atLeast" value="1" field="selections" scope="force" childId="65a6-1477-799c-c704" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="parent" childId="63a4-28ae-60e9-e0ff" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Bloodrush" id="2b06-e2c2-dcd9-19eb" hidden="false" type="rule" targetId="1d13-bfd0-ab04-21bc"/>
+        <infoLink name="Large Monster" id="d438-28c1-23c3-90c5" hidden="false" type="infoGroup" targetId="965d-7455-ae5a-f12d"/>
+        <infoLink name="Magic Attacks - X" id="840d-c7d7-7065-c723" hidden="false" type="rule" targetId="b2ee-4ebe-97f3-3116">
+          <modifiers>
+            <modifier type="set" value="Magic Attacks - Air" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Immunity – X" id="31d8-4fe0-435b-d89c" hidden="false" type="rule" targetId="dc42-972a-5daa-5681">
+          <modifiers>
+            <modifier type="set" value="Immunity - Fire" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
