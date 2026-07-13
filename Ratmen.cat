@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="12c8-46df-4ed8-75a7" name="Ratmen" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="29" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="12c8-46df-4ed8-75a7" name="Ratmen" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="29" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="eb22-585b-9900-ad85" name="Clan Warriors" hidden="false" collective="false" import="true" targetId="52a2-cc30-3c6d-2660" type="selectionEntry">
       <categoryLinks>
@@ -3059,9 +3059,6 @@ If the number rolled on the second dice is lower than on the first, the gun expl
       <infoLinks>
         <infoLink id="66b9-1125-5af1-3843" name="Large Monster" hidden="false" targetId="965d-7455-ae5a-f12d" type="infoGroup"/>
       </infoLinks>
-      <categoryLinks>
-        <categoryLink id="0cfb-61d4-9cab-efa6" name="Lord" hidden="false" targetId="7688-3161-c899-c54d" primary="false"/>
-      </categoryLinks>
       <entryLinks>
         <entryLink id="b45f-9eff-ce09-1c8e" name="Sword" hidden="false" collective="false" import="true" targetId="2a90-b53f-66c2-2987" type="selectionEntry">
           <constraints>
