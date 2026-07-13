@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="12c8-46df-4ed8-75a7" name="Ratmen" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="29" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="12c8-46df-4ed8-75a7" name="Ratmen" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="29" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="eb22-585b-9900-ad85" name="Clan Warriors" hidden="false" collective="false" import="true" targetId="52a2-cc30-3c6d-2660" type="selectionEntry">
       <categoryLinks>
@@ -81,7 +81,7 @@
         <categoryLink id="baac-d176-a910-9c50" name="Specialist" hidden="false" targetId="cd29-77d0-c75d-b384" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0b76-baf4-c8cf-a561" name="Plague Warriors" hidden="false" collective="false" import="true" targetId="1081-a104-2150-ceed" type="selectionEntry">
+    <entryLink id="0b76-baf4-c8cf-a561" name="Plague Warriors of Nurgast" hidden="false" collective="false" import="true" targetId="1081-a104-2150-ceed" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="32f3-c0f6-35df-17ff" name="Specialist" hidden="false" targetId="cd29-77d0-c75d-b384" primary="true"/>
       </categoryLinks>
@@ -3069,7 +3069,12 @@ If the number rolled on the second dice is lower than on the first, the gun expl
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2f0-a6de-18d5-b527" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="35e6-0e9b-f003-e4dd" name="Tough Hide (3+/+4)" hidden="false" collective="false" import="true" targetId="492f-9dbe-2023-f32a" type="selectionEntry"/>
+        <entryLink id="35e6-0e9b-f003-e4dd" name="Tough Hide (3+/+4)" hidden="false" collective="false" import="true" targetId="492f-9dbe-2023-f32a" type="selectionEntry">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0aa9-df54-267b-cffa-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0aa9-df54-267b-cffa-max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="190"/>
@@ -3509,8 +3514,7 @@ This also increases the amount of times any one handed weapon or shield can be b
 
 The character gets the Aquatic special rule and the Spy special rule.
 * However the character can only use the Spy special rule to deploy in a watery piece of terrain, like a swamp, river or the ocean.
-When deploying this way, the model can deploy down to 5” away instead of the normal distance for units with the Spy special rule.
-</description>
+When deploying this way, the model can deploy down to 5” away instead of the normal distance for units with the Spy special rule.</description>
             </rule>
           </rules>
           <infoLinks>
@@ -3584,7 +3588,7 @@ When deploying this way, the model can deploy down to 5” away instead of the n
               <description>The gun is extremely unstable and often hurts the rat using it.
 
 
-On a roll of 1 to hit, the model carrying the weapon is hit instead of the target. </description>
+On a roll of 1 to hit, the model carrying the weapon is hit instead of the target.</description>
             </rule>
           </rules>
         </selectionEntry>
