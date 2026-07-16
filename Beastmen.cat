@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="40" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorUrl="https://realmsofdarkness.dk/">
+<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="41" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorUrl="https://realmsofdarkness.dk/">
   <entryLinks>
     <entryLink id="8168-8ddd-eb9e-de05" name="Wergeize" hidden="false" collective="false" import="true" targetId="e5f4-1126-9dce-8aaf" type="selectionEntry">
       <categoryLinks>
@@ -134,6 +134,16 @@
     <entryLink import="true" name="Hazlîh Trahho Leitâri" hidden="false" id="cbeb-d0c7-8068-e346" type="selectionEntry" targetId="837e-939c-93b0-942e">
       <categoryLinks>
         <categoryLink targetId="05d4-8322-13ed-f55b" id="21d3-e4a0-b892-273b" primary="true" name="Warmaster"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Wer Breit" hidden="false" id="e88f-d8d3-1d88-e956" type="selectionEntry" targetId="03dd-478b-b9fd-ae97">
+      <categoryLinks>
+        <categoryLink targetId="fad6-dec9-0df6-94ac" id="40ad-828d-440a-0c1b" primary="true" name="Legendary"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Cockatrice" hidden="false" id="9224-5ef3-e6fd-acc8" type="selectionEntry" targetId="1c52-4b65-921e-6ad1">
+      <categoryLinks>
+        <categoryLink targetId="fad6-dec9-0df6-94ac" id="b21f-4bf6-9857-5f18" primary="true" name="Legendary"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -4423,6 +4433,138 @@
           </modifiers>
         </infoLink>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Wer Breit" hidden="false" id="03dd-478b-b9fd-ae97">
+      <costs>
+        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="265"/>
+      </costs>
+      <profiles>
+        <profile name="Wer Breit" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="685b-01ad-61d5-7ca2">
+          <characteristics>
+            <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
+            <characteristic name="RH" typeId="b74f-2b64-2662-f401">5+</characteristic>
+            <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
+            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">9</characteristic>
+            <characteristic name="P" typeId="1192-a747-177a-64eb">10</characteristic>
+            <characteristic name="E" typeId="0a89-229f-3f01-3919">10</characteristic>
+            <characteristic name="A" typeId="5d8c-74be-d893-50e2">4</characteristic>
+            <characteristic name="WP" typeId="0418-2892-7021-fc1e">17</characteristic>
+            <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">7</characteristic>
+            <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+            <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Large Monster" id="87f6-7cc0-1496-dde7" hidden="false" type="infoGroup" targetId="965d-7455-ae5a-f12d"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Tough Hide (5+/+2)" hidden="false" id="7666-a077-409d-006e" type="selectionEntry" targetId="6aa0-ca1a-30b2-8624">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9ad9-8379-9792-810e-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ad9-8379-9792-810e-max"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Generic Melee" hidden="false" id="358a-467b-5ea5-d90a" type="selectionEntry" targetId="b7b9-35b8-7086-195c">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ce47-3d83-cfae-046c-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce47-3d83-cfae-046c-max"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Improvised Weaponry" field="name"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <rules>
+        <rule name="Dimwit Attack" id="144b-0dce-ec16-71ba" hidden="false">
+          <description>At the start initiative step of the model, roll a D6. The result decides how the model attacks.
+
+
+1-2 (Swing): The model gets the Far Reach special rule for the rest of the turn.
+
+
+3-4 (Headbutt): The model gets the Smashing special rule for the rest of the turn.
+
+
+5 (Vicious Roar): The model does not attack, but gets the Fearless special rule for the rest of the turn and inflicts 1D6 combat fatigue points.
+
+
+6 (Jump on Squishies): Instead of attacking with the normal attacks, the model inflicts 2D6 hits against a random enemy unit in base contact in the melee.
+
+</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Cockatrice" hidden="false" id="1c52-4b65-921e-6ad1">
+      <costs>
+        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="125"/>
+      </costs>
+      <profiles>
+        <profile name="Cockatrice" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="7879-4e0c-ce3f-3607">
+          <characteristics>
+            <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">8&quot;</characteristic>
+            <characteristic name="RH" typeId="b74f-2b64-2662-f401">-</characteristic>
+            <characteristic name="WA" typeId="0f73-3c43-4701-9086">6</characteristic>
+            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">11</characteristic>
+            <characteristic name="P" typeId="1192-a747-177a-64eb">8</characteristic>
+            <characteristic name="E" typeId="0a89-229f-3f01-3919">8</characteristic>
+            <characteristic name="A" typeId="5d8c-74be-d893-50e2">4</characteristic>
+            <characteristic name="WP" typeId="0418-2892-7021-fc1e">16</characteristic>
+            <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">5</characteristic>
+            <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+            <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Cursed Gaze" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon" hidden="false" id="f944-7e0c-0afc-a070">
+          <characteristics>
+            <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">D3</characteristic>
+            <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">-</characteristic>
+            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-</characteristic>
+            <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">10&quot;</characteristic>
+            <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Direct</characteristic>
+            <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Magic Attacks - Air, Petrification</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Generic Melee" hidden="false" id="4ace-34d9-8786-df86" type="selectionEntry" targetId="b7b9-35b8-7086-195c">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="095b-b844-f965-b08f-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="095b-b844-f965-b08f-max"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Talons" field="name"/>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Tough Hide (3+/+4)" hidden="false" id="67ac-6335-bf53-4752" type="selectionEntry" targetId="492f-9dbe-2023-f32a">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6e99-257f-d54c-afd5-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6e99-257f-d54c-afd5-max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name="Fly X&quot;" id="d6a2-5ff4-9901-23f8" hidden="false" type="rule" targetId="e861-2173-53e6-a5a1">
+          <modifiers>
+            <modifier type="set" value="Fly 18&quot;" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Monster" id="70f6-ae28-f895-e906" hidden="false" type="infoGroup" targetId="2ff1-1e0d-d73c-501c"/>
+        <infoLink name="Unorganised" id="785a-db81-11d1-34cd" hidden="false" type="rule" targetId="c7f9-9deb-76d6-6a89"/>
+        <infoLink name="Magic Attacks - X" id="9026-b359-9081-0835" hidden="false" type="rule" targetId="b2ee-4ebe-97f3-3116">
+          <modifiers>
+            <modifier type="set" value="Magic Attacks - Air (Cursed Gaze only)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <rules>
+        <rule name="Petrification Strike" id="7a3f-49df-b426-3942" hidden="false">
+          <description>Any roll of 6 to hit in melee, will make the unit suffer one additional hit of the cursed gaze shooting attack. Note it is only one hit per 6 rolled, not D3.</description>
+        </rule>
+        <rule name="Petrification" id="23b9-3e25-8e19-4a8d" hidden="false">
+          <description>Automatically hits. Any model hit must take an initiative test with a D20. If the test is failed, the model is turned to stone and is counted as a casualty. If the model has the monster or large monster special rule, it loses D3HP instead of becoming a casualty. This cannot be saved by armour saves; however magic saves can still be taken. Chariots and warmachines cannot be affected by petrification, however the warmachine crew can be.</description>
+        </rule>
+      </rules>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
