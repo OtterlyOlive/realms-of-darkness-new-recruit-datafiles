@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="09a0-626b-16e9-bcae" name="Realms of Darkness" revision="81" battleScribeVersion="2.03" authorName="Erik Valeur" authorContact="grunanca@gmail.com" authorUrl="https://realmsofdarkness.dk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="09a0-626b-16e9-bcae" name="Realms of Darkness" revision="82" battleScribeVersion="2.03" authorName="Erik Valeur" authorContact="grunanca@gmail.com" authorUrl="https://realmsofdarkness.dk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <costTypes>
     <costType id="5119-770c-ea3a-8a8c" name="pts" defaultCostLimit="-1" hidden="false"/>
   </costTypes>
@@ -9989,12 +9989,12 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
             <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="10"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1cbf-aa29-eee4-3519" name="Shield of Torns" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1cbf-aa29-eee4-3519" name="Shield of Thorns" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc25-b59b-aacf-3f3e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="73e1-dd8b-5020-7b83" name="Shield of Torns" hidden="false" typeId="da6e-29e5-c411-1090" typeName="Spell">
+            <profile id="73e1-dd8b-5020-7b83" name="Shield of Thorns" hidden="false" typeId="da6e-29e5-c411-1090" typeName="Spell">
               <characteristics>
                 <characteristic name="Cast" typeId="be80-d4c5-67e9-69f4">4</characteristic>
                 <characteristic name="Description" typeId="8bb7-80af-4e3e-b90c">This spell is a blessing spell and can be cast on the wizard itself. Any successful melee hits against the wizard causes a P4 hit on the attacker.</characteristic>
