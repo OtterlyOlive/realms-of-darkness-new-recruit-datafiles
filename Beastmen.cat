@@ -3755,16 +3755,6 @@
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
           </characteristics>
         </profile>
-        <profile id="ac39-779a-0522-a2a8" name="Breath of Life" hidden="false" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon">
-          <characteristics>
-            <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">2D8</characteristic>
-            <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">3</characteristic>
-            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-</characteristic>
-            <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">12&quot;</characteristic>
-            <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Breath</characteristic>
-            <characteristic name="Special Rules" typeId="5353-ed52-2205-a615"/>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="4a78-bc00-4ec0-612d" name="Fly X&quot;" hidden="false" targetId="e861-2173-53e6-a5a1" type="rule">
@@ -3812,6 +3802,26 @@
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="310"/>
       </costs>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Breath of Life" hidden="false" id="1520-3044-c5d6-90c4">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4cdd-f4bf-3e70-c44d-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4cdd-f4bf-3e70-c44d-max"/>
+          </constraints>
+          <profiles>
+            <profile name="Breath of Life" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon" hidden="false" id="ac39-779a-0522-a2a8">
+              <characteristics>
+                <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">2D8</characteristic>
+                <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">3</characteristic>
+                <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-</characteristic>
+                <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">12&quot;</characteristic>
+                <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Breath</characteristic>
+                <characteristic name="Special Rules" typeId="5353-ed52-2205-a615"/>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Blessed Bæsts" hidden="false" id="5537-6245-eeb1-28c3">
       <selectionEntries>
