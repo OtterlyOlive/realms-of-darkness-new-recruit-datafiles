@@ -13104,6 +13104,9 @@ Characters and units with the monster or large monster rule, only lose half the 
     <rule id="53ec-29f3-399d-cb74" name="Unbidden Rise" hidden="false">
       <description>Necromantic Tokens can be used to raise models in this unit through summoning, as long as a friendly model with the necrotic conduit - x special rule is within 18”. See the necrotic conduit - x special rule for more info.</description>
     </rule>
+    <rule name="Petrification Strike" id="41bd-08ae-6cc8-e113" hidden="false">
+      <description>Any roll of 6 to hit in melee, will make the target unit suffer one additional hit of the cursed gaze shooting attack. Note it is only one hit per 6 rolled, not D3.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="4448-47cc-9fd1-ceba" name="Shortbow" hidden="false" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon">

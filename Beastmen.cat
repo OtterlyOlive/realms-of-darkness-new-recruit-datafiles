@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="41" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorUrl="https://realmsofdarkness.dk/">
+<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="42" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorUrl="https://realmsofdarkness.dk/">
   <entryLinks>
     <entryLink id="8168-8ddd-eb9e-de05" name="Wergeize" hidden="false" collective="false" import="true" targetId="e5f4-1126-9dce-8aaf" type="selectionEntry">
       <categoryLinks>
@@ -1685,17 +1685,17 @@
     </selectionEntry>
     <selectionEntry id="bcd6-da22-7fc9-21c9" name="Herd" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="56e1-1819-2c16-766e-min" type="min"/>
-        <constraint field="selections" scope="force" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="56e1-1819-2c16-766e-max" type="max"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="56e1-1819-2c16-766e-min-min" type="min"/>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="56e1-1819-2c16-766e-min-max" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="6e54-bf1e-e089-3276" name="Army Faction" hidden="false" targetId="adc9-e898-46be-d9fe" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="6d1b-513c-4a44-41a3" name="Select a Herd" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="6d1b-513c-4a44-41a3" name="Select a Herd" hidden="false" collective="false" import="true" defaultSelectionEntryId="cde9-80ce-2009-617c">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b64-4344-379e-c053" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b71b-aa94-4725-cdad" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b64-4344-379e-c053-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b64-4344-379e-c053-max" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="65a6-1477-799c-c704" name="Herd of the Salo" hidden="false" collective="false" import="true" type="upgrade">
@@ -4559,11 +4559,9 @@
             <modifier type="set" value="Magic Attacks - Air (Cursed Gaze only)" field="name"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Petrification Strike" id="45c0-9224-9090-cb6a" hidden="false" type="rule" targetId="41bd-08ae-6cc8-e113"/>
       </infoLinks>
       <rules>
-        <rule name="Petrification Strike" id="7a3f-49df-b426-3942" hidden="false">
-          <description>Any roll of 6 to hit in melee, will make the unit suffer one additional hit of the cursed gaze shooting attack. Note it is only one hit per 6 rolled, not D3.</description>
-        </rule>
         <rule name="Petrification" id="23b9-3e25-8e19-4a8d" hidden="false">
           <description>Automatically hits. Any model hit must take an initiative test with a D20. If the test is failed, the model is turned to stone and is counted as a casualty. If the model has the monster or large monster special rule, it loses D3HP instead of becoming a casualty. This cannot be saved by armour saves; however magic saves can still be taken. Chariots and warmachines cannot be affected by petrification, however the warmachine crew can be.</description>
         </rule>
