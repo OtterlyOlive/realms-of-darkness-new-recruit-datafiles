@@ -3759,7 +3759,7 @@
           <characteristics>
             <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">2D8</characteristic>
             <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">3</characteristic>
-            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0"/>
+            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-</characteristic>
             <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">12&quot;</characteristic>
             <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Breath</characteristic>
             <characteristic name="Special Rules" typeId="5353-ed52-2205-a615"/>

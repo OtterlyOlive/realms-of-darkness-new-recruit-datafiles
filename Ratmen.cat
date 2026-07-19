@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="12c8-46df-4ed8-75a7" name="Ratmen" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="29" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="12c8-46df-4ed8-75a7" name="Ratkin" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="29" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="eb22-585b-9900-ad85" name="Clan Warriors" hidden="false" collective="false" import="true" targetId="52a2-cc30-3c6d-2660" type="selectionEntry">
       <categoryLinks>
@@ -546,7 +546,7 @@
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">13</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">6</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -571,7 +571,7 @@
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">13</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">6</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -1803,7 +1803,7 @@
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">4</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">4</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">3</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -1828,7 +1828,7 @@
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">4</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">4</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">3</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -1972,7 +1972,7 @@
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">13</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">6</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -1997,7 +1997,7 @@
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">13</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">6</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -2117,20 +2117,20 @@
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="40cd-3aba-7f85-b39f" name="Giant Rats" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="40cd-3aba-7f85-b39f" name="Rathounds" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="fdbf-70c2-9e1f-a727" name="Mental Fortitude" hidden="false" targetId="8bb5-917e-f208-d694" type="rule"/>
         <infoLink id="790d-f353-c2a0-eb87" name="Terrain Jumper" hidden="false" targetId="377d-1eae-e43e-7b9b" type="rule"/>
         <infoLink name="Expendable" id="af1b-e9ae-5a41-2ca5" hidden="false" type="rule" targetId="f42c-54f9-f7fd-ae6d"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="dad1-09de-e9e4-d5b3" name="Giant Rat" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="dad1-09de-e9e4-d5b3" name="Rathound" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="20" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b42-d1a6-581c-98df" type="min"/>
             <constraint field="selections" scope="parent" value="40" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3409-5644-244f-b2ea" type="max"/>
           </constraints>
           <profiles>
-            <profile id="fa04-9695-a9d0-d922" name="Giant Rat" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
+            <profile id="fa04-9695-a9d0-d922" name="Rathound" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">-</characteristic>
@@ -2138,7 +2138,7 @@
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">13</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">4</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">4</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">3</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -2154,8 +2154,8 @@
       <entryLinks>
         <entryLink id="fb37-19d1-732f-e774" name="Sword" hidden="false" collective="false" import="true" targetId="2a90-b53f-66c2-2987" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1096-3b34-596d-aac3" type="max"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="caf3-f155-7e1c-b953" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1096-3b34-596d-aac3-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1096-3b34-596d-aac3-max" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
