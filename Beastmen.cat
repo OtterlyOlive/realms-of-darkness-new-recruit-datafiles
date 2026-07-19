@@ -78,7 +78,7 @@
     </entryLink>
     <entryLink id="2b82-c20a-4ba5-0aaa" name="Wild Ebur" hidden="false" collective="false" import="true" targetId="3f6f-264e-b984-fc03" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="6ed0-d6a5-2b13-fece" name="Specialist" hidden="false" targetId="cd29-77d0-c75d-b384" primary="true"/>
+        <categoryLink targetId="e3fa-e803-fa94-daf2" id="a1f1-4966-47fa-f607" primary="true" name="Common"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="6392-4bba-14e6-4e56" name="Herd" hidden="false" collective="false" import="true" targetId="bcd6-da22-7fc9-21c9" type="selectionEntry">
@@ -108,7 +108,7 @@
     </entryLink>
     <entryLink id="7a07-4595-625b-94ef" name="Werhrôs" hidden="false" collective="false" import="true" targetId="d1e6-6f57-78e5-6c64" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="1c10-9177-d0e2-af0f" name="Specialist" hidden="false" targetId="cd29-77d0-c75d-b384" primary="true"/>
+        <categoryLink targetId="e3fa-e803-fa94-daf2" id="97dd-c212-12d4-18d5" primary="true" name="Common"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="fda1-e501-a844-b2f3" name="Wîb Fogal" hidden="false" collective="false" import="true" targetId="ec4f-ce59-fddd-fff5" type="selectionEntry">
@@ -198,7 +198,7 @@
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">11</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">6</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">8</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -224,7 +224,7 @@
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">11</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">6</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">8</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -844,7 +844,7 @@
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">4</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">7</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -858,7 +858,7 @@
         </selectionEntry>
         <selectionEntry id="4819-014a-4bbd-2873" name="Smalgeiz" hidden="false" collective="false" import="true" type="model" sortIndex="1">
           <constraints>
-            <constraint field="selections" scope="parent" value="40" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e989-13ea-b316-aea6" type="max"/>
+            <constraint field="selections" scope="parent" value="30" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e989-13ea-b316-aea6" type="max"/>
             <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d76-6549-1848-e228" type="min"/>
           </constraints>
           <profiles>
@@ -870,7 +870,7 @@
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">4</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">7</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -2351,6 +2351,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="b650-e04e-45bd-d80f" name="Bloodrush" hidden="false" targetId="1d13-bfd0-ab04-21bc" type="rule"/>
+        <infoLink name="Elite" id="c9ec-a683-08f0-2f30" hidden="false" type="rule" targetId="2f43-4bde-1249-f8af"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8e1d-9bd7-5fdd-b192" name="Warmaster" hidden="false" targetId="05d4-8322-13ed-f55b" primary="false"/>
@@ -2788,7 +2789,7 @@
       <profiles>
         <profile id="d208-b302-39b6-10b5" name="Giant Bæst" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <modifiers>
-            <modifier type="set" field="5d8c-74be-d893-50e2" value="6">
+            <modifier type="increment" field="5d8c-74be-d893-50e2" value="2">
               <conditions>
                 <condition field="selections" scope="33f3-9faa-e6fa-a57d" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b719-a673-b221-6dfe" type="atLeast"/>
               </conditions>
@@ -3064,7 +3065,7 @@
                     <characteristic name="WP" typeId="0418-2892-7021-fc1e">14</characteristic>
                     <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">3</characteristic>
                     <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
-                    <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
+                    <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3106,7 +3107,7 @@
                     <characteristic name="WP" typeId="0418-2892-7021-fc1e">12</characteristic>
                     <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">4</characteristic>
                     <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
-                    <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
+                    <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3139,7 +3140,7 @@
                     <characteristic name="WP" typeId="0418-2892-7021-fc1e">10</characteristic>
                     <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">4</characteristic>
                     <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
-                    <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
+                    <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3148,8 +3149,8 @@
         </selectionEntryGroup>
         <selectionEntryGroup id="c972-9397-05af-084d" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="5496-b0d4-c18e-6506">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06a3-2878-a771-99bf-min" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06a3-2878-a771-99bf-max" type="max"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6252-e36f-f5c0-b19e-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6252-e36f-f5c0-b19e-max"/>
           </constraints>
           <entryLinks>
             <entryLink id="4d81-6188-41bc-0b14" name="Axe" hidden="false" collective="false" import="true" targetId="f89d-f50d-2a9a-95da" type="selectionEntry">
@@ -3165,7 +3166,7 @@
                 <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed87-60a1-142d-7645" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="2"/>
+                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="3"/>
               </costs>
             </entryLink>
             <entryLink import="true" name="Sword" hidden="false" id="5496-b0d4-c18e-6506" type="selectionEntry" targetId="2a90-b53f-66c2-2987"/>
@@ -3322,7 +3323,7 @@
           <characteristics>
             <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">7&quot;</characteristic>
             <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
-            <characteristic name="WA" typeId="0f73-3c43-4701-9086">12</characteristic>
+            <characteristic name="WA" typeId="0f73-3c43-4701-9086">11</characteristic>
             <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
             <characteristic name="P" typeId="1192-a747-177a-64eb">9</characteristic>
             <characteristic name="E" typeId="0a89-229f-3f01-3919">8</characteristic>
@@ -3680,7 +3681,7 @@
           <characteristics>
             <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">7&quot;</characteristic>
             <characteristic name="RH" typeId="b74f-2b64-2662-f401">-</characteristic>
-            <characteristic name="WA" typeId="0f73-3c43-4701-9086">5</characteristic>
+            <characteristic name="WA" typeId="0f73-3c43-4701-9086">6</characteristic>
             <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">6</characteristic>
             <characteristic name="P" typeId="1192-a747-177a-64eb">13</characteristic>
             <characteristic name="E" typeId="0a89-229f-3f01-3919">13</characteristic>
@@ -3691,7 +3692,7 @@
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
           </characteristics>
         </profile>
-        <profile id="8877-54fc-78d0-b9af" name="Wergeiz" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
+        <profile id="8877-54fc-78d0-b9af" name="Wergeize" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <characteristics>
             <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
             <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
@@ -3699,7 +3700,7 @@
             <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
             <characteristic name="P" typeId="1192-a747-177a-64eb">7</characteristic>
             <characteristic name="E" typeId="0a89-229f-3f01-3919">7</characteristic>
-            <characteristic name="A" typeId="5d8c-74be-d893-50e2">4</characteristic>
+            <characteristic name="A" typeId="5d8c-74be-d893-50e2">5</characteristic>
             <characteristic name="WP" typeId="0418-2892-7021-fc1e">17</characteristic>
             <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">-</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -3714,6 +3715,7 @@
             <modifier type="set" field="name" value="Ram (Mammoth only)"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Far Reach" id="b23b-36bd-b50d-4a7e" hidden="false" type="rule" targetId="ae31-c5ca-2ef0-0956"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="25f3-ce74-eaf1-f582" name="Monstrosity" hidden="false" targetId="bb28-11ac-2d86-01b1" primary="false"/>
@@ -3721,14 +3723,14 @@
       <entryLinks>
         <entryLink id="6b68-2899-7815-161b" name="Medium Armour" hidden="false" collective="false" import="true" targetId="9948-1047-5e69-1fdc" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0d5-6ee1-32e8-4f91-min" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0d5-6ee1-32e8-4f91-max" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0d5-6ee1-32e8-4f91-min-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0d5-6ee1-32e8-4f91-min-max" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="b4f6-c03f-c048-1d2e" name="Tough Hide (3+/+4)" hidden="false" collective="false" import="true" targetId="492f-9dbe-2023-f32a" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9411-1798-20b2-0193-min" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9411-1798-20b2-0193-max" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9411-1798-20b2-0193-min-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9411-1798-20b2-0193-min-max" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -4432,6 +4434,7 @@
             <modifier type="set" value="Immunity - Fire" field="name"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Elite" id="a758-bfba-5c09-41f8" hidden="false" type="rule" targetId="2f43-4bde-1249-f8af"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Wer Breit" hidden="false" id="03dd-478b-b9fd-ae97">
