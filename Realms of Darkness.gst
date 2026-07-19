@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="09a0-626b-16e9-bcae" name="Realms of Darkness" revision="82" battleScribeVersion="2.03" authorName="Erik Valeur" authorContact="grunanca@gmail.com" authorUrl="https://realmsofdarkness.dk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="09a0-626b-16e9-bcae" name="Realms of Darkness" revision="83" battleScribeVersion="2.03" authorName="Erik Valeur" authorContact="grunanca@gmail.com" authorUrl="https://realmsofdarkness.dk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <costTypes>
     <costType id="5119-770c-ea3a-8a8c" name="pts" defaultCostLimit="-1" hidden="false"/>
   </costTypes>
@@ -3855,9 +3855,9 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">11</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">7</characteristic>
-                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
+                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">2</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
@@ -3967,9 +3967,9 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">11</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">7</characteristic>
-                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
+                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">2</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
@@ -4107,9 +4107,9 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">11</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">7</characteristic>
-                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
+                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">2</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
@@ -4251,7 +4251,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">11</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">7</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -4277,7 +4277,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">11</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">7</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -4563,7 +4563,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">12</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -4588,7 +4588,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">12</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -4779,7 +4779,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">4</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">4</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">10</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -4805,7 +4805,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">4</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">4</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">10</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -5002,7 +5002,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">6</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">8</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -5028,7 +5028,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">6</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">8</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -5352,7 +5352,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">11</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -5377,7 +5377,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">11</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -5541,7 +5541,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">11</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -5565,8 +5565,8 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="WA" typeId="0f73-3c43-4701-9086">6</characteristic>
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
-                <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+                <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">11</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -7613,7 +7613,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">4</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">6</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -7639,7 +7639,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">4</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">6</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -8436,9 +8436,9 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">11</characteristic>
-                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
+                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">2</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
@@ -8610,7 +8610,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">11</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -8635,7 +8635,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">11</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -8947,9 +8947,9 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">12</characteristic>
-                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
+                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">2</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
@@ -9031,9 +9031,9 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">4</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">4</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">10</characteristic>
-                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
+                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">2</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
@@ -9263,7 +9263,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">12</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -9288,7 +9288,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">12</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">12</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -9379,32 +9379,6 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b16-02da-8385-332e" type="min"/>
                     <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a47b-db3f-85aa-9a8c" type="max"/>
-                  </constraints>
-                </entryLink>
-              </entryLinks>
-              <costs>
-                <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="4963-8ab6-f219-0e8b" name="Elven Bow and Elven Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="increment" field="5119-770c-ea3a-8a8c" value="3">
-                  <repeats>
-                    <repeat field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
-              <entryLinks>
-                <entryLink id="0651-7b2f-91ac-7e81" name="Elven Bow" hidden="false" collective="false" import="true" targetId="116b-d9fd-8b4c-3d7e" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd5c-48df-9d49-381d" type="min"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2baa-0e3d-5ec1-2485" type="max"/>
-                  </constraints>
-                </entryLink>
-                <entryLink id="09c3-11f1-2bb6-635d" name="Elven Medium Armour" hidden="false" collective="false" import="true" targetId="c298-4c1a-a107-b11d" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5078-1225-4981-a005" type="min"/>
-                    <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9de0-d14e-18fb-bc4f" type="max"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
