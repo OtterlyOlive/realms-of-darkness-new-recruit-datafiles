@@ -89,7 +89,7 @@
           <modifiers>
             <modifier type="set" value="0" field="fd95-c654-eda4-afb8">
               <conditions>
-                <condition type="lessThan" value="2000" field="5119-770c-ea3a-8a8c" scope="force" childId="any" shared="true" includeChildSelections="true"/>
+                <condition type="lessThan" value="2000" field="limit::5119-770c-ea3a-8a8c" scope="roster" childId="any" shared="true" includeChildSelections="true" includeChildForces="true"/>
               </conditions>
             </modifier>
             <modifier type="increment" value="1" field="6e83-a13d-1f17-f583">
@@ -1436,6 +1436,16 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="12d9-030f-5d5e-044d" includeChildSelections="true"/>
+      </constraints>
+      <modifiers>
+        <modifier type="increment" value="1" field="12d9-030f-5d5e-044d">
+          <repeats>
+            <repeat value="250" repeats="1" field="5119-770c-ea3a-8a8c" scope="force" childId="any" shared="true" roundUp="false" includeChildSelections="true" percentValue="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="653f-2591-55d0-7b46" name="Musket" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
