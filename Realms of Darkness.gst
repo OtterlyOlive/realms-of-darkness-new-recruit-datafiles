@@ -115,7 +115,7 @@
         </categoryLink>
         <categoryLink id="abba-4e7a-4c53-451b" name="Specialist" hidden="false" targetId="cd29-77d0-c75d-b384" primary="false">
           <constraints>
-            <constraint field="selections" scope="force" value="50" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="false" id="c570-d373-9bd7-cbec" type="max"/>
+            <constraint field="5119-770c-ea3a-8a8c" scope="force" value="50" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="c570-d373-9bd7-cbec" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="1785-c276-ef2c-231f" name="Legendary" hidden="false" targetId="fad6-dec9-0df6-94ac" primary="false">
