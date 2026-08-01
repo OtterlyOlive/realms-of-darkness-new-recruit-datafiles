@@ -4,7 +4,7 @@
     <costType id="5119-770c-ea3a-8a8c" name="pts" defaultCostLimit="-1" hidden="false"/>
   </costTypes>
   <profileTypes>
-    <profileType id="9e8a-1733-b871-3826" name="Unit">
+    <profileType id="9e8a-1733-b871-3826" name="Unit" sortIndex="1">
       <characteristicTypes>
         <characteristicType id="d7a0-3cff-34c9-87ec" name="MD"/>
         <characteristicType id="b74f-2b64-2662-f401" name="RH"/>
@@ -19,7 +19,7 @@
         <characteristicType id="183d-60e6-700b-6ce0" name="Type"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="090b-d919-0802-8838" name="Melee Weapon">
+    <profileType id="090b-d919-0802-8838" name="Melee Weapon" sortIndex="2">
       <characteristicTypes>
         <characteristicType id="a529-f46c-fe6f-4048" name="Power"/>
         <characteristicType id="7761-068c-0a80-ee08" name="Penalty"/>
@@ -27,7 +27,7 @@
         <characteristicType id="c9c1-27d6-3445-a058" name="Special Rules"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="2cbf-88e1-8eee-16a3" name="Armour">
+    <profileType id="2cbf-88e1-8eee-16a3" name="Armour" sortIndex="4">
       <characteristicTypes>
         <characteristicType id="4e87-a458-fe7d-8c9b" name="Save"/>
         <characteristicType id="1ec1-f4db-6bb9-8a01" name="Penalty"/>
@@ -35,12 +35,12 @@
         <characteristicType id="03e6-32c2-e9e2-24d3" name="Special Rules"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="c0be-9772-241d-3d6e" name="Wargear">
+    <profileType id="c0be-9772-241d-3d6e" name="Wargear" sortIndex="5">
       <characteristicTypes>
         <characteristicType id="2e48-fcb7-ef15-7615" name="Description"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="5bd5-5d91-38a8-7d3f" name="Ranged Weapon">
+    <profileType id="5bd5-5d91-38a8-7d3f" name="Ranged Weapon" sortIndex="3">
       <characteristicTypes>
         <characteristicType id="557e-9928-a8b1-6e7d" name="Shots"/>
         <characteristicType id="0b26-95b4-94d7-6a08" name="Power"/>
@@ -50,14 +50,14 @@
         <characteristicType id="5353-ed52-2205-a615" name="Special Rules"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="da6e-29e5-c411-1090" name="Spell">
+    <profileType id="da6e-29e5-c411-1090" name="Spell" sortIndex="6">
       <characteristicTypes>
         <characteristicType id="be80-d4c5-67e9-69f4" name="Cast"/>
         <characteristicType id="8bb7-80af-4e3e-b90c" name="Description"/>
         <characteristicType id="414c-bfa9-cf94-4181" name="Type"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="9c0a-e5cf-3849-dab9" name="Item">
+    <profileType id="9c0a-e5cf-3849-dab9" name="Item" sortIndex="7">
       <characteristicTypes>
         <characteristicType id="c8de-628e-453a-cf31" name="Stat Change"/>
         <characteristicType id="3e25-5505-a01e-be3c" name="Penalty"/>
@@ -65,7 +65,7 @@
         <characteristicType id="c5df-d4c2-189c-1826" name="Effect"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="88d1-f569-0c9a-d4c2" name="Description">
+    <profileType id="88d1-f569-0c9a-d4c2" name="Description" sortIndex="8">
       <comment>This is used for things like Herds, where they should be immediately visible in RALF</comment>
       <characteristicTypes>
         <characteristicType id="4255-c8e0-c029-6554" name="Description"/>
