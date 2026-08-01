@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="43" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorUrl="https://realmsofdarkness.dk/">
+<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="44" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorUrl="https://realmsofdarkness.dk/">
   <entryLinks>
     <entryLink id="8168-8ddd-eb9e-de05" name="Wergeize" hidden="false" collective="false" import="true" targetId="e5f4-1126-9dce-8aaf" type="selectionEntry">
       <categoryLinks>
@@ -146,6 +146,11 @@
         <categoryLink targetId="fad6-dec9-0df6-94ac" id="b21f-4bf6-9857-5f18" primary="true" name="Legendary"/>
       </categoryLinks>
     </entryLink>
+    <entryLink import="true" name="Chimera" hidden="false" id="5623-3cd9-7a62-dfda" type="selectionEntry" targetId="79e7-18df-00e3-1861">
+      <categoryLinks>
+        <categoryLink targetId="bb28-11ac-2d86-01b1" id="99a4-3e83-7340-84c4" primary="true" name="Monstrosity"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="e5f4-1126-9dce-8aaf" name="Wergeize" hidden="false" collective="false" import="true" type="unit">
@@ -204,6 +209,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -230,6 +239,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -363,6 +376,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -388,6 +405,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -500,6 +521,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -525,6 +550,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -705,7 +734,7 @@
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f71c-f6e4-57e1-08fa" name="Spicy Boars" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="f71c-f6e4-57e1-08fa" name="Breit Ebur" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="395d-f61d-8a20-8e02" name="Defensive Spikes" hidden="false" targetId="b1d8-c1cd-cdd8-2b0b" type="rule"/>
         <infoLink id="767b-a7a9-cb86-95e5" name="Ram" hidden="false" targetId="539f-0901-1186-9374" type="rule"/>
@@ -732,13 +761,13 @@
         <infoLink id="5559-5138-b9a5-e91b" name="Large Monster" hidden="false" targetId="965d-7455-ae5a-f12d" type="infoGroup"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="3acc-d230-c434-f4ec" name="Spicy Boars" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="3acc-d230-c434-f4ec" name="Breit Ebur" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b5f-34a7-df51-07f9" type="min"/>
             <constraint field="selections" scope="parent" value="3" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="115d-9391-34ee-31d4" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6854-fae7-2e5c-a8f2" name="Spicy Boars" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
+            <profile id="6854-fae7-2e5c-a8f2" name="Breit Ebur" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">8&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">-</characteristic>
@@ -752,6 +781,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -767,16 +800,16 @@
             </infoLink>
           </infoLinks>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c8ca-94e8-07dd-b118-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c8ca-94e8-07dd-b118-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c8ca-94e8-07dd-b118-min-min" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c8ca-94e8-07dd-b118-min-max" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="d19b-4a4d-ed59-399c" name="Tough Hide (3+/+4)" hidden="false" collective="false" import="true" targetId="492f-9dbe-2023-f32a" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e5a-eb9a-4317-49d3-min" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e5a-eb9a-4317-49d3-max" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e5a-eb9a-4317-49d3-min-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e5a-eb9a-4317-49d3-min-max" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -850,6 +883,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -876,6 +913,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -1004,6 +1045,10 @@
               </conditions>
             </modifier>
           </modifiers>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -1212,6 +1257,10 @@
               </conditions>
             </modifier>
           </modifiers>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -1829,6 +1878,10 @@
               </conditions>
             </modifier>
           </modifiers>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -1987,6 +2040,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -2013,6 +2070,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Chariot</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -2039,6 +2100,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Chariot</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <infoGroups>
@@ -2137,6 +2202,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Warmachine</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <rules>
@@ -2204,6 +2273,10 @@
               </conditions>
             </modifier>
           </modifiers>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -2319,6 +2392,10 @@
               </conditions>
             </modifier>
           </modifiers>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -2808,6 +2885,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -2901,7 +2982,6 @@
     </selectionEntry>
     <selectionEntry id="3f6f-264e-b984-fc03" name="Wild Ebur" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="3b32-56bb-c1e4-8ac6" name="Defensive Spikes" hidden="false" targetId="b1d8-c1cd-cdd8-2b0b" type="rule"/>
         <infoLink id="eaf3-0173-f3dd-0684" name="Fear" hidden="false" targetId="e253-8f01-7ab7-fe2b" type="rule"/>
         <infoLink id="5c70-c445-f474-335a" name="Ram" hidden="false" targetId="539f-0901-1186-9374" type="rule"/>
         <infoLink id="0c0e-a40f-3855-2c5c" name="Unorganised" hidden="false" targetId="c7f9-9deb-76d6-6a89" type="rule"/>
@@ -2930,6 +3010,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Beast</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -2985,6 +3069,10 @@
               </conditions>
             </modifier>
           </modifiers>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <categoryLinks>
@@ -3067,6 +3155,10 @@
                     <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
                     <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
                   </characteristics>
+                  <attributes>
+                    <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                    <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+                  </attributes>
                 </profile>
               </profiles>
             </selectionEntry>
@@ -3109,6 +3201,10 @@
                     <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
                     <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
                   </characteristics>
+                  <attributes>
+                    <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                    <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+                  </attributes>
                 </profile>
               </profiles>
             </selectionEntry>
@@ -3142,6 +3238,10 @@
                     <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
                     <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
                   </characteristics>
+                  <attributes>
+                    <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                    <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+                  </attributes>
                 </profile>
               </profiles>
             </selectionEntry>
@@ -3221,6 +3321,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -3246,6 +3350,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -3333,6 +3441,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -3420,6 +3532,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -3445,6 +3561,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -3533,6 +3653,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -3558,6 +3682,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -3664,6 +3792,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Beast</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -3691,6 +3823,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
         <profile id="8877-54fc-78d0-b9af" name="Wergeize" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <characteristics>
@@ -3706,6 +3842,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -3754,6 +3894,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -3848,6 +3992,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
         </selectionEntry>
@@ -3873,6 +4021,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
         </selectionEntry>
@@ -3965,6 +4117,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <costs>
@@ -4466,6 +4622,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -4525,6 +4685,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
         <profile name="Cursed Gaze" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon" hidden="false" id="f944-7e0c-0afc-a070">
           <characteristics>
@@ -4572,6 +4736,145 @@
       <rules>
         <rule name="Petrification" id="23b9-3e25-8e19-4a8d" hidden="false">
           <description>Automatically hits. Any model hit must take an initiative test with a D20. If the test is failed, the model is turned to stone and is counted as a casualty. If the model has the monster or large monster special rule, it loses D3HP instead of becoming a casualty. This cannot be saved by armour saves; however magic saves can still be taken. Chariots and warmachines cannot be affected by petrification, however the warmachine crew can be.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Chimera" hidden="false" id="79e7-18df-00e3-1861">
+      <costs>
+        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="275"/>
+      </costs>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Chimera" hidden="false" id="68cd-6735-43ee-ece5">
+          <profiles>
+            <profile name="Chimera" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="735f-aee7-4dbc-9369">
+              <characteristics>
+                <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">7</characteristic>
+                <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
+                <characteristic name="WA" typeId="0f73-3c43-4701-9086">8</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">7</characteristic>
+                <characteristic name="P" typeId="1192-a747-177a-64eb">12</characteristic>
+                <characteristic name="E" typeId="0a89-229f-3f01-3919">11</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">*</characteristic>
+                <characteristic name="WP" typeId="0418-2892-7021-fc1e">19</characteristic>
+                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">7</characteristic>
+                <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="29c8-9819-79d7-0219-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29c8-9819-79d7-0219-max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Dragon Head" hidden="false" id="5a68-e4b9-d219-1146">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a013-0b40-6bad-1be6-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a013-0b40-6bad-1be6-max"/>
+              </constraints>
+              <profiles>
+                <profile name="Dragon Head" typeId="88d1-f569-0c9a-d4c2" typeName="Description" hidden="false" id="ab1c-fd1c-8336-f14c">
+                  <characteristics>
+                    <characteristic name="Description" typeId="4255-c8e0-c029-6554">2 attacks with the Decapitation Strike special rule.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Decapitation Strike" id="07ad-613f-cbeb-da6d" hidden="false" type="rule" targetId="2ae1-b529-7087-e389"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Eagle Head" hidden="false" id="dc8d-d60c-21d7-c4e0">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0ad8-934c-3c6c-ff19-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ad8-934c-3c6c-ff19-max"/>
+              </constraints>
+              <profiles>
+                <profile name="Eagle Head" typeId="88d1-f569-0c9a-d4c2" typeName="Description" hidden="false" id="1469-5303-b174-b072">
+                  <characteristics>
+                    <characteristic name="Description" typeId="4255-c8e0-c029-6554">1 attack with the Smashing special rule.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Smashing" id="cea2-6ad3-3b45-760d" hidden="false" type="rule" targetId="7942-e26c-af58-e514"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Beast Head" hidden="false" id="e31b-2fb7-2817-cd8d">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1917-6988-354d-71c9-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1917-6988-354d-71c9-max"/>
+              </constraints>
+              <profiles>
+                <profile name="Beast Head" typeId="88d1-f569-0c9a-d4c2" typeName="Description" hidden="false" id="bc4d-6193-ec43-87f0">
+                  <characteristics>
+                    <characteristic name="Description" typeId="4255-c8e0-c029-6554">2 attacks with the Ram special rule.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Ram" id="9297-4baa-42d0-e36f" hidden="false" type="rule" targetId="539f-0901-1186-9374"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Tail" hidden="false" id="493e-65c6-ecbd-befd">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0dd4-8611-c3a6-8d18-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0dd4-8611-c3a6-8d18-max"/>
+              </constraints>
+              <profiles>
+                <profile name="Tail" typeId="88d1-f569-0c9a-d4c2" typeName="Description" hidden="false" id="ab01-31f2-30ee-a7b3">
+                  <characteristics>
+                    <characteristic name="Description" typeId="4255-c8e0-c029-6554">1 attack with the Far Reach and Poison special rules.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Far Reach" id="71aa-f76c-4cbe-676e" hidden="false" type="rule" targetId="ae31-c5ca-2ef0-0956"/>
+                <infoLink name="Poison" id="1c83-b269-93ca-40a9" hidden="false" type="rule" targetId="ccf4-202b-cae8-196b"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+      <profiles>
+        <profile name="Fire Breath" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon" hidden="false" id="78a9-a869-8369-a24e">
+          <characteristics>
+            <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">D8</characteristic>
+            <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">6</characteristic>
+            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-</characteristic>
+            <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">12&quot;</characteristic>
+            <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Breath</characteristic>
+            <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Fire Type</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Fearless" id="6d6f-1b2b-b002-8b2b" hidden="false" type="rule" targetId="70cb-1954-bab7-56fe"/>
+        <infoLink name="Fly X&quot;" id="8c9a-1299-23b2-7617" hidden="false" type="rule" targetId="e861-2173-53e6-a5a1">
+          <modifiers>
+            <modifier type="set" value="Fly 14&quot;" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Unorganised" id="06ec-3361-c48d-2186" hidden="false" type="rule" targetId="c7f9-9deb-76d6-6a89"/>
+        <infoLink name="Large Monster" id="9d69-32cf-da3a-0d97" hidden="false" type="infoGroup" targetId="965d-7455-ae5a-f12d"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Tough Hide (3+/+4)" hidden="false" id="917e-6b55-860e-f9ba" type="selectionEntry" targetId="492f-9dbe-2023-f32a">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b84f-33fa-71e2-6dc9-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b84f-33fa-71e2-6dc9-max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <rules>
+        <rule name="Mixed Attacks" id="afa3-9005-1cdc-5dc8" hidden="false">
+          <description>* The chimera has many different heads and a tail with different attacks. 
+In melee each attacks with the following attacks:
+Dragon head: 2 attacks with the decapitation strike special rule.
+Beast head: 2 attacks with the ram special rule.
+Eagle head: 1 attack with the smash special rule.
+Tail: 1 attack with the far reach and poison special rules.
+
+</description>
         </rule>
       </rules>
     </selectionEntry>
