@@ -3766,13 +3766,19 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
             <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-3I</characteristic>
             <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">12&quot;</characteristic>
             <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Breath</characteristic>
-            <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Corroding Flames, Inferno</characteristic>
+            <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Corroding Flames, Inferno, Void Instability, Magic Attacks - Shadow</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="b7fa-32d2-77b3-c431" name="Inferno" hidden="false" targetId="a1f9-dffd-c567-f034" type="rule"/>
         <infoLink id="d56c-92a3-0d97-2616" name="Corroding Flames" hidden="false" targetId="5238-5ef2-46cb-1c1d" type="rule"/>
+        <infoLink name="Void Instability" id="6698-a2dc-1930-72c2" hidden="false" type="rule" targetId="37a5-4954-7f35-2322"/>
+        <infoLink name="Magic Attacks - X" id="f417-63ec-6c8d-ee0f" hidden="false" type="rule" targetId="b2ee-4ebe-97f3-3116">
+          <modifiers>
+            <modifier type="set" value="Magic Attacks - Shadow" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
