@@ -13576,6 +13576,9 @@ Characters and units with the monster or large monster rule, only lose half the 
     <rule name="Void Instability" id="37a5-4954-7f35-2322" hidden="false">
       <description>All rolls of 1 to hit with this weapon, will hit the unit shooting, instead of the target.</description>
     </rule>
+    <rule name="Fire Type" id="34d9-80fc-1f66-51c4" hidden="false">
+      <description>Attacks with this weapon are with the Fire Type</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="4448-47cc-9fd1-ceba" name="Shortbow" hidden="false" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon">
