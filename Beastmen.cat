@@ -1038,13 +1038,6 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
-          <modifiers>
-            <modifier type="increment" value="1" field="0a89-229f-3f01-3919">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="48b9-a8ba-89bd-d558" childId="2ae5-6834-65cd-c2f0" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <attributes>
             <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
             <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
@@ -1250,13 +1243,6 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
-          <modifiers>
-            <modifier type="increment" value="1" field="0a89-229f-3f01-3919">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="76b8-c014-b443-5912" childId="2ae5-6834-65cd-c2f0" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <attributes>
             <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
             <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
@@ -1871,13 +1857,6 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
-          <modifiers>
-            <modifier type="increment" value="1" field="0a89-229f-3f01-3919">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="285a-f24a-67bb-f034" childId="2ae5-6834-65cd-c2f0" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <attributes>
             <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
             <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
@@ -2266,13 +2245,6 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
           </characteristics>
-          <modifiers>
-            <modifier type="increment" value="1" field="0a89-229f-3f01-3919">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="0365-43cd-2856-0e6f" childId="2ae5-6834-65cd-c2f0" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <attributes>
             <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
             <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
@@ -2385,13 +2357,6 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
-          <modifiers>
-            <modifier type="increment" value="1" field="0a89-229f-3f01-3919">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="5211-1c85-5987-bc25" childId="2ae5-6834-65cd-c2f0" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <attributes>
             <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
             <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
@@ -3062,13 +3027,6 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
-          <modifiers>
-            <modifier type="increment" value="1" field="0a89-229f-3f01-3919">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="fa57-1684-489a-9ff2" childId="2ae5-6834-65cd-c2f0" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <attributes>
             <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
             <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
@@ -5032,6 +4990,9 @@ Tail: 1 attack with the far reach and poison special rules.
           <costs>
             <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="25"/>
           </costs>
+          <modifiers>
+            <modifier type="increment" value="1" field="0a89-229f-3f01-3919" scope="parent" affects="self.entries.recursive.profiles.Unit"/>
+          </modifiers>
         </selectionEntry>
         <selectionEntry id="215f-1bc5-f086-30eb" name="Dream Catcher of the Forest" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
