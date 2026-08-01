@@ -4834,19 +4834,25 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Fire Breath" hidden="false" id="c1aa-38c2-e9e8-5bc7">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f209-96c8-7e85-bfeb-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f209-96c8-7e85-bfeb-max"/>
+          </constraints>
+          <profiles>
+            <profile name="Fire Breath" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon" hidden="false" id="78a9-a869-8369-a24e">
+              <characteristics>
+                <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">D8</characteristic>
+                <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">6</characteristic>
+                <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-</characteristic>
+                <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">12&quot;</characteristic>
+                <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Breath</characteristic>
+                <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Fire Type</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
       </selectionEntries>
-      <profiles>
-        <profile name="Fire Breath" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon" hidden="false" id="78a9-a869-8369-a24e">
-          <characteristics>
-            <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">D8</characteristic>
-            <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">6</characteristic>
-            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-</characteristic>
-            <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">12&quot;</characteristic>
-            <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Breath</characteristic>
-            <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Fire Type</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <infoLinks>
         <infoLink name="Fearless" id="6d6f-1b2b-b002-8b2b" hidden="false" type="rule" targetId="70cb-1954-bab7-56fe"/>
         <infoLink name="Fly X&quot;" id="8c9a-1299-23b2-7617" hidden="false" type="rule" targetId="e861-2173-53e6-a5a1">
