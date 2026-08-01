@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="45" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorUrl="https://realmsofdarkness.dk/">
+<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="46" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorUrl="https://realmsofdarkness.dk/">
   <entryLinks>
     <entryLink id="8168-8ddd-eb9e-de05" name="Wergeize" hidden="false" collective="false" import="true" targetId="e5f4-1126-9dce-8aaf" type="selectionEntry">
       <categoryLinks>
@@ -471,6 +471,9 @@
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <categoryLinks>
+        <categoryLink targetId="840e-3a30-47af-38de" id="5ed2-5029-2df2-fa34" primary="false" name="Sturdy Rule"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="059b-3961-ea0f-bc79" name="Minotaurs" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -2951,9 +2954,6 @@
         <infoLink id="5c70-c445-f474-335a" name="Ram" hidden="false" targetId="539f-0901-1186-9374" type="rule"/>
         <infoLink id="0c0e-a40f-3855-2c5c" name="Unorganised" hidden="false" targetId="c7f9-9deb-76d6-6a89" type="rule"/>
       </infoLinks>
-      <categoryLinks>
-        <categoryLink id="bc2a-c135-89d8-e722" name="Specialist" hidden="false" targetId="cd29-77d0-c75d-b384" primary="false"/>
-      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="b305-35c0-1360-ebfb" name="Wild Ebur" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -3468,6 +3468,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9068-16aa-6be8-1e3f" name="Specialist" hidden="false" targetId="cd29-77d0-c75d-b384" primary="false"/>
+        <categoryLink targetId="840e-3a30-47af-38de" id="dd4c-7750-8d3c-694e" primary="false" name="Sturdy Rule"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="5f19-df31-c60b-6a1e" name="Plague Bæst" hidden="false" collective="false" import="true" type="model">
@@ -4057,6 +4058,7 @@
       </selectionEntryGroups>
       <categoryLinks>
         <categoryLink targetId="fad6-dec9-0df6-94ac" id="eeb1-68a5-fb38-9503" primary="false" name="Legendary"/>
+        <categoryLink targetId="840e-3a30-47af-38de" id="d7fb-3cdb-6b65-56c8" primary="false" name="Sturdy Rule"/>
       </categoryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Hazlîh Trahho Zoubarâri" hidden="false" id="837e-939c-93b0-942e">
@@ -4897,6 +4899,10 @@ Tail: 1 attack with the far reach and poison special rules.
           <costs>
             <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="35"/>
           </costs>
+          <modifiers>
+            <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
+            <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit"/>
+          </modifiers>
         </selectionEntry>
         <selectionEntry id="5557-8910-653c-f3d9" name="Axe of Slaying" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
