@@ -154,23 +154,6 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
-          <modifiers>
-            <modifier type="increment" value="1" field="c6ff-4f15-d25e-6719">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="f25e-0619-443f-eb51" childId="6710-e77d-7d9a-f9b7" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="0f73-3c43-4701-9086">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="f25e-0619-443f-eb51" childId="9335-35bd-713d-6173" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="f25e-0619-443f-eb51" childId="6710-e77d-7d9a-f9b7" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <attributes>
             <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
             <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
@@ -727,23 +710,6 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
-          <modifiers>
-            <modifier type="increment" value="1" field="0f73-3c43-4701-9086">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="976a-ccb3-6145-bf4c" childId="9335-35bd-713d-6173" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c6ff-4f15-d25e-6719">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="976a-ccb3-6145-bf4c" childId="6710-e77d-7d9a-f9b7" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="976a-ccb3-6145-bf4c" childId="6710-e77d-7d9a-f9b7" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <attributes>
             <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
             <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
@@ -869,23 +835,6 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
-          <modifiers>
-            <modifier type="increment" value="1" field="c6ff-4f15-d25e-6719">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="8718-6e2b-42b6-5701" childId="6710-e77d-7d9a-f9b7" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="0f73-3c43-4701-9086">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="8718-6e2b-42b6-5701" childId="9335-35bd-713d-6173" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="8718-6e2b-42b6-5701" childId="6710-e77d-7d9a-f9b7" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <attributes>
             <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
             <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
@@ -1067,23 +1016,6 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
-          <modifiers>
-            <modifier type="increment" value="1" field="c6ff-4f15-d25e-6719">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="989f-1959-7670-08a8" childId="6710-e77d-7d9a-f9b7" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="0f73-3c43-4701-9086">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="989f-1959-7670-08a8" childId="9335-35bd-713d-6173" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="989f-1959-7670-08a8" childId="6710-e77d-7d9a-f9b7" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <attributes>
             <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
             <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
@@ -1203,23 +1135,6 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
-          <modifiers>
-            <modifier type="increment" value="1" field="c6ff-4f15-d25e-6719">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="5978-4f3b-0645-0265" childId="6710-e77d-7d9a-f9b7" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="0f73-3c43-4701-9086">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="5978-4f3b-0645-0265" childId="9335-35bd-713d-6173" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="5978-4f3b-0645-0265" childId="6710-e77d-7d9a-f9b7" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <attributes>
             <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
             <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
@@ -1417,23 +1332,6 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
-          <modifiers>
-            <modifier type="increment" value="1" field="c6ff-4f15-d25e-6719">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="74a4-1f0a-78a2-9965" childId="6710-e77d-7d9a-f9b7" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="0f73-3c43-4701-9086">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="74a4-1f0a-78a2-9965" childId="9335-35bd-713d-6173" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="74a4-1f0a-78a2-9965" childId="6710-e77d-7d9a-f9b7" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <attributes>
             <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
             <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
@@ -1595,23 +1493,6 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
-          <modifiers>
-            <modifier type="increment" value="1" field="0f73-3c43-4701-9086">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="7a17-2301-e533-e111" childId="9335-35bd-713d-6173" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c6ff-4f15-d25e-6719">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="7a17-2301-e533-e111" childId="6710-e77d-7d9a-f9b7" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="7a17-2301-e533-e111" childId="6710-e77d-7d9a-f9b7" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <attributes>
             <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
             <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
@@ -1737,23 +1618,6 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
-          <modifiers>
-            <modifier type="increment" value="1" field="c6ff-4f15-d25e-6719">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="928b-a4ab-9792-c7fa" childId="6710-e77d-7d9a-f9b7" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="0f73-3c43-4701-9086">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="928b-a4ab-9792-c7fa" childId="9335-35bd-713d-6173" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="928b-a4ab-9792-c7fa" childId="6710-e77d-7d9a-f9b7" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <attributes>
             <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
             <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
@@ -3747,6 +3611,9 @@ This also increases the amount of times any one handed weapon or shield can be b
                 <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
               </repeats>
             </modifier>
+            <modifier type="increment" value="1" field="c6ff-4f15-d25e-6719" scope="parent" affects="self.entries.recursive.profiles.Unit"/>
+            <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
+            <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit"/>
           </modifiers>
         </selectionEntry>
       </selectionEntries>
@@ -3771,6 +3638,7 @@ This also increases the amount of times any one handed weapon or shield can be b
                 <repeat value="1" repeats="1" field="selections" scope="parent" childId="model" shared="true" roundUp="false" includeChildSelections="true"/>
               </repeats>
             </modifier>
+            <modifier type="increment" value="1" field="0f73-3c43-4701-9086" scope="parent" affects="self.entries.recursive.profiles.Unit"/>
           </modifiers>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Webbed Feet" hidden="false" id="8906-a6cc-02c6-ad53">
