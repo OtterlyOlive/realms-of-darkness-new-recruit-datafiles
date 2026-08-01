@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="09a0-626b-16e9-bcae" name="Realms of Darkness" revision="83" battleScribeVersion="2.03" authorName="Erik Valeur" authorContact="grunanca@gmail.com" authorUrl="https://realmsofdarkness.dk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="09a0-626b-16e9-bcae" name="Realms of Darkness" revision="84" battleScribeVersion="2.03" authorName="Erik Valeur" authorContact="grunanca@gmail.com" authorUrl="https://realmsofdarkness.dk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <costTypes>
     <costType id="5119-770c-ea3a-8a8c" name="pts" defaultCostLimit="-1" hidden="false"/>
   </costTypes>
@@ -12537,10 +12537,10 @@ Models that are not any of the above cannot be instantly killed by weapons with 
       <description>This weapon cannot be used in a charge where the unit has changed from another formation to skirmish formation.</description>
     </rule>
     <rule id="5639-d707-8161-c194" name="Hold the Line" hidden="false">
-      <description>When a unit with this weapon is charged by another unit, they gain +1P that turn.</description>
+      <description>The weapon gives +1P when attacking a model that charged the unit holding the weapon in the same turn. If the enemy charging model has MD7 or more, the bonus is +2P.</description>
     </rule>
     <rule id="0d99-a8a5-65af-bbae" name="Wall of Pikes" hidden="false">
-      <description>A model with a pike can attack if it is located in one of the 4 first ranks of a melee, or 2 ranks if the model charged the same turn. Note that this means pikes only work against attacks from the front and if not in the skirmish formation. Against charging units, pikes give +4I. Note the bonus is only in the turn the unit is charged.</description>
+      <description>A model with a pike can attack if it is located in one of the 4 first ranks of a melee, or 2 ranks if the model charged the same turn. Against charging units, pikes give +4I. The bonus is only in the turn the unit is charged. Enemy units lose all bonusses from charging when attacking, including the initiative bonus, special rules, magic and that only is applied when charging. Note all bonusses and penalties from pike only work against attackers in front of the unit with pikes and only if the pike wielding unit is not in the skirmish formation.</description>
     </rule>
     <rule id="1898-3160-3ba3-2347" name="No Parry" hidden="false">
       <description>Enemies get +1 to hit in melee, if only pistols are used to fight.</description>
