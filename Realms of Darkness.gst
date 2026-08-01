@@ -12535,7 +12535,7 @@ Bonuses to the amount of HP/SP regenerated cannot be applied to units that are t
             <profile id="c11b-28ec-193b-52cc" name="Cloud of Flies" hidden="false" typeId="da6e-29e5-c411-1090" typeName="Spell">
               <characteristics>
                 <characteristic name="Cast" typeId="be80-d4c5-67e9-69f4">7</characteristic>
-                <characteristic name="Description" typeId="8bb7-80af-4e3e-b90c">The spell is a curse spell with a range of 30”. It can be targeted at an enemy unit. All melee attacks against the unit are resolved at +1 to hit.</characteristic>
+                <characteristic name="Description" typeId="8bb7-80af-4e3e-b90c">The spell is a curse spell with a range of 30”. It can be targeted at an enemy unit. All melee attacks against the unit are resolved at +1 to hit, for the rest of the turn</characteristic>
                 <characteristic name="Type" typeId="414c-bfa9-cf94-4181">Curse</characteristic>
               </characteristics>
             </profile>
