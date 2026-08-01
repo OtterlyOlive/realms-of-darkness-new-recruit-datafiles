@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="12c8-46df-4ed8-75a7" name="Ratkin" revision="11" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="29" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="12c8-46df-4ed8-75a7" name="Ratkin" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="29" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="eb22-585b-9900-ad85" name="Clan Warriors" hidden="false" collective="false" import="true" targetId="52a2-cc30-3c6d-2660" type="selectionEntry">
       <categoryLinks>
@@ -3840,7 +3840,7 @@ On a roll of 1 to hit, the model carrying the weapon is hit instead of the targe
 The wizard can at any point later in the game in the magic phase spend a power token to activate all tokens on a unit. For each token a model in the unit will immediately attack the unit itself as if it was in melee in the melee phase and after it is done be removed as a casualty.
 
 
-If the attack wounded but did not kill a model, add a new token to the unit, which the wizard can then later activate again with a power token.</description>
+If this attack wounded but did not kill a model, add a new token to the unit, which the wizard can then later activate again with a power token.</description>
             </rule>
           </rules>
           <modifiers>
@@ -3874,6 +3874,9 @@ If the attack wounded but did not kill a model, add a new token to the unit, whi
               <description>This weapon is two daggers, giving +1A. Infantry, beast and cavalry type models suffering an unsaved wound from this weapon will instantly die and be removed as a casualty.</description>
             </rule>
           </rules>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="7ded-c99e-fd2f-ab2b" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -3910,6 +3913,38 @@ If the attack wounded but did not kill a model, add a new token to the unit, whi
           <costs>
             <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="20"/>
           </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="c54d-ad36-584c-560d" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Bubonic Cloak" hidden="false" id="f916-bfe6-000a-9b82">
+          <costs>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="35"/>
+          </costs>
+          <rules>
+            <rule name="Bubonic Cloak" id="850e-e514-53a0-a0db" hidden="false">
+              <description>All models, friendly or enemy in base contact with the model carrying the cloak, get -1 to hit in melee. Additionally the model gets the regeneration 5+ special rule.</description>
+            </rule>
+          </rules>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="cbe2-78d8-ce08-59c8" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Rizzhud’s Lightning Rod" hidden="false" id="f738-f4aa-b343-ffe1">
+          <costs>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="45"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="cce8-9bb8-e036-7b92" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <rules>
+            <rule name="Rizzhud’s Lightning Rod" id="aa4f-e70d-bc86-fcd0" hidden="false">
+              <description>All spells targeting a unit within 6” of the model holding this item, will after the spell is cast be redirected to hit the wearer&apos;s unit instead of the intended target.
+
+
+If the spell targets a specific model, the model holding the item is hit instead of the entire unit. Directional missile spells will turn directly toward the wearer when 6” away, permanently altering the course of the missile. This counts for both friendly and enemy spells.</description>
+            </rule>
+          </rules>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -3947,6 +3982,9 @@ If the attack wounded but did not kill a model, add a new token to the unit, whi
 </description>
             </rule>
           </rules>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="6045-5844-0824-49ab" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Void Crystal" hidden="false" id="6ddf-6669-d83b-099b">
           <costs>
@@ -3959,6 +3997,22 @@ If the attack wounded but did not kill a model, add a new token to the unit, whi
               </characteristics>
             </profile>
           </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="4fcd-bcd8-a5a9-7647" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Chaos Powder" hidden="false" id="1b46-842d-8268-1f62">
+          <costs>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="10"/>
+          </costs>
+          <rules>
+            <rule name="Chaos Powder" id="c5d6-df8b-9b1b-4310" hidden="false">
+              <description>Chaos powder can be used once per game when a spell that deals damage has been successfully cast. It adds +1P to the effect of the spell.</description>
+            </rule>
+          </rules>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="3bc1-aba4-213d-e644" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
