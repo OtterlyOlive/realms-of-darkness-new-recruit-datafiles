@@ -99,28 +99,28 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint type="max" value="25" field="5119-770c-ea3a-8a8c" scope="force" shared="true" id="fd95-c654-eda4-afb8" percentValue="true" includeChildSelections="true"/>
+            <constraint type="max" value="25" field="limit::5119-770c-ea3a-8a8c" scope="roster" shared="true" id="fd95-c654-eda4-afb8" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
             <constraint type="max" value="0" field="selections" scope="force" shared="true" id="6e83-a13d-1f17-f583" includeChildSelections="true"/>
           </constraints>
         </categoryLink>
         <categoryLink id="d316-330b-c5de-12e1" name="Lord" hidden="false" targetId="7688-3161-c899-c54d" primary="false">
           <constraints>
-            <constraint type="max" value="25" field="5119-770c-ea3a-8a8c" scope="force" shared="true" id="d50b-4c9f-2d7f-2fd3" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
+            <constraint type="max" value="25" field="limit::5119-770c-ea3a-8a8c" scope="roster" shared="true" id="d50b-4c9f-2d7f-2fd3" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
         </categoryLink>
         <categoryLink id="bad5-82d2-5107-3eeb" name="Common" hidden="false" targetId="e3fa-e803-fa94-daf2" primary="false">
           <constraints>
-            <constraint field="5119-770c-ea3a-8a8c" scope="force" value="25" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="false" id="4eb9-b681-20e6-d25f" type="min"/>
+            <constraint field="limit::5119-770c-ea3a-8a8c" scope="roster" value="25" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="4eb9-b681-20e6-d25f" type="min"/>
           </constraints>
         </categoryLink>
         <categoryLink id="abba-4e7a-4c53-451b" name="Specialist" hidden="false" targetId="cd29-77d0-c75d-b384" primary="false">
           <constraints>
-            <constraint field="5119-770c-ea3a-8a8c" scope="force" value="50" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="c570-d373-9bd7-cbec" type="max"/>
+            <constraint field="limit::5119-770c-ea3a-8a8c" scope="roster" value="50" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="true" id="c570-d373-9bd7-cbec" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="1785-c276-ef2c-231f" name="Legendary" hidden="false" targetId="fad6-dec9-0df6-94ac" primary="false">
           <constraints>
-            <constraint type="max" value="25" field="5119-770c-ea3a-8a8c" scope="force" shared="true" id="093e-b578-6bad-7d3d" percentValue="true" includeChildSelections="true" includeChildForces="false"/>
+            <constraint type="max" value="25" field="limit::5119-770c-ea3a-8a8c" scope="roster" shared="true" id="093e-b578-6bad-7d3d" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
         </categoryLink>
         <categoryLink id="6dfa-cb05-1198-a017" name="Army Faction" hidden="false" targetId="adc9-e898-46be-d9fe" primary="false">
@@ -131,7 +131,7 @@
         <categoryLink id="4996-42f8-2636-19f4" name="Horde" hidden="false" targetId="f8d9-7bfb-affc-a364" primary="false"/>
         <categoryLink id="8c1b-fc53-70a4-5d30" name="Monstrosity" hidden="false" targetId="bb28-11ac-2d86-01b1" primary="false">
           <constraints>
-            <constraint type="max" value="25" field="5119-770c-ea3a-8a8c" scope="force" shared="true" id="4d69-0fd9-f77a-650c" percentValue="true" includeChildSelections="true" includeChildForces="false"/>
+            <constraint type="max" value="25" field="limit::5119-770c-ea3a-8a8c" scope="roster" shared="true" id="4d69-0fd9-f77a-650c" percentValue="true" includeChildSelections="true" includeChildForces="true"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
