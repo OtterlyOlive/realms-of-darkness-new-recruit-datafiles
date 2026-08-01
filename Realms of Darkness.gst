@@ -81,7 +81,7 @@
     <categoryEntry id="adc9-e898-46be-d9fe" name="Army Faction" hidden="false"/>
     <categoryEntry id="f8d9-7bfb-affc-a364" name="Horde" hidden="false"/>
     <categoryEntry id="bb28-11ac-2d86-01b1" name="Monstrosity" hidden="false"/>
-    <categoryEntry name="Sturdy Rule" id="840e-3a30-47af-38de" hidden="true"/>
+    <categoryEntry name="Sturdy Rule" id="840e-3a30-47af-38de" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="6ebc-027a-3965-37be" name="Armylist" hidden="false">
@@ -235,7 +235,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
         <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
         <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="840e-3a30-47af-38de" shared="true" includeChildSelections="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -1042,7 +1042,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
         <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
         <modifier type="decrement" value="1" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="840e-3a30-47af-38de" shared="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2011,7 +2011,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
       <modifiers>
         <modifier type="decrement" value="1" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="840e-3a30-47af-38de" shared="true"/>
           </conditions>
         </modifier>
         <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
@@ -2037,7 +2037,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
       <modifiers>
         <modifier type="decrement" value="1" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="840e-3a30-47af-38de" shared="true"/>
           </conditions>
         </modifier>
         <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
@@ -2063,7 +2063,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
       <modifiers>
         <modifier type="decrement" value="1" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="840e-3a30-47af-38de" shared="true"/>
           </conditions>
         </modifier>
         <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
@@ -2086,7 +2086,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
       <modifiers>
         <modifier type="decrement" value="1" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="840e-3a30-47af-38de" shared="true"/>
           </conditions>
         </modifier>
         <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
@@ -2127,7 +2127,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
       <modifiers>
         <modifier type="decrement" value="3" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="840e-3a30-47af-38de" shared="true"/>
           </conditions>
         </modifier>
         <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
@@ -2153,7 +2153,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
       <modifiers>
         <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="840e-3a30-47af-38de" shared="true"/>
           </conditions>
         </modifier>
         <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
@@ -2179,7 +2179,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
       <modifiers>
         <modifier type="decrement" value="1" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="840e-3a30-47af-38de" shared="true"/>
           </conditions>
         </modifier>
         <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
@@ -2221,7 +2221,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
         <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
         <modifier type="decrement" value="1" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="840e-3a30-47af-38de" shared="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2247,7 +2247,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
         <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
         <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="840e-3a30-47af-38de" shared="true"/>
           </conditions>
         </modifier>
         <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
@@ -2276,7 +2276,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
         <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
         <modifier type="decrement" value="3" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="840e-3a30-47af-38de" shared="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2302,7 +2302,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
         <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
         <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="840e-3a30-47af-38de" shared="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2346,7 +2346,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
         <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
         <modifier type="decrement" value="1" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="840e-3a30-47af-38de" shared="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2373,7 +2373,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
         <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
         <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="840e-3a30-47af-38de" shared="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2399,7 +2399,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
         <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
         <modifier type="decrement" value="1" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="840e-3a30-47af-38de" shared="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -2490,6 +2490,14 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="decrement" value="1" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
+          <conditions>
+            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="840e-3a30-47af-38de" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="fede-0959-cc6b-8093" name="Gunpowder Keg" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -10259,7 +10267,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
       <modifiers>
         <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
           <conditions>
-            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+            <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="840e-3a30-47af-38de" shared="true"/>
           </conditions>
         </modifier>
         <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
