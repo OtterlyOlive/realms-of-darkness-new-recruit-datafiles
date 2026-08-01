@@ -81,6 +81,7 @@
     <categoryEntry id="adc9-e898-46be-d9fe" name="Army Faction" hidden="false"/>
     <categoryEntry id="f8d9-7bfb-affc-a364" name="Horde" hidden="false"/>
     <categoryEntry id="bb28-11ac-2d86-01b1" name="Monstrosity" hidden="false"/>
+    <categoryEntry name="Sturdy Rule" id="840e-3a30-47af-38de" hidden="true"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="6ebc-027a-3965-37be" name="Armylist" hidden="false">
@@ -230,6 +231,14 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
+        <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="fff9-1bb1-5347-2530" name="Cutlass" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1029,6 +1038,14 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
+        <modifier type="decrement" value="1" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="5795-4313-78eb-6d06" name="Shortbow" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -1991,6 +2008,14 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="decrement" value="1" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="ed05-9071-5c3c-f53c" name="Barding" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2009,6 +2034,14 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="decrement" value="1" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="a1d5-fa2a-1ce2-6526" name="Chainmail" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2027,6 +2060,14 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="decrement" value="1" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="0f6e-fc48-e05d-8929" name="Elven Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2042,6 +2083,14 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="decrement" value="1" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="c298-4c1a-a107-b11d" name="Elven Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2075,6 +2124,14 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="decrement" value="3" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="c8f2-4e9a-d085-f19d" name="Gusoku Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2093,6 +2150,14 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="0a65-0264-5eca-3308" name="Gusoku Medium Armour" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2111,6 +2176,14 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="decrement" value="1" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="fdea-bf87-d2e5-bf0f" name="Gusoku Light Armour" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2144,6 +2217,14 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
+        <modifier type="decrement" value="1" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="fd13-2ac8-0fb8-e8d1" name="Heavy Barding" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2162,6 +2243,16 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
+        <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
+        <modifier type="decrement" value="1" field="d7a0-3cff-34c9-87ec" scope="parent" affects="self.entries.recursive.profiles.Unit"/>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="3285-e247-1598-6c2c" name="Masterforged Full Body Armour" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2181,6 +2272,14 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
+        <modifier type="decrement" value="3" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="9eba-b643-6d6e-7048" name="Masterforged Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2199,6 +2298,14 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
+        <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="994e-8d72-9a29-07dd" name="Masterforged Light Armour" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2235,6 +2342,14 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
+        <modifier type="decrement" value="1" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="53fb-9f9a-6f33-3800" name="Red Full Body Armour" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2254,6 +2369,14 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
+        <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="251a-472d-21a5-930c" name="Red Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2272,6 +2395,14 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
+        <modifier type="decrement" value="1" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="f2f5-2782-5568-71fd" name="Red Light Armour" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -4391,6 +4522,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
+        <modifier type="decrement" value="2" field="d7a0-3cff-34c9-87ec" scope="parent" affects="self.entries.recursive.profiles.Unit"/>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="0e36-6a13-a752-5a19" name="Human Crossbowmen" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
@@ -5091,6 +5226,9 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <categoryLinks>
+        <categoryLink targetId="840e-3a30-47af-38de" id="bc44-f8ab-fd15-e004" primary="false" name="Sturdy Rule"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="9bd2-b5ea-9749-540f" name="Halfling Brigadiers" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -6520,6 +6658,9 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <categoryLinks>
+        <categoryLink targetId="840e-3a30-47af-38de" id="a20a-993c-c422-1f22" primary="false" name="Sturdy Rule"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="c496-5733-a782-63b9" name="Norsemen Raiders" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -6988,6 +7129,9 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <categoryLinks>
+        <categoryLink targetId="840e-3a30-47af-38de" id="7d86-ca75-bd49-f4de" primary="false" name="Sturdy Rule"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="efbb-14bf-3f40-a9a1" name="Elven Horse" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -7468,6 +7612,9 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <categoryLinks>
+        <categoryLink targetId="840e-3a30-47af-38de" id="fe58-0da4-f909-72d8" primary="false" name="Sturdy Rule"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="c9e6-bbe0-647f-39be" name="Two Ogre Pistols" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -9050,6 +9197,9 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <categoryLinks>
+        <categoryLink targetId="840e-3a30-47af-38de" id="2c1f-9bd9-1579-3832" primary="false" name="Sturdy Rule"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="e98b-c160-afba-83ab" name="Dragonfire Heavy Mortar" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
@@ -9149,6 +9299,9 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="135"/>
       </costs>
+      <categoryLinks>
+        <categoryLink targetId="840e-3a30-47af-38de" id="2ebd-8308-c926-f6c4" primary="false" name="Sturdy Rule"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="3fe9-ef44-58d8-9470" name="Corrupted Dwarf Mercenary Warriors" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -9325,6 +9478,9 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <categoryLinks>
+        <categoryLink targetId="840e-3a30-47af-38de" id="6341-e75b-a5e3-e709" primary="false" name="Sturdy Rule"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="5269-dd14-6cbb-a37f" name="Velocigator" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -9607,6 +9763,9 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <categoryLinks>
+        <categoryLink targetId="840e-3a30-47af-38de" id="725c-5778-efe5-b3a1" primary="false" name="Sturdy Rule"/>
+      </categoryLinks>
     </selectionEntry>
     <selectionEntry id="3a34-97f6-bb08-7c45" name="Halfling Pikemen" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -10097,6 +10256,14 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="decrement" value="2" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="parent" childId="840e-3a30-47af-38de" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="ead2-d319-9ac2-81f8" name="Sea Dragon Cloak" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -10297,6 +10464,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8022-0161-e67f-7648" name="Specialist" hidden="false" targetId="cd29-77d0-c75d-b384" primary="false"/>
+        <categoryLink targetId="840e-3a30-47af-38de" id="c96d-e5df-4d17-1c6e" primary="false" name="Sturdy Rule"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="da0f-2d40-7ef8-bfb4" name="Rider" hidden="false" collective="false" import="true" type="model">
