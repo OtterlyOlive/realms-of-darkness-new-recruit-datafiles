@@ -700,7 +700,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
         <profile id="2942-b84b-7795-0f06" name="Pike" hidden="false" typeId="090b-d919-0802-8838" typeName="Melee Weapon">
           <characteristics>
             <characteristic name="Power" typeId="a529-f46c-fe6f-4048">User</characteristic>
-            <characteristic name="Penalty" typeId="7761-068c-0a80-ee08">-</characteristic>
+            <characteristic name="Penalty" typeId="7761-068c-0a80-ee08">1A</characteristic>
             <characteristic name="Type" typeId="d2bb-d955-061f-6146">Two-handed</characteristic>
             <characteristic name="Special Rules" typeId="c9c1-27d6-3445-a058">Hold the Line, Wall of Pikes</characteristic>
           </characteristics>
@@ -834,7 +834,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
     </selectionEntry>
     <selectionEntry id="9732-a972-df2b-7b8d" name="Spear (Infantry)" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="8e70-8f40-6a6a-787a" name="Hold the Line" hidden="false" targetId="5639-d707-8161-c194" type="rule"/>
+        <infoLink id="8e70-8f40-6a6a-787a" name="Brace" hidden="false" targetId="9622-607e-6717-df02" type="rule"/>
         <infoLink id="a2d8-a8e2-c528-4ea7" name="Long Reach" hidden="false" targetId="8778-370f-f1b0-0dc9" type="rule"/>
         <infoLink id="6923-87a1-bf7e-fb99" name="Spear (Foot)" hidden="false" targetId="e316-5a11-0e5e-02a1" type="profile"/>
       </infoLinks>
@@ -961,7 +961,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
           <characteristics>
             <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">1</characteristic>
             <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">6</characteristic>
-            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-</characteristic>
+            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-1A</characteristic>
             <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">30&quot;</characteristic>
             <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Direct</characteristic>
             <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Slow Reload</characteristic>
@@ -1107,7 +1107,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
           <characteristics>
             <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">1</characteristic>
             <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">6</characteristic>
-            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-</characteristic>
+            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-1A</characteristic>
             <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">25&quot;</characteristic>
             <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Blackpowder, Direct</characteristic>
             <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Slow Reload, Steady Aim</characteristic>
@@ -1148,7 +1148,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
           <characteristics>
             <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">1</characteristic>
             <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">7</characteristic>
-            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-2I</characteristic>
+            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-2I, -1A</characteristic>
             <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">8&quot;</characteristic>
             <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Blackpowder, Direct</characteristic>
             <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Sprayfire</characteristic>
@@ -1189,7 +1189,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
           <characteristics>
             <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">D3</characteristic>
             <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">8</characteristic>
-            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-3I</characteristic>
+            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-3I, -1A</characteristic>
             <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">20&quot;</characteristic>
             <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Direct</characteristic>
             <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Electric Jump</characteristic>
@@ -1278,7 +1278,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
           <characteristics>
             <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">D3</characteristic>
             <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">6</characteristic>
-            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-1I</characteristic>
+            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-1I, -1A</characteristic>
             <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">15&quot;</characteristic>
             <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Blackpowder, Direct</characteristic>
             <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Fire Spray</characteristic>
@@ -1298,7 +1298,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
           <characteristics>
             <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">1</characteristic>
             <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">+1</characteristic>
-            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-</characteristic>
+            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-1A</characteristic>
             <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">30&quot;</characteristic>
             <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Direct</characteristic>
             <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Armour Piercing, Rapid Fire</characteristic>
@@ -1379,7 +1379,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
           <characteristics>
             <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">1</characteristic>
             <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">7</characteristic>
-            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-3I</characteristic>
+            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-3I, -1A</characteristic>
             <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">36&quot;</characteristic>
             <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Blackpowder, Direct</characteristic>
             <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Armour Piercing, Slow Reload</characteristic>
@@ -1400,7 +1400,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
           <characteristics>
             <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">1</characteristic>
             <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">+1</characteristic>
-            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-</characteristic>
+            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-1A</characteristic>
             <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">30&quot;</characteristic>
             <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Indirect</characteristic>
             <characteristic name="Special Rules" typeId="5353-ed52-2205-a615"/>
@@ -1417,7 +1417,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
           <characteristics>
             <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">1</characteristic>
             <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">6</characteristic>
-            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-</characteristic>
+            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-1A</characteristic>
             <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">25&quot;</characteristic>
             <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Blackpowder, Direct</characteristic>
             <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Armour Piercing, Steady Aim</characteristic>
@@ -1453,7 +1453,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
           <characteristics>
             <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">1</characteristic>
             <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">6</characteristic>
-            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-</characteristic>
+            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-1A</characteristic>
             <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">25&quot;</characteristic>
             <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Blackpowder, Direct</characteristic>
             <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Armour Piercing</characteristic>
@@ -1532,7 +1532,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
           <characteristics>
             <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">3</characteristic>
             <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">6</characteristic>
-            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-2I</characteristic>
+            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-2I, -1A</characteristic>
             <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">25&quot;</characteristic>
             <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Blackpowder, Direct</characteristic>
             <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Armour Piercing, Slow Reload</characteristic>
@@ -1594,7 +1594,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
           <characteristics>
             <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">1</characteristic>
             <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">6</characteristic>
-            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-2I</characteristic>
+            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-2I, -1A</characteristic>
             <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">30&quot;</characteristic>
             <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Blackpowder, Direct</characteristic>
             <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Armour Piercing, Snipe</characteristic>
@@ -1615,7 +1615,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
           <characteristics>
             <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">1</characteristic>
             <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">8</characteristic>
-            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-2I</characteristic>
+            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-2I, -1A</characteristic>
             <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">24&quot;</characteristic>
             <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Blackpowder, Direct</characteristic>
             <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Heavy Hit</characteristic>
@@ -1636,7 +1636,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
           <characteristics>
             <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">1</characteristic>
             <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">7</characteristic>
-            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-2I</characteristic>
+            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-2I, -1A</characteristic>
             <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">18&quot;</characteristic>
             <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Blackpowder, Direct</characteristic>
             <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Armour Piercing, Sprayfire</characteristic>
@@ -1650,6 +1650,10 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="decrement" value="1" field="5d8c-74be-d893-50e2" scope="parent" affects="self.entries.recursive.profiles.Unit"/>
+        <modifier type="floor" value="1" field="5d8c-74be-d893-50e2" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="4ca5-7341-b384-8bca" name="Throwing Weapons" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2669,6 +2673,10 @@ RPG only: The item removes one Corruption token at the end of each adventure.</c
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <costs>
@@ -2691,6 +2699,10 @@ RPG only: The item removes one Corruption token at the end of each adventure.</c
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -2726,6 +2738,10 @@ RPG only: The item removes one Corruption token at the end of each adventure.</c
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -2752,6 +2768,10 @@ RPG only: The item removes one Corruption token at the end of each adventure.</c
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <entryLinks>
@@ -2782,6 +2802,10 @@ RPG only: The item removes one Corruption token at the end of each adventure.</c
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -2815,6 +2839,10 @@ RPG only: The item removes one Corruption token at the end of each adventure.</c
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -2845,6 +2873,10 @@ RPG only: The item removes one Corruption token at the end of each adventure.</c
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <costs>
@@ -2867,6 +2899,10 @@ RPG only: The item removes one Corruption token at the end of each adventure.</c
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -2905,6 +2941,10 @@ RPG only: The item removes one Corruption token at the end of each adventure.</c
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monstrous Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -2940,6 +2980,10 @@ RPG only: The item removes one Corruption token at the end of each adventure.</c
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <costs>
@@ -2962,6 +3006,10 @@ RPG only: The item removes one Corruption token at the end of each adventure.</c
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <costs>
@@ -3009,6 +3057,10 @@ RPG only: The item removes one Corruption token at the end of each adventure.</c
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -3042,6 +3094,10 @@ RPG only: The item removes one Corruption token at the end of each adventure.</c
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <costs>
@@ -3064,6 +3120,10 @@ RPG only: The item removes one Corruption token at the end of each adventure.</c
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -3093,6 +3153,10 @@ RPG only: The item removes one Corruption token at the end of each adventure.</c
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -3120,6 +3184,10 @@ RPG only: The item removes one Corruption token at the end of each adventure.</c
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monsterous Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -3150,6 +3218,10 @@ RPG only: The item removes one Corruption token at the end of each adventure.</c
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monstrous Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -3264,6 +3336,10 @@ RPG only: The item removes one Corruption token at the end of each adventure.</c
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
         <profile id="c942-c85c-9a88-632f" name="Call of the Afterlife" hidden="false" typeId="da6e-29e5-c411-1090" typeName="Spell">
           <characteristics>
@@ -3286,6 +3362,10 @@ RPG only: The item removes one Corruption token at the end of each adventure.</c
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Warmachine</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <rules>
@@ -3327,6 +3407,10 @@ RPG only: The item removes one Corruption token at the end of each adventure.</c
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de"/>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -3363,6 +3447,10 @@ RPG only: The item removes one Corruption token at the end of each adventure.</c
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -3447,6 +3535,10 @@ RPG only: The item removes one Corruption token at the end of each adventure.</c
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -3470,7 +3562,7 @@ RPG only: The item removes one Corruption token at the end of each adventure.</c
           <characteristics>
             <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">1</characteristic>
             <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">+1</characteristic>
-            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-</characteristic>
+            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-1A</characteristic>
             <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">25&quot;</characteristic>
             <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Direct</characteristic>
             <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Armour Piercing, Rapid Fire</characteristic>
@@ -3501,6 +3593,10 @@ RPG only: The item removes one Corruption token at the end of each adventure.</c
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -3587,6 +3683,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -3643,6 +3743,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -3753,6 +3857,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -3797,6 +3905,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monstrous Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -3836,6 +3948,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -3862,6 +3978,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -3948,6 +4068,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -3974,6 +4098,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -4088,6 +4216,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -4114,6 +4246,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -4232,6 +4368,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -4258,6 +4398,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -4363,6 +4507,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -4389,6 +4537,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -4544,6 +4696,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -4569,6 +4725,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -4760,6 +4920,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -4786,6 +4950,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -4983,6 +5151,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -5009,6 +5181,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -5181,6 +5357,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -5207,6 +5387,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -5333,6 +5517,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -5358,6 +5546,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -5522,6 +5714,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -5547,6 +5743,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -5639,6 +5839,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -5665,6 +5869,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -5819,6 +6027,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -5845,6 +6057,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -6007,6 +6223,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -6032,6 +6252,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -6129,6 +6353,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -6154,6 +6382,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -6390,6 +6622,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -6416,6 +6652,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -6568,6 +6808,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <costs>
@@ -6590,6 +6834,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -6634,6 +6882,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -6659,6 +6911,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -6755,6 +7011,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monstrous Cavalry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -6781,6 +7041,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monstrous Cavalry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -6807,6 +7071,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monstrous Cavalry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <infoLinks>
@@ -6909,6 +7177,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -7046,6 +7318,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
         <profile id="a856-bd53-61e5-e9aa" name="Berserker Axe Thrower" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <characteristics>
@@ -7061,6 +7337,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Warmachine</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
         <profile id="816c-f47f-245a-c0b8" name="Berserker Axe Thrower" hidden="false" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon">
           <characteristics>
@@ -7121,6 +7401,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Warmachine</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
             <profile id="2d22-53b3-71f0-c6ca" name="Cookpot" hidden="false" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon">
               <characteristics>
@@ -7162,6 +7446,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                     <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                     <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
                   </characteristics>
+                  <attributes>
+                    <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                    <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+                  </attributes>
                 </profile>
               </profiles>
               <infoLinks>
@@ -7216,6 +7504,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Warmachine</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <selectionEntries>
@@ -7239,6 +7531,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                     <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                     <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
                   </characteristics>
+                  <attributes>
+                    <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                    <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+                  </attributes>
                 </profile>
               </profiles>
               <entryLinks>
@@ -7327,6 +7623,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Warmachine</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <selectionEntries>
@@ -7350,6 +7650,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                     <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                     <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
                   </characteristics>
+                  <attributes>
+                    <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                    <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+                  </attributes>
                 </profile>
               </profiles>
               <entryLinks>
@@ -7443,6 +7747,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -7469,6 +7777,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -7594,6 +7906,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -7620,6 +7936,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -7765,6 +8085,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Warmachine</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
             <profile id="4b83-fe57-3a04-3162" name="Bolt Thrower" hidden="false" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon">
               <characteristics>
@@ -7802,6 +8126,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                     <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                     <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
                   </characteristics>
+                  <attributes>
+                    <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                    <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+                  </attributes>
                 </profile>
               </profiles>
               <infoLinks>
@@ -7851,6 +8179,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Light Chariot</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <infoLinks>
@@ -7877,6 +8209,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                     <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                     <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Light Chariot</characteristic>
                   </characteristics>
+                  <attributes>
+                    <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                    <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+                  </attributes>
                 </profile>
               </profiles>
               <infoLinks>
@@ -7937,6 +8273,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Heavy Chariot</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <infoLinks>
@@ -7989,6 +8329,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                     <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                     <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Heavy Chariot</characteristic>
                   </characteristics>
+                  <attributes>
+                    <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                    <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+                  </attributes>
                 </profile>
               </profiles>
               <entryLinks>
@@ -8035,6 +8379,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -8082,6 +8430,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <entryLinks>
@@ -8139,7 +8491,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
           <characteristics>
             <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">1</characteristic>
             <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">5</characteristic>
-            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-</characteristic>
+            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-1A</characteristic>
             <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">25&quot;</characteristic>
             <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Direct</characteristic>
             <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Armour Piercing</characteristic>
@@ -8187,6 +8539,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -8212,6 +8568,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -8253,6 +8613,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Light Chariot</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -8303,6 +8667,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <rules>
@@ -8345,6 +8713,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -8392,6 +8764,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -8417,6 +8793,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -8499,6 +8879,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Warmachine</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
             <profile id="69e1-7368-c705-9b0d" name="Dragonfire Heavy Mortar" hidden="false" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon">
               <characteristics>
@@ -8539,6 +8923,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Warmachine</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <infoLinks>
@@ -8591,6 +8979,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -8616,6 +9008,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -8745,6 +9141,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -8778,6 +9178,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -8812,6 +9216,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -8850,6 +9258,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monstous Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -8903,6 +9315,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -8928,6 +9344,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -9012,6 +9432,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -9038,6 +9462,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -9122,6 +9550,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -9148,6 +9580,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monstrous Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -9184,6 +9620,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -9209,6 +9649,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de"/>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -9244,6 +9688,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -9269,6 +9717,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -9491,6 +9943,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monstrous Mount</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
         <profile id="2d7c-dccc-d69e-1d9e" name="Steam Breath" hidden="false" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon">
           <characteristics>
@@ -9650,6 +10106,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -9675,6 +10135,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -9740,7 +10204,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
           <characteristics>
             <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">D3</characteristic>
             <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">P</characteristic>
-            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-2I</characteristic>
+            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-2I, -1A</characteristic>
             <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">10&quot;</characteristic>
             <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Direct</characteristic>
             <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Flamestorm</characteristic>
@@ -9760,7 +10224,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
           <characteristics>
             <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">1</characteristic>
             <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">8</characteristic>
-            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-3I</characteristic>
+            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-3I, -1A</characteristic>
             <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">18&quot;</characteristic>
             <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Direct, Blackpowder</characteristic>
             <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Fire Type</characteristic>
@@ -9845,6 +10309,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Airship</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -9875,6 +10343,10 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
                     <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
                     <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Airship</characteristic>
                   </characteristics>
+                  <attributes>
+                    <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                    <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+                  </attributes>
                 </profile>
               </profiles>
               <entryLinks>
@@ -9912,6 +10384,33 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
             <modifier type="set" value="Two Flails" field="name"/>
           </modifiers>
         </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ratkin Jezzail Rifle" hidden="false" id="bca3-e036-3842-7b8f" collective="false">
+      <profiles>
+        <profile name="Ratkin Jezzail Rifle" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon" hidden="false" id="e32a-8b2c-c1a3-8637">
+          <characteristics>
+            <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">1</characteristic>
+            <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">7</characteristic>
+            <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-3I, -1A</characteristic>
+            <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">36&quot;</characteristic>
+            <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Blackpowder, Direct</characteristic>
+            <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Armour Piercing, Slow Reload, Void Instability, Magic Attacks - Shadow</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armour Piercing" id="ac4f-0485-50f6-d425" hidden="false" targetId="b97b-ad61-ed6d-219f" type="rule"/>
+        <infoLink name="Slow Reload" id="25fb-8900-f550-a3dc" hidden="false" targetId="c585-90a8-0284-469c" type="rule"/>
+        <infoLink name="Magic Attacks - X" id="14ac-b996-9e3e-c104" hidden="false" type="rule" targetId="b2ee-4ebe-97f3-3116">
+          <modifiers>
+            <modifier type="set" value="Magic Attacks - Shadow" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Void Instability" id="5fa3-3bb4-011b-30d5" hidden="false" type="rule" targetId="37a5-4954-7f35-2322"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
@@ -11743,6 +12242,10 @@ Bonuses to the amount of HP/SP regenerated cannot be applied to units that are t
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">Unchanged</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0"/>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <rules>
@@ -12489,13 +12992,13 @@ Bonuses to the amount of HP/SP regenerated cannot be applied to units that are t
       <description>-1 to enemy armour saves.</description>
     </rule>
     <rule id="e0e0-34ed-c43d-5df8" name="Closing the Distance" hidden="false">
-      <description>This weapon always strike last against weapons that do not lower initiative.</description>
+      <description>This weapon always strikes last against weapons that do not lower initiative.</description>
     </rule>
     <rule id="b97b-ad61-ed6d-219f" name="Armour Piercing" hidden="false">
       <description>Attacks from a weapon with this rule are resolved at -1 armour save.</description>
     </rule>
     <rule id="8778-370f-f1b0-0dc9" name="Long Reach" hidden="false">
-      <description>A model armed with a weapon with this rule, can attack if it is in base contact with a model model of the infantry type that is in base contact with an enemy model.</description>
+      <description>A model armed with a weapon with this rule, can attack if it is in base contact with a model model of the infantry type that is in base contact with an enemy model. Models that are not in base contact with an enemy that attack this way, can only do 1 attack, regardless of how may attacks the model normally has.</description>
     </rule>
     <rule id="bb64-cca7-3fe7-4965" name="Blade Fury" hidden="false">
       <description>The blade gives +1A.</description>
@@ -12980,7 +13483,7 @@ Note units flying high can never get cover save and all units on the table count
       <description>If the model does not move, it gets +1 to hit in the move and shoot phase. The armour save is only granted against ranged attacks.</description>
     </rule>
     <rule id="72e1-845f-320b-6445" name="Wall of Spears" hidden="false">
-      <description>A model with a spear can attack if it is located in one of the 3 first ranks of a melee, or 2 ranks if the model charged the same turn. Note that this means long spears only work against attacks from the front and if not in the skirmish formation. Against charging units the long spear counts as a two-handed weapon and gives +2I. Note the bonus is only in the turn the unit is charged.</description>
+      <description>A model with a long spear can attack if it is located in one of the 3 first ranks of a melee, or 2 ranks if the model holding the spear charged the same turn. Models that are not in base contact with an enemy that attack this way, can only do 1 attack, regardless of how may attacks the model normally has. Note that this means long spears only work against attacks from the front and if not in the skirmish formation. Against charging units the long spear counts as a two-handed weapon and gives +2I. Note the bonus is only in the turn the unit is charged.</description>
     </rule>
     <rule id="20a7-031d-8486-cd06" name="Ranged Melee Weapon" hidden="false">
       <description>The weapon can only fired in the first round of melee. After that the weapon is counted as a generic melee weapon.</description>
@@ -13061,13 +13564,19 @@ Characters and units with the monster or large monster rule, only lose half the 
 
 </description>
     </rule>
+    <rule name="Brace" id="9622-607e-6717-df02" hidden="false">
+      <description>When a unit with this weapon is charged by another unit, they gain +1P that turn.</description>
+    </rule>
+    <rule name="Void Instability" id="37a5-4954-7f35-2322" hidden="false">
+      <description>All rolls of 1 to hit with this weapon, will hit the unit shooting, instead of the target.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="4448-47cc-9fd1-ceba" name="Shortbow" hidden="false" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon">
       <characteristics>
         <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">1</characteristic>
         <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">User</characteristic>
-        <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-</characteristic>
+        <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-1A</characteristic>
         <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">20&quot;</characteristic>
         <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Indirect</characteristic>
         <characteristic name="Special Rules" typeId="5353-ed52-2205-a615"/>
@@ -13133,7 +13642,7 @@ Characters and units with the monster or large monster rule, only lose half the 
       <characteristics>
         <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">1</characteristic>
         <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">User</characteristic>
-        <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-</characteristic>
+        <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-1A</characteristic>
         <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">25&quot;</characteristic>
         <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Indirect</characteristic>
         <characteristic name="Special Rules" typeId="5353-ed52-2205-a615"/>
