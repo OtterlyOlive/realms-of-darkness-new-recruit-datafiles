@@ -81,7 +81,7 @@
     <categoryEntry id="adc9-e898-46be-d9fe" name="Army Faction" hidden="false"/>
     <categoryEntry id="f8d9-7bfb-affc-a364" name="Horde" hidden="false"/>
     <categoryEntry id="bb28-11ac-2d86-01b1" name="Monstrosity" hidden="false"/>
-    <categoryEntry name="Sturdy Rule" id="840e-3a30-47af-38de" hidden="false"/>
+    <categoryEntry name="Sturdy Rule" id="840e-3a30-47af-38de" hidden="true"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="6ebc-027a-3965-37be" name="Armylist" hidden="false">
