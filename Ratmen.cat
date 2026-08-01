@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="12c8-46df-4ed8-75a7" name="Ratkin" revision="9" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="29" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="12c8-46df-4ed8-75a7" name="Ratkin" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="29" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="eb22-585b-9900-ad85" name="Clan Warriors" hidden="false" collective="false" import="true" targetId="52a2-cc30-3c6d-2660" type="selectionEntry">
       <categoryLinks>
@@ -66,7 +66,7 @@
         <categoryLink id="90dc-dd7a-580f-b8f6" name="Specialist" hidden="false" targetId="cd29-77d0-c75d-b384" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="0b7d-a3c7-acd4-3e12" name="Giant Rats" hidden="false" collective="false" import="true" targetId="40cd-3aba-7f85-b39f" type="selectionEntry">
+    <entryLink id="0b7d-a3c7-acd4-3e12" name="Rathounds" hidden="false" collective="false" import="true" targetId="40cd-3aba-7f85-b39f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="2a8d-0b46-871f-0e77" name="Common" hidden="false" targetId="e3fa-e803-fa94-daf2" primary="true"/>
       </categoryLinks>
@@ -279,6 +279,8 @@
           </constraints>
           <entryLinks>
             <entryLink import="true" name="Magic Weapons" hidden="false" id="6f8e-131d-2237-3d41" type="selectionEntryGroup" targetId="fb75-3065-3d16-84c7"/>
+            <entryLink import="true" name="Magic Armours" hidden="false" id="74f6-21ef-4f49-fffe" type="selectionEntryGroup" targetId="c4f1-4ae7-d4ac-7c75"/>
+            <entryLink import="true" name="Magic Trinkets" hidden="false" id="234c-b0b8-89bf-8ab4" type="selectionEntryGroup" targetId="4623-9bad-d828-15a6"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -487,12 +489,15 @@
             <constraint type="max" value="75" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="7fac-a7e3-11c6-1f67"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Magic Items" id="85e0-267b-a0a3-7458" hidden="false">
+        <selectionEntryGroup name="Magic Items" id="ed7f-e575-1389-8a6b" hidden="false">
           <constraints>
-            <constraint type="max" value="100" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="07b7-2007-f8f5-4006"/>
+            <constraint type="max" value="100" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="8a54-15b9-4d27-1967"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Magic Weapons" hidden="false" id="3b76-fbff-2835-762b" type="selectionEntryGroup" targetId="fb75-3065-3d16-84c7"/>
+            <entryLink import="true" name="Magic Weapons" hidden="false" id="763d-58ce-8c8c-c74e" type="selectionEntryGroup" targetId="fb75-3065-3d16-84c7"/>
+            <entryLink import="true" name="Magic Armours" hidden="false" id="f1f8-1185-f7b7-776a" type="selectionEntryGroup" targetId="c4f1-4ae7-d4ac-7c75"/>
+            <entryLink import="true" name="Magic Trinkets" hidden="false" id="dbf3-d3a4-42b6-1d5f" type="selectionEntryGroup" targetId="4623-9bad-d828-15a6"/>
+            <entryLink import="true" name="Wizard’s Items" hidden="false" id="91d8-277b-b063-6413" type="selectionEntryGroup" targetId="554e-f6d9-9b6c-d886"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -776,12 +781,15 @@
             <constraint type="max" value="125" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="d980-2537-ce75-d9a6"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Magic Items" id="360e-a6cf-ad7d-fa38" hidden="false">
+        <selectionEntryGroup name="Magic Items" id="a151-eaf2-fcee-0313" hidden="false">
           <constraints>
-            <constraint type="max" value="75" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="456e-e524-f34b-2019"/>
+            <constraint type="max" value="75" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="864a-f410-a8d2-bf02"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Magic Weapons" hidden="false" id="3c64-a2ac-6e76-55b7" type="selectionEntryGroup" targetId="fb75-3065-3d16-84c7"/>
+            <entryLink import="true" name="Magic Weapons" hidden="false" id="e60d-c76f-3baa-1bdc" type="selectionEntryGroup" targetId="fb75-3065-3d16-84c7"/>
+            <entryLink import="true" name="Magic Armours" hidden="false" id="7a5f-e230-7e92-5386" type="selectionEntryGroup" targetId="c4f1-4ae7-d4ac-7c75"/>
+            <entryLink import="true" name="Magic Trinkets" hidden="false" id="8339-00d6-46b5-9d38" type="selectionEntryGroup" targetId="4623-9bad-d828-15a6"/>
+            <entryLink import="true" name="Wizard’s Items" hidden="false" id="d275-c304-9ce5-d753" type="selectionEntryGroup" targetId="554e-f6d9-9b6c-d886"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -961,12 +969,14 @@
             <constraint type="max" value="50" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="0fa1-66ee-5319-e5c7"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Magic Items" id="956b-fa0f-95d7-f980" hidden="false">
+        <selectionEntryGroup name="Magic Items" id="bf62-4f5b-fbf9-cb37" hidden="false">
           <constraints>
-            <constraint type="max" value="50" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="a6f2-aa32-3c94-eea3"/>
+            <constraint type="max" value="50" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="1652-c7f7-cd67-a18b"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Magic Weapons" hidden="false" id="275f-9f84-8c96-c1eb" type="selectionEntryGroup" targetId="fb75-3065-3d16-84c7"/>
+            <entryLink import="true" name="Magic Weapons" hidden="false" id="1d0b-f2da-3905-4880" type="selectionEntryGroup" targetId="fb75-3065-3d16-84c7"/>
+            <entryLink import="true" name="Magic Armours" hidden="false" id="b61f-2aa2-327e-67c0" type="selectionEntryGroup" targetId="c4f1-4ae7-d4ac-7c75"/>
+            <entryLink import="true" name="Magic Trinkets" hidden="false" id="62be-6024-7c0c-d90a" type="selectionEntryGroup" targetId="4623-9bad-d828-15a6"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1118,12 +1128,14 @@
             <constraint type="max" value="30" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="a81b-425c-2d57-89e3"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Magic Items" id="fa75-84ac-2815-ff5d" hidden="false">
+        <selectionEntryGroup name="Magic Items" id="f94e-8cba-767b-7945" hidden="false">
           <constraints>
-            <constraint type="max" value="50" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="1e76-0369-a6c7-bb31"/>
+            <constraint type="max" value="50" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="b956-5abf-e0b1-5fa7"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Magic Weapons" hidden="false" id="d53e-8afd-e520-b5cc" type="selectionEntryGroup" targetId="fb75-3065-3d16-84c7"/>
+            <entryLink import="true" name="Magic Weapons" hidden="false" id="2331-b113-35c7-facd" type="selectionEntryGroup" targetId="fb75-3065-3d16-84c7"/>
+            <entryLink import="true" name="Magic Armours" hidden="false" id="6614-3ebd-84ea-517f" type="selectionEntryGroup" targetId="c4f1-4ae7-d4ac-7c75"/>
+            <entryLink import="true" name="Magic Trinkets" hidden="false" id="cd62-a0ca-5582-f296" type="selectionEntryGroup" targetId="4623-9bad-d828-15a6"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1305,21 +1317,16 @@
             <constraint type="max" value="50" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="6c0b-ea7a-77c0-922d"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Magic Items" id="b956-5890-8baf-ec3a" hidden="false">
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Magic Weapons" id="4faa-7d3c-c385-fddf" hidden="false">
-              <entryLinks>
-                <entryLink import="true" name="Boomstick" hidden="false" id="fcf2-c7e3-b2ce-5f8e" type="selectionEntry" targetId="a3d7-5786-59ce-457c"/>
-                <entryLink import="true" name="Rod of Corruption (Wizards only)" hidden="false" id="3c70-571b-cb6a-ae0b" type="selectionEntry" targetId="6b07-3ac9-6d83-6de9"/>
-              </entryLinks>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3425-2343-bce8-a016"/>
-              </constraints>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
+        <selectionEntryGroup name="Magic Items" id="41a2-48f8-2192-8450" hidden="false">
           <constraints>
-            <constraint type="max" value="50" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="21ea-44b9-d3d1-e47d"/>
+            <constraint type="max" value="25" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="bbbd-daa4-331c-ba26"/>
           </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Magic Weapons" hidden="false" id="17c1-003a-c607-0d90" type="selectionEntryGroup" targetId="fb75-3065-3d16-84c7"/>
+            <entryLink import="true" name="Magic Armours" hidden="false" id="eef1-39f7-1ada-603c" type="selectionEntryGroup" targetId="c4f1-4ae7-d4ac-7c75"/>
+            <entryLink import="true" name="Magic Trinkets" hidden="false" id="8c5d-8582-4dd0-077d" type="selectionEntryGroup" targetId="4623-9bad-d828-15a6"/>
+            <entryLink import="true" name="Wizard’s Items" hidden="false" id="3450-46c3-f5b1-c6fb" type="selectionEntryGroup" targetId="554e-f6d9-9b6c-d886"/>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
@@ -1488,12 +1495,14 @@
             <constraint type="max" value="25" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="d824-9fc1-f9f4-8526"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Magic Items" id="30a6-edf9-248a-e234" hidden="false">
+        <selectionEntryGroup name="Magic Items" id="848f-0832-94d6-233d" hidden="false">
           <constraints>
-            <constraint type="max" value="25" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="fe22-fc43-3883-4833"/>
+            <constraint type="max" value="25" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="6e8d-5c5d-627e-da3b"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Magic Weapons" hidden="false" id="070f-332c-7dfe-0170" type="selectionEntryGroup" targetId="fb75-3065-3d16-84c7"/>
+            <entryLink import="true" name="Magic Weapons" hidden="false" id="212f-d156-fea7-6fdb" type="selectionEntryGroup" targetId="fb75-3065-3d16-84c7"/>
+            <entryLink import="true" name="Magic Armours" hidden="false" id="7279-c3eb-bb2d-aa2e" type="selectionEntryGroup" targetId="c4f1-4ae7-d4ac-7c75"/>
+            <entryLink import="true" name="Magic Trinkets" hidden="false" id="0a37-06c8-3cc6-7a07" type="selectionEntryGroup" targetId="4623-9bad-d828-15a6"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1620,12 +1629,15 @@
             <constraint type="max" value="75" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="3860-d32b-3ae6-9193"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Magic Items" id="b8f4-a46b-e2d5-9f98" hidden="false">
+        <selectionEntryGroup name="Magic Items" id="b068-d163-c076-664e" hidden="false">
           <constraints>
-            <constraint type="max" value="25" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="4526-4735-4698-c032"/>
+            <constraint type="max" value="25" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="7bc3-a5fb-b6e1-2e9a"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Magic Weapons" hidden="false" id="df07-dcbf-94cb-0888" type="selectionEntryGroup" targetId="fb75-3065-3d16-84c7"/>
+            <entryLink import="true" name="Magic Weapons" hidden="false" id="86d0-8327-af16-4cb2" type="selectionEntryGroup" targetId="fb75-3065-3d16-84c7"/>
+            <entryLink import="true" name="Magic Armours" hidden="false" id="352f-3dfd-b660-698a" type="selectionEntryGroup" targetId="c4f1-4ae7-d4ac-7c75"/>
+            <entryLink import="true" name="Magic Trinkets" hidden="false" id="fc67-d0f4-af07-dfb1" type="selectionEntryGroup" targetId="4623-9bad-d828-15a6"/>
+            <entryLink import="true" name="Wizard’s Items" hidden="false" id="62f2-a164-d968-729f" type="selectionEntryGroup" targetId="554e-f6d9-9b6c-d886"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1732,12 +1744,14 @@
             <constraint type="max" value="50" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="9ae9-f145-992b-bd31"/>
           </constraints>
         </selectionEntryGroup>
-        <selectionEntryGroup name="Magic Items" id="285d-b12a-48c0-e4bd" hidden="false">
+        <selectionEntryGroup name="Magic Items" id="7dd5-2c0b-60a4-b292" hidden="false">
           <constraints>
-            <constraint type="max" value="25" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="d6a1-4017-6be7-bc77"/>
+            <constraint type="max" value="25" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="3b80-6e68-8c09-1a00"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Magic Weapons" hidden="false" id="ef78-962a-0004-5e5c" type="selectionEntryGroup" targetId="fb75-3065-3d16-84c7"/>
+            <entryLink import="true" name="Magic Weapons" hidden="false" id="4c63-3272-aaab-b816" type="selectionEntryGroup" targetId="fb75-3065-3d16-84c7"/>
+            <entryLink import="true" name="Magic Armours" hidden="false" id="b29d-a9a0-adf8-e8ba" type="selectionEntryGroup" targetId="c4f1-4ae7-d4ac-7c75"/>
+            <entryLink import="true" name="Magic Trinkets" hidden="false" id="2fd7-9e87-8593-07cc" type="selectionEntryGroup" targetId="4623-9bad-d828-15a6"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2306,6 +2320,15 @@
               </modifiers>
             </entryLink>
             <entryLink id="978f-12ba-d2b8-72d4" name="Medium Armour" hidden="false" collective="false" import="true" targetId="9948-1047-5e69-1fdc" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Magic Items" id="811e-eab0-9228-d9f6" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Magic Banners" hidden="false" id="578e-f4f1-c65e-02c3" type="selectionEntryGroup" targetId="f355-2f91-336b-b839">
+              <constraints>
+                <constraint type="max" value="50" field="5119-770c-ea3a-8a8c" scope="parent" shared="true" id="2584-d5ff-0b5f-723c"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2959,7 +2982,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="185"/>
+        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="125"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c0f5-ab1b-cf7c-31ed" name="Gatling Gun Team" hidden="false" collective="false" import="true" type="unit">
@@ -3632,6 +3655,151 @@ If the attack wounded but did not kill a model, add a new token to the unit, whi
               </conditions>
             </modifier>
           </modifiers>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Spinesplitterz" hidden="false" id="e5ae-56c8-fc29-70f6">
+          <costs>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="15"/>
+          </costs>
+          <profiles>
+            <profile name="Spinesplitterz" typeId="090b-d919-0802-8838" typeName="Melee Weapon" hidden="false" id="649d-9aad-f190-252b">
+              <characteristics>
+                <characteristic name="Power" typeId="a529-f46c-fe6f-4048">User</characteristic>
+                <characteristic name="Penalty" typeId="7761-068c-0a80-ee08">-</characteristic>
+                <characteristic name="Type" typeId="d2bb-d955-061f-6146">Two-handed</characteristic>
+                <characteristic name="Special Rules" typeId="c9c1-27d6-3445-a058">Armour Piercing, Closing the Distance, Spinesplitter</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Closing the Distance" id="581c-77d6-3325-e9eb" hidden="false" type="rule" targetId="e0e0-34ed-c43d-5df8"/>
+            <infoLink name="Armour Piercing" id="938b-f1ac-c6a2-f8a1" hidden="false" type="rule" targetId="b97b-ad61-ed6d-219f"/>
+          </infoLinks>
+          <rules>
+            <rule name="Spinesplitter" id="04d2-5d66-3277-7ef2" hidden="false">
+              <description>This weapon is two daggers, giving +1A. Infantry, beast and cavalry type models suffering an unsaved wound from this weapon will instantly die and be removed as a casualty.</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Magic Armours" id="c4f1-4ae7-d4ac-7c75" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Elfthing Plating" hidden="false" id="a066-0ccc-c8aa-c330">
+          <costs>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="35"/>
+          </costs>
+          <profiles>
+            <profile name="Elfthing Plating" typeId="2cbf-88e1-8eee-16a3" typeName="Armour" hidden="false" id="e1d2-455c-7901-47c7">
+              <characteristics>
+                <characteristic name="Save" typeId="4e87-a458-fe7d-8c9b">2+ / +5</characteristic>
+                <characteristic name="Penalty" typeId="1ec1-f4db-6bb9-8a01">-2I</characteristic>
+                <characteristic name="Type" typeId="a447-7f68-3e61-8845">Armour</characteristic>
+                <characteristic name="Special Rules" typeId="03e6-32c2-e9e2-24d3">Mithril</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Mithril" id="dd4e-3779-0be8-c8c3" hidden="false" type="rule" targetId="6335-24fc-863b-7dbf"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Magic Trinkets" id="4623-9bad-d828-15a6" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Eye of Krittic" hidden="false" id="1e6f-8e2f-a7c7-31af">
+          <rules>
+            <rule name="Eye of Krittic" id="d2ed-9d5c-a115-bf75" hidden="false">
+              <description>All ranged weapons in the army that shoot indirect fire share line of sight with the model holding this item, making them able to shoot at targets they otherwise cannot see. Note they still need to be in range to hit.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="20"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Wizard’s Items" id="554e-f6d9-9b6c-d886" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Void Bomb" hidden="false" id="5480-5b14-a467-8d15">
+          <costs>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="20"/>
+          </costs>
+          <profiles>
+            <profile name="Void Bomb" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon" hidden="false" id="798c-90fb-01b4-f908">
+              <characteristics>
+                <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">1</characteristic>
+                <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">Equal to the amount of tokens on the item.</characteristic>
+                <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-</characteristic>
+                <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">15&quot;</characteristic>
+                <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Thrown</characteristic>
+                <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Explosive Hit, Magic Attacks - Shadow</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Magic Attacks - X" id="1bca-6f8b-80b0-1ef4" hidden="false" type="rule" targetId="b2ee-4ebe-97f3-3116">
+              <modifiers>
+                <modifier type="set" value="Magic Attacks - Shadow" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Explosive Hit" id="64d5-a707-7271-f9c1" hidden="false" type="rule" targetId="e1d5-1e4e-e289-5201"/>
+          </infoLinks>
+          <rules>
+            <rule name="Void Bomb" id="e9c0-b520-e9a6-f10a" hidden="false">
+              <description>Whenever a spell fails to cast, due to the to cast roll not being high enough, secretly add a token to the void bomb. At the end of a magic phase where the owner has unused power tokens left, the bomb can be lit and then thrown in the move and shoot phase by the model holding it. As the bomb is lit, it must be announced to the opponent. It is treated as a ranged weapon with the following characteristics:
+(See the Void Bomb ranged weapon in this profile)
+
+</description>
+            </rule>
+          </rules>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Void Crystal" hidden="false" id="6ddf-6669-d83b-099b">
+          <costs>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="10"/>
+          </costs>
+          <profiles>
+            <profile name="Void Crystal" typeId="88d1-f569-0c9a-d4c2" typeName="Description" hidden="false" id="c4d7-19a9-035b-84d8">
+              <characteristics>
+                <characteristic name="Description" typeId="4255-c8e0-c029-6554">A void crystal can be used once per game when casting a spell. It adds a D8 to the total rolled to cast the spell. If a 1 is rolled on the D8, an overload occurs regardless of how much was rolled.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Magic Banners" id="f355-2f91-336b-b839" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Void Banner" hidden="false" id="90b9-bd18-f457-7ed3">
+          <costs>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="35"/>
+          </costs>
+          <profiles>
+            <profile name="Void Banner" typeId="88d1-f569-0c9a-d4c2" typeName="Description" hidden="false" id="ea18-ac36-8541-fb25">
+              <characteristics>
+                <characteristic name="Description" typeId="4255-c8e0-c029-6554">The unit holding the banner gets the Mental Fortitude and the Magic Attacks - Shadow special rules.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Mental Fortitude" id="fe49-17a4-5bb7-6b34" hidden="false" type="rule" targetId="8bb5-917e-f208-d694"/>
+            <infoLink name="Magic Attacks - X" id="99d0-8811-7ffb-972b" hidden="false" targetId="b2ee-4ebe-97f3-3116" type="rule">
+              <modifiers>
+                <modifier type="set" value="Magic Attacks - Shadow" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Banner of the Horde" hidden="false" id="72d0-8995-9356-b8f2">
+          <costs>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="30"/>
+          </costs>
+          <profiles>
+            <profile name="Banner of the Horde" typeId="88d1-f569-0c9a-d4c2" typeName="Description" hidden="false" id="6abb-ebb2-fc4a-4bfd">
+              <characteristics>
+                <characteristic name="Description" typeId="4255-c8e0-c029-6554">The unit holding the banner gets +2WP instead of +1WP for each rank in the unit.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>

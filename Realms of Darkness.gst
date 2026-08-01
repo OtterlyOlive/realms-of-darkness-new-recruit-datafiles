@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="09a0-626b-16e9-bcae" name="Realms of Darkness" revision="84" battleScribeVersion="2.03" authorName="Erik Valeur" authorContact="grunanca@gmail.com" authorUrl="https://realmsofdarkness.dk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="09a0-626b-16e9-bcae" name="Realms of Darkness" revision="85" battleScribeVersion="2.03" authorName="Erik Valeur" authorContact="grunanca@gmail.com" authorUrl="https://realmsofdarkness.dk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <costTypes>
     <costType id="5119-770c-ea3a-8a8c" name="pts" defaultCostLimit="-1" hidden="false"/>
   </costTypes>
@@ -13055,6 +13055,11 @@ Characters and units with the monster or large monster rule, only lose half the 
     </rule>
     <rule name="Petrification Strike" id="41bd-08ae-6cc8-e113" hidden="false">
       <description>Any roll of 6 to hit in melee, will make the target unit suffer one additional hit of the cursed gaze shooting attack. Note it is only one hit per 6 rolled, not D3.</description>
+    </rule>
+    <rule name="Mithril" id="6335-24fc-863b-7dbf" hidden="false">
+      <description>The armour save of the wearer of this armor can never be reduced to a worse armour save than 6+, unless the attack ignores armour completely.
+
+</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
