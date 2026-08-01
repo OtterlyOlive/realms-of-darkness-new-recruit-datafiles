@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="42" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorUrl="https://realmsofdarkness.dk/">
+<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="43" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorUrl="https://realmsofdarkness.dk/">
   <entryLinks>
     <entryLink id="8168-8ddd-eb9e-de05" name="Wergeize" hidden="false" collective="false" import="true" targetId="e5f4-1126-9dce-8aaf" type="selectionEntry">
       <categoryLinks>
@@ -131,7 +131,7 @@
         <categoryLink targetId="fad6-dec9-0df6-94ac" id="ada9-e627-2260-01c5" primary="true" name="Legendary"/>
       </categoryLinks>
     </entryLink>
-    <entryLink import="true" name="Hazlîh Trahho Leitâri" hidden="false" id="cbeb-d0c7-8068-e346" type="selectionEntry" targetId="837e-939c-93b0-942e">
+    <entryLink import="true" name="Hazlîh Trahho Zoubarâri" hidden="false" id="cbeb-d0c7-8068-e346" type="selectionEntry" targetId="837e-939c-93b0-942e">
       <categoryLinks>
         <categoryLink targetId="05d4-8322-13ed-f55b" id="21d3-e4a0-b892-273b" primary="true" name="Warmaster"/>
       </categoryLinks>
@@ -1665,8 +1665,8 @@
         </entryLink>
         <entryLink id="d101-b5d7-0321-c7c9" name="Light Armour" hidden="false" collective="false" import="true" targetId="e9ed-b5f9-932e-3412" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="535f-50ce-e45e-5e51-min" type="min"/>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="535f-50ce-e45e-5e51-max" type="max"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="535f-50ce-e45e-5e51-min-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="535f-50ce-e45e-5e51-min-max" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="6a2f-5765-0d62-8cab" name="Magic Levels" hidden="false" collective="false" import="true" targetId="63a4-28ae-60e9-e0ff" type="selectionEntry">
@@ -4502,9 +4502,7 @@
 5 (Vicious Roar): The model does not attack, but gets the Fearless special rule for the rest of the turn and inflicts 1D6 combat fatigue points.
 
 
-6 (Jump on Squishies): Instead of attacking with the normal attacks, the model inflicts 2D6 hits against a random enemy unit in base contact in the melee.
-
-</description>
+6 (Jump on Squishies): Instead of attacking with the normal attacks, the model inflicts 2D6 hits against a random enemy unit in base contact in the melee.</description>
         </rule>
       </rules>
     </selectionEntry>
@@ -4542,8 +4540,8 @@
       <entryLinks>
         <entryLink import="true" name="Generic Melee" hidden="false" id="4ace-34d9-8786-df86" type="selectionEntry" targetId="b7b9-35b8-7086-195c">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="095b-b844-f965-b08f-min"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="095b-b844-f965-b08f-max"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="095b-b844-f965-b08f-min-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="095b-b844-f965-b08f-min-max"/>
           </constraints>
           <modifiers>
             <modifier type="set" value="Talons" field="name"/>
