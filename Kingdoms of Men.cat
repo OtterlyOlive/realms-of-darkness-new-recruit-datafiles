@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b50d-ba7c-e559-5f65" name="Kingdoms of Men" revision="28" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="b50d-ba7c-e559-5f65" name="Kingdoms of Men" revision="29" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="a599-43fd-5eaf-2b49" name="Engineer" hidden="false" collective="false" import="true" targetId="c46b-f2af-4e71-49f7" type="selectionEntry">
       <categoryLinks>
@@ -561,6 +561,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -665,6 +669,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -1188,6 +1196,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -1723,6 +1735,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -1811,6 +1827,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -2048,6 +2068,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -2286,6 +2310,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -2488,6 +2516,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -2513,6 +2545,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -2660,6 +2696,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -2685,6 +2725,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -2839,6 +2883,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -2864,6 +2912,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -2986,6 +3038,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -3011,6 +3067,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -3147,6 +3207,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -3173,6 +3237,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -3296,6 +3364,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -3322,6 +3394,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -3704,6 +3780,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -3729,6 +3809,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -4172,6 +4256,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -4197,6 +4285,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -4538,6 +4630,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -4563,6 +4659,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -4904,6 +5004,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
         <profile id="698d-455b-2a7a-33fe" name="Rocket Battery" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <characteristics>
@@ -4919,6 +5023,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Warmachine</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
         <profile id="fb36-b3c4-c026-8f55" name="Rocket Battery" hidden="false" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon">
           <characteristics>
@@ -4967,6 +5075,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
         <profile id="348e-2a20-f17c-43bd" name="Catapult" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <characteristics>
@@ -4982,6 +5094,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Warmachine</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
         <profile id="4024-e817-821d-6d62" name="Catapult" hidden="false" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon">
           <characteristics>
@@ -5028,6 +5144,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
             <profile id="1648-ae03-585c-2ff7" name="Bolt Thrower" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
@@ -5043,6 +5163,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Warmachine</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <entryLinks>
@@ -5105,6 +5229,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
             <profile id="1bf7-a454-b136-c178" name="Volley Cannon" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
@@ -5120,6 +5248,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Warmachine</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <infoLinks>
@@ -5158,6 +5290,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -5218,6 +5354,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -5243,6 +5383,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -5613,6 +5757,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -5638,6 +5786,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <selectionEntryGroups>
@@ -5760,6 +5912,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Chariot</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <rules>
@@ -5799,6 +5955,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
         <profile id="130d-eba1-5cf0-b684" name="Wallcrusher Cannon" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <characteristics>
@@ -5814,6 +5974,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Warmachine</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <categoryLinks>
@@ -5872,6 +6036,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Warmachine</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
             <profile id="6f1f-7a77-936c-9411" name="Great Cannon" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
@@ -5887,6 +6055,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Warmachine</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <infoLinks>
@@ -5970,6 +6142,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -5996,6 +6172,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -6240,6 +6420,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -6265,6 +6449,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -6419,6 +6607,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -6444,6 +6636,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -6535,6 +6731,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -6560,6 +6760,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -6666,6 +6870,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Warmachine</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
             <profile id="0da2-329d-d908-707d" name="Mortar" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
@@ -6681,6 +6889,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Warmachine</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <infoLinks>
@@ -6720,6 +6932,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
         <profile id="ba31-86bb-ff55-d075" name="Trebuchet" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
           <characteristics>
@@ -6735,6 +6951,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Warmachine</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
         <profile id="4b59-0998-b811-d653" name="Trebuchet" hidden="false" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon">
           <characteristics>
@@ -6795,6 +7015,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -6821,6 +7045,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -7179,6 +7407,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -7205,6 +7437,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Cavalry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -7578,6 +7814,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -8084,6 +8324,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -8526,6 +8770,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">3</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -8703,6 +8951,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -9144,6 +9396,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -9622,6 +9878,10 @@
             <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
             <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
           </characteristics>
+          <attributes>
+            <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+            <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+          </attributes>
         </profile>
       </profiles>
       <infoLinks>
@@ -9800,6 +10060,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -9825,6 +10089,10 @@
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
                 <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
               </characteristics>
+              <attributes>
+                <attribute typeId="9d8d-d93e-1219-5bc5" name="New Attribute Type"/>
+                <attribute typeId="1da0-0697-96ab-2247" name="New Attribute Type"/>
+              </attributes>
             </profile>
           </profiles>
           <costs>
@@ -10448,6 +10716,9 @@
           <costs>
             <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="20"/>
           </costs>
+          <categoryLinks>
+            <categoryLink targetId="840e-3a30-47af-38de" id="d802-7550-aea2-f3fa" primary="false" name="Sturdy Rule"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry id="6735-27b6-649c-0814" name="Banner of Courage" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
