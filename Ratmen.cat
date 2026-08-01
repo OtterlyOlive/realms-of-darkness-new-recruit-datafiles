@@ -3899,6 +3899,9 @@ If this attack wounded but did not kill a model, add a new token to the unit, wh
           <infoLinks>
             <infoLink name="Mithril" id="dd4e-3779-0be8-c8c3" hidden="false" type="rule" targetId="6335-24fc-863b-7dbf"/>
           </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="82eb-eb7f-ffe5-3606" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -4037,6 +4040,9 @@ If the spell targets a specific model, the model holding the item is hit instead
               </modifiers>
             </infoLink>
           </infoLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="7eb6-32db-3bf6-d35d" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Banner of the Horde" hidden="false" id="72d0-8995-9356-b8f2">
           <costs>
@@ -4049,6 +4055,9 @@ If the spell targets a specific model, the model holding the item is hit instead
               </characteristics>
             </profile>
           </profiles>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="8243-6d74-9f1b-aade" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
