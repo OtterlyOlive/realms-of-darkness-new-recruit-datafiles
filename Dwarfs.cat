@@ -1684,7 +1684,7 @@
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">13</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -1713,7 +1713,7 @@
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">13</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -1935,7 +1935,7 @@
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">13</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -1964,7 +1964,7 @@
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">13</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -2086,7 +2086,7 @@
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">13</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -2115,7 +2115,7 @@
                 <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">11</characteristic>
                 <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
                 <characteristic name="E" typeId="0a89-229f-3f01-3919">6</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
                 <characteristic name="WP" typeId="0418-2892-7021-fc1e">13</characteristic>
                 <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">1</characteristic>
                 <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
@@ -3261,7 +3261,7 @@
         <infoLink id="6bb5-e785-9527-f182" name="Mental Fortitude" hidden="false" targetId="8bb5-917e-f208-d694" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="a4f0-c362-92d3-121b" name="Specialist" hidden="false" targetId="cd29-77d0-c75d-b384" primary="false"/>
+        <categoryLink targetId="fad6-dec9-0df6-94ac" id="0547-1f3b-9ac0-ca92" primary="false" name="Legendary"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="c8d9-b909-8b73-3b68" name="Wallcrusher Cannon" hidden="false" collective="false" import="true" type="model">
@@ -3454,7 +3454,6 @@
         <infoLink id="6799-bb5d-b90f-9de7" name="Rapid Reform" hidden="false" targetId="dbce-9ad7-82d3-5e6b" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="4f40-a9d5-bede-a5b9" name="Specialist" hidden="false" targetId="cd29-77d0-c75d-b384" primary="false"/>
         <categoryLink targetId="840e-3a30-47af-38de" id="0a37-2dbc-e8af-b51b" primary="false" name="Sturdy Rule"/>
       </categoryLinks>
       <selectionEntries>
@@ -3936,7 +3935,7 @@
         </infoLink>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="57fb-2773-b9ea-e63c" name="Specialist" hidden="false" targetId="cd29-77d0-c75d-b384" primary="false"/>
+        <categoryLink targetId="fad6-dec9-0df6-94ac" id="dfa6-4efc-0e0e-8233" primary="false" name="Legendary"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="34fb-58d7-2f4c-c77b" name="Second Crew" hidden="false" collective="false" import="true" type="upgrade">
