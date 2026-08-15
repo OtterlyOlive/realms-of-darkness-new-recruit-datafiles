@@ -2859,17 +2859,10 @@ RPG only: The item removes one Corruption token at the end of each adventure.</c
             <characteristic name="Type" typeId="a447-7f68-3e61-8845">Armour, Tough Hide</characteristic>
             <characteristic name="Special Rules" typeId="03e6-32c2-e9e2-24d3"/>
           </characteristics>
-          <modifiers>
-            <modifier type="set" value="Scaly Skin (Tough Hide)" field="name"/>
-          </modifiers>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="26fe-ae33-1827-39a2" name="Tough Hide" hidden="false" targetId="f93a-76fb-06fc-378e" type="rule">
-          <modifiers>
-            <modifier type="set" value="Scaly Skin (Tough Hide)" field="name"/>
-          </modifiers>
-        </infoLink>
+        <infoLink id="26fe-ae33-1827-39a2" name="Tough Hide" hidden="false" targetId="f93a-76fb-06fc-378e" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
@@ -13979,6 +13972,9 @@ Characters and units with the monster or large monster rule, only lose half the 
     </rule>
     <rule name="Fire Type" id="34d9-80fc-1f66-51c4" hidden="false">
       <description>Attacks with this weapon are with the Fire Type</description>
+    </rule>
+    <rule name="Magic Resistance 3" id="6cd5-f8c3-8bab-6802" hidden="false">
+      <description>When a spell from an opposing faction is cast at a model or unit, containing a model with Magic Resistance 3, three extra power tokens are automatically added to the dispel roll.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
