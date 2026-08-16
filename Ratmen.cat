@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="12c8-46df-4ed8-75a7" name="Ratkin" revision="12" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="29" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="12c8-46df-4ed8-75a7" name="Ratkin" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="29" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="eb22-585b-9900-ad85" name="Clan Warriors" hidden="false" collective="false" import="true" targetId="52a2-cc30-3c6d-2660" type="selectionEntry">
       <categoryLinks>
@@ -1928,7 +1928,7 @@
             <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="4"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f6d9-d1f9-9eb2-4056" name="Night Stalker" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="f6d9-d1f9-9eb2-4056" name="Night Stalker" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="caf2-c0dd-3100-8ff5" type="max"/>
           </constraints>
@@ -3980,9 +3980,7 @@ If the spell targets a specific model, the model holding the item is hit instead
           <rules>
             <rule name="Void Bomb" id="e9c0-b520-e9a6-f10a" hidden="false">
               <description>Whenever a spell fails to cast, due to the to cast roll not being high enough, secretly add a token to the void bomb. At the end of a magic phase where the owner has unused power tokens left, the bomb can be lit and then thrown in the move and shoot phase by the model holding it. As the bomb is lit, it must be announced to the opponent. It is treated as a ranged weapon with the following characteristics:
-(See the Void Bomb ranged weapon in this profile)
-
-</description>
+(See the Void Bomb ranged weapon in this profile)</description>
             </rule>
           </rules>
           <constraints>
