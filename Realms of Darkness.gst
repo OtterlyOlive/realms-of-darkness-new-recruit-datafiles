@@ -13377,6 +13377,146 @@ Bonuses to the amount of HP/SP regenerated cannot be applied to units that are t
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup name="Lore of High Magic (Air/Light)" id="87a9-6268-c53c-409c" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Cage of Honour" hidden="false" id="d770-51b0-0cbd-c4f7">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="270f-b995-5a3a-6794" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Cage of Honour" typeId="da6e-29e5-c411-1090" typeName="Spell" hidden="false" id="5503-d681-a5c2-9673">
+              <characteristics>
+                <characteristic name="Cast" typeId="be80-d4c5-67e9-69f4">6</characteristic>
+                <characteristic name="Description" typeId="8bb7-80af-4e3e-b90c">The spell is a curse spell with a range of 15”. A character or unit leader in a friendly unit in melee with the targeted unit can declare a duel of honour. A unit leader or character must accept the duel. The model from the cursed unit must move into base contact with the model that declared the duel. These models can only strike each other and no other models can attack them until one is dead or the melee is ended in another way.</characteristic>
+                <characteristic name="Type" typeId="414c-bfa9-cf94-4181">Curse</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="10"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Lightning Fury" hidden="false" id="444a-7909-ce28-990a">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c57b-fdbf-f6cd-b850" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Lightning Fury" typeId="da6e-29e5-c411-1090" typeName="Spell" hidden="false" id="828e-35d2-c7fe-8826">
+              <characteristics>
+                <characteristic name="Cast" typeId="be80-d4c5-67e9-69f4">7</characteristic>
+                <characteristic name="Description" typeId="8bb7-80af-4e3e-b90c">The spell is a missile spell, with a range of 36”, causing D8 P6 shots.</characteristic>
+                <characteristic name="Type" typeId="414c-bfa9-cf94-4181">Missile</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="10"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Forcefield" hidden="false" id="c9d8-2cf5-fd09-a5dc">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6abf-de76-4d6d-b9f6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Forcefield" typeId="da6e-29e5-c411-1090" typeName="Spell" hidden="false" id="7aef-6767-abbb-7975">
+              <characteristics>
+                <characteristic name="Cast" typeId="be80-d4c5-67e9-69f4">7</characteristic>
+                <characteristic name="Description" typeId="8bb7-80af-4e3e-b90c">The spell is a blessing spell with a range of 15”. The targeted unit gets a magic save 6+/+1.</characteristic>
+                <characteristic name="Type" typeId="414c-bfa9-cf94-4181">Blessing</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="10"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Mental Cleansing" hidden="false" id="82fe-af68-9009-36e5">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cb8c-0322-b5c9-c426" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Mental Cleansing" typeId="da6e-29e5-c411-1090" typeName="Spell" hidden="false" id="3251-6093-33db-7c97">
+              <characteristics>
+                <characteristic name="Cast" typeId="be80-d4c5-67e9-69f4">8</characteristic>
+                <characteristic name="Description" typeId="8bb7-80af-4e3e-b90c">The spell is a blessing spell with a range of 15”. The targeted unit gets +1WA and +1RH.</characteristic>
+                <characteristic name="Type" typeId="414c-bfa9-cf94-4181">Blessing</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="10"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Magic Nullification" hidden="false" id="43bc-c861-4022-9869">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c54e-f5dc-4cb1-8bf2" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Magic Nullification" typeId="da6e-29e5-c411-1090" typeName="Spell" hidden="false" id="2719-2f1c-5851-b67d">
+              <characteristics>
+                <characteristic name="Cast" typeId="be80-d4c5-67e9-69f4">8</characteristic>
+                <characteristic name="Description" typeId="8bb7-80af-4e3e-b90c">The spell is an area spell with a range of 48”. Choose any location within range and place a marker. All active spells within 3” are immediately removed. This can both be directional missiles, and blessings on units.</characteristic>
+                <characteristic name="Type" typeId="414c-bfa9-cf94-4181">Area</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="10"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Magical Ward" hidden="false" id="74b6-5b22-ed28-a309">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d1b2-1513-e9b7-0a00" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Magical Ward" typeId="da6e-29e5-c411-1090" typeName="Spell" hidden="false" id="d00d-a281-d93f-3463">
+              <characteristics>
+                <characteristic name="Cast" typeId="be80-d4c5-67e9-69f4">9</characteristic>
+                <characteristic name="Description" typeId="8bb7-80af-4e3e-b90c">The spell is a blessing spell that can be cast on the wizard itself. The magical ward can be used in the current magic phase to stop an enemy spell instead of rolling to dispel the spell. Magics cast with perfect balance cannot be stopped this way. Until the ward has been used or the magic phase ends, the wizard cannot cast anymore spells.</characteristic>
+                <characteristic name="Type" typeId="414c-bfa9-cf94-4181">Blessing</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="15"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Storm Surge" hidden="false" id="2c18-111e-bd9f-65b8">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b820-b305-2052-5ce3" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Storm Surge" typeId="da6e-29e5-c411-1090" typeName="Spell" hidden="false" id="fa6f-b976-780b-a1bb">
+              <characteristics>
+                <characteristic name="Cast" typeId="be80-d4c5-67e9-69f4">12</characteristic>
+                <characteristic name="Description" typeId="8bb7-80af-4e3e-b90c">The spell is a blessing spell with a range of 15”. All units charging a unit that is blessed with this spell lose all bonuses related to charging. Both the initiative bonus and any weapon specific bonuses. Additionally charge moves against the unit blessed by this spell, get -2 to the total charge distance.</characteristic>
+                <characteristic name="Type" typeId="414c-bfa9-cf94-4181">Blessing</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="20"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Holy Light of Tamaliel" hidden="false" id="fbfe-2a48-6c46-9ba8">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0877-2f96-3814-bf84" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Holy Light of Tamaliel" typeId="da6e-29e5-c411-1090" typeName="Spell" hidden="false" id="1742-6747-8a0b-04e6">
+              <characteristics>
+                <characteristic name="Cast" typeId="be80-d4c5-67e9-69f4">13</characteristic>
+                <characteristic name="Description" typeId="8bb7-80af-4e3e-b90c">The spell is an area spell with a range of 18”. Place a marker within range of the spell. All enemy units within 6” of the marker get -2WA, -1RH and -2I. Additionally, summoning spells cannot be cast on units within the range of the marker. The spell remains in play until dispelled.</characteristic>
+                <characteristic name="Type" typeId="414c-bfa9-cf94-4181">Area</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="20"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="f2fd-02b7-232d-79e3" name="Shield Breaker" hidden="false">
