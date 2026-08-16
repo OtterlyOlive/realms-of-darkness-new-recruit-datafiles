@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="09a0-626b-16e9-bcae" name="Realms of Darkness" revision="85" battleScribeVersion="2.03" authorName="Erik Valeur" authorContact="grunanca@gmail.com" authorUrl="https://realmsofdarkness.dk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="09a0-626b-16e9-bcae" name="Realms of Darkness" revision="86" battleScribeVersion="2.03" authorName="Erik Valeur" authorContact="grunanca@gmail.com" authorUrl="https://realmsofdarkness.dk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <costTypes>
     <costType id="5119-770c-ea3a-8a8c" name="pts" defaultCostLimit="-1" hidden="false"/>
   </costTypes>
@@ -43,9 +43,9 @@
     <profileType id="5bd5-5d91-38a8-7d3f" name="Ranged Weapon" sortIndex="3">
       <characteristicTypes>
         <characteristicType id="557e-9928-a8b1-6e7d" name="Shots"/>
+        <characteristicType id="b7a5-a332-2148-9ea4" name="Range"/>
         <characteristicType id="0b26-95b4-94d7-6a08" name="Power"/>
         <characteristicType id="a0a5-6228-2857-07a0" name="Penalty"/>
-        <characteristicType id="b7a5-a332-2148-9ea4" name="Range"/>
         <characteristicType id="3298-ada5-7b57-42ab" name="Type"/>
         <characteristicType id="5353-ed52-2205-a615" name="Special Rules"/>
       </characteristicTypes>
@@ -174,7 +174,7 @@
         <profile id="7393-083a-0d54-0890" name="Musician" hidden="false" typeId="c0be-9772-241d-3d6e" typeName="Wargear">
           <characteristics>
             <characteristic name="Description" typeId="2e48-fcb7-ef15-7615">A musician gives +1WP when rolling to rally with a fleeing unit.
-Additionally it gives +1” of move when marching to the total move. It does not change the MD value of the model.</characteristic>
+Additionally it gives +1” of move when running to the total move. It does not change the MD value of the model.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -14100,9 +14100,7 @@ Characters and units with the monster or large monster rule, only lose half the 
       <description>Any roll of 6 to hit in melee, will make the target unit suffer one additional hit of the cursed gaze shooting attack. Note it is only one hit per 6 rolled, not D3.</description>
     </rule>
     <rule name="Mithril" id="6335-24fc-863b-7dbf" hidden="false">
-      <description>The armour save of the wearer of this armor can never be reduced to a worse armour save than 6+, unless the attack ignores armour completely.
-
-</description>
+      <description>The armour save of the wearer of this armor can never be reduced to a worse armour save than 6+, unless the attack ignores armour completely.</description>
     </rule>
     <rule name="Brace" id="9622-607e-6717-df02" hidden="false">
       <description>When a unit with this weapon is charged by another unit, they gain +1P that turn.</description>
