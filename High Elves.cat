@@ -820,31 +820,23 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Chosen of Tamaliel" hidden="false" id="aa08-4968-018d-0e33">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e46a-dc7e-3ed8-8f89-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e46a-dc7e-3ed8-8f89-max" includeChildSelections="false"/>
-          </constraints>
-          <profiles>
-            <profile name="Chosen of Tamaliel" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="87c5-3b25-7e51-33bc">
-              <characteristics>
-                <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
-                <characteristic name="RH" typeId="b74f-2b64-2662-f401">1+</characteristic>
-                <characteristic name="WA" typeId="0f73-3c43-4701-9086">11</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">17</characteristic>
-                <characteristic name="P" typeId="1192-a747-177a-64eb">6</characteristic>
-                <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">5</characteristic>
-                <characteristic name="WP" typeId="0418-2892-7021-fc1e">17</characteristic>
-                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">3</characteristic>
-                <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
-                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-      </selectionEntries>
+      <profiles>
+        <profile name="Chosen of Tamaliel" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="87c5-3b25-7e51-33bc">
+          <characteristics>
+            <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
+            <characteristic name="RH" typeId="b74f-2b64-2662-f401">1+</characteristic>
+            <characteristic name="WA" typeId="0f73-3c43-4701-9086">11</characteristic>
+            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">17</characteristic>
+            <characteristic name="P" typeId="1192-a747-177a-64eb">6</characteristic>
+            <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
+            <characteristic name="A" typeId="5d8c-74be-d893-50e2">5</characteristic>
+            <characteristic name="WP" typeId="0418-2892-7021-fc1e">17</characteristic>
+            <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">3</characteristic>
+            <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+            <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Drake" hidden="false" id="8871-770d-b874-59db" subType="mount">
       <infoLinks>
@@ -858,57 +850,26 @@
           </constraints>
         </entryLink>
       </entryLinks>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Drake" hidden="false" id="b15a-de3c-a80d-fd17">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1c97-ee1b-fb42-3b97-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1c97-ee1b-fb42-3b97-max" includeChildSelections="false"/>
-          </constraints>
-          <profiles>
-            <profile name="Drake" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="7467-62c5-33c2-53a9">
-              <characteristics>
-                <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">8&quot;</characteristic>
-                <characteristic name="RH" typeId="b74f-2b64-2662-f401">-</characteristic>
-                <characteristic name="WA" typeId="0f73-3c43-4701-9086">7</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">8</characteristic>
-                <characteristic name="P" typeId="1192-a747-177a-64eb">8</characteristic>
-                <characteristic name="E" typeId="0a89-229f-3f01-3919">+2</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
-                <characteristic name="WP" typeId="0418-2892-7021-fc1e">-</characteristic>
-                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">+1</characteristic>
-                <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
-                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-      </selectionEntries>
+      <profiles>
+        <profile name="Drake" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="7467-62c5-33c2-53a9">
+          <characteristics>
+            <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">8&quot;</characteristic>
+            <characteristic name="RH" typeId="b74f-2b64-2662-f401">-</characteristic>
+            <characteristic name="WA" typeId="0f73-3c43-4701-9086">7</characteristic>
+            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">8</characteristic>
+            <characteristic name="P" typeId="1192-a747-177a-64eb">8</characteristic>
+            <characteristic name="E" typeId="0a89-229f-3f01-3919">+2</characteristic>
+            <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+            <characteristic name="WP" typeId="0418-2892-7021-fc1e">-</characteristic>
+            <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">+1</characteristic>
+            <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
+            <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Mount</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Sea Dragon" hidden="false" id="4016-ad95-cf49-02ad" subType="mount">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Sea Dragon" hidden="false" id="e3f3-a661-13b5-fe0b">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fdcc-63d1-9b81-6732-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fdcc-63d1-9b81-6732-max" includeChildSelections="false"/>
-          </constraints>
-          <profiles>
-            <profile name="Sea Dragon" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="7f85-fb56-4e5b-564a">
-              <characteristics>
-                <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">8&quot;</characteristic>
-                <characteristic name="RH" typeId="b74f-2b64-2662-f401">2+</characteristic>
-                <characteristic name="WA" typeId="0f73-3c43-4701-9086">9</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">6</characteristic>
-                <characteristic name="P" typeId="1192-a747-177a-64eb">12</characteristic>
-                <characteristic name="E" typeId="0a89-229f-3f01-3919">12</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">6</characteristic>
-                <characteristic name="WP" typeId="0418-2892-7021-fc1e">14</characteristic>
-                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">8</characteristic>
-                <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
-                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monstrous Mount</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Storm Breath" hidden="false" id="dfbf-8bac-eddf-e2dd">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4d97-6a85-e9f6-0a79-min" includeChildSelections="false"/>
@@ -955,32 +916,26 @@
       <categoryLinks>
         <categoryLink targetId="bb28-11ac-2d86-01b1" id="666e-ef82-f32d-7d2e" primary="false" name="Monstrosity"/>
       </categoryLinks>
+      <profiles>
+        <profile name="Sea Dragon" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="7f85-fb56-4e5b-564a">
+          <characteristics>
+            <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">8&quot;</characteristic>
+            <characteristic name="RH" typeId="b74f-2b64-2662-f401">2+</characteristic>
+            <characteristic name="WA" typeId="0f73-3c43-4701-9086">9</characteristic>
+            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">6</characteristic>
+            <characteristic name="P" typeId="1192-a747-177a-64eb">12</characteristic>
+            <characteristic name="E" typeId="0a89-229f-3f01-3919">12</characteristic>
+            <characteristic name="A" typeId="5d8c-74be-d893-50e2">6</characteristic>
+            <characteristic name="WP" typeId="0418-2892-7021-fc1e">14</characteristic>
+            <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">8</characteristic>
+            <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
+            <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monstrous Mount</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Red Dragon" hidden="false" id="7f6e-96d7-b906-6e18" subType="mount">
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Red Dragon" hidden="false" id="0b6f-95a5-d661-57a4">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5183-e2ae-118d-c568-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5183-e2ae-118d-c568-max" includeChildSelections="false"/>
-          </constraints>
-          <profiles>
-            <profile name="Red Dragon" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="99ca-7c9a-6cbe-0799">
-              <characteristics>
-                <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">8&quot;</characteristic>
-                <characteristic name="RH" typeId="b74f-2b64-2662-f401">3+</characteristic>
-                <characteristic name="WA" typeId="0f73-3c43-4701-9086">8</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">7</characteristic>
-                <characteristic name="P" typeId="1192-a747-177a-64eb">13</characteristic>
-                <characteristic name="E" typeId="0a89-229f-3f01-3919">13</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">6</characteristic>
-                <characteristic name="WP" typeId="0418-2892-7021-fc1e">14</characteristic>
-                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">8</characteristic>
-                <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
-                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monstrous Mount</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Breath of Flame" hidden="false" id="a35a-c3e1-3cda-ef44">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4f30-d3a2-c300-9e65-min" includeChildSelections="false"/>
@@ -1027,36 +982,28 @@
       <categoryLinks>
         <categoryLink targetId="bb28-11ac-2d86-01b1" id="46bb-c3ee-b69f-831c" primary="false" name="Monstrosity"/>
       </categoryLinks>
+      <profiles>
+        <profile name="Red Dragon" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="99ca-7c9a-6cbe-0799">
+          <characteristics>
+            <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">8&quot;</characteristic>
+            <characteristic name="RH" typeId="b74f-2b64-2662-f401">3+</characteristic>
+            <characteristic name="WA" typeId="0f73-3c43-4701-9086">8</characteristic>
+            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">7</characteristic>
+            <characteristic name="P" typeId="1192-a747-177a-64eb">13</characteristic>
+            <characteristic name="E" typeId="0a89-229f-3f01-3919">13</characteristic>
+            <characteristic name="A" typeId="5d8c-74be-d893-50e2">6</characteristic>
+            <characteristic name="WP" typeId="0418-2892-7021-fc1e">14</characteristic>
+            <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">8</characteristic>
+            <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">-</characteristic>
+            <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monstrous Mount</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="High Mage" hidden="false" id="89e0-d2be-136e-ca07">
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="55"/>
       </costs>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="High Mage" hidden="false" id="cd6f-4c1d-11ae-966f">
-          <profiles>
-            <profile name="High Mage" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="bc69-f446-8d8c-8b5d">
-              <characteristics>
-                <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
-                <characteristic name="RH" typeId="b74f-2b64-2662-f401">1+</characteristic>
-                <characteristic name="WA" typeId="0f73-3c43-4701-9086">7</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">17</characteristic>
-                <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
-                <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
-                <characteristic name="WP" typeId="0418-2892-7021-fc1e">16</characteristic>
-                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">3</characteristic>
-                <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
-                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="aa3a-1d54-6eba-40d0-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa3a-1d54-6eba-40d0-max" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink import="true" name="Magic Levels" hidden="false" id="3f18-6352-5a9b-b1a0" type="selectionEntry" targetId="63a4-28ae-60e9-e0ff">
           <constraints>
@@ -1179,36 +1126,28 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <profiles>
+        <profile name="High Mage" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="bc69-f446-8d8c-8b5d">
+          <characteristics>
+            <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
+            <characteristic name="RH" typeId="b74f-2b64-2662-f401">1+</characteristic>
+            <characteristic name="WA" typeId="0f73-3c43-4701-9086">7</characteristic>
+            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">17</characteristic>
+            <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
+            <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
+            <characteristic name="A" typeId="5d8c-74be-d893-50e2">2</characteristic>
+            <characteristic name="WP" typeId="0418-2892-7021-fc1e">16</characteristic>
+            <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">3</characteristic>
+            <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+            <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Noble Born" hidden="false" id="03cc-6e4e-d9eb-7043">
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="55"/>
       </costs>
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Noble Born" hidden="false" id="b023-2934-80f2-37ee">
-          <profiles>
-            <profile name="Noble Born" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="c971-1f80-6ac3-0fa5">
-              <characteristics>
-                <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
-                <characteristic name="RH" typeId="b74f-2b64-2662-f401">2+</characteristic>
-                <characteristic name="WA" typeId="0f73-3c43-4701-9086">10</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">16</characteristic>
-                <characteristic name="P" typeId="1192-a747-177a-64eb">6</characteristic>
-                <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">4</characteristic>
-                <characteristic name="WP" typeId="0418-2892-7021-fc1e">16</characteristic>
-                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">2</characteristic>
-                <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
-                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="19eb-4c1f-1553-f4df-min"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="19eb-4c1f-1553-f4df-max"/>
-          </constraints>
-        </selectionEntry>
-      </selectionEntries>
       <infoLinks>
         <infoLink name="Eagle Eye" id="128c-f761-d9f9-a775" hidden="false" targetId="b260-b226-bc89-3202" type="rule"/>
         <infoLink name="Elite" id="df8d-d763-f53f-3eed" hidden="false" type="rule" targetId="2f43-4bde-1249-f8af"/>
@@ -1300,6 +1239,23 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <profiles>
+        <profile name="Noble Born" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="c971-1f80-6ac3-0fa5">
+          <characteristics>
+            <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
+            <characteristic name="RH" typeId="b74f-2b64-2662-f401">2+</characteristic>
+            <characteristic name="WA" typeId="0f73-3c43-4701-9086">10</characteristic>
+            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">16</characteristic>
+            <characteristic name="P" typeId="1192-a747-177a-64eb">6</characteristic>
+            <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
+            <characteristic name="A" typeId="5d8c-74be-d893-50e2">4</characteristic>
+            <characteristic name="WP" typeId="0418-2892-7021-fc1e">16</characteristic>
+            <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">2</characteristic>
+            <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+            <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Lady of Yaldorei" hidden="false" id="a699-b123-02bd-a51f">
       <costs>
@@ -1310,31 +1266,6 @@
         <infoLink name="Arcane Stability" id="e3d4-8634-86ee-e749" hidden="false" targetId="fded-31e3-6064-7f10" type="rule"/>
         <infoLink name="Magic Resistance 2" id="f6e2-cd14-25aa-6498" hidden="false" targetId="cd3b-015b-20c7-7828" type="rule"/>
       </infoLinks>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Lady of Yaldorei" hidden="false" id="42d8-c73a-c5eb-f06a">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0ac1-a5ac-9722-04fd-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ac1-a5ac-9722-04fd-max" includeChildSelections="false"/>
-          </constraints>
-          <profiles>
-            <profile name="Lady of Yaldorei" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="4d6f-be01-29c6-b4a0">
-              <characteristics>
-                <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
-                <characteristic name="RH" typeId="b74f-2b64-2662-f401">1+</characteristic>
-                <characteristic name="WA" typeId="0f73-3c43-4701-9086">7</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">16</characteristic>
-                <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
-                <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
-                <characteristic name="WP" typeId="0418-2892-7021-fc1e">14</characteristic>
-                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">2</characteristic>
-                <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
-                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink import="true" name="Wizard Staff" hidden="false" id="557e-d868-f566-3f6b" type="selectionEntry" targetId="26a9-09f2-e122-ac5a">
           <constraints>
@@ -1384,6 +1315,23 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <profiles>
+        <profile name="Lady of Yaldorei" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="4d6f-be01-29c6-b4a0">
+          <characteristics>
+            <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
+            <characteristic name="RH" typeId="b74f-2b64-2662-f401">1+</characteristic>
+            <characteristic name="WA" typeId="0f73-3c43-4701-9086">7</characteristic>
+            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">16</characteristic>
+            <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
+            <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
+            <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
+            <characteristic name="WP" typeId="0418-2892-7021-fc1e">14</characteristic>
+            <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">2</characteristic>
+            <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+            <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Mage" hidden="false" id="c645-098e-c0eb-ff46">
       <costs>
@@ -1393,31 +1341,6 @@
         <infoLink name="Eagle Eye" id="3ecf-27ad-fc0b-8f4d" hidden="false" targetId="b260-b226-bc89-3202" type="rule"/>
         <infoLink name="Arcane Stability" id="da8b-a29b-be7e-3b67" hidden="false" targetId="fded-31e3-6064-7f10" type="rule"/>
       </infoLinks>
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Mage" hidden="false" id="347d-3847-7cbc-3faf">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9f79-47c8-de6c-d586-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9f79-47c8-de6c-d586-max" includeChildSelections="false"/>
-          </constraints>
-          <profiles>
-            <profile name="Mage" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="a73e-c635-1775-000f">
-              <characteristics>
-                <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
-                <characteristic name="RH" typeId="b74f-2b64-2662-f401">2+</characteristic>
-                <characteristic name="WA" typeId="0f73-3c43-4701-9086">7</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">16</characteristic>
-                <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
-                <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
-                <characteristic name="WP" typeId="0418-2892-7021-fc1e">14</characteristic>
-                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">2</characteristic>
-                <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
-                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink import="true" name="Wizard Staff" hidden="false" id="53fd-32a3-44f8-df64" type="selectionEntry" targetId="26a9-09f2-e122-ac5a">
           <constraints>
@@ -1512,6 +1435,23 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <profiles>
+        <profile name="Mage" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="a73e-c635-1775-000f">
+          <characteristics>
+            <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
+            <characteristic name="RH" typeId="b74f-2b64-2662-f401">2+</characteristic>
+            <characteristic name="WA" typeId="0f73-3c43-4701-9086">7</characteristic>
+            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">16</characteristic>
+            <characteristic name="P" typeId="1192-a747-177a-64eb">5</characteristic>
+            <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
+            <characteristic name="A" typeId="5d8c-74be-d893-50e2">1</characteristic>
+            <characteristic name="WP" typeId="0418-2892-7021-fc1e">14</characteristic>
+            <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">2</characteristic>
+            <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+            <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Master of Shadows" hidden="false" id="2eff-1ee2-9f1b-185b">
       <infoLinks>
@@ -1535,31 +1475,6 @@
           </constraints>
         </entryLink>
       </entryLinks>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Master of Shadows" hidden="false" id="e2dd-560c-04f3-bf8f">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="99e6-cdbc-976b-7496-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="99e6-cdbc-976b-7496-max" includeChildSelections="false"/>
-          </constraints>
-          <profiles>
-            <profile name="Master of Shadows" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="7300-beb1-adf7-ca0a">
-              <characteristics>
-                <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
-                <characteristic name="RH" typeId="b74f-2b64-2662-f401">2+</characteristic>
-                <characteristic name="WA" typeId="0f73-3c43-4701-9086">11</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">20</characteristic>
-                <characteristic name="P" typeId="1192-a747-177a-64eb">6</characteristic>
-                <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
-                <characteristic name="WP" typeId="0418-2892-7021-fc1e">15</characteristic>
-                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">2</characteristic>
-                <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
-                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup name="Magic Items" id="1db0-7982-c9c2-7709" hidden="false">
           <constraints>
@@ -1572,33 +1487,28 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <profiles>
+        <profile name="Master of Shadows" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="7300-beb1-adf7-ca0a">
+          <characteristics>
+            <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
+            <characteristic name="RH" typeId="b74f-2b64-2662-f401">2+</characteristic>
+            <characteristic name="WA" typeId="0f73-3c43-4701-9086">11</characteristic>
+            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">20</characteristic>
+            <characteristic name="P" typeId="1192-a747-177a-64eb">6</characteristic>
+            <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
+            <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
+            <characteristic name="WP" typeId="0418-2892-7021-fc1e">15</characteristic>
+            <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">2</characteristic>
+            <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+            <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="55"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Scion" hidden="false" id="1f9d-5f7f-f024-f074">
-      <selectionEntries>
-        <selectionEntry type="model" import="true" name="Scion" hidden="false" id="ed79-ac77-61ef-6237">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a3d1-f346-c81b-538a-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a3d1-f346-c81b-538a-max" includeChildSelections="false"/>
-          </constraints>
-          <profiles>
-            <profile name="Scion" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="865b-ab4f-7eba-c45c">
-              <characteristics>
-                <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
-                <characteristic name="RH" typeId="b74f-2b64-2662-f401">3+</characteristic>
-                <characteristic name="WA" typeId="0f73-3c43-4701-9086">10</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">15</characteristic>
-                <characteristic name="P" typeId="1192-a747-177a-64eb">6</characteristic>
-                <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
-                <characteristic name="WP" typeId="0418-2892-7021-fc1e">18</characteristic>
-                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">3</characteristic>
-                <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
-                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-      </selectionEntries>
+    <selectionEntry type="model" import="true" name="Scion" hidden="false" id="1f9d-5f7f-f024-f074">
       <infoLinks>
         <infoLink name="Elite" id="d854-1724-4ee9-e100" hidden="false" targetId="2f43-4bde-1249-f8af" type="rule"/>
         <infoLink name="Eagle Eye" id="0baa-395a-af82-1c2f" hidden="false" targetId="b260-b226-bc89-3202" type="rule"/>
@@ -1741,6 +1651,26 @@ The Scion must be your army&apos;s general and thus you can only have one.</desc
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <profiles>
+        <profile name="Scion" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="865b-ab4f-7eba-c45c">
+          <characteristics>
+            <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
+            <characteristic name="RH" typeId="b74f-2b64-2662-f401">3+</characteristic>
+            <characteristic name="WA" typeId="0f73-3c43-4701-9086">10</characteristic>
+            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">15</characteristic>
+            <characteristic name="P" typeId="1192-a747-177a-64eb">6</characteristic>
+            <characteristic name="E" typeId="0a89-229f-3f01-3919">5</characteristic>
+            <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
+            <characteristic name="WP" typeId="0418-2892-7021-fc1e">18</characteristic>
+            <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">3</characteristic>
+            <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+            <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Infantry</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="60"/>
+      </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Elven Archers" hidden="false" id="4f9a-e579-3efa-4070">
       <selectionEntries>
@@ -2730,31 +2660,6 @@ The Scion must be your army&apos;s general and thus you can only have one.</desc
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="285"/>
       </costs>
-      <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Phoenix" hidden="false" id="6ab8-4b8a-1d90-f54f">
-          <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b866-fc04-e3be-046b-min" includeChildSelections="false"/>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b866-fc04-e3be-046b-max" includeChildSelections="false"/>
-          </constraints>
-          <profiles>
-            <profile name="Phoenix" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="2f20-1de5-14e8-d81e">
-              <characteristics>
-                <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5&quot;</characteristic>
-                <characteristic name="RH" typeId="b74f-2b64-2662-f401">-</characteristic>
-                <characteristic name="WA" typeId="0f73-3c43-4701-9086">7</characteristic>
-                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
-                <characteristic name="P" typeId="1192-a747-177a-64eb">8</characteristic>
-                <characteristic name="E" typeId="0a89-229f-3f01-3919">9</characteristic>
-                <characteristic name="A" typeId="5d8c-74be-d893-50e2">6</characteristic>
-                <characteristic name="WP" typeId="0418-2892-7021-fc1e">18</characteristic>
-                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">6</characteristic>
-                <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
-                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink import="true" name="Generic Melee" hidden="false" id="b411-9e1e-7d3b-40ea" type="selectionEntry" targetId="b7b9-35b8-7086-195c">
           <constraints>
@@ -2799,6 +2704,23 @@ It can move and charge as normal. If it comes back inside an enemy unit, it coun
 </description>
         </rule>
       </rules>
+      <profiles>
+        <profile name="Phoenix" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="2f20-1de5-14e8-d81e">
+          <characteristics>
+            <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5&quot;</characteristic>
+            <characteristic name="RH" typeId="b74f-2b64-2662-f401">-</characteristic>
+            <characteristic name="WA" typeId="0f73-3c43-4701-9086">7</characteristic>
+            <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">10</characteristic>
+            <characteristic name="P" typeId="1192-a747-177a-64eb">8</characteristic>
+            <characteristic name="E" typeId="0a89-229f-3f01-3919">9</characteristic>
+            <characteristic name="A" typeId="5d8c-74be-d893-50e2">6</characteristic>
+            <characteristic name="WP" typeId="0418-2892-7021-fc1e">18</characteristic>
+            <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">6</characteristic>
+            <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+            <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Drake Cavalry" hidden="false" id="b092-9d42-8330-d654">
       <selectionEntries>
