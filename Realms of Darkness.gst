@@ -14171,7 +14171,7 @@ Characters and units with the monster or large monster rule, only lose half the 
         <characteristic name="Power" typeId="a529-f46c-fe6f-4048">User</characteristic>
         <characteristic name="Penalty" typeId="7761-068c-0a80-ee08">-</characteristic>
         <characteristic name="Type" typeId="d2bb-d955-061f-6146">One-handed</characteristic>
-        <characteristic name="Special Rules" typeId="c9c1-27d6-3445-a058">Hold the Line, Long Reach</characteristic>
+        <characteristic name="Special Rules" typeId="c9c1-27d6-3445-a058">Brace, Long Reach</characteristic>
       </characteristics>
     </profile>
     <profile id="be6e-776a-3d73-e8f5" name="Spear (Non-Infantry)" hidden="false" typeId="090b-d919-0802-8838" typeName="Melee Weapon">
