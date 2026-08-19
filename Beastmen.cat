@@ -3936,7 +3936,7 @@
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9411-1798-20b2-0193-min-max" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Spear (Infantry)" hidden="false" id="9920-bdac-d97e-3732" type="selectionEntry" targetId="9732-a972-df2b-7b8d" sortIndex="1">
+        <entryLink import="true" name="Spear (Non-Infantry)" hidden="false" id="9920-bdac-d97e-3732" type="selectionEntry" targetId="b5cb-0697-ec02-9583" sortIndex="1">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="14c9-2c8d-1ba7-f9de-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="14c9-2c8d-1ba7-f9de-max" includeChildSelections="false"/>
