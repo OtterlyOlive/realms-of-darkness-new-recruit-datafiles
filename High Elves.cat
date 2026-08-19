@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="e791-42fa-6ca1-d90b" name="High Elves" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="85" revision="1" authorUrl="https://realmsofdarkness.dk" authorName="Olivia Valmin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="e791-42fa-6ca1-d90b" name="High Elves" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="85" revision="2" authorUrl="https://realmsofdarkness.dk" authorName="Olivia Valmin" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Elven Scouts" hidden="false" id="6dd4-6c1e-347c-e498">
       <selectionEntries>
