@@ -713,11 +713,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
     </selectionEntry>
     <selectionEntry id="2b45-96c7-b13d-6f39" name="Mace" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="00d3-120c-cf6e-7fdb" name="Piercing Spikes" hidden="false" targetId="1ee8-6b6d-0dd8-db97" type="rule">
-          <modifiers>
-            <modifier type="set" field="description" value="On a roll of 8 to wound, the weapon ignores any armour save."/>
-          </modifiers>
-        </infoLink>
+        <infoLink id="00d3-120c-cf6e-7fdb" name="Piercing Spikes" hidden="false" targetId="1ee8-6b6d-0dd8-db97" type="rule"/>
         <infoLink id="d496-8a2e-72e7-918f" name="Mace" hidden="false" targetId="20b8-1ee0-391d-b4e9" type="profile"/>
       </infoLinks>
       <costs>
@@ -740,11 +736,7 @@ Additionally it also gives +1 combat fatigue points, when calculating the result
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="ba1f-4352-0d73-8dc9" name="Piercing Spikes" hidden="false" targetId="1ee8-6b6d-0dd8-db97" type="rule">
-          <modifiers>
-            <modifier type="set" field="description" value="On a roll of 8 to wound, the weapon ignores any armour save."/>
-          </modifiers>
-        </infoLink>
+        <infoLink id="ba1f-4352-0d73-8dc9" name="Piercing Spikes" hidden="false" targetId="1ee8-6b6d-0dd8-db97" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
