@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="48" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorUrl="https://realmsofdarkness.dk/">
+<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="49" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorUrl="https://realmsofdarkness.dk/">
   <entryLinks>
     <entryLink id="8168-8ddd-eb9e-de05" name="Wergeize" hidden="false" collective="false" import="true" targetId="e5f4-1126-9dce-8aaf" type="selectionEntry">
       <categoryLinks>
@@ -151,6 +151,11 @@
     <entryLink import="true" name="Feral Wyvern" hidden="false" id="053d-40ca-55f3-d7a8" type="selectionEntry" targetId="0217-cf0f-c2bc-0165">
       <categoryLinks>
         <categoryLink targetId="fad6-dec9-0df6-94ac" id="d5db-4959-4a20-5c29" primary="true" name="Legendary"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Corrupted Trolls" hidden="false" id="0ec4-8baa-6501-2481" type="selectionEntry" targetId="0f45-2db5-e456-96d9">
+      <categoryLinks>
+        <categoryLink targetId="cd29-77d0-c75d-b384" id="88cb-0264-f9c3-1bdb" primary="true" name="Specialist"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -5053,6 +5058,83 @@ Tail: 1 attack with the far reach and poison special rules.</description>
           </modifiers>
         </infoLink>
       </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Corrupted Trolls" hidden="false" id="0f45-2db5-e456-96d9">
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Corrupted Troll" hidden="false" id="34f8-a3c2-22ee-eabe" sortIndex="1">
+          <costs>
+            <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="50"/>
+          </costs>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="ed1b-54e5-b0d7-caf9" includeChildSelections="false"/>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="555b-8db0-260f-3827" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Corrupted Troll" typeId="9e8a-1733-b871-3826" typeName="Unit" hidden="false" id="4bd0-5332-80a6-f623">
+              <characteristics>
+                <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">6&quot;</characteristic>
+                <characteristic name="RH" typeId="b74f-2b64-2662-f401">4+</characteristic>
+                <characteristic name="WA" typeId="0f73-3c43-4701-9086">6</characteristic>
+                <characteristic name="I" typeId="ee3f-1e0b-fdb1-af0d">8</characteristic>
+                <characteristic name="P" typeId="1192-a747-177a-64eb">7</characteristic>
+                <characteristic name="E" typeId="0a89-229f-3f01-3919">8</characteristic>
+                <characteristic name="A" typeId="5d8c-74be-d893-50e2">3</characteristic>
+                <characteristic name="WP" typeId="0418-2892-7021-fc1e">10</characteristic>
+                <characteristic name="HP" typeId="c6ff-4f15-d25e-6719">3</characteristic>
+                <characteristic name="SP" typeId="5879-3fb5-a90d-c4de">0</characteristic>
+                <characteristic name="Type" typeId="183d-60e6-700b-6ce0">Monster</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Boulder Hurl" hidden="false" id="dce3-5950-2f2b-1aff" sortIndex="3">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a5c7-2616-4186-70fc-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a5c7-2616-4186-70fc-max" includeChildSelections="false"/>
+          </constraints>
+          <profiles>
+            <profile name="Boulder Hurl" typeId="5bd5-5d91-38a8-7d3f" typeName="Ranged Weapon" hidden="false" id="e033-a7a0-9592-7f27">
+              <characteristics>
+                <characteristic name="Shots" typeId="557e-9928-a8b1-6e7d">1</characteristic>
+                <characteristic name="Range" typeId="b7a5-a332-2148-9ea4">18&quot;</characteristic>
+                <characteristic name="Power" typeId="0b26-95b4-94d7-6a08">9</characteristic>
+                <characteristic name="Penalty" typeId="a0a5-6228-2857-07a0">-</characteristic>
+                <characteristic name="Type" typeId="3298-ada5-7b57-42ab">Indirect</characteristic>
+                <characteristic name="Special Rules" typeId="5353-ed52-2205-a615">Crushing Hit</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Crushing Hit" id="ee88-95f1-98eb-6860" hidden="false" type="rule" targetId="13da-1ac8-f351-7b12"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <infoLinks>
+        <infoLink name="Magic Resistance 2" id="2577-d04d-8d41-1b46" hidden="false" type="rule" targetId="cd3b-015b-20c7-7828"/>
+        <infoLink name="Regeneration X+" id="3250-5875-14bd-fa44" hidden="false" type="rule" targetId="e6e3-1787-c4bc-9206">
+          <modifiers>
+            <modifier type="set" value="Regeneration 5+" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Monster" id="3d77-076d-e8c7-2c3e" hidden="false" type="infoGroup" targetId="2ff1-1e0d-d73c-501c"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Tough Hide (4+/+3)" hidden="false" id="719b-51b7-72c1-539d" type="selectionEntry" targetId="18d2-9f33-e415-df44" sortIndex="4">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8184-6caa-a430-d617-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8184-6caa-a430-d617-max" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Sword" hidden="false" id="c916-ecc6-6aaa-2746" type="selectionEntry" targetId="2a90-b53f-66c2-2987" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="83e7-3a43-cbb7-6559-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="83e7-3a43-cbb7-6559-max" includeChildSelections="false"/>
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="Claws (Sword)" field="name"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
