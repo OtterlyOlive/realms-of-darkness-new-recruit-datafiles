@@ -292,7 +292,7 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="31e2-43bf-1309-6afc" name="Two Swords" hidden="false" collective="false" import="true" targetId="cb64-35ed-d6b8-a21f" type="selectionEntry">
+            <entryLink id="31e2-43bf-1309-6afc" name="Two Swords" hidden="false" collective="false" import="true" targetId="d894-c1d4-178c-5506" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="5119-770c-ea3a-8a8c" value="1">
                   <repeats>
@@ -626,7 +626,7 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="3249-266f-fc53-7f28" name="Two Swords" hidden="false" collective="false" import="true" targetId="cb64-35ed-d6b8-a21f" type="selectionEntry">
+            <entryLink id="3249-266f-fc53-7f28" name="Two Swords" hidden="false" collective="false" import="true" targetId="d894-c1d4-178c-5506" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="5119-770c-ea3a-8a8c" value="3">
                   <repeats>
@@ -644,7 +644,7 @@
                 </modifier>
               </modifiers>
             </entryLink>
-            <entryLink id="3bad-adfa-4bc5-80ff" name="Two Axes" hidden="false" collective="false" import="true" targetId="2394-0bc6-efe3-e9f5" type="selectionEntry">
+            <entryLink id="3bad-adfa-4bc5-80ff" name="Two Axes" hidden="false" collective="false" import="true" targetId="ebe6-c680-c6d4-12eb" type="selectionEntry">
               <modifiers>
                 <modifier type="increment" field="5119-770c-ea3a-8a8c" value="4">
                   <repeats>
@@ -715,31 +715,6 @@
           </constraints>
         </entryLink>
       </entryLinks>
-      <costs>
-        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="cb64-35ed-d6b8-a21f" name="Two Swords" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="e7fb-516a-4495-f41c" name="Sword" hidden="false" targetId="ef9b-43c0-2a8f-04f0" type="profile">
-          <modifiers>
-            <modifier type="set" field="name" value="Two Swords"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
-      <costs>
-        <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="2394-0bc6-efe3-e9f5" name="Two Axes" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="34f0-49d1-b5d1-049e" name="Shield Breaker" hidden="false" targetId="f2fd-02b7-232d-79e3" type="rule"/>
-        <infoLink id="03dc-bc41-283e-2e85" name="Axe" hidden="false" targetId="26fb-49e8-32fb-74bd" type="profile">
-          <modifiers>
-            <modifier type="set" field="name" value="Two Axes"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
@@ -1129,7 +1104,7 @@
                 <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="2"/>
               </costs>
             </entryLink>
-            <entryLink id="fc78-c153-0150-faef" name="Two Axes" hidden="false" collective="false" import="true" targetId="2394-0bc6-efe3-e9f5" type="selectionEntry">
+            <entryLink id="fc78-c153-0150-faef" name="Two Axes" hidden="false" collective="false" import="true" targetId="ebe6-c680-c6d4-12eb" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -1932,7 +1907,7 @@
                 <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="2"/>
               </costs>
             </entryLink>
-            <entryLink id="3362-6bdb-39d5-3b3d" name="Two Axes" hidden="false" collective="false" import="true" targetId="2394-0bc6-efe3-e9f5" type="selectionEntry">
+            <entryLink id="3362-6bdb-39d5-3b3d" name="Two Axes" hidden="false" collective="false" import="true" targetId="ebe6-c680-c6d4-12eb" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="3"/>
               </costs>
@@ -2311,7 +2286,7 @@
                 <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="2"/>
               </costs>
             </entryLink>
-            <entryLink id="7c70-3db0-8615-6bd5" name="Two Axes" hidden="false" collective="false" import="true" targetId="2394-0bc6-efe3-e9f5" type="selectionEntry">
+            <entryLink id="7c70-3db0-8615-6bd5" name="Two Axes" hidden="false" collective="false" import="true" targetId="ebe6-c680-c6d4-12eb" type="selectionEntry">
               <costs>
                 <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="5"/>
               </costs>

@@ -3343,6 +3343,7 @@ RPG only: The item removes one Corruption token at the end of each adventure.</c
             <modifier type="set" field="7761-068c-0a80-ee08" value="-2I"/>
           </modifiers>
         </infoLink>
+        <infoLink name="Shield Breaker" id="2942-2e43-d05d-92b7" hidden="false" type="rule" targetId="f2fd-02b7-232d-79e3"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
