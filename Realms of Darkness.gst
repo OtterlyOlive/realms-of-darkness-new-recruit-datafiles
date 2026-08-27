@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="09a0-626b-16e9-bcae" name="Realms of Darkness" revision="86" battleScribeVersion="2.03" authorName="Erik Valeur" authorContact="grunanca@gmail.com" authorUrl="https://realmsofdarkness.dk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="09a0-626b-16e9-bcae" name="Realms of Darkness" revision="87" battleScribeVersion="2.03" authorName="Erik Valeur" authorContact="grunanca@gmail.com" authorUrl="https://realmsofdarkness.dk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <costTypes>
     <costType id="5119-770c-ea3a-8a8c" name="pts" defaultCostLimit="-1" hidden="false"/>
   </costTypes>
@@ -13892,7 +13892,7 @@ Impact Hits: 2D3</description>
 Impact Hits: 3D3</description>
     </rule>
     <rule id="fa50-cc73-1b92-e677" name="Thunderous Blow" hidden="false">
-      <description>Attacks made with the axe are magic of the air type. Additionally, for each successful wound after saves, the axe deals an extra P6 hit.</description>
+      <description>Attacks made with the axe are magic of the air type.</description>
     </rule>
     <rule id="38eb-4675-cea4-af4d" name="Acidic" hidden="false">
       <description>Ignores Armour Saves</description>
