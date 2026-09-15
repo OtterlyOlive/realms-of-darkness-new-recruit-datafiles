@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="09a0-626b-16e9-bcae" name="Realms of Darkness" revision="87" battleScribeVersion="2.03" authorName="Erik Valeur" authorContact="grunanca@gmail.com" authorUrl="https://realmsofdarkness.dk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="09a0-626b-16e9-bcae" name="Realms of Darkness" revision="88" battleScribeVersion="2.03" authorName="Erik Valeur" authorContact="grunanca@gmail.com" authorUrl="https://realmsofdarkness.dk" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <costTypes>
     <costType id="5119-770c-ea3a-8a8c" name="pts" defaultCostLimit="-1" hidden="false"/>
   </costTypes>
@@ -7815,7 +7815,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6bf7-c508-f076-3f29" name="Galloping Guns" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6bf7-c508-f076-3f29" name="Galloping Guns" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="e69f-4ed5-7371-b8c7" name="Combined Unit" hidden="false">
           <description>As long as a horse is alive, the entire unit counts as having MD8”.</description>
@@ -7927,7 +7927,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6eeb-90d7-2f9b-d4fb" name="Halfling Galloping Guns" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6eeb-90d7-2f9b-d4fb" name="Halfling Galloping Guns" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="3948-544f-74ef-a35d" name="Combined Unit" hidden="false">
           <description>As long as a horse is alive, the entire unit counts as having MD8”.</description>
@@ -8401,7 +8401,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="16e0-2edf-8257-84e8" name="Hobgoblin Bolt Thrower" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="16e0-2edf-8257-84e8" name="Hobgoblin Bolt Thrower" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="e998-2ed4-4149-7a63" name="Bolt Thrower" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -8495,7 +8495,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="1eaf-4d63-525f-6287" name="Hobgoblin Wolf Chariots" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1eaf-4d63-525f-6287" name="Hobgoblin Wolf Chariots" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="e1ac-2ce3-c82a-e7e3" name="Light Chariot" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -8589,7 +8589,7 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8d52-7468-cbf6-c431" name="War Wagons" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="8d52-7468-cbf6-c431" name="War Wagons" hidden="false" collective="false" import="true" type="unit">
       <selectionEntries>
         <selectionEntry id="9ce2-c4f3-9623-62b5" name="Heavy Chariot" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -10808,6 +10808,16 @@ Additionally it gives +1 combat fatigue, similar to a banner.</characteristic>
         <modifier type="decrement" value="3" field="ee3f-1e0b-fdb1-af0d" scope="parent" affects="self.entries.recursive.profiles.Unit"/>
         <modifier type="floor" value="1" field="ee3f-1e0b-fdb1-af0d" affects="self.entries.recursive.profiles.Unit" scope="parent"/>
       </modifiers>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Two Cleavers" hidden="false" id="37c8-3e1b-6f4b-a991">
+      <infoLinks>
+        <infoLink name="Cleaver" id="7e07-3df6-617d-31f1" hidden="false" type="profile" targetId="322f-739d-d002-4f32">
+          <modifiers>
+            <modifier type="set" value="Two Cleavers" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Cleaving Strike" id="e674-a06c-7d86-3431" hidden="false" type="rule" targetId="414c-4418-3419-6290"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
