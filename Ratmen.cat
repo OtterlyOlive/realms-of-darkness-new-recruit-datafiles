@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="12c8-46df-4ed8-75a7" name="Ratkin" revision="13" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="29" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="12c8-46df-4ed8-75a7" name="Ratkin" revision="14" battleScribeVersion="2.03" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="29" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <entryLinks>
     <entryLink id="eb22-585b-9900-ad85" name="Clan Warriors" hidden="false" collective="false" import="true" targetId="52a2-cc30-3c6d-2660" type="selectionEntry">
       <categoryLinks>
@@ -113,7 +113,7 @@
     </entryLink>
     <entryLink id="efc2-69b0-de79-9d2c" name="Void Beam Cannon" hidden="false" collective="false" import="true" targetId="84b0-9f3d-7e0d-e2d1" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="6867-cb3a-b78f-9dff" name="Legendary" hidden="false" targetId="fad6-dec9-0df6-94ac" primary="true"/>
+        <categoryLink targetId="cd29-77d0-c75d-b384" id="7b97-a6ba-4217-f5ca" primary="true" name="Specialist"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="7a4e-44d0-d592-41a3" name="Gatling Gun Team" hidden="false" collective="false" import="true" targetId="c0f5-ab1b-cf7c-31ed" type="selectionEntry">
@@ -133,7 +133,7 @@
     </entryLink>
     <entryLink import="true" name="Plague Catapult" hidden="false" id="4017-3173-97b0-ca37" type="selectionEntry" targetId="7546-ff98-9e20-e835">
       <categoryLinks>
-        <categoryLink targetId="cd29-77d0-c75d-b384" id="89ff-79ac-4546-3aa8" primary="true" name="Specialist"/>
+        <categoryLink targetId="fad6-dec9-0df6-94ac" id="2645-232a-f8aa-a0be" primary="true" name="Legendary"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
