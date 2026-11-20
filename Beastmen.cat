@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="50" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorUrl="https://realmsofdarkness.dk/">
+<catalogue id="f7ea-0fcb-6f0f-75c9" name="Beastmen" revision="51" battleScribeVersion="2.03" authorName="Olivia Valmin" library="false" gameSystemId="09a0-626b-16e9-bcae" gameSystemRevision="72" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue" authorUrl="https://realmsofdarkness.dk/">
   <entryLinks>
     <entryLink id="8168-8ddd-eb9e-de05" name="Wergeize" hidden="false" collective="false" import="true" targetId="e5f4-1126-9dce-8aaf" type="selectionEntry">
       <categoryLinks>
@@ -3499,7 +3499,7 @@
         <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="185"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="41dc-3a75-b432-1e51" name="Bæsts of Nurgast" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="41dc-3a75-b432-1e51" name="Pestziegen of Nurgast" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="3b4b-34cd-b874-623d" name="Bloodrush" hidden="false" targetId="1d13-bfd0-ab04-21bc" type="rule"/>
         <infoLink id="c9d1-ce1f-a841-1cfc" name="Regeneration X+" hidden="false" targetId="e6e3-1787-c4bc-9206" type="rule">
@@ -3525,13 +3525,13 @@
         <categoryLink targetId="840e-3a30-47af-38de" id="dd4c-7750-8d3c-694e" primary="false" name="Sturdy Rule"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="5f19-df31-c60b-6a1e" name="Plague Bæst" hidden="false" collective="false" import="true" type="model" sortIndex="1">
+        <selectionEntry id="5f19-df31-c60b-6a1e" name="Pestziege" hidden="false" collective="false" import="true" type="model" sortIndex="1">
           <constraints>
             <constraint field="selections" scope="parent" value="10" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc9d-80db-1366-00f7" type="min"/>
             <constraint field="selections" scope="parent" value="25" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50e5-5e03-9419-33d7" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0256-27b6-fa1e-5962" name="Plague Bæst" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
+            <profile id="0256-27b6-fa1e-5962" name="Pestziege" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">5+</characteristic>
@@ -3555,12 +3555,12 @@
             <cost name="pts" typeId="5119-770c-ea3a-8a8c" value="17"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f465-42e7-7860-f099" name="Leitâri Bæst" hidden="false" collective="false" import="true" type="upgrade" sortIndex="2">
+        <selectionEntry id="f465-42e7-7860-f099" name="Pestziege Leitâri" hidden="false" collective="false" import="true" type="upgrade" sortIndex="2">
           <constraints>
             <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="320e-ff8e-03dc-99c7" type="max"/>
           </constraints>
           <profiles>
-            <profile id="5f62-c266-ba87-b887" name="Leitâri Bæst" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
+            <profile id="5f62-c266-ba87-b887" name="Pestziege Leitâri" hidden="false" typeId="9e8a-1733-b871-3826" typeName="Unit">
               <characteristics>
                 <characteristic name="MD" typeId="d7a0-3cff-34c9-87ec">5&quot;</characteristic>
                 <characteristic name="RH" typeId="b74f-2b64-2662-f401">5+</characteristic>
